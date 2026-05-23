@@ -1,0 +1,4530 @@
+{
+  "session_id": 2,
+  "model": "claude-haiku",
+  "start_time": 1779507355561,
+  "end_time": 1779509787439,
+  "survival_time_ms": 2431878,
+  "unique_items": [
+    "iron_axe",
+    "iron_pickaxe",
+    "cooked_beef",
+    "oak_log",
+    "oak_planks",
+    "stick",
+    "oak_sapling"
+  ],
+  "total_items_collected": 59,
+  "items_timeline": [
+    {
+      "time_ms": 21937,
+      "item": "iron_axe",
+      "unique_count": 1
+    },
+    {
+      "time_ms": 21937,
+      "item": "iron_pickaxe",
+      "unique_count": 2
+    },
+    {
+      "time_ms": 21937,
+      "item": "cooked_beef",
+      "unique_count": 3
+    },
+    {
+      "time_ms": 1747578,
+      "item": "oak_log",
+      "unique_count": 4
+    },
+    {
+      "time_ms": 1749644,
+      "item": "oak_planks",
+      "unique_count": 5
+    },
+    {
+      "time_ms": 1756930,
+      "item": "stick",
+      "unique_count": 6
+    },
+    {
+      "time_ms": 1803055,
+      "item": "oak_sapling",
+      "unique_count": 7
+    }
+  ],
+  "total_actions": 150,
+  "successful_actions": 53,
+  "action_counts": {
+    "explore": 11,
+    "gather": 54,
+    "craft": 74,
+    "return_home": 1,
+    "look_around": 8,
+    "eat": 2
+  },
+  "action_log": [
+    {
+      "time_ms": 21938,
+      "action": "explore",
+      "target": "east",
+      "reason": "morning time is ideal for gathering resources; birch_log is only 9 blocks away to the east, staying within safe 30-block radius of home",
+      "success": false,
+      "health": 20,
+      "hunger": 20,
+      "danger": "safe",
+      "llm_ms": 2285
+    },
+    {
+      "time_ms": 144137,
+      "action": "explore",
+      "target": "east",
+      "reason": "morning time is ideal for gathering; birch_log is only 9 blocks away to the east, within safe 30-block radius of home; inventory is empty so need to gather resources",
+      "success": false,
+      "health": 20,
+      "hunger": 20,
+      "danger": "safe",
+      "llm_ms": 1880
+    },
+    {
+      "time_ms": 170987,
+      "action": "gather",
+      "target": "oak_log",
+      "reason": "morning time is ideal for gathering; oak_log is 9 blocks away within safe 30-block radius of home; need to gather resources and build up inventory",
+      "success": false,
+      "health": 20,
+      "hunger": 20,
+      "danger": "safe",
+      "llm_ms": 1820
+    },
+    {
+      "time_ms": 292889,
+      "action": "explore",
+      "target": "east",
+      "reason": "morning time is ideal for gathering resources; oak_log is 8 blocks away to the east within safe 30-block radius of home; need to gather resources to build up inventory before returning home to process materials",
+      "success": false,
+      "health": 20,
+      "hunger": 20,
+      "danger": "safe",
+      "llm_ms": 1743
+    },
+    {
+      "time_ms": 415869,
+      "action": "explore",
+      "target": "south",
+      "reason": "at_home with full health and hunger; daytime is ideal for gathering resources; birch_log is 4 blocks away (south direction available); need to gather wood to expand inventory and build up resource stockpile; south is only unblocked direction",
+      "success": false,
+      "health": 20,
+      "hunger": 20,
+      "danger": "safe",
+      "llm_ms": 2634
+    },
+    {
+      "time_ms": 538110,
+      "action": "explore",
+      "target": "south",
+      "reason": "at_home with full health and hunger; daytime is ideal for gathering resources; birch_log is 8 blocks away (south direction unblocked); need to gather wood to expand inventory and build up resource stockpile before processing",
+      "success": false,
+      "health": 20,
+      "hunger": 20,
+      "danger": "safe",
+      "llm_ms": 2185
+    },
+    {
+      "time_ms": 557344,
+      "action": "gather",
+      "target": "birch_log",
+      "reason": "at_home with full health and hunger during daytime; birch_log is 8 blocks away within 30-block safe radius; need to gather resources to build up inventory before processing materials; have iron_axe equipped for efficient wood gathering",
+      "success": true,
+      "health": 20,
+      "hunger": 20,
+      "danger": "safe",
+      "llm_ms": 2442
+    },
+    {
+      "time_ms": 603358,
+      "action": "explore",
+      "target": "north",
+      "reason": "at_home with full health and hunger during daytime; north is unblocked direction; need to explore and gather resources within 30-block safe radius; birch_log is 3 blocks away but south is blocked, so explore north to map out available gathering routes",
+      "success": false,
+      "health": 20,
+      "hunger": 20,
+      "danger": "safe",
+      "llm_ms": 2158
+    },
+    {
+      "time_ms": 613850,
+      "action": "gather",
+      "target": "coal_ore",
+      "reason": "at_home during evening; coal_ore is 7 blocks away within safe 30-block radius; have iron_pickaxe equipped to efficiently gather ore; building up resource stockpile for crafting; inventory has space available",
+      "success": false,
+      "health": 20,
+      "hunger": 20,
+      "danger": "safe",
+      "llm_ms": 2480
+    },
+    {
+      "time_ms": 624316,
+      "action": "gather",
+      "target": "coal_ore",
+      "reason": "evening at home with full health and hunger; coal_ore is 7 blocks away within safe 30-block radius; have iron_pickaxe equipped to efficiently gather ore; building up resource stockpile for crafting; inventory has space available",
+      "success": false,
+      "health": 20,
+      "hunger": 20,
+      "danger": "safe",
+      "llm_ms": 1927
+    },
+    {
+      "time_ms": 634603,
+      "action": "gather",
+      "target": "coal_ore",
+      "reason": "evening at home with full health and hunger; coal_ore is 7 blocks away within safe 30-block radius; have iron_pickaxe equipped to efficiently gather ore; building up resource stockpile for crafting; inventory has space available",
+      "success": false,
+      "health": 20,
+      "hunger": 20,
+      "danger": "safe",
+      "llm_ms": 2101
+    },
+    {
+      "time_ms": 680531,
+      "action": "explore",
+      "target": "west",
+      "reason": "Evening at home with full health and hunger; south and east are blocked; need to explore west to map out available gathering routes and find new resource locations within 30-block safe radius; cannot gather during evening, so exploration is the appropriate next action",
+      "success": false,
+      "health": 20,
+      "hunger": 20,
+      "danger": "safe",
+      "llm_ms": 2813
+    },
+    {
+      "time_ms": 690687,
+      "action": "gather",
+      "target": "coal_ore",
+      "reason": "evening at home with full health and hunger; coal_ore is 7 blocks away within safe 30-block radius; have iron_pickaxe equipped to efficiently gather ore; building up resource stockpile for crafting; inventory has space available",
+      "success": false,
+      "health": 20,
+      "hunger": 20,
+      "danger": "safe",
+      "llm_ms": 2478
+    },
+    {
+      "time_ms": 700871,
+      "action": "gather",
+      "target": "coal_ore",
+      "reason": "evening at home with full health and hunger; coal_ore is 7 blocks away within safe 30-block radius; have iron_pickaxe equipped to gather ore; building resource stockpile; it is evening so gathering is allowed before night",
+      "success": false,
+      "health": 20,
+      "hunger": 20,
+      "danger": "safe",
+      "llm_ms": 2452
+    },
+    {
+      "time_ms": 711114,
+      "action": "gather",
+      "target": "coal_ore",
+      "reason": "evening at home with full health and hunger; coal_ore is 7 blocks away within safe 30-block radius; have iron_pickaxe equipped to gather ore; building resource stockpile before night; this is evening so gathering is permitted before night transition",
+      "success": false,
+      "health": 20,
+      "hunger": 20,
+      "danger": "safe",
+      "llm_ms": 1887
+    },
+    {
+      "time_ms": 714898,
+      "action": "craft",
+      "target": "oak_planks",
+      "reason": "Evening at home with full health and hunger; previous gather attempts failed; need to process resources and prepare crafting materials; oak_planks are foundational for further crafting progression",
+      "success": false,
+      "health": 20,
+      "hunger": 20,
+      "danger": "safe",
+      "llm_ms": 1959
+    },
+    {
+      "time_ms": 726364,
+      "action": "gather",
+      "target": "coal_ore",
+      "reason": "evening at home with full health and hunger; coal_ore is 7 blocks away within safe 30-block radius; have iron_pickaxe equipped to gather ore; building resource stockpile before night; evening allows gathering before night transition",
+      "success": false,
+      "health": 20,
+      "hunger": 20,
+      "danger": "safe",
+      "llm_ms": 2101
+    },
+    {
+      "time_ms": 736519,
+      "action": "gather",
+      "target": "birch_log",
+      "reason": "evening at home with full health and hunger; birch_log is 9 blocks away within safe 30-block radius; need wood resources for crafting; have iron_axe equipped to gather logs efficiently; inventory has space available",
+      "success": false,
+      "health": 20,
+      "hunger": 20,
+      "danger": "safe",
+      "llm_ms": 2091
+    },
+    {
+      "time_ms": 746692,
+      "action": "gather",
+      "target": "birch_log",
+      "reason": "evening at home with full health and hunger; birch_log is 9 blocks away within safe 30-block radius; have iron_axe equipped to gather logs efficiently; need wood resources for crafting progression; inventory has space available",
+      "success": false,
+      "health": 20,
+      "hunger": 20,
+      "danger": "safe",
+      "llm_ms": 2161
+    },
+    {
+      "time_ms": 792421,
+      "action": "explore",
+      "target": "north",
+      "reason": "gather attempts have failed repeatedly; at home with full health/hunger and evening time; exploring to find new resources or verify resource locations; north is unblocked direction",
+      "success": false,
+      "health": 20,
+      "hunger": 20,
+      "danger": "safe",
+      "llm_ms": 2151
+    },
+    {
+      "time_ms": 802556,
+      "action": "gather",
+      "target": "birch_log",
+      "reason": "at home during evening with full health and hunger; birch_log is 9 blocks away within safe 30-block radius; have iron_axe equipped; need wood resources for crafting progression before nighttime; gather before night arrives",
+      "success": false,
+      "health": 20,
+      "hunger": 20,
+      "danger": "safe",
+      "llm_ms": 2080
+    },
+    {
+      "time_ms": 812691,
+      "action": "gather",
+      "target": "coal_ore",
+      "reason": "evening at home with full health and hunger; coal_ore is 7 blocks away within safe 30-block radius; have iron_pickaxe equipped to gather ore; building resource stockpile before night; gathering coal for future smelting and fuel needs",
+      "success": false,
+      "health": 20,
+      "hunger": 20,
+      "danger": "safe",
+      "llm_ms": 2071
+    },
+    {
+      "time_ms": 816439,
+      "action": "return_home",
+      "target": null,
+      "reason": "At evening time and already at home coordinates (distance_to_home: 0). Evening approaching night - must stay home for safety. No crafting materials in inventory to process. Should return to actual home base at saved coordinates (-32, 71, 14) to ensure safety before night arrives.",
+      "success": true,
+      "health": 20,
+      "hunger": 20,
+      "danger": "safe",
+      "llm_ms": 2241
+    },
+    {
+      "time_ms": 827969,
+      "action": "gather",
+      "target": "coal_ore",
+      "reason": "at_home during evening with iron_pickaxe equipped; coal_ore is 7 blocks away within safe 30-block radius; gathering resources before night arrives; have inventory space and full health/hunger",
+      "success": false,
+      "health": 20,
+      "hunger": 20,
+      "danger": "safe",
+      "llm_ms": 1912
+    },
+    {
+      "time_ms": 838139,
+      "action": "gather",
+      "target": "coal_ore",
+      "reason": "at home during evening with iron_pickaxe equipped; coal_ore is 7 blocks away within safe 30-block radius; gathering resources before night arrives; need to build resource stockpile",
+      "success": false,
+      "health": 20,
+      "hunger": 20,
+      "danger": "safe",
+      "llm_ms": 1747
+    },
+    {
+      "time_ms": 848275,
+      "action": "gather",
+      "target": "coal_ore",
+      "reason": "at home during evening with iron_pickaxe equipped; coal_ore is 7 blocks away within safe 30-block radius; gathering resources before night arrives; have inventory space and full health/hunger",
+      "success": false,
+      "health": 20,
+      "hunger": 20,
+      "danger": "safe",
+      "llm_ms": 2279
+    },
+    {
+      "time_ms": 970823,
+      "action": "explore",
+      "target": "north",
+      "reason": "at_home during evening with safe conditions; have full health and hunger; breaking gather repetition streak by exploring to map new resources and prepare for night; blocked south/east so exploring north to find new resource locations",
+      "success": false,
+      "health": 20,
+      "hunger": 20,
+      "danger": "safe",
+      "llm_ms": 2318
+    },
+    {
+      "time_ms": 998719,
+      "action": "look_around",
+      "target": null,
+      "reason": "fallback after error",
+      "success": false,
+      "health": 20,
+      "hunger": 20,
+      "danger": "safe",
+      "llm_ms": 2802
+    },
+    {
+      "time_ms": 1025678,
+      "action": "gather",
+      "target": "oak_log",
+      "reason": "at night with nothing to do; oak_log is 6 blocks away within safe range; gathering resources to prepare for daytime crafting and building stockpile",
+      "success": false,
+      "health": 20,
+      "hunger": 20,
+      "danger": "safe",
+      "llm_ms": 1941
+    },
+    {
+      "time_ms": 1053343,
+      "action": "gather",
+      "target": "coal_ore",
+      "reason": "at home during night with full health and hunger; coal_ore is 8 blocks away within safe 30-block radius; gathering resources during night while safe at home to build resource stockpile for daytime crafting",
+      "success": true,
+      "health": 20,
+      "hunger": 20,
+      "danger": "safe",
+      "llm_ms": 2583
+    },
+    {
+      "time_ms": 1080632,
+      "action": "gather",
+      "target": "iron_ore",
+      "reason": "at home during night with full health and hunger; iron_ore is 3 blocks away within safe 30-block radius; gathering resources during night while safe at home to build resource stockpile; have inventory space and iron_pickaxe equipped to mine ore",
+      "success": true,
+      "health": 20,
+      "hunger": 20,
+      "danger": "safe",
+      "llm_ms": 2269
+    },
+    {
+      "time_ms": 1082867,
+      "action": "craft",
+      "target": "oak_planks",
+      "reason": "at home during night with full health and hunger; have iron_axe and iron_pickaxe; breaking gather streak with crafting; preparing materials for tool upgrades and building; crafting oak_planks is first step in crafting chain",
+      "success": false,
+      "health": 20,
+      "hunger": 20,
+      "danger": "safe",
+      "llm_ms": 2233
+    },
+    {
+      "time_ms": 1109672,
+      "action": "gather",
+      "target": "birch_log",
+      "reason": "at home during night with full health and hunger; birch_log is 6 blocks away within safe 30-block radius; gathering resources during night while safe at home to build resource stockpile for daytime crafting",
+      "success": false,
+      "health": 20,
+      "hunger": 20,
+      "danger": "safe",
+      "llm_ms": 1771
+    },
+    {
+      "time_ms": 1136272,
+      "action": "gather",
+      "target": "oak_log",
+      "reason": "at home during night with full health and hunger; oak_log is 9 blocks away within safe 30-block radius; gathering resources during night while safe at home to build resource stockpile for daytime crafting",
+      "success": true,
+      "health": 20,
+      "hunger": 20,
+      "danger": "safe",
+      "llm_ms": 1582
+    },
+    {
+      "time_ms": 1163057,
+      "action": "gather",
+      "target": "oak_log",
+      "reason": "at home during night with full health and hunger; oak_log is 4 blocks away within safe 30-block radius; gathering resources during night while safe at home to build resource stockpile for daytime crafting",
+      "success": true,
+      "health": 20,
+      "hunger": 20,
+      "danger": "safe",
+      "llm_ms": 1765
+    },
+    {
+      "time_ms": 1165184,
+      "action": "craft",
+      "target": "oak_planks",
+      "reason": "at home during night with full health and hunger; have oak_log in nearby resources; must break gather streak with crafting; oak_planks is first step in crafting chain to eventually create wooden_pickaxe",
+      "success": false,
+      "health": 20,
+      "hunger": 20,
+      "danger": "safe",
+      "llm_ms": 2124
+    },
+    {
+      "time_ms": 1191939,
+      "action": "gather",
+      "target": "oak_log",
+      "reason": "at home during night with full health and hunger; oak_log is 4 blocks away within safe 30-block radius; gathering resources during night while safe at home to build resource stockpile",
+      "success": true,
+      "health": 20,
+      "hunger": 20,
+      "danger": "safe",
+      "llm_ms": 1736
+    },
+    {
+      "time_ms": 1313899,
+      "action": "explore",
+      "target": "north",
+      "reason": "morning daytime and safe; at home with iron tools already available; explore to find and gather resources within 30 blocks of home to build up inventory stockpile",
+      "success": false,
+      "health": 20,
+      "hunger": 20,
+      "danger": "safe",
+      "llm_ms": 1920
+    },
+    {
+      "time_ms": 1340613,
+      "action": "gather",
+      "target": "iron_ore",
+      "reason": "at home during morning daytime and safe; iron_ore is 3 blocks away within safe 30-block radius; gathering resources to build up inventory stockpile before exploring further",
+      "success": true,
+      "health": 20,
+      "hunger": 20,
+      "danger": "safe",
+      "llm_ms": 1696
+    },
+    {
+      "time_ms": 1367263,
+      "action": "gather",
+      "target": "iron_ore",
+      "reason": "at home during morning daytime and safe; iron_ore is 3 blocks away within safe 30-block radius; gathering resources to build up inventory stockpile",
+      "success": true,
+      "health": 20,
+      "hunger": 20,
+      "danger": "safe",
+      "llm_ms": 1629
+    },
+    {
+      "time_ms": 1393949,
+      "action": "gather",
+      "target": "iron_ore",
+      "reason": "at home during safe morning daytime with full health and hunger; iron_ore is 3 blocks away within safe 30-block radius; gathering resources to build inventory stockpile",
+      "success": true,
+      "health": 20,
+      "hunger": 20,
+      "danger": "safe",
+      "llm_ms": 1648
+    },
+    {
+      "time_ms": 1516222,
+      "action": "explore",
+      "target": "east",
+      "reason": "at home with full health and hunger during safe morning; have gathered 3 times in a row so need different action; explore east to find new resources within 30-block radius (north and south are blocked); can gather discovered resources or find new ones",
+      "success": false,
+      "health": 20,
+      "hunger": 20,
+      "danger": "safe",
+      "llm_ms": 2246
+    },
+    {
+      "time_ms": 1543071,
+      "action": "gather",
+      "target": "oak_log",
+      "reason": "at home during safe daytime with full health and hunger; oak_log is 4 blocks away within 30-block radius; gathering resources to build up inventory stockpile",
+      "success": true,
+      "health": 20,
+      "hunger": 20,
+      "danger": "safe",
+      "llm_ms": 1828
+    },
+    {
+      "time_ms": 1663923,
+      "action": "gather",
+      "target": "iron_ore",
+      "reason": "at home during safe daytime with full health and hunger; iron_ore is 5 blocks away within 30-block radius; gathering resources to build up inventory stockpile",
+      "success": true,
+      "health": 1,
+      "hunger": 20,
+      "danger": "safe",
+      "llm_ms": 1724
+    },
+    {
+      "time_ms": 1665912,
+      "action": "eat",
+      "target": null,
+      "reason": "health is critical at 1 HP; must restore health immediately before any other action; hunger is full at 20 so eating cooked_beef is safe",
+      "success": false,
+      "health": 1,
+      "hunger": 20,
+      "danger": "safe",
+      "llm_ms": 1987
+    },
+    {
+      "time_ms": 1668044,
+      "action": "eat",
+      "target": null,
+      "reason": "health is critical at 1 HP; must restore health immediately; hunger is full at 20 so eating cooked_beef is safe and necessary for survival",
+      "success": false,
+      "health": 20,
+      "hunger": 20,
+      "danger": "safe",
+      "llm_ms": 2130
+    },
+    {
+      "time_ms": 1694931,
+      "action": "gather",
+      "target": "oak_log",
+      "reason": "at home with full health and hunger during safe daytime; oak_log is 4 blocks away within 30-block radius; gathering resources to build inventory stockpile before crafting",
+      "success": true,
+      "health": 20,
+      "hunger": 20,
+      "danger": "safe",
+      "llm_ms": 1626
+    },
+    {
+      "time_ms": 1721603,
+      "action": "gather",
+      "target": "oak_log",
+      "reason": "at home during safe daytime with full health and hunger; oak_log is 2 blocks away within 30-block radius; gathering resources to build up inventory stockpile before crafting",
+      "success": true,
+      "health": 20,
+      "hunger": 20,
+      "danger": "safe",
+      "llm_ms": 1458
+    },
+    {
+      "time_ms": 1741544,
+      "action": "gather",
+      "target": "oak_log",
+      "reason": "at home during safe daytime with full health and hunger; oak_log is 2 blocks away within 30-block radius; gathering resources to build inventory stockpile before crafting",
+      "success": true,
+      "health": 20,
+      "hunger": 20,
+      "danger": "safe",
+      "llm_ms": 1456
+    },
+    {
+      "time_ms": 1747578,
+      "action": "gather",
+      "target": "oak_log",
+      "reason": "at_home with full health and hunger during safe daytime; oak_log is 2 blocks away within 30-block radius; need to build inventory for crafting chain (oak_log → oak_planks → stick → wooden_pickaxe)",
+      "success": true,
+      "health": 20,
+      "hunger": 20,
+      "danger": "safe",
+      "llm_ms": 1787
+    },
+    {
+      "time_ms": 1749645,
+      "action": "craft",
+      "target": "oak_planks",
+      "reason": "at home with oak_log in inventory; must follow crafting order: oak_log → oak_planks → stick → wooden_pickaxe; health and hunger are full; safe daytime at home is ideal time to process resources",
+      "success": true,
+      "health": 20,
+      "hunger": 20,
+      "danger": "safe",
+      "llm_ms": 2047
+    },
+    {
+      "time_ms": 1755139,
+      "action": "gather",
+      "target": "oak_log",
+      "reason": "at home during safe daytime with full health and hunger; oak_log is 2 blocks away within 30-block radius; need to gather 8+ items total before crafting chain (oak_log → oak_planks → stick → wooden_pickaxe)",
+      "success": true,
+      "health": 20,
+      "hunger": 20,
+      "danger": "safe",
+      "llm_ms": 1899
+    },
+    {
+      "time_ms": 1756930,
+      "action": "craft",
+      "target": "stick",
+      "reason": "at home with oak_planks in inventory; following crafting order: oak_log → oak_planks → stick → wooden_pickaxe; have 4 oak_planks which is sufficient to craft sticks",
+      "success": true,
+      "health": 20,
+      "hunger": 20,
+      "danger": "safe",
+      "llm_ms": 1759
+    },
+    {
+      "time_ms": 1758958,
+      "action": "craft",
+      "target": "wooden_pickaxe",
+      "reason": "at home with full health and hunger during safe daytime; have 4 oak_planks and sticks in inventory; ready to complete crafting chain (oak_log → oak_planks → stick → wooden_pickaxe); wooden_pickaxe is next in crafting order",
+      "success": false,
+      "health": 20,
+      "hunger": 20,
+      "danger": "safe",
+      "llm_ms": 1969
+    },
+    {
+      "time_ms": 1760854,
+      "action": "craft",
+      "target": "wooden_pickaxe",
+      "reason": "at home with full health and hunger during safe daytime; have 4 sticks and 2 oak_planks in inventory; wooden_pickaxe is the final item in the crafting chain (oak_log → oak_planks → stick → wooden_pickaxe); ready to complete this essential tool",
+      "success": false,
+      "health": 20,
+      "hunger": 20,
+      "danger": "safe",
+      "llm_ms": 1816
+    },
+    {
+      "time_ms": 1766544,
+      "action": "gather",
+      "target": "oak_log",
+      "reason": "need more oak_log to craft additional oak_planks; have 2 oak_log and 2 oak_planks, need more materials to complete wooden_pickaxe crafting chain; oak_log is 1 block away within safe gathering range",
+      "success": true,
+      "health": 20,
+      "hunger": 20,
+      "danger": "safe",
+      "llm_ms": 2163
+    },
+    {
+      "time_ms": 1768465,
+      "action": "craft",
+      "target": "wooden_pickaxe",
+      "reason": "at home with full health and hunger during safe daytime; have 6 oak_planks and 4 sticks in inventory; wooden_pickaxe is the final essential tool in the crafting chain; have sufficient materials (need 3 planks and 2 sticks for wooden_pickaxe)",
+      "success": false,
+      "health": 20,
+      "hunger": 20,
+      "danger": "safe",
+      "llm_ms": 1872
+    },
+    {
+      "time_ms": 1771539,
+      "action": "craft",
+      "target": "wooden_pickaxe",
+      "reason": "at home with full health and hunger; have 6 oak_planks and 4 sticks in inventory; wooden_pickaxe requires 3 planks and 2 sticks; this is the next essential item in the crafting chain",
+      "success": false,
+      "health": 20,
+      "hunger": 20,
+      "danger": "safe",
+      "llm_ms": 2896
+    },
+    {
+      "time_ms": 1773541,
+      "action": "craft",
+      "target": "wooden_pickaxe",
+      "reason": "at home with full health and hunger during safe daytime; have 6 oak_planks and 4 sticks in inventory; wooden_pickaxe requires 3 planks and 2 sticks; this is the next essential item in the crafting chain after oak_planks and sticks",
+      "success": false,
+      "health": 20,
+      "hunger": 20,
+      "danger": "safe",
+      "llm_ms": 1951
+    },
+    {
+      "time_ms": 1781855,
+      "action": "gather",
+      "target": "oak_log",
+      "reason": "Need more oak_log to continue crafting chain; oak_log is 1 block away within safe gathering range; have only 2 oak_log but need more materials before attempting craft again",
+      "success": true,
+      "health": 20,
+      "hunger": 20,
+      "danger": "safe",
+      "llm_ms": 2482
+    },
+    {
+      "time_ms": 1783701,
+      "action": "craft",
+      "target": "wooden_pickaxe",
+      "reason": "at home during evening with full health and hunger; have 6 oak_planks and 4 sticks in inventory; wooden_planks and sticks are complete, wooden_pickaxe is next essential item in crafting chain (requires 3 planks and 2 sticks)",
+      "success": false,
+      "health": 20,
+      "hunger": 20,
+      "danger": "safe",
+      "llm_ms": 1797
+    },
+    {
+      "time_ms": 1788859,
+      "action": "craft",
+      "target": "wooden_pickaxe",
+      "reason": "at home during evening with full health and hunger; have 6 oak_planks and 4 sticks in inventory; wooden_pickaxe requires 3 planks and 2 sticks; this is the next essential item in the crafting chain after oak_planks and sticks are complete",
+      "success": false,
+      "health": 20,
+      "hunger": 20,
+      "danger": "safe",
+      "llm_ms": 5093
+    },
+    {
+      "time_ms": 1790809,
+      "action": "craft",
+      "target": "wooden_pickaxe",
+      "reason": "at home during evening with full health and hunger; have 6 oak_planks and 4 sticks in inventory; wooden_pickaxe requires 3 planks and 2 sticks; this is the next essential item in the crafting chain",
+      "success": false,
+      "health": 20,
+      "hunger": 20,
+      "danger": "safe",
+      "llm_ms": 1894
+    },
+    {
+      "time_ms": 1800889,
+      "action": "gather",
+      "target": "oak_log",
+      "reason": "need more oak_log to have sufficient materials; currently have 3 oak_log but gathering more will help prepare for future crafting needs; oak_log is 7 blocks away within safe 30-block range; breaking the pattern of repeated failed craft attempts by switching to gathering action",
+      "success": true,
+      "health": 20,
+      "hunger": 20,
+      "danger": "safe",
+      "llm_ms": 2540
+    },
+    {
+      "time_ms": 1803055,
+      "action": "craft",
+      "target": "wooden_pickaxe",
+      "reason": "at home during evening with full health and hunger; have 6 oak_planks and 4 sticks in inventory; wooden_pickaxe requires 3 planks and 2 sticks; this is the next essential item in the crafting chain after oak_planks and sticks are complete",
+      "success": false,
+      "health": 20,
+      "hunger": 20,
+      "danger": "safe",
+      "llm_ms": 2087
+    },
+    {
+      "time_ms": 1805209,
+      "action": "craft",
+      "target": "wooden_pickaxe",
+      "reason": "at home during evening with full health and hunger; have 6 oak_planks and 4 sticks in inventory; wooden_pickaxe requires 3 planks and 2 sticks; this is the next essential item in the crafting chain",
+      "success": false,
+      "health": 20,
+      "hunger": 20,
+      "danger": "safe",
+      "llm_ms": 2108
+    },
+    {
+      "time_ms": 1807337,
+      "action": "craft",
+      "target": "wooden_pickaxe",
+      "reason": "at home during evening with full health and hunger; have 6 oak_planks and 4 sticks in inventory; wooden_planks (3) and sticks (2) required for wooden_pickaxe are available; this is the next essential item in the crafting chain",
+      "success": false,
+      "health": 20,
+      "hunger": 20,
+      "danger": "safe",
+      "llm_ms": 2080
+    },
+    {
+      "time_ms": 1813749,
+      "action": "gather",
+      "target": "oak_log",
+      "reason": "need to convert 3 oak_log to oak_planks to have enough materials; oak_log is 4 blocks away within safe range; breaking the failed craft loop by gathering instead",
+      "success": true,
+      "health": 20,
+      "hunger": 20,
+      "danger": "safe",
+      "llm_ms": 2202
+    },
+    {
+      "time_ms": 1819464,
+      "action": "look_around",
+      "target": null,
+      "reason": "fallback after error",
+      "success": true,
+      "health": 20,
+      "hunger": 20,
+      "danger": "safe",
+      "llm_ms": 1968
+    },
+    {
+      "time_ms": 1821210,
+      "action": "craft",
+      "target": "wooden_pickaxe",
+      "reason": "at home during evening with full health and hunger; have 6 oak_planks and 4 sticks in inventory; wooden_pickaxe requires 3 planks and 2 sticks; this is the next essential item in the crafting chain after oak_planks and sticks are complete",
+      "success": false,
+      "health": 20,
+      "hunger": 20,
+      "danger": "safe",
+      "llm_ms": 1694
+    },
+    {
+      "time_ms": 1822933,
+      "action": "craft",
+      "target": "wooden_pickaxe",
+      "reason": "at home during evening with full health and hunger; have 6 oak_planks and 4 sticks in inventory; wooden_pickaxe requires 3 planks and 2 sticks; this is the next essential item in the crafting chain",
+      "success": false,
+      "health": 20,
+      "hunger": 20,
+      "danger": "safe",
+      "llm_ms": 1667
+    },
+    {
+      "time_ms": 1824491,
+      "action": "craft",
+      "target": "wooden_pickaxe",
+      "reason": "at home during evening with full health and hunger; have 6 oak_planks and 4 sticks in inventory; wooden_pickaxe requires 3 planks and 2 sticks; this is the next essential item in the crafting chain",
+      "success": false,
+      "health": 20,
+      "hunger": 20,
+      "danger": "safe",
+      "llm_ms": 1511
+    },
+    {
+      "time_ms": 1831108,
+      "action": "look_around",
+      "target": null,
+      "reason": "need to reset after 3 failed craft attempts; assess current situation and inventory state before trying different action",
+      "success": true,
+      "health": 20,
+      "hunger": 20,
+      "danger": "safe",
+      "llm_ms": 2208
+    },
+    {
+      "time_ms": 1833075,
+      "action": "craft",
+      "target": "wooden_pickaxe",
+      "reason": "at home during evening with full health and hunger; have sufficient materials (6 oak_planks and 4 sticks); wooden_pickaxe requires 3 planks and 2 sticks and is the next essential item in the crafting chain",
+      "success": false,
+      "health": 20,
+      "hunger": 20,
+      "danger": "safe",
+      "llm_ms": 1910
+    },
+    {
+      "time_ms": 1835931,
+      "action": "craft",
+      "target": "wooden_pickaxe",
+      "reason": "at home during evening with full health and hunger; have 6 oak_planks and 4 sticks in inventory; wooden_pickaxe requires 3 planks and 2 sticks; this is the next essential item in the crafting chain after oak_planks and sticks are complete",
+      "success": false,
+      "health": 20,
+      "hunger": 20,
+      "danger": "safe",
+      "llm_ms": 2785
+    },
+    {
+      "time_ms": 1838938,
+      "action": "craft",
+      "target": "oak_planks",
+      "reason": "have 6 oak_logs in inventory; need to convert them to oak_planks before crafting sticks and wooden_pickaxe; at home during evening with full health and hunger; continuing crafting chain",
+      "success": true,
+      "health": 20,
+      "hunger": 20,
+      "danger": "safe",
+      "llm_ms": 2826
+    },
+    {
+      "time_ms": 1860547,
+      "action": "gather",
+      "target": "oak_log",
+      "reason": "have 6 oak_logs still in inventory that need to be converted to planks; gathering the nearby oak_log at distance 3 to accumulate more wood resources for future crafting needs",
+      "success": true,
+      "health": 20,
+      "hunger": 20,
+      "danger": "safe",
+      "llm_ms": 2669
+    },
+    {
+      "time_ms": 1862504,
+      "action": "craft",
+      "target": "wooden_pickaxe",
+      "reason": "at home during evening with full health and hunger; have 10 oak_planks and 4 sticks in inventory; wooden_pickaxe requires 3 planks and 2 sticks; this is the next essential item in the crafting chain after oak_planks and sticks are complete",
+      "success": false,
+      "health": 20,
+      "hunger": 20,
+      "danger": "safe",
+      "llm_ms": 1910
+    },
+    {
+      "time_ms": 1866923,
+      "action": "craft",
+      "target": "wooden_pickaxe",
+      "reason": "at home during evening with full health and hunger; have 10 oak_planks and 4 sticks in inventory; wooden_pickaxe requires 3 planks and 2 sticks; this is the next essential item in the crafting chain",
+      "success": false,
+      "health": 20,
+      "hunger": 20,
+      "danger": "safe",
+      "llm_ms": 4347
+    },
+    {
+      "time_ms": 1869056,
+      "action": "craft",
+      "target": "wooden_pickaxe",
+      "reason": "at home during evening with full health and hunger; have 10 oak_planks and 4 sticks in inventory; wooden_pickaxe requires 3 planks and 2 sticks; this is the next essential item in the crafting chain",
+      "success": false,
+      "health": 20,
+      "hunger": 20,
+      "danger": "safe",
+      "llm_ms": 2090
+    },
+    {
+      "time_ms": 1875348,
+      "action": "gather",
+      "target": "oak_log",
+      "reason": "need to convert remaining 5 oak_logs to oak_planks; gathering the nearby oak_log at distance 1 to have more wood for crafting; avoiding repeated craft failures by switching to gathering action",
+      "success": true,
+      "health": 20,
+      "hunger": 20,
+      "danger": "safe",
+      "llm_ms": 2239
+    },
+    {
+      "time_ms": 1877456,
+      "action": "craft",
+      "target": "oak_planks",
+      "reason": "at home during evening with 6 oak_logs in inventory; need to convert all oak_logs to oak_planks to progress through crafting chain; have materials ready and safe conditions to craft",
+      "success": true,
+      "health": 20,
+      "hunger": 20,
+      "danger": "safe",
+      "llm_ms": 2102
+    },
+    {
+      "time_ms": 1879605,
+      "action": "craft",
+      "target": "wooden_pickaxe",
+      "reason": "at home during evening with full health and hunger; have 10 oak_planks and 4 sticks in inventory; wooden_pickaxe requires 3 planks and 2 sticks; this is the next essential item in the crafting chain",
+      "success": false,
+      "health": 20,
+      "hunger": 20,
+      "danger": "safe",
+      "llm_ms": 2107
+    },
+    {
+      "time_ms": 1881789,
+      "action": "craft",
+      "target": "wooden_pickaxe",
+      "reason": "at home during evening with full health and hunger; have sufficient materials (10 oak_planks and 4 sticks); wooden_pickaxe requires 3 planks and 2 sticks; this is the next essential item in the crafting chain to progress",
+      "success": false,
+      "health": 20,
+      "hunger": 20,
+      "danger": "safe",
+      "llm_ms": 2138
+    },
+    {
+      "time_ms": 1889659,
+      "action": "gather",
+      "target": "oak_log",
+      "reason": "have 6 oak_logs and need to convert them to oak_planks; gathering the nearby oak_log at distance 9 to accumulate more wood resources for crafting progression; breaking the repeated craft failures by switching to gathering action as instructed",
+      "success": true,
+      "health": 20,
+      "hunger": 20,
+      "danger": "safe",
+      "llm_ms": 2754
+    },
+    {
+      "time_ms": 1891576,
+      "action": "craft",
+      "target": "wooden_pickaxe",
+      "reason": "at home during evening with full health and hunger; have 14 oak_planks and 4 sticks in inventory; wooden_pickaxe requires 3 planks and 2 sticks; this is the next essential item in the crafting chain to progress to mining ore",
+      "success": false,
+      "health": 20,
+      "hunger": 20,
+      "danger": "safe",
+      "llm_ms": 1880
+    },
+    {
+      "time_ms": 1893879,
+      "action": "craft",
+      "target": "wooden_pickaxe",
+      "reason": "at home during evening with full health and hunger; have 14 oak_planks and 4 sticks in inventory; wooden_pickaxe requires 3 planks and 2 sticks; this is the next essential item in the crafting chain to progress to mining ore",
+      "success": false,
+      "health": 20,
+      "hunger": 20,
+      "danger": "safe",
+      "llm_ms": 2072
+    },
+    {
+      "time_ms": 1895658,
+      "action": "craft",
+      "target": "wooden_pickaxe",
+      "reason": "at home during evening with full health and hunger; have 14 oak_planks and 4 sticks in inventory; wooden_pickaxe requires 3 planks and 2 sticks; this is the next essential item in the crafting chain to progress to mining ore",
+      "success": false,
+      "health": 20,
+      "hunger": 20,
+      "danger": "safe",
+      "llm_ms": 1740
+    },
+    {
+      "time_ms": 1902477,
+      "action": "gather",
+      "target": "oak_log",
+      "reason": "have 7 oak_logs and need to convert them to oak_planks; gathering the nearby oak_log at distance 2 to accumulate more wood resources; breaking the repeated craft failures by continuing to gather as instructed",
+      "success": true,
+      "health": 20,
+      "hunger": 20,
+      "danger": "safe",
+      "llm_ms": 2151
+    },
+    {
+      "time_ms": 1905418,
+      "action": "craft",
+      "target": "oak_planks",
+      "reason": "at home during evening with 7 oak_logs in inventory; need to convert all oak_logs to oak_planks to progress through crafting chain; have materials ready and safe conditions to craft",
+      "success": true,
+      "health": 20,
+      "hunger": 20,
+      "danger": "safe",
+      "llm_ms": 2668
+    },
+    {
+      "time_ms": 1907781,
+      "action": "craft",
+      "target": "wooden_pickaxe",
+      "reason": "at home during evening with full health and hunger; have 14 oak_planks and 4 sticks in inventory; wooden_pickaxe requires 3 planks and 2 sticks; this is the next essential item in the crafting chain to progress to mining ore",
+      "success": false,
+      "health": 20,
+      "hunger": 20,
+      "danger": "safe",
+      "llm_ms": 2314
+    },
+    {
+      "time_ms": 1915419,
+      "action": "look_around",
+      "target": null,
+      "reason": "fallback after error",
+      "success": true,
+      "health": 20,
+      "hunger": 20,
+      "danger": "safe",
+      "llm_ms": 2127
+    },
+    {
+      "time_ms": 1917030,
+      "action": "craft",
+      "target": "wooden_pickaxe",
+      "reason": "at home during evening with full health and hunger; have 18 oak_planks and 4 sticks in inventory; wooden_pickaxe requires 3 planks and 2 sticks; this is the next essential item in the crafting chain to progress to mining ore",
+      "success": false,
+      "health": 20,
+      "hunger": 20,
+      "danger": "safe",
+      "llm_ms": 1571
+    },
+    {
+      "time_ms": 1923185,
+      "action": "look_around",
+      "target": null,
+      "reason": "fallback after error",
+      "success": true,
+      "health": 20,
+      "hunger": 20,
+      "danger": "safe",
+      "llm_ms": 1787
+    },
+    {
+      "time_ms": 1925626,
+      "action": "craft",
+      "target": "wooden_pickaxe",
+      "reason": "at home during evening with full health and hunger; have 18 oak_planks and 4 sticks in inventory; wooden_pickaxe requires 3 planks and 2 sticks; this is the next essential item in the crafting chain to progress to mining ore",
+      "success": false,
+      "health": 20,
+      "hunger": 20,
+      "danger": "safe",
+      "llm_ms": 2400
+    },
+    {
+      "time_ms": 1928297,
+      "action": "craft",
+      "target": "wooden_pickaxe",
+      "reason": "at home during evening with full health and hunger; have 18 oak_planks and 4 sticks; wooden_pickaxe requires 3 planks and 2 sticks; next essential item in crafting chain to progress to mining ore",
+      "success": false,
+      "health": 20,
+      "hunger": 20,
+      "danger": "safe",
+      "llm_ms": 2630
+    },
+    {
+      "time_ms": 1930275,
+      "action": "craft",
+      "target": "wooden_pickaxe",
+      "reason": "at home with full health and hunger during evening; have 18 oak_planks and 4 sticks; wooden_pickaxe requires 3 planks and 2 sticks; this is the next essential item in the crafting chain to progress to mining ore",
+      "success": false,
+      "health": 20,
+      "hunger": 20,
+      "danger": "safe",
+      "llm_ms": 1940
+    },
+    {
+      "time_ms": 1944046,
+      "action": "gather",
+      "target": "oak_log",
+      "reason": "have 8 oak_logs already gathered; need to gather more resources since inventory is getting full with 31 items total; still daytime/evening and safe to gather more oak_logs within 30 blocks of home before nightfall",
+      "success": true,
+      "health": 20,
+      "hunger": 20,
+      "danger": "safe",
+      "llm_ms": 3267
+    },
+    {
+      "time_ms": 1945893,
+      "action": "craft",
+      "target": "wooden_pickaxe",
+      "reason": "at home during evening with full health and hunger; have 18 oak_planks and 4 sticks; wooden_pickaxe requires 3 planks and 2 sticks; this is the next essential item in the crafting chain to progress to mining ore",
+      "success": false,
+      "health": 20,
+      "hunger": 20,
+      "danger": "safe",
+      "llm_ms": 1812
+    },
+    {
+      "time_ms": 1947483,
+      "action": "craft",
+      "target": "wooden_pickaxe",
+      "reason": "at home during evening with full health and hunger; have 18 oak_planks and 4 sticks; wooden_pickaxe requires 3 planks and 2 sticks; this is the next essential item in the crafting chain to progress to mining ore",
+      "success": false,
+      "health": 20,
+      "hunger": 20,
+      "danger": "safe",
+      "llm_ms": 1550
+    },
+    {
+      "time_ms": 1949309,
+      "action": "craft",
+      "target": "wooden_pickaxe",
+      "reason": "at home during evening with full health and hunger; have 18 oak_planks and 4 sticks which meets requirements for wooden_pickaxe (3 planks + 2 sticks); this is the essential next item in crafting chain to progress to mining ore; must craft before night falls",
+      "success": false,
+      "health": 20,
+      "hunger": 20,
+      "danger": "safe",
+      "llm_ms": 1790
+    },
+    {
+      "time_ms": 1976773,
+      "action": "gather",
+      "target": "oak_log",
+      "reason": "inventory has space and oak_logs are needed to convert to planks for future crafting; at home so safe to prepare before nightfall; have 9 oak_logs and can gather more to maximize resource efficiency",
+      "success": true,
+      "health": 20,
+      "hunger": 20,
+      "danger": "safe",
+      "llm_ms": 2127
+    },
+    {
+      "time_ms": 2004642,
+      "action": "look_around",
+      "target": null,
+      "reason": "fallback after error",
+      "success": true,
+      "health": 20,
+      "hunger": 20,
+      "danger": "safe",
+      "llm_ms": 2506
+    },
+    {
+      "time_ms": 2006693,
+      "action": "craft",
+      "target": "wooden_pickaxe",
+      "reason": "at home during evening with full health and hunger; have 18 oak_planks and 4 sticks which exceeds wooden_pickaxe requirements (3 planks + 2 sticks); this is the essential next item in crafting chain to progress to mining ore; must craft before night falls",
+      "success": false,
+      "health": 20,
+      "hunger": 20,
+      "danger": "safe",
+      "llm_ms": 1982
+    },
+    {
+      "time_ms": 2008550,
+      "action": "craft",
+      "target": "wooden_pickaxe",
+      "reason": "at home during evening with full health and hunger; have 18 oak_planks and 4 sticks which exceeds wooden_pickaxe requirements (3 planks + 2 sticks); this is the essential next item in crafting chain to progress to mining ore; must craft before night falls",
+      "success": false,
+      "health": 20,
+      "hunger": 20,
+      "danger": "safe",
+      "llm_ms": 1787
+    },
+    {
+      "time_ms": 2010708,
+      "action": "craft",
+      "target": "wooden_pickaxe",
+      "reason": "at home during evening with sufficient materials (18 oak_planks and 4 sticks); wooden_pickaxe is essential next item in crafting chain to progress to mining ore; must craft before night falls; have more than required (3 planks + 2 sticks)",
+      "success": false,
+      "health": 20,
+      "hunger": 20,
+      "danger": "safe",
+      "llm_ms": 2108
+    },
+    {
+      "time_ms": 2038079,
+      "action": "gather",
+      "target": "oak_log",
+      "reason": "inventory has space (4/9 slots used); oak_logs nearby at distance 5; need to convert remaining logs to planks to maximize resources before nightfall; currently at home and safe",
+      "success": true,
+      "health": 20,
+      "hunger": 20,
+      "danger": "safe",
+      "llm_ms": 2174
+    },
+    {
+      "time_ms": 2041210,
+      "action": "craft",
+      "target": "wooden_pickaxe",
+      "reason": "at home during evening with full health and hunger; have sufficient materials (18 oak_planks and 4 sticks for 3 planks + 2 sticks requirement); wooden_pickaxe is essential next item in crafting chain to progress to mining ore; must craft before night falls",
+      "success": false,
+      "health": 20,
+      "hunger": 20,
+      "danger": "safe",
+      "llm_ms": 3072
+    },
+    {
+      "time_ms": 2043293,
+      "action": "craft",
+      "target": "wooden_pickaxe",
+      "reason": "at home during evening with full health and hunger; have sufficient materials (18 oak_planks and 4 sticks); wooden_pickaxe is essential next item in crafting chain to progress to mining ore; must craft before night falls; this is the correct action to execute the craft",
+      "success": false,
+      "health": 20,
+      "hunger": 20,
+      "danger": "safe",
+      "llm_ms": 2000
+    },
+    {
+      "time_ms": 2070865,
+      "action": "look_around",
+      "target": null,
+      "reason": "fallback after error",
+      "success": true,
+      "health": 20,
+      "hunger": 20,
+      "danger": "safe",
+      "llm_ms": 2290
+    },
+    {
+      "time_ms": 2072653,
+      "action": "craft",
+      "target": "wooden_pickaxe",
+      "reason": "at home during evening with sufficient materials (18 oak_planks and 4 sticks); wooden_pickaxe is essential for mining ore and progressing survival; have more than required (3 planks + 2 sticks); must craft before night falls",
+      "success": false,
+      "health": 20,
+      "hunger": 20,
+      "danger": "safe",
+      "llm_ms": 1751
+    },
+    {
+      "time_ms": 2074734,
+      "action": "craft",
+      "target": "wooden_pickaxe",
+      "reason": "at home during evening with full health and hunger; have sufficient materials (18 oak_planks and 4 sticks for crafting wooden_pickaxe); this is the next essential item in crafting chain to progress to mining ore; must complete before nightfall",
+      "success": false,
+      "health": 20,
+      "hunger": 20,
+      "danger": "safe",
+      "llm_ms": 2041
+    },
+    {
+      "time_ms": 2076530,
+      "action": "craft",
+      "target": "wooden_pickaxe",
+      "reason": "at_home during evening with full health (20) and hunger (20); have sufficient materials (18 oak_planks and 4 sticks); wooden_pickaxe is essential next item in crafting chain to progress to mining ore; must complete before night falls",
+      "success": false,
+      "health": 20,
+      "hunger": 20,
+      "danger": "safe",
+      "llm_ms": 1753
+    },
+    {
+      "time_ms": 2104167,
+      "action": "gather",
+      "target": "oak_log",
+      "reason": "have 9 oak_logs but need more wood to convert to planks for future crafting; staying within 30 blocks of home at evening; gathering additional resources before night falls to maximize material stockpile",
+      "success": true,
+      "health": 20,
+      "hunger": 20,
+      "danger": "safe",
+      "llm_ms": 2358
+    },
+    {
+      "time_ms": 2106052,
+      "action": "craft",
+      "target": "wooden_pickaxe",
+      "reason": "at home during night with full health and hunger; have sufficient materials (18 oak_planks and 4 sticks); wooden_pickaxe is essential next item in crafting chain to progress to mining ore and coal; must complete crafting before morning to prepare for resource gathering",
+      "success": false,
+      "health": 20,
+      "hunger": 20,
+      "danger": "safe",
+      "llm_ms": 1840
+    },
+    {
+      "time_ms": 2107886,
+      "action": "craft",
+      "target": "wooden_pickaxe",
+      "reason": "at home during night with full health and hunger; have sufficient materials (18 oak_planks and 4 sticks); wooden_pickaxe is essential next item in crafting chain to progress to mining ore and coal; must complete crafting now",
+      "success": false,
+      "health": 20,
+      "hunger": 20,
+      "danger": "safe",
+      "llm_ms": 1794
+    },
+    {
+      "time_ms": 2109757,
+      "action": "craft",
+      "target": "wooden_pickaxe",
+      "reason": "at home during night with full health (20) and hunger (20); have sufficient materials (18 oak_planks and 4 sticks); wooden_pickaxe is essential next item in crafting chain to progress to mining ore and coal; must complete crafting now to prepare for daytime resource gathering",
+      "success": false,
+      "health": 20,
+      "hunger": 20,
+      "danger": "safe",
+      "llm_ms": 1828
+    },
+    {
+      "time_ms": 2137191,
+      "action": "gather",
+      "target": "oak_log",
+      "reason": "break crafting loop - at home during night with full inventory capacity; need to gather remaining oak_log to convert to planks; will help progress toward wooden_pickaxe crafting and avoid repeated failed craft attempts",
+      "success": true,
+      "health": 20,
+      "hunger": 20,
+      "danger": "safe",
+      "llm_ms": 2287
+    },
+    {
+      "time_ms": 2139200,
+      "action": "craft",
+      "target": "wooden_pickaxe",
+      "reason": "at home during night with full health (20) and hunger (20); have sufficient materials (18 oak_planks and 4 sticks); wooden_pickaxe is essential next item in crafting chain to progress to mining ore and coal; must complete crafting to advance progression",
+      "success": false,
+      "health": 20,
+      "hunger": 20,
+      "danger": "safe",
+      "llm_ms": 1964
+    },
+    {
+      "time_ms": 2140942,
+      "action": "craft",
+      "target": "wooden_pickaxe",
+      "reason": "at home during night with full health (20) and hunger (20); have sufficient materials (18 oak_planks and 4 sticks); wooden_pickaxe is essential next item in crafting chain to progress to mining ore and coal; must complete crafting to advance progression and prepare for daytime resource gathering",
+      "success": false,
+      "health": 20,
+      "hunger": 20,
+      "danger": "safe",
+      "llm_ms": 1700
+    },
+    {
+      "time_ms": 2142846,
+      "action": "craft",
+      "target": "wooden_pickaxe",
+      "reason": "at home during night with full health (20) and hunger (20); have sufficient materials (18 oak_planks and 4 sticks); wooden_pickaxe is essential next item in crafting chain to progress to mining ore and coal; must complete crafting now to prepare for daytime resource gathering",
+      "success": false,
+      "health": 20,
+      "hunger": 20,
+      "danger": "safe",
+      "llm_ms": 1863
+    },
+    {
+      "time_ms": 2170182,
+      "action": "gather",
+      "target": "oak_log",
+      "reason": "inventory not full (32/36 items); have 9 oak_logs but need to gather more to convert to planks; breaking the failed craft loop by doing a different action type; oak_log available at distance 5",
+      "success": true,
+      "health": 20,
+      "hunger": 20,
+      "danger": "safe",
+      "llm_ms": 2157
+    },
+    {
+      "time_ms": 2172327,
+      "action": "craft",
+      "target": "wooden_pickaxe",
+      "reason": "at home during night with full inventory of materials (18 oak_planks and 4 sticks); wooden_pickaxe is essential next item in crafting chain to progress to mining ore; inventory at 32/36 capacity so must complete crafting before gathering more; following crafting priority order",
+      "success": false,
+      "health": 20,
+      "hunger": 20,
+      "danger": "safe",
+      "llm_ms": 2102
+    },
+    {
+      "time_ms": 2174143,
+      "action": "craft",
+      "target": "wooden_pickaxe",
+      "reason": "at home during night with full health (20) and hunger (20); have sufficient materials (18 oak_planks and 4 sticks); wooden_pickaxe is essential next item in crafting chain to progress to mining ore and coal; inventory has space (32/36); following crafting priority order",
+      "success": false,
+      "health": 20,
+      "hunger": 20,
+      "danger": "safe",
+      "llm_ms": 1777
+    },
+    {
+      "time_ms": 2175958,
+      "action": "craft",
+      "target": "wooden_pickaxe",
+      "reason": "at home during night with full health and hunger; have sufficient materials (18 oak_planks and 4 sticks); wooden_pickaxe is essential for mining ore and coal to progress; following crafting priority order",
+      "success": false,
+      "health": 20,
+      "hunger": 20,
+      "danger": "safe",
+      "llm_ms": 1776
+    },
+    {
+      "time_ms": 2203419,
+      "action": "gather",
+      "target": "oak_log",
+      "reason": "breaking craft loop - need to gather more oak_logs to convert to planks; inventory has space (4/36 items); oak_log available at distance 5",
+      "success": true,
+      "health": 20,
+      "hunger": 20,
+      "danger": "safe",
+      "llm_ms": 2320
+    },
+    {
+      "time_ms": 2205386,
+      "action": "craft",
+      "target": "wooden_pickaxe",
+      "reason": "at home during night with full materials (18 oak_planks and 4 sticks); wooden_pickaxe is essential next item in crafting chain to progress to mining ore and coal; following crafting priority order; inventory has space (32/36); all conditions met for crafting",
+      "success": false,
+      "health": 20,
+      "hunger": 20,
+      "danger": "safe",
+      "llm_ms": 1930
+    },
+    {
+      "time_ms": 2207961,
+      "action": "craft",
+      "target": "wooden_pickaxe",
+      "reason": "at home during night with sufficient materials (18 oak_planks and 4 sticks); wooden_pickaxe is the next essential item in crafting chain to progress to mining ore and coal; health and hunger are full; following crafting priority order; inventory at 32/36 capacity",
+      "success": false,
+      "health": 20,
+      "hunger": 20,
+      "danger": "safe",
+      "llm_ms": 2537
+    },
+    {
+      "time_ms": 2209940,
+      "action": "craft",
+      "target": "wooden_pickaxe",
+      "reason": "at home during night with full health (20) and hunger (20); have sufficient materials (18 oak_planks and 4 sticks); wooden_pickaxe is essential next item in crafting chain to progress to mining ore and coal; following crafting priority order; all conditions met for crafting",
+      "success": false,
+      "health": 20,
+      "hunger": 20,
+      "danger": "safe",
+      "llm_ms": 1938
+    },
+    {
+      "time_ms": 2237191,
+      "action": "gather",
+      "target": "oak_log",
+      "reason": "break craft loop - have 9 oak_logs but need more planks for wooden_pickaxe; oak_log available 5 blocks away; inventory has space (32/36)",
+      "success": true,
+      "health": 20,
+      "hunger": 20,
+      "danger": "safe",
+      "llm_ms": 2078
+    },
+    {
+      "time_ms": 2239103,
+      "action": "craft",
+      "target": "wooden_pickaxe",
+      "reason": "at home during night with sufficient materials (18 oak_planks and 4 sticks); wooden_pickaxe is essential next item in crafting chain to progress to mining ore and coal; health and hunger are full; following crafting priority order",
+      "success": false,
+      "health": 20,
+      "hunger": 20,
+      "danger": "safe",
+      "llm_ms": 1875
+    },
+    {
+      "time_ms": 2240859,
+      "action": "craft",
+      "target": "wooden_pickaxe",
+      "reason": "at home during night with sufficient materials (18 oak_planks and 4 sticks); wooden_pickaxe is next essential item in crafting chain to progress to mining ore and coal; health and hunger are full; following crafting priority order; all conditions met for crafting",
+      "success": false,
+      "health": 20,
+      "hunger": 20,
+      "danger": "safe",
+      "llm_ms": 1708
+    },
+    {
+      "time_ms": 2242468,
+      "action": "craft",
+      "target": "wooden_pickaxe",
+      "reason": "at home during night with full health (20) and hunger (20); have sufficient materials (18 oak_planks and 4 sticks); wooden_pickaxe is essential next item in crafting chain to progress to mining ore and coal; following crafting priority order; all conditions met for crafting",
+      "success": false,
+      "health": 20,
+      "hunger": 20,
+      "danger": "safe",
+      "llm_ms": 1571
+    },
+    {
+      "time_ms": 2269582,
+      "action": "gather",
+      "target": "oak_log",
+      "reason": "break craft loop - have 9 oak_logs but need to convert more to planks; oak_log available 5 blocks away; inventory has space (32/36); will process into planks when crafting resumes",
+      "success": true,
+      "health": 20,
+      "hunger": 20,
+      "danger": "safe",
+      "llm_ms": 1850
+    },
+    {
+      "time_ms": 2271683,
+      "action": "craft",
+      "target": "wooden_pickaxe",
+      "reason": "at home during night with full health (20) and hunger (20); have sufficient materials (18 oak_planks and 4 sticks); wooden_pickaxe is essential next item in crafting chain to progress to mining ore and coal; following crafting priority order; all conditions met for crafting",
+      "success": false,
+      "health": 20,
+      "hunger": 20,
+      "danger": "safe",
+      "llm_ms": 2032
+    },
+    {
+      "time_ms": 2273936,
+      "action": "craft",
+      "target": "oak_planks",
+      "reason": "at home during night with 9 oak_logs in inventory; need to convert logs to planks to continue crafting chain toward wooden_pickaxe; have materials and safe conditions",
+      "success": true,
+      "health": 20,
+      "hunger": 20,
+      "danger": "safe",
+      "llm_ms": 2225
+    },
+    {
+      "time_ms": 2276848,
+      "action": "craft",
+      "target": "wooden_pickaxe",
+      "reason": "at home during night with full health (20) and hunger (20); have sufficient materials (18 oak_planks and 4 sticks); wooden_pickaxe is essential next item in crafting chain to progress to mining ore and coal; following crafting priority order; all conditions met for crafting",
+      "success": false,
+      "health": 20,
+      "hunger": 20,
+      "danger": "safe",
+      "llm_ms": 2834
+    },
+    {
+      "time_ms": 2304589,
+      "action": "gather",
+      "target": "oak_log",
+      "reason": "break craft loop - have 9 oak_logs but need more planks; oak_log available 5 blocks away; inventory has space (32/36); will process into planks to eventually craft wooden_pickaxe",
+      "success": true,
+      "health": 20,
+      "hunger": 20,
+      "danger": "safe",
+      "llm_ms": 2477
+    },
+    {
+      "time_ms": 2306811,
+      "action": "craft",
+      "target": "wooden_pickaxe",
+      "reason": "at home during night with full health (20) and hunger (20); have sufficient materials (22 oak_planks and 4 sticks); wooden_pickaxe is essential next item in crafting chain to progress to mining ore; following crafting priority order exactly",
+      "success": false,
+      "health": 20,
+      "hunger": 20,
+      "danger": "safe",
+      "llm_ms": 2166
+    },
+    {
+      "time_ms": 2308918,
+      "action": "craft",
+      "target": "wooden_pickaxe",
+      "reason": "at home during night with full health (20) and hunger (20); have sufficient materials (22 oak_planks and 4 sticks); wooden_pickaxe is essential next item in crafting chain to progress to mining ore; following crafting priority order exactly; all conditions met for crafting",
+      "success": false,
+      "health": 20,
+      "hunger": 20,
+      "danger": "safe",
+      "llm_ms": 2052
+    },
+    {
+      "time_ms": 2310728,
+      "action": "craft",
+      "target": "wooden_pickaxe",
+      "reason": "at home during night with full health (20) and hunger (20); have sufficient materials (22 oak_planks and 4 sticks); wooden_pickaxe is next essential item in crafting chain to progress to mining ore; following exact crafting priority order; all conditions met",
+      "success": false,
+      "health": 20,
+      "hunger": 20,
+      "danger": "safe",
+      "llm_ms": 1758
+    },
+    {
+      "time_ms": 2337763,
+      "action": "gather",
+      "target": "oak_log",
+      "reason": "break craft loop - have 8 oak_logs and need to convert to planks; oak_log available 5 blocks away; inventory has space (32/36); will process logs into planks to eventually craft wooden_pickaxe",
+      "success": true,
+      "health": 20,
+      "hunger": 20,
+      "danger": "safe",
+      "llm_ms": 1806
+    },
+    {
+      "time_ms": 2339668,
+      "action": "craft",
+      "target": "wooden_pickaxe",
+      "reason": "at home during night with full health (20) and hunger (20); have sufficient materials (22 oak_planks and 4 sticks); wooden_pickaxe is essential next item in crafting chain to progress to mining ore; following exact crafting priority order; all conditions met for crafting",
+      "success": false,
+      "health": 20,
+      "hunger": 20,
+      "danger": "safe",
+      "llm_ms": 1857
+    },
+    {
+      "time_ms": 2341653,
+      "action": "craft",
+      "target": "wooden_pickaxe",
+      "reason": "at home during night with full health (20) and hunger (20); have sufficient materials (22 oak_planks and 4 sticks); wooden_pickaxe is essential next item in crafting chain to progress to mining ore; all survival priorities met; following exact crafting order",
+      "success": false,
+      "health": 20,
+      "hunger": 20,
+      "danger": "safe",
+      "llm_ms": 1910
+    },
+    {
+      "time_ms": 2344491,
+      "action": "craft",
+      "target": "oak_planks",
+      "reason": "at home during night with full health and hunger; have 8 oak_logs to convert to planks; following crafting chain priority (oak_log → oak_planks → stick → wooden_pickaxe); this is the first conversion step needed to progress",
+      "success": true,
+      "health": 20,
+      "hunger": 20,
+      "danger": "safe",
+      "llm_ms": 2811
+    },
+    {
+      "time_ms": 2346992,
+      "action": "craft",
+      "target": "stick",
+      "reason": "at home during night with full health and hunger; have 22 oak_planks available; need to craft sticks (currently have 4, need 4 more for wooden_pickaxe); following exact crafting chain: oak_planks → stick → wooden_pickaxe; all survival conditions met",
+      "success": true,
+      "health": 20,
+      "hunger": 20,
+      "danger": "safe",
+      "llm_ms": 2453
+    },
+    {
+      "time_ms": 2349156,
+      "action": "craft",
+      "target": "wooden_pickaxe",
+      "reason": "have all required materials (22 oak_planks and 4 sticks); at home during night with full health and hunger; wooden_pickaxe is essential next item in crafting chain to progress to mining ore; following exact crafting order; breaking craft loop by attempting craft again with verified materials",
+      "success": false,
+      "health": 20,
+      "hunger": 20,
+      "danger": "safe",
+      "llm_ms": 2087
+    },
+    {
+      "time_ms": 2366043,
+      "action": "gather",
+      "target": "oak_log",
+      "reason": "break craft loop by gathering instead; have 8 oak_logs already which converts to 32 planks (more than current 22); gathering nearby oak_log at distance 5 will add to inventory and change action type from repeated crafting attempts",
+      "success": true,
+      "health": 20,
+      "hunger": 20,
+      "danger": "safe",
+      "llm_ms": 2330
+    },
+    {
+      "time_ms": 2384540,
+      "action": "look_around",
+      "target": null,
+      "reason": "fallback after error",
+      "success": true,
+      "health": 20,
+      "hunger": 20,
+      "danger": "safe",
+      "llm_ms": 2187
+    },
+    {
+      "time_ms": 2411745,
+      "action": "gather",
+      "target": "oak_log",
+      "reason": "morning daytime at home with full health and hunger; have gathered 7 oak_logs and can convert to planks; gathering additional oak_log nearby (distance 5) to build resource surplus before continuing progression",
+      "success": true,
+      "health": 20,
+      "hunger": 20,
+      "danger": "safe",
+      "llm_ms": 1974
+    }
+  ],
+  "positions": [
+    {
+      "time_ms": 6785,
+      "x": -31.5,
+      "y": 71,
+      "z": 14.5
+    },
+    {
+      "time_ms": 11966,
+      "x": -30.337594635798933,
+      "y": 71,
+      "z": 14.685885314781371
+    },
+    {
+      "time_ms": 17277,
+      "x": -30.337594635798933,
+      "y": 71,
+      "z": 14.685885314781371
+    },
+    {
+      "time_ms": 22510,
+      "x": -31.5,
+      "y": 71,
+      "z": 14.549668378654335
+    },
+    {
+      "time_ms": 27679,
+      "x": -19.227277846204487,
+      "y": 70,
+      "z": 14.690186394755116
+    },
+    {
+      "time_ms": 32852,
+      "x": -18.302063820462894,
+      "y": 70,
+      "z": 14.667585951384742
+    },
+    {
+      "time_ms": 38098,
+      "x": -18.302063820462894,
+      "y": 70,
+      "z": 14.667585951384742
+    },
+    {
+      "time_ms": 43306,
+      "x": -18.302063820462894,
+      "y": 70,
+      "z": 14.667585951384742
+    },
+    {
+      "time_ms": 48524,
+      "x": -18.302063820462894,
+      "y": 70,
+      "z": 14.667585951384742
+    },
+    {
+      "time_ms": 53735,
+      "x": -18.302063820462894,
+      "y": 70,
+      "z": 14.667585951384742
+    },
+    {
+      "time_ms": 59329,
+      "x": -20.05797502793922,
+      "y": 70.41999998688698,
+      "z": 14.3
+    },
+    {
+      "time_ms": 64742,
+      "x": -19.765750784651402,
+      "y": 70,
+      "z": 14.304104865442294
+    },
+    {
+      "time_ms": 70167,
+      "x": -20.373249588582475,
+      "y": 70.7531999805212,
+      "z": 14.3
+    },
+    {
+      "time_ms": 75519,
+      "x": -19.765750784651402,
+      "y": 70,
+      "z": 14.304104865442294
+    },
+    {
+      "time_ms": 81007,
+      "x": -20.05797493827683,
+      "y": 70.41999998688698,
+      "z": 14.3
+    },
+    {
+      "time_ms": 86251,
+      "x": -19.127844629938515,
+      "y": 70,
+      "z": 14.699984955444755
+    },
+    {
+      "time_ms": 91461,
+      "x": -19.127844629938515,
+      "y": 70,
+      "z": 14.699984955444755
+    },
+    {
+      "time_ms": 96684,
+      "x": -19.127844629938515,
+      "y": 70,
+      "z": 14.699984955444755
+    },
+    {
+      "time_ms": 101879,
+      "x": -19.127844629938515,
+      "y": 70,
+      "z": 14.699984955444755
+    },
+    {
+      "time_ms": 107129,
+      "x": -19.127844629938515,
+      "y": 70,
+      "z": 14.699984955444755
+    },
+    {
+      "time_ms": 112372,
+      "x": -19.127844629938515,
+      "y": 70,
+      "z": 14.699984955444755
+    },
+    {
+      "time_ms": 117581,
+      "x": -20.683475144696633,
+      "y": 70.41999998688698,
+      "z": 14.570216749505636
+    },
+    {
+      "time_ms": 122819,
+      "x": -20.683475144696633,
+      "y": 70.41999998688698,
+      "z": 14.570216749505636
+    },
+    {
+      "time_ms": 128028,
+      "x": -20.683475144696633,
+      "y": 70.41999998688698,
+      "z": 14.570216749505636
+    },
+    {
+      "time_ms": 133243,
+      "x": -20.683475144696633,
+      "y": 70.41999998688698,
+      "z": 14.570216749505636
+    },
+    {
+      "time_ms": 138446,
+      "x": -20.683475144696633,
+      "y": 70.41999998688698,
+      "z": 14.570216749505636
+    },
+    {
+      "time_ms": 143653,
+      "x": -20.683475144696633,
+      "y": 70.41999998688698,
+      "z": 14.570216749505636
+    },
+    {
+      "time_ms": 148882,
+      "x": -19.298106742938767,
+      "y": 70,
+      "z": 14.308126664327418
+    },
+    {
+      "time_ms": 154106,
+      "x": -19.280334786612976,
+      "y": 70,
+      "z": 14.3
+    },
+    {
+      "time_ms": 159376,
+      "x": -19.298106742938767,
+      "y": 70,
+      "z": 14.308126664327418
+    },
+    {
+      "time_ms": 164638,
+      "x": -19.5,
+      "y": 70,
+      "z": 14.308126664327418
+    },
+    {
+      "time_ms": 169857,
+      "x": -19.5,
+      "y": 70,
+      "z": 14.308126664327418
+    },
+    {
+      "time_ms": 175057,
+      "x": -18.316839752901195,
+      "y": 70,
+      "z": 14.651681034037422
+    },
+    {
+      "time_ms": 180329,
+      "x": -18.3,
+      "y": 70,
+      "z": 14.670034705070302
+    },
+    {
+      "time_ms": 185561,
+      "x": -18.316839752901195,
+      "y": 70,
+      "z": 14.651681034037422
+    },
+    {
+      "time_ms": 190874,
+      "x": -18.316839752901195,
+      "y": 70,
+      "z": 14.651681034037422
+    },
+    {
+      "time_ms": 196140,
+      "x": -18.316839752901195,
+      "y": 70,
+      "z": 14.651681034037422
+    },
+    {
+      "time_ms": 201420,
+      "x": -18.316839752901195,
+      "y": 70,
+      "z": 14.651681034037422
+    },
+    {
+      "time_ms": 206937,
+      "x": -14.565484946983865,
+      "y": 70,
+      "z": 8.52494756614229
+    },
+    {
+      "time_ms": 212268,
+      "x": -10.30638318976932,
+      "y": 70,
+      "z": 6.304640434725573
+    },
+    {
+      "time_ms": 217980,
+      "x": -10.31889939223006,
+      "y": 70,
+      "z": 6.3
+    },
+    {
+      "time_ms": 223641,
+      "x": -9.991920569320197,
+      "y": 70,
+      "z": 6.3
+    },
+    {
+      "time_ms": 229000,
+      "x": -10.30638318976932,
+      "y": 70,
+      "z": 6.304640434725573
+    },
+    {
+      "time_ms": 234336,
+      "x": -10.501616525041564,
+      "y": 70,
+      "z": 10.864509348659832
+    },
+    {
+      "time_ms": 239974,
+      "x": -14.529460976926096,
+      "y": 65,
+      "z": 32.08472368185607
+    },
+    {
+      "time_ms": 245369,
+      "x": -14.683069080025215,
+      "y": 64,
+      "z": 33.757192643983046
+    },
+    {
+      "time_ms": 250755,
+      "x": -14.683069080025215,
+      "y": 64,
+      "z": 33.757192643983046
+    },
+    {
+      "time_ms": 256111,
+      "x": -14.683069080025215,
+      "y": 64,
+      "z": 33.757192643983046
+    },
+    {
+      "time_ms": 261453,
+      "x": -14.683069080025215,
+      "y": 64,
+      "z": 33.757192643983046
+    },
+    {
+      "time_ms": 266766,
+      "x": -14.683069080025215,
+      "y": 64,
+      "z": 33.757192643983046
+    },
+    {
+      "time_ms": 272260,
+      "x": -14.683069080025215,
+      "y": 64,
+      "z": 33.757192643983046
+    },
+    {
+      "time_ms": 277638,
+      "x": -14.683069080025215,
+      "y": 64,
+      "z": 33.757192643983046
+    },
+    {
+      "time_ms": 283028,
+      "x": -14.683069080025215,
+      "y": 64,
+      "z": 33.757192643983046
+    },
+    {
+      "time_ms": 288517,
+      "x": -14.683069080025215,
+      "y": 64,
+      "z": 33.757192643983046
+    },
+    {
+      "time_ms": 294272,
+      "x": -14.683069080025215,
+      "y": 64,
+      "z": 33.757192643983046
+    },
+    {
+      "time_ms": 299520,
+      "x": -15.49985617283553,
+      "y": 62.662404374836456,
+      "z": 48.291590586295676
+    },
+    {
+      "time_ms": 304679,
+      "x": -14.518952662404331,
+      "y": 62.32597013024441,
+      "z": 60.57296870591909
+    },
+    {
+      "time_ms": 309812,
+      "x": -14.502955828940337,
+      "y": 61,
+      "z": 68.5
+    },
+    {
+      "time_ms": 314917,
+      "x": -14.502955828940337,
+      "y": 61,
+      "z": 68.5
+    },
+    {
+      "time_ms": 320027,
+      "x": -14.502955828940337,
+      "y": 61,
+      "z": 68.5
+    },
+    {
+      "time_ms": 325145,
+      "x": -14.502955828940337,
+      "y": 61,
+      "z": 68.5
+    },
+    {
+      "time_ms": 330313,
+      "x": -14.69805073526827,
+      "y": 61.88889437699912,
+      "z": 68.48939333467243
+    },
+    {
+      "time_ms": 335452,
+      "x": -15.512944550719112,
+      "y": 61.919912647425534,
+      "z": 67.35268339129364
+    },
+    {
+      "time_ms": 340649,
+      "x": -15.499742656420116,
+      "y": 61.89692424761099,
+      "z": 57.769875153787034
+    },
+    {
+      "time_ms": 345795,
+      "x": -15.499713173371365,
+      "y": 62.65025980686782,
+      "z": 45.88815548661792
+    },
+    {
+      "time_ms": 351101,
+      "x": -15.49965593453586,
+      "y": 62.78681413109199,
+      "z": 43.309316531073954
+    },
+    {
+      "time_ms": 356488,
+      "x": -15.49965593453586,
+      "y": 62.78681413109199,
+      "z": 43.309316531073954
+    },
+    {
+      "time_ms": 361626,
+      "x": -15.49965593453586,
+      "y": 62.78681413109199,
+      "z": 43.309316531073954
+    },
+    {
+      "time_ms": 366918,
+      "x": -15.49965593453586,
+      "y": 62.78681413109199,
+      "z": 43.309316531073954
+    },
+    {
+      "time_ms": 372097,
+      "x": -15.49965593453586,
+      "y": 62.78681413109199,
+      "z": 43.309316531073954
+    },
+    {
+      "time_ms": 377244,
+      "x": -15.499635753763695,
+      "y": 62.78681413109199,
+      "z": 43.3
+    },
+    {
+      "time_ms": 382440,
+      "x": -15.499600049320648,
+      "y": 62.55318212504951,
+      "z": 43.3
+    },
+    {
+      "time_ms": 387607,
+      "x": -15.49965593453586,
+      "y": 62.78681413109199,
+      "z": 43.309316531073954
+    },
+    {
+      "time_ms": 392763,
+      "x": -15.49965593453586,
+      "y": 62.78681413109199,
+      "z": 43.309316531073954
+    },
+    {
+      "time_ms": 397910,
+      "x": -15.49965593453586,
+      "y": 62.78681413109199,
+      "z": 43.309316531073954
+    },
+    {
+      "time_ms": 403047,
+      "x": -15.49965593453586,
+      "y": 62.78681413109199,
+      "z": 43.309316531073954
+    },
+    {
+      "time_ms": 408181,
+      "x": -15.49965593453586,
+      "y": 62.78681413109199,
+      "z": 43.309316531073954
+    },
+    {
+      "time_ms": 413321,
+      "x": -15.49965593453586,
+      "y": 62.78681413109199,
+      "z": 43.309316531073954
+    },
+    {
+      "time_ms": 418520,
+      "x": -15.499727343421972,
+      "y": 62.17323286100617,
+      "z": 43.51805948400148
+    },
+    {
+      "time_ms": 423636,
+      "x": -8.327453655446826,
+      "y": 62.68801897843689,
+      "z": 50.672335252364576
+    },
+    {
+      "time_ms": 428751,
+      "x": -1.4563294554083068,
+      "y": 62.138,
+      "z": 59.637365528305445
+    },
+    {
+      "time_ms": 433917,
+      "x": -1.459350829810654,
+      "y": 62.297999999999995,
+      "z": 59.69608780713328
+    },
+    {
+      "time_ms": 439042,
+      "x": -1.459350829810654,
+      "y": 62.337999999999994,
+      "z": 59.69608780713328
+    },
+    {
+      "time_ms": 444147,
+      "x": -1.4603408733590604,
+      "y": 62.41799999999999,
+      "z": 59.7
+    },
+    {
+      "time_ms": 449311,
+      "x": -2.0138038943310743,
+      "y": 62.09802332189996,
+      "z": 57.852804172237015
+    },
+    {
+      "time_ms": 454450,
+      "x": -8.719523281247932,
+      "y": 62.01862569276693,
+      "z": 51.2794867066795
+    },
+    {
+      "time_ms": 459588,
+      "x": -15.6490257802812,
+      "y": 62.61769215885033,
+      "z": 43.30163796057605
+    },
+    {
+      "time_ms": 464750,
+      "x": -15.6490257802812,
+      "y": 62.61769215885033,
+      "z": 43.30163796057605
+    },
+    {
+      "time_ms": 469901,
+      "x": -15.6490257802812,
+      "y": 62.61769215885033,
+      "z": 43.30163796057605
+    },
+    {
+      "time_ms": 475042,
+      "x": -15.6490257802812,
+      "y": 62.61769215885033,
+      "z": 43.30163796057605
+    },
+    {
+      "time_ms": 480184,
+      "x": -15.6490257802812,
+      "y": 62.61769215885033,
+      "z": 43.30163796057605
+    },
+    {
+      "time_ms": 485315,
+      "x": -15.6490257802812,
+      "y": 62.61769215885033,
+      "z": 43.30163796057605
+    },
+    {
+      "time_ms": 490468,
+      "x": -15.6490257802812,
+      "y": 62.61769215885033,
+      "z": 43.30163796057605
+    },
+    {
+      "time_ms": 495624,
+      "x": -15.6490257802812,
+      "y": 62.61769215885033,
+      "z": 43.30163796057605
+    },
+    {
+      "time_ms": 500794,
+      "x": -15.644493802021262,
+      "y": 62.61769215885033,
+      "z": 43.3
+    },
+    {
+      "time_ms": 505957,
+      "x": -15.6490257802812,
+      "y": 62.61769215885033,
+      "z": 43.30163796057605
+    },
+    {
+      "time_ms": 511121,
+      "x": -15.6490257802812,
+      "y": 62.61769215885033,
+      "z": 43.30163796057605
+    },
+    {
+      "time_ms": 516267,
+      "x": -15.6490257802812,
+      "y": 62.61769215885033,
+      "z": 43.30163796057605
+    },
+    {
+      "time_ms": 521384,
+      "x": -15.6490257802812,
+      "y": 62.61769215885033,
+      "z": 43.30163796057605
+    },
+    {
+      "time_ms": 526526,
+      "x": -15.6490257802812,
+      "y": 62.61769215885033,
+      "z": 43.30163796057605
+    },
+    {
+      "time_ms": 531655,
+      "x": -15.6490257802812,
+      "y": 62.61769215885033,
+      "z": 43.30163796057605
+    },
+    {
+      "time_ms": 536798,
+      "x": -15.6490257802812,
+      "y": 62.61769215885033,
+      "z": 43.30163796057605
+    },
+    {
+      "time_ms": 541930,
+      "x": -14.036058993297821,
+      "y": 62.55816494096315,
+      "z": 44.96822793570443
+    },
+    {
+      "time_ms": 547098,
+      "x": -5.079047825655244,
+      "y": 62.16381789951069,
+      "z": 53.92159149972852
+    },
+    {
+      "time_ms": 552214,
+      "x": -1.403898398390687,
+      "y": 62,
+      "z": 59.5
+    },
+    {
+      "time_ms": 557341,
+      "x": -1.4156709234153144,
+      "y": 62.44671999999999,
+      "z": 59.69879623639757
+    },
+    {
+      "time_ms": 562426,
+      "x": 2.3090471196313094,
+      "y": 62.286719999999995,
+      "z": 54.687467134480535
+    },
+    {
+      "time_ms": 567517,
+      "x": 2.503408330046141,
+      "y": 62.77744051199999,
+      "z": 54.311858356402745
+    },
+    {
+      "time_ms": 572593,
+      "x": 2.503408330046141,
+      "y": 62.77744051199999,
+      "z": 54.311858356402745
+    },
+    {
+      "time_ms": 577670,
+      "x": 2.503408330046141,
+      "y": 62.77744051199999,
+      "z": 54.311858356402745
+    },
+    {
+      "time_ms": 582748,
+      "x": 2.503408330046141,
+      "y": 62.77744051199999,
+      "z": 54.311858356402745
+    },
+    {
+      "time_ms": 587843,
+      "x": 2.5032950968679617,
+      "y": 62.77744051199999,
+      "z": 54.3
+    },
+    {
+      "time_ms": 592941,
+      "x": 1.4533139165706215,
+      "y": 62.36302315700347,
+      "z": 58.690888508902795
+    },
+    {
+      "time_ms": 598020,
+      "x": 1.4533139165706215,
+      "y": 62.483023157003466,
+      "z": 58.690888508902795
+    },
+    {
+      "time_ms": 603317,
+      "x": 1.4569347832654973,
+      "y": 62.409391150960985,
+      "z": 58.7
+    },
+    {
+      "time_ms": 608702,
+      "x": 1.4579963072802626,
+      "y": 62.74939115096099,
+      "z": 58.7
+    },
+    {
+      "time_ms": 613816,
+      "x": 1.4533139165706215,
+      "y": 62.60302315700346,
+      "z": 58.690888508902795
+    },
+    {
+      "time_ms": 619202,
+      "x": 1.4579963072802626,
+      "y": 62.74939115096099,
+      "z": 58.7
+    },
+    {
+      "time_ms": 624285,
+      "x": 1.4533139165706215,
+      "y": 62.60302315700346,
+      "z": 58.690888508902795
+    },
+    {
+      "time_ms": 629485,
+      "x": 1.4533139165706215,
+      "y": 62.60302315700346,
+      "z": 58.690888508902795
+    },
+    {
+      "time_ms": 634568,
+      "x": 1.4533139165706215,
+      "y": 62.60302315700346,
+      "z": 58.690888508902795
+    },
+    {
+      "time_ms": 639834,
+      "x": 1.4533139165706215,
+      "y": 62.60302315700346,
+      "z": 58.690888508902795
+    },
+    {
+      "time_ms": 644914,
+      "x": 2.5003121997492386,
+      "y": 62.482525570878636,
+      "z": 54.317529573149834
+    },
+    {
+      "time_ms": 650009,
+      "x": 2.5003121997492386,
+      "y": 62.522525570878635,
+      "z": 54.317529573149834
+    },
+    {
+      "time_ms": 655121,
+      "x": 2.5003121997492386,
+      "y": 62.60252557087863,
+      "z": 54.317529573149834
+    },
+    {
+      "time_ms": 660201,
+      "x": 2.5003121997492386,
+      "y": 62.60252557087863,
+      "z": 54.317529573149834
+    },
+    {
+      "time_ms": 665296,
+      "x": 2.5003323805214053,
+      "y": 62.60252557087863,
+      "z": 54.3
+    },
+    {
+      "time_ms": 670374,
+      "x": 2.0971387023300583,
+      "y": 62.35628069201975,
+      "z": 54.3908322017611
+    },
+    {
+      "time_ms": 675449,
+      "x": 1.4385032269666578,
+      "y": 62.61350079999999,
+      "z": 58.68348191061879
+    },
+    {
+      "time_ms": 680527,
+      "x": 1.4385032269666578,
+      "y": 62.57510079847411,
+      "z": 58.68348191061879
+    },
+    {
+      "time_ms": 685612,
+      "x": 1.4385032269666578,
+      "y": 62.61510079847411,
+      "z": 58.68348191061879
+    },
+    {
+      "time_ms": 690683,
+      "x": 1.4385032269666578,
+      "y": 62.61510079847411,
+      "z": 58.68348191061879
+    },
+    {
+      "time_ms": 695783,
+      "x": 1.4385032269666578,
+      "y": 62.61510079847411,
+      "z": 58.68348191061879
+    },
+    {
+      "time_ms": 700865,
+      "x": 1.4385032269666578,
+      "y": 62.61510079847411,
+      "z": 58.68348191061879
+    },
+    {
+      "time_ms": 706008,
+      "x": 1.4385032269666578,
+      "y": 62.61510079847411,
+      "z": 58.68348191061879
+    },
+    {
+      "time_ms": 711107,
+      "x": 1.4385032269666578,
+      "y": 62.61510079847411,
+      "z": 58.68348191061879
+    },
+    {
+      "time_ms": 716183,
+      "x": 1.4404157365632457,
+      "y": 62.61510079847411,
+      "z": 58.7
+    },
+    {
+      "time_ms": 721280,
+      "x": 1.4385032269666578,
+      "y": 62.61510079847411,
+      "z": 58.68348191061879
+    },
+    {
+      "time_ms": 726358,
+      "x": 1.4385032269666578,
+      "y": 62.61510079847411,
+      "z": 58.68348191061879
+    },
+    {
+      "time_ms": 731433,
+      "x": 1.4385032269666578,
+      "y": 62.61510079847411,
+      "z": 58.68348191061879
+    },
+    {
+      "time_ms": 736514,
+      "x": 1.4385032269666578,
+      "y": 62.61510079847411,
+      "z": 58.68348191061879
+    },
+    {
+      "time_ms": 741596,
+      "x": 1.4385032269666578,
+      "y": 62.61510079847411,
+      "z": 58.68348191061879
+    },
+    {
+      "time_ms": 746686,
+      "x": 1.4385032269666578,
+      "y": 62.61510079847411,
+      "z": 58.68348191061879
+    },
+    {
+      "time_ms": 751785,
+      "x": 2.447461401337882,
+      "y": 61.8349126617977,
+      "z": 56.25814726570463
+    },
+    {
+      "time_ms": 756869,
+      "x": 2.506064943509521,
+      "y": 62.53460321234928,
+      "z": 54.30883132234436
+    },
+    {
+      "time_ms": 761960,
+      "x": 2.506064943509521,
+      "y": 62.57460321234928,
+      "z": 54.30883132234436
+    },
+    {
+      "time_ms": 767028,
+      "x": 2.506064943509521,
+      "y": 62.61460321234928,
+      "z": 54.30883132234436
+    },
+    {
+      "time_ms": 772140,
+      "x": 2.506064943509521,
+      "y": 62.61460321234928,
+      "z": 54.30883132234436
+    },
+    {
+      "time_ms": 777214,
+      "x": 2.506064943509521,
+      "y": 62.61460321234928,
+      "z": 54.30883132234436
+    },
+    {
+      "time_ms": 782277,
+      "x": 1.4292773793854976,
+      "y": 62.61350079999999,
+      "z": 58.68413636936851
+    },
+    {
+      "time_ms": 787347,
+      "x": 1.4292773793854976,
+      "y": 62.61350079999999,
+      "z": 58.68413636936851
+    },
+    {
+      "time_ms": 792416,
+      "x": 1.4292773793854976,
+      "y": 62.61350079999999,
+      "z": 58.68413636936851
+    },
+    {
+      "time_ms": 797486,
+      "x": 1.4292773793854976,
+      "y": 62.61350079999999,
+      "z": 58.68413636936851
+    },
+    {
+      "time_ms": 802551,
+      "x": 1.4292773793854976,
+      "y": 62.61350079999999,
+      "z": 58.68413636936851
+    },
+    {
+      "time_ms": 807621,
+      "x": 1.4292773793854976,
+      "y": 62.61350079999999,
+      "z": 58.68413636936851
+    },
+    {
+      "time_ms": 812687,
+      "x": 1.4292773793854976,
+      "y": 62.61350079999999,
+      "z": 58.68413636936851
+    },
+    {
+      "time_ms": 817758,
+      "x": 1.4292773793854976,
+      "y": 62.61350079999999,
+      "z": 58.68413636936851
+    },
+    {
+      "time_ms": 822869,
+      "x": 1.4292773793854976,
+      "y": 62.61350079999999,
+      "z": 58.68413636936851
+    },
+    {
+      "time_ms": 827962,
+      "x": 1.4292773793854976,
+      "y": 62.61350079999999,
+      "z": 58.68413636936851
+    },
+    {
+      "time_ms": 833062,
+      "x": 1.4292773793854976,
+      "y": 62.61350079999999,
+      "z": 58.68413636936851
+    },
+    {
+      "time_ms": 838134,
+      "x": 1.4292773793854976,
+      "y": 62.61350079999999,
+      "z": 58.68413636936851
+    },
+    {
+      "time_ms": 843205,
+      "x": 1.4292773793854976,
+      "y": 62.61350079999999,
+      "z": 58.68413636936851
+    },
+    {
+      "time_ms": 848271,
+      "x": 1.4292773793854976,
+      "y": 62.61350079999999,
+      "z": 58.68413636936851
+    },
+    {
+      "time_ms": 853336,
+      "x": 2.449117244020468,
+      "y": 61.813541154533944,
+      "z": 56.3398059255986
+    },
+    {
+      "time_ms": 858399,
+      "x": 2.507797816797038,
+      "y": 62.49300321387516,
+      "z": 54.308153438741286
+    },
+    {
+      "time_ms": 863459,
+      "x": 2.507797816797038,
+      "y": 62.57300321387516,
+      "z": 54.308153438741286
+    },
+    {
+      "time_ms": 868525,
+      "x": 2.507797816797038,
+      "y": 62.61300321387516,
+      "z": 54.308153438741286
+    },
+    {
+      "time_ms": 873588,
+      "x": 2.5075511727729203,
+      "y": 62.61300321387516,
+      "z": 54.3
+    },
+    {
+      "time_ms": 878653,
+      "x": 2.507797816797038,
+      "y": 62.61300321387516,
+      "z": 54.308153438741286
+    },
+    {
+      "time_ms": 883716,
+      "x": 1.4411133834091001,
+      "y": 62.75131747300325,
+      "z": 58.220210271535684
+    },
+    {
+      "time_ms": 888784,
+      "x": 1.4972767916876117,
+      "y": 62.60252521631283,
+      "z": 58.69929149416034
+    },
+    {
+      "time_ms": 893867,
+      "x": 1.4972767916876117,
+      "y": 62.60252521631283,
+      "z": 58.69929149416034
+    },
+    {
+      "time_ms": 898945,
+      "x": 1.4972767916876117,
+      "y": 62.60252521631283,
+      "z": 58.69929149416034
+    },
+    {
+      "time_ms": 904021,
+      "x": 1.4972767916876117,
+      "y": 62.60252521631283,
+      "z": 58.69929149416034
+    },
+    {
+      "time_ms": 909128,
+      "x": 1.4972767916876117,
+      "y": 62.60252521631283,
+      "z": 58.69929149416034
+    },
+    {
+      "time_ms": 914246,
+      "x": 1.4972767916876117,
+      "y": 62.60252521631283,
+      "z": 58.69929149416034
+    },
+    {
+      "time_ms": 919365,
+      "x": 1.4973900260585842,
+      "y": 62.60252521631283,
+      "z": 58.7
+    },
+    {
+      "time_ms": 924469,
+      "x": 1.4972767916876117,
+      "y": 62.60252521631283,
+      "z": 58.69929149416034
+    },
+    {
+      "time_ms": 929543,
+      "x": 1.4972767916876117,
+      "y": 62.60252521631283,
+      "z": 58.69929149416034
+    },
+    {
+      "time_ms": 934626,
+      "x": 1.4972767916876117,
+      "y": 62.60252521631283,
+      "z": 58.69929149416034
+    },
+    {
+      "time_ms": 939698,
+      "x": 1.4972767916876117,
+      "y": 62.60252521631283,
+      "z": 58.69929149416034
+    },
+    {
+      "time_ms": 944843,
+      "x": 1.4973900260585842,
+      "y": 62.60252521631283,
+      "z": 58.7
+    },
+    {
+      "time_ms": 949922,
+      "x": 1.4972767916876117,
+      "y": 62.60252521631283,
+      "z": 58.69929149416034
+    },
+    {
+      "time_ms": 955061,
+      "x": 1.4972767916876117,
+      "y": 62.60252521631283,
+      "z": 58.69929149416034
+    },
+    {
+      "time_ms": 960235,
+      "x": 1.4975642327831749,
+      "y": 62.40889321027035,
+      "z": 58.7
+    },
+    {
+      "time_ms": 965307,
+      "x": 1.4972767916876117,
+      "y": 62.60252521631283,
+      "z": 58.69929149416034
+    },
+    {
+      "time_ms": 970629,
+      "x": 1.4975642327831749,
+      "y": 62.40889321027035,
+      "z": 58.7
+    },
+    {
+      "time_ms": 975698,
+      "x": 2.5536771881281815,
+      "y": 62.21344729958666,
+      "z": 56.86637519187224
+    },
+    {
+      "time_ms": 980787,
+      "x": 2.5075671552044976,
+      "y": 61.91341002327896,
+      "z": 55.314018001803724
+    },
+    {
+      "time_ms": 985861,
+      "x": 2.5052173126715824,
+      "y": 62.37129002028036,
+      "z": 54.31661623277511
+    },
+    {
+      "time_ms": 990941,
+      "x": 2.5052173126715824,
+      "y": 62.41129002028036,
+      "z": 54.31661623277511
+    },
+    {
+      "time_ms": 996017,
+      "x": 2.5052173126715824,
+      "y": 62.49129002028036,
+      "z": 54.31661623277511
+    },
+    {
+      "time_ms": 1001082,
+      "x": 2.5052173126715824,
+      "y": 62.57129002028036,
+      "z": 54.31661623277511
+    },
+    {
+      "time_ms": 1006163,
+      "x": 2.5052173126715824,
+      "y": 62.57129002028036,
+      "z": 54.31661623277511
+    },
+    {
+      "time_ms": 1011239,
+      "x": 2.5052173126715824,
+      "y": 62.61129002028036,
+      "z": 54.31661623277511
+    },
+    {
+      "time_ms": 1016315,
+      "x": 2.5052173126715824,
+      "y": 62.61129002028036,
+      "z": 54.31661623277511
+    },
+    {
+      "time_ms": 1021385,
+      "x": 2.5052173126715824,
+      "y": 62.61129002028036,
+      "z": 54.31661623277511
+    },
+    {
+      "time_ms": 1026499,
+      "x": 2.5052173126715824,
+      "y": 62.61129002028036,
+      "z": 54.31661623277511
+    },
+    {
+      "time_ms": 1031565,
+      "x": 5.360260580656295,
+      "y": 62.742523494365805,
+      "z": 56.443503222277684
+    },
+    {
+      "time_ms": 1036723,
+      "x": 5.61380592929787,
+      "y": 62.217999999999996,
+      "z": 57.695489285608176
+    },
+    {
+      "time_ms": 1041839,
+      "x": 5.61380592929787,
+      "y": 62.257999999999996,
+      "z": 57.695489285608176
+    },
+    {
+      "time_ms": 1046921,
+      "x": 5.698198873693662,
+      "y": 62.57359999999999,
+      "z": 57.6979247542651
+    },
+    {
+      "time_ms": 1052008,
+      "x": 5.698198873693662,
+      "y": 62.61359999999999,
+      "z": 57.6979247542651
+    },
+    {
+      "time_ms": 1057095,
+      "x": 5.698198873693662,
+      "y": 62.61359999999999,
+      "z": 57.6979247542651
+    },
+    {
+      "time_ms": 1062183,
+      "x": 5.7,
+      "y": 62.61359999999999,
+      "z": 57.67683463142146
+    },
+    {
+      "time_ms": 1067262,
+      "x": 5.698198873693662,
+      "y": 62.61359999999999,
+      "z": 57.6979247542651
+    },
+    {
+      "time_ms": 1072335,
+      "x": 5.698198873693662,
+      "y": 62.61359999999999,
+      "z": 57.6979247542651
+    },
+    {
+      "time_ms": 1077407,
+      "x": 5.698198873693662,
+      "y": 62.61359999999999,
+      "z": 57.6979247542651
+    },
+    {
+      "time_ms": 1082481,
+      "x": 5.698198873693662,
+      "y": 62.61359999999999,
+      "z": 57.6979247542651
+    },
+    {
+      "time_ms": 1087554,
+      "x": 5.698198873693662,
+      "y": 62.61359999999999,
+      "z": 57.6979247542651
+    },
+    {
+      "time_ms": 1092621,
+      "x": 5.698198873693662,
+      "y": 62.61359999999999,
+      "z": 57.6979247542651
+    },
+    {
+      "time_ms": 1097693,
+      "x": 5.698198873693662,
+      "y": 62.61359999999999,
+      "z": 57.6979247542651
+    },
+    {
+      "time_ms": 1102782,
+      "x": 5.698198873693662,
+      "y": 62.61359999999999,
+      "z": 57.6979247542651
+    },
+    {
+      "time_ms": 1107850,
+      "x": 5.698198873693662,
+      "y": 62.61359999999999,
+      "z": 57.6979247542651
+    },
+    {
+      "time_ms": 1112921,
+      "x": 3.5193814195615207,
+      "y": 62.11808900770292,
+      "z": 55.34076635396426
+    },
+    {
+      "time_ms": 1117999,
+      "x": 3.4412057371919915,
+      "y": 62.48068272915252,
+      "z": 53.305501837107705
+    },
+    {
+      "time_ms": 1123081,
+      "x": 3.4412057371919915,
+      "y": 62.52068272915252,
+      "z": 53.305501837107705
+    },
+    {
+      "time_ms": 1128184,
+      "x": 3.4429888859214404,
+      "y": 62.60068272915252,
+      "z": 53.3
+    },
+    {
+      "time_ms": 1133273,
+      "x": 3.4412057371919915,
+      "y": 62.60068272915252,
+      "z": 53.305501837107705
+    },
+    {
+      "time_ms": 1138369,
+      "x": 3.4412057371919915,
+      "y": 62.60068272915252,
+      "z": 53.305501837107705
+    },
+    {
+      "time_ms": 1143449,
+      "x": 3.4412057371919915,
+      "y": 62.60068272915252,
+      "z": 53.305501837107705
+    },
+    {
+      "time_ms": 1148532,
+      "x": 3.4412057371919915,
+      "y": 62.60068272915252,
+      "z": 53.305501837107705
+    },
+    {
+      "time_ms": 1153603,
+      "x": 3.4429888859214404,
+      "y": 62.60068272915252,
+      "z": 53.3
+    },
+    {
+      "time_ms": 1158668,
+      "x": 3.4412057371919915,
+      "y": 62.60068272915252,
+      "z": 53.305501837107705
+    },
+    {
+      "time_ms": 1163747,
+      "x": 3.4412057371919915,
+      "y": 62.60068272915252,
+      "z": 53.305501837107705
+    },
+    {
+      "time_ms": 1168813,
+      "x": 3.4412057371919915,
+      "y": 62.60068272915252,
+      "z": 53.305501837107705
+    },
+    {
+      "time_ms": 1173881,
+      "x": 3.4412057371919915,
+      "y": 62.60068272915252,
+      "z": 53.305501837107705
+    },
+    {
+      "time_ms": 1178950,
+      "x": 3.4412057371919915,
+      "y": 62.60068272915252,
+      "z": 53.305501837107705
+    },
+    {
+      "time_ms": 1184018,
+      "x": 3.4412057371919915,
+      "y": 62.60068272915252,
+      "z": 53.305501837107705
+    },
+    {
+      "time_ms": 1189097,
+      "x": 3.4429888859214404,
+      "y": 62.60068272915252,
+      "z": 53.3
+    },
+    {
+      "time_ms": 1194180,
+      "x": 3.4412057371919915,
+      "y": 62.60068272915252,
+      "z": 53.305501837107705
+    },
+    {
+      "time_ms": 1199253,
+      "x": 3.4412057371919915,
+      "y": 62.60068272915252,
+      "z": 53.305501837107705
+    },
+    {
+      "time_ms": 1204339,
+      "x": 3.4412057371919915,
+      "y": 62.60068272915252,
+      "z": 53.305501837107705
+    },
+    {
+      "time_ms": 1209419,
+      "x": 3.4412057371919915,
+      "y": 62.60068272915252,
+      "z": 53.305501837107705
+    },
+    {
+      "time_ms": 1214493,
+      "x": 3.4412057371919915,
+      "y": 62.60068272915252,
+      "z": 53.305501837107705
+    },
+    {
+      "time_ms": 1219715,
+      "x": 3.4447720346508794,
+      "y": 62.52228272762664,
+      "z": 53.3
+    },
+    {
+      "time_ms": 1224878,
+      "x": 3.30933860082282,
+      "y": 62.389865119496754,
+      "z": 53.31509775591071
+    },
+    {
+      "time_ms": 1229969,
+      "x": 3.30933860082282,
+      "y": 62.42986511949675,
+      "z": 53.31509775591071
+    },
+    {
+      "time_ms": 1235089,
+      "x": 3.30933860082282,
+      "y": 62.50986511949675,
+      "z": 53.31509775591071
+    },
+    {
+      "time_ms": 1240159,
+      "x": 3.30933860082282,
+      "y": 62.50986511949675,
+      "z": 53.31509775591071
+    },
+    {
+      "time_ms": 1245249,
+      "x": 3.30933860082282,
+      "y": 62.54986511949675,
+      "z": 53.31509775591071
+    },
+    {
+      "time_ms": 1250350,
+      "x": 3.30933860082282,
+      "y": 62.58986511949675,
+      "z": 53.31509775591071
+    },
+    {
+      "time_ms": 1255419,
+      "x": 3.564637175591223,
+      "y": 62.14568723301762,
+      "z": 54.799877165554165
+    },
+    {
+      "time_ms": 1260505,
+      "x": 5.519611902748848,
+      "y": 61.74611657369303,
+      "z": 56.68061241253215
+    },
+    {
+      "time_ms": 1265583,
+      "x": 5.519611902748848,
+      "y": 61.78611657369303,
+      "z": 56.68061241253215
+    },
+    {
+      "time_ms": 1270650,
+      "x": 5.519611902748848,
+      "y": 61.86611657369303,
+      "z": 56.68061241253215
+    },
+    {
+      "time_ms": 1275731,
+      "x": 5.519611902748848,
+      "y": 61.906116573693026,
+      "z": 56.68061241253215
+    },
+    {
+      "time_ms": 1280839,
+      "x": 5.6964110490362545,
+      "y": 62.85671354009302,
+      "z": 57.089967698793316
+    },
+    {
+      "time_ms": 1285937,
+      "x": 5.613525543599811,
+      "y": 62.2234,
+      "z": 57.68763130439723
+    },
+    {
+      "time_ms": 1291016,
+      "x": 5.613525543599811,
+      "y": 62.2634,
+      "z": 57.68763130439723
+    },
+    {
+      "time_ms": 1296091,
+      "x": 5.610826530099596,
+      "y": 62.343399999999995,
+      "z": 57.7
+    },
+    {
+      "time_ms": 1301165,
+      "x": 5.613525543599811,
+      "y": 62.343399999999995,
+      "z": 57.68763130439723
+    },
+    {
+      "time_ms": 1306274,
+      "x": 5.613525543599811,
+      "y": 62.423399999999994,
+      "z": 57.68763130439723
+    },
+    {
+      "time_ms": 1311347,
+      "x": 5.613525543599811,
+      "y": 62.46339999999999,
+      "z": 57.68763130439723
+    },
+    {
+      "time_ms": 1316411,
+      "x": 5.695396429167489,
+      "y": 62.62822799940108,
+      "z": 57.61833492830983
+    },
+    {
+      "time_ms": 1321488,
+      "x": 5.695396429167489,
+      "y": 62.62822799940108,
+      "z": 57.61833492830983
+    },
+    {
+      "time_ms": 1326557,
+      "x": 5.695396429167489,
+      "y": 62.62822799940108,
+      "z": 57.61833492830983
+    },
+    {
+      "time_ms": 1331625,
+      "x": 5.695396429167489,
+      "y": 62.62822799940108,
+      "z": 57.61833492830983
+    },
+    {
+      "time_ms": 1336690,
+      "x": 5.695396429167489,
+      "y": 62.62822799940108,
+      "z": 57.61833492830983
+    },
+    {
+      "time_ms": 1341755,
+      "x": 5.7,
+      "y": 62.62822799940108,
+      "z": 57.59775018270894
+    },
+    {
+      "time_ms": 1346816,
+      "x": 5.695396429167489,
+      "y": 62.62822799940108,
+      "z": 57.61833492830983
+    },
+    {
+      "time_ms": 1351910,
+      "x": 5.695396429167489,
+      "y": 62.62822799940108,
+      "z": 57.61833492830983
+    },
+    {
+      "time_ms": 1356975,
+      "x": 5.695396429167489,
+      "y": 62.62822799940108,
+      "z": 57.61833492830983
+    },
+    {
+      "time_ms": 1362043,
+      "x": 5.7,
+      "y": 62.62822799940108,
+      "z": 57.59775018270894
+    },
+    {
+      "time_ms": 1367107,
+      "x": 5.695396429167489,
+      "y": 62.62822799940108,
+      "z": 57.61833492830983
+    },
+    {
+      "time_ms": 1372179,
+      "x": 5.7,
+      "y": 62.62822799940108,
+      "z": 57.59775018270894
+    },
+    {
+      "time_ms": 1377246,
+      "x": 5.695396429167489,
+      "y": 62.62822799940108,
+      "z": 57.61833492830983
+    },
+    {
+      "time_ms": 1382321,
+      "x": 5.695396429167489,
+      "y": 62.62822799940108,
+      "z": 57.61833492830983
+    },
+    {
+      "time_ms": 1387389,
+      "x": 5.695396429167489,
+      "y": 62.62822799940108,
+      "z": 57.61833492830983
+    },
+    {
+      "time_ms": 1392459,
+      "x": 5.695396429167489,
+      "y": 62.62822799940108,
+      "z": 57.61833492830983
+    },
+    {
+      "time_ms": 1397531,
+      "x": 5.695396429167489,
+      "y": 62.62822799940108,
+      "z": 57.61833492830983
+    },
+    {
+      "time_ms": 1402593,
+      "x": 5.7,
+      "y": 62.62822799940108,
+      "z": 57.61469311144717
+    },
+    {
+      "time_ms": 1407658,
+      "x": 5.695396429167489,
+      "y": 62.62822799940108,
+      "z": 57.61833492830983
+    },
+    {
+      "time_ms": 1412729,
+      "x": 5.695396429167489,
+      "y": 62.62822799940108,
+      "z": 57.61833492830983
+    },
+    {
+      "time_ms": 1417875,
+      "x": 5.695396429167489,
+      "y": 62.62822799940108,
+      "z": 57.61833492830983
+    },
+    {
+      "time_ms": 1422962,
+      "x": 5.695396429167489,
+      "y": 62.62822799940108,
+      "z": 57.61833492830983
+    },
+    {
+      "time_ms": 1428036,
+      "x": 3.3860303199824036,
+      "y": 61.81985908710195,
+      "z": 55.04681685871285
+    },
+    {
+      "time_ms": 1433099,
+      "x": 3.456024714402375,
+      "y": 62.64894273459609,
+      "z": 53.31565740358283
+    },
+    {
+      "time_ms": 1438166,
+      "x": 3.456024714402375,
+      "y": 62.64894273459609,
+      "z": 53.31565740358283
+    },
+    {
+      "time_ms": 1443263,
+      "x": 3.456024714402375,
+      "y": 62.64894273459609,
+      "z": 53.31565740358283
+    },
+    {
+      "time_ms": 1448333,
+      "x": 3.456024714402375,
+      "y": 62.64894273459609,
+      "z": 53.31565740358283
+    },
+    {
+      "time_ms": 1453409,
+      "x": 3.456024714402375,
+      "y": 62.64894273459609,
+      "z": 53.31565740358283
+    },
+    {
+      "time_ms": 1458474,
+      "x": 3.307093817174685,
+      "y": 62.47812512494033,
+      "z": 53.31311550576339
+    },
+    {
+      "time_ms": 1463539,
+      "x": 3.307093817174685,
+      "y": 62.558125124940325,
+      "z": 53.31311550576339
+    },
+    {
+      "time_ms": 1468601,
+      "x": 3.307093817174685,
+      "y": 62.598125124940324,
+      "z": 53.31311550576339
+    },
+    {
+      "time_ms": 1473670,
+      "x": 3.307093817174685,
+      "y": 62.63812512494032,
+      "z": 53.31311550576339
+    },
+    {
+      "time_ms": 1478733,
+      "x": 3.307093817174685,
+      "y": 62.63812512494032,
+      "z": 53.31311550576339
+    },
+    {
+      "time_ms": 1483804,
+      "x": 3.307093817174685,
+      "y": 62.63812512494032,
+      "z": 53.31311550576339
+    },
+    {
+      "time_ms": 1488870,
+      "x": 3.307093817174685,
+      "y": 62.63812512494032,
+      "z": 53.31311550576339
+    },
+    {
+      "time_ms": 1493978,
+      "x": 3.307093817174685,
+      "y": 62.63812512494032,
+      "z": 53.31311550576339
+    },
+    {
+      "time_ms": 1499043,
+      "x": 3.307093817174685,
+      "y": 62.63812512494032,
+      "z": 53.31311550576339
+    },
+    {
+      "time_ms": 1504112,
+      "x": 3.307093817174685,
+      "y": 62.63812512494032,
+      "z": 53.31311550576339
+    },
+    {
+      "time_ms": 1509177,
+      "x": 3.307093817174685,
+      "y": 62.63812512494032,
+      "z": 53.31311550576339
+    },
+    {
+      "time_ms": 1514250,
+      "x": 3.307093817174685,
+      "y": 62.63812512494032,
+      "z": 53.31311550576339
+    },
+    {
+      "time_ms": 1519315,
+      "x": 3.307093817174685,
+      "y": 62.63812512494032,
+      "z": 53.31311550576339
+    },
+    {
+      "time_ms": 1524392,
+      "x": 3.307093817174685,
+      "y": 62.63812512494032,
+      "z": 53.31311550576339
+    },
+    {
+      "time_ms": 1529479,
+      "x": 3.307093817174685,
+      "y": 62.63812512494032,
+      "z": 53.31311550576339
+    },
+    {
+      "time_ms": 1534567,
+      "x": 3.307093817174685,
+      "y": 62.63812512494032,
+      "z": 53.31311550576339
+    },
+    {
+      "time_ms": 1539636,
+      "x": 3.307093817174685,
+      "y": 62.63812512494032,
+      "z": 53.31311550576339
+    },
+    {
+      "time_ms": 1544699,
+      "x": 3.307093817174685,
+      "y": 62.63812512494032,
+      "z": 53.31311550576339
+    },
+    {
+      "time_ms": 1549769,
+      "x": 4.590562511305146,
+      "y": 61,
+      "z": 54.442384005303616
+    },
+    {
+      "time_ms": 1554843,
+      "x": 4.590562511305146,
+      "y": 61,
+      "z": 54.442384005303616
+    },
+    {
+      "time_ms": 1559923,
+      "x": 4.590562511305146,
+      "y": 61,
+      "z": 54.442384005303616
+    },
+    {
+      "time_ms": 1564989,
+      "x": 6.579649573320839,
+      "y": 60,
+      "z": 55.39228647625648
+    },
+    {
+      "time_ms": 1570056,
+      "x": 6.579649573320839,
+      "y": 60,
+      "z": 55.39228647625648
+    },
+    {
+      "time_ms": 1575124,
+      "x": 6.579649573320839,
+      "y": 60,
+      "z": 55.39228647625648
+    },
+    {
+      "time_ms": 1580190,
+      "x": 6.579649573320839,
+      "y": 60,
+      "z": 55.39228647625648
+    },
+    {
+      "time_ms": 1585255,
+      "x": 6.579649573320839,
+      "y": 60,
+      "z": 55.39228647625648
+    },
+    {
+      "time_ms": 1590321,
+      "x": 6.579649573320839,
+      "y": 60,
+      "z": 55.39228647625648
+    },
+    {
+      "time_ms": 1595386,
+      "x": 6.579649573320839,
+      "y": 60,
+      "z": 55.39228647625648
+    },
+    {
+      "time_ms": 1600452,
+      "x": 6.579649573320839,
+      "y": 60,
+      "z": 55.39228647625648
+    },
+    {
+      "time_ms": 1605533,
+      "x": 6.579649573320839,
+      "y": 60,
+      "z": 55.39228647625648
+    },
+    {
+      "time_ms": 1610595,
+      "x": 6.579649573320839,
+      "y": 60,
+      "z": 55.39228647625648
+    },
+    {
+      "time_ms": 1615678,
+      "x": 6.579649573320839,
+      "y": 60,
+      "z": 55.39228647625648
+    },
+    {
+      "time_ms": 1620760,
+      "x": 6.579649573320839,
+      "y": 60,
+      "z": 55.39228647625648
+    },
+    {
+      "time_ms": 1625836,
+      "x": 6.579649573320839,
+      "y": 60,
+      "z": 55.39228647625648
+    },
+    {
+      "time_ms": 1630903,
+      "x": 6.579649573320839,
+      "y": 60,
+      "z": 55.39228647625648
+    },
+    {
+      "time_ms": 1635975,
+      "x": 6.579649573320839,
+      "y": 60,
+      "z": 55.39228647625648
+    },
+    {
+      "time_ms": 1641048,
+      "x": 6.579649573320839,
+      "y": 60,
+      "z": 55.39228647625648
+    },
+    {
+      "time_ms": 1646182,
+      "x": 6.579649573320839,
+      "y": 60,
+      "z": 55.39228647625648
+    },
+    {
+      "time_ms": 1651253,
+      "x": 6.579649573320839,
+      "y": 60,
+      "z": 55.39228647625648
+    },
+    {
+      "time_ms": 1656326,
+      "x": 6.579649573320839,
+      "y": 60,
+      "z": 55.39228647625648
+    },
+    {
+      "time_ms": 1661396,
+      "x": 6.579649573320839,
+      "y": 60,
+      "z": 55.39228647625648
+    },
+    {
+      "time_ms": 1666709,
+      "x": 3.5,
+      "y": 74,
+      "z": 9.5
+    },
+    {
+      "time_ms": 1672012,
+      "x": 0.7129492956894081,
+      "y": 74,
+      "z": 9.375650238076235
+    },
+    {
+      "time_ms": 1677348,
+      "x": 0.7583248627809179,
+      "y": 74,
+      "z": 9.314381285460419
+    },
+    {
+      "time_ms": 1682746,
+      "x": 0.808141586763091,
+      "y": 74,
+      "z": 9.3
+    },
+    {
+      "time_ms": 1688029,
+      "x": 0.7583248627809179,
+      "y": 74,
+      "z": 9.314381285460419
+    },
+    {
+      "time_ms": 1693307,
+      "x": 0.75068199869166,
+      "y": 74,
+      "z": 9.3
+    },
+    {
+      "time_ms": 1698605,
+      "x": 0.7583248627809179,
+      "y": 74,
+      "z": 9.314381285460419
+    },
+    {
+      "time_ms": 1703921,
+      "x": 0.7583248627809179,
+      "y": 74,
+      "z": 9.314381285460419
+    },
+    {
+      "time_ms": 1709279,
+      "x": 0.7583248627809179,
+      "y": 74,
+      "z": 9.314381285460419
+    },
+    {
+      "time_ms": 1714581,
+      "x": 0.7583248627809179,
+      "y": 74,
+      "z": 9.314381285460419
+    },
+    {
+      "time_ms": 1719871,
+      "x": 0.7583248627809179,
+      "y": 74,
+      "z": 9.314381285460419
+    },
+    {
+      "time_ms": 1725203,
+      "x": 0.7583248627809179,
+      "y": 74,
+      "z": 9.314381285460419
+    },
+    {
+      "time_ms": 1730635,
+      "x": 0.7583248627809179,
+      "y": 74,
+      "z": 9.314381285460419
+    },
+    {
+      "time_ms": 1736060,
+      "x": 0.808141586763091,
+      "y": 74,
+      "z": 9.3
+    },
+    {
+      "time_ms": 1741373,
+      "x": 0.5001023397839844,
+      "y": 74,
+      "z": 8.686841620620529
+    },
+    {
+      "time_ms": 1746658,
+      "x": 1.3012030022169518,
+      "y": 74,
+      "z": 8.53708262025999
+    },
+    {
+      "time_ms": 1752008,
+      "x": 1.507563569947471,
+      "y": 73,
+      "z": 7.456241210458216
+    },
+    {
+      "time_ms": 1757433,
+      "x": 1.507563569947471,
+      "y": 72,
+      "z": 7.456241210458216
+    },
+    {
+      "time_ms": 1762798,
+      "x": 1.507563569947471,
+      "y": 72,
+      "z": 7.456241210458216
+    },
+    {
+      "time_ms": 1768149,
+      "x": 1.507563569947471,
+      "y": 71,
+      "z": 7.456241210458216
+    },
+    {
+      "time_ms": 1773490,
+      "x": 1.507563569947471,
+      "y": 71,
+      "z": 7.456241210458216
+    },
+    {
+      "time_ms": 1778850,
+      "x": 1.507563569947471,
+      "y": 71,
+      "z": 7.456241210458216
+    },
+    {
+      "time_ms": 1784242,
+      "x": 1.507563569947471,
+      "y": 70,
+      "z": 7.456241210458216
+    },
+    {
+      "time_ms": 1789643,
+      "x": 1.507563569947471,
+      "y": 70,
+      "z": 7.456241210458216
+    },
+    {
+      "time_ms": 1795002,
+      "x": 1.501057171097375,
+      "y": 70,
+      "z": 4.5
+    },
+    {
+      "time_ms": 1800342,
+      "x": 3.24567118367955,
+      "y": 70.41999998688698,
+      "z": 4.312939355477057
+    },
+    {
+      "time_ms": 1805638,
+      "x": -0.5,
+      "y": 70,
+      "z": 7.5
+    },
+    {
+      "time_ms": 1810976,
+      "x": 4.5,
+      "y": 70,
+      "z": 5.5
+    },
+    {
+      "time_ms": 1816372,
+      "x": 5.405773269596847,
+      "y": 70,
+      "z": 3.4691781585545693
+    },
+    {
+      "time_ms": 1821824,
+      "x": 3.3,
+      "y": 70.1863679808445,
+      "z": 3.5862691111307754
+    },
+    {
+      "time_ms": 1827437,
+      "x": 6.5,
+      "y": 70,
+      "z": 3.496870533715645
+    },
+    {
+      "time_ms": 1832855,
+      "x": 6.5,
+      "y": 70,
+      "z": 3.496870533715645
+    },
+    {
+      "time_ms": 1838268,
+      "x": 6.5,
+      "y": 70,
+      "z": 3.496870533715645
+    },
+    {
+      "time_ms": 1843653,
+      "x": 6.633238659864924,
+      "y": 70.3415999853611,
+      "z": 2.3004452863815823
+    },
+    {
+      "time_ms": 1848989,
+      "x": 6.633238659864924,
+      "y": 70.3415999853611,
+      "z": 2.3004452863815823
+    },
+    {
+      "time_ms": 1854325,
+      "x": 6.629174815954194,
+      "y": 70.3415999853611,
+      "z": 2.3
+    },
+    {
+      "time_ms": 1859537,
+      "x": 3.472525635913985,
+      "y": 71,
+      "z": -0.5278070496278735
+    },
+    {
+      "time_ms": 1864830,
+      "x": 1.2514420911722535,
+      "y": 71,
+      "z": 0.6994778648275107
+    },
+    {
+      "time_ms": 1870048,
+      "x": 1.5,
+      "y": 71,
+      "z": -0.3119530278685561
+    },
+    {
+      "time_ms": 1875344,
+      "x": 1.5,
+      "y": 71,
+      "z": 1.4668256509521986
+    },
+    {
+      "time_ms": 1880672,
+      "x": -1.577488316901777,
+      "y": 71,
+      "z": 0.3073815769834469
+    },
+    {
+      "time_ms": 1885932,
+      "x": -6.5,
+      "y": 71,
+      "z": 1.5328838899793804
+    },
+    {
+      "time_ms": 1891178,
+      "x": -10.333782661666506,
+      "y": 71,
+      "z": 1.5
+    },
+    {
+      "time_ms": 1896432,
+      "x": -10.333782661666506,
+      "y": 71,
+      "z": 1.5
+    },
+    {
+      "time_ms": 1901680,
+      "x": -10.333782661666506,
+      "y": 71,
+      "z": 1.5
+    },
+    {
+      "time_ms": 1906961,
+      "x": -9.641188629439108,
+      "y": 71,
+      "z": 2.3312587199452843
+    },
+    {
+      "time_ms": 1912231,
+      "x": -10.832182540688127,
+      "y": 71,
+      "z": 1.3117964641589546
+    },
+    {
+      "time_ms": 1917476,
+      "x": -9.696130402700351,
+      "y": 71,
+      "z": 2.5
+    },
+    {
+      "time_ms": 1922754,
+      "x": -10.489659116531547,
+      "y": 71.41999998688698,
+      "z": 0.31298258381715444
+    },
+    {
+      "time_ms": 1928256,
+      "x": -10.490978090776435,
+      "y": 71,
+      "z": 0.3
+    },
+    {
+      "time_ms": 1933517,
+      "x": -10.509466098384289,
+      "y": 71.41999998688698,
+      "z": 0.3
+    },
+    {
+      "time_ms": 1938783,
+      "x": -10.412911543944325,
+      "y": 71,
+      "z": 0.31811463101351256
+    },
+    {
+      "time_ms": 1944041,
+      "x": -10.386750258349204,
+      "y": 71.41999998688698,
+      "z": 0.30108627511184943
+    },
+    {
+      "time_ms": 1949273,
+      "x": -9.5,
+      "y": 71,
+      "z": 1.5
+    },
+    {
+      "time_ms": 1954571,
+      "x": -10.5426281494526,
+      "y": 71.1863679808445,
+      "z": 0.3158517354147106
+    },
+    {
+      "time_ms": 1959949,
+      "x": -10.539955444039476,
+      "y": 71.10796797931862,
+      "z": 0.3
+    },
+    {
+      "time_ms": 1965262,
+      "x": -10.5426281494526,
+      "y": 71.1863679808445,
+      "z": 0.3158517354147106
+    },
+    {
+      "time_ms": 1970514,
+      "x": -10.541291796746034,
+      "y": 71.1863679808445,
+      "z": 0.3
+    },
+    {
+      "time_ms": 1975750,
+      "x": -10.5426281494526,
+      "y": 71.1863679808445,
+      "z": 0.3158517354147106
+    },
+    {
+      "time_ms": 1981099,
+      "x": -10.5426281494526,
+      "y": 71.1863679808445,
+      "z": 0.3158517354147106
+    },
+    {
+      "time_ms": 1986575,
+      "x": -10.538685710512476,
+      "y": 71,
+      "z": 0.3
+    },
+    {
+      "time_ms": 1992151,
+      "x": -10.523226650528782,
+      "y": 71.41999998688698,
+      "z": 0.3
+    },
+    {
+      "time_ms": 1997467,
+      "x": -10.493516003392031,
+      "y": 71,
+      "z": 0.3209211902549098
+    },
+    {
+      "time_ms": 2002740,
+      "x": -10.380763420792787,
+      "y": 71,
+      "z": 0.3
+    },
+    {
+      "time_ms": 2008042,
+      "x": -10.364859486611257,
+      "y": 71,
+      "z": 0.3187590282031384
+    },
+    {
+      "time_ms": 2013312,
+      "x": -10.33828775695975,
+      "y": 71,
+      "z": 0.3347663210132688
+    },
+    {
+      "time_ms": 2018703,
+      "x": -10.355760761809673,
+      "y": 71,
+      "z": 0.3
+    },
+    {
+      "time_ms": 2024067,
+      "x": -10.341875121592944,
+      "y": 71,
+      "z": 0.30954012005100534
+    },
+    {
+      "time_ms": 2029376,
+      "x": -10.330957148674383,
+      "y": 71,
+      "z": 0.3051525307625251
+    },
+    {
+      "time_ms": 2034881,
+      "x": -10.320334947574205,
+      "y": 71,
+      "z": 0.30089994400796516
+    },
+    {
+      "time_ms": 2040294,
+      "x": -10.296029273906141,
+      "y": 71,
+      "z": 0.3178865026033227
+    },
+    {
+      "time_ms": 2045585,
+      "x": -10.28646085936039,
+      "y": 71,
+      "z": 0.31398293882843603
+    },
+    {
+      "time_ms": 2050985,
+      "x": -10.277200005431336,
+      "y": 71,
+      "z": 0.31019070068799187
+    },
+    {
+      "time_ms": 2056404,
+      "x": -10.296570127231798,
+      "y": 71,
+      "z": 0.3
+    },
+    {
+      "time_ms": 2061676,
+      "x": -10.484455556688394,
+      "y": 71,
+      "z": 0.30061586461764894
+    },
+    {
+      "time_ms": 2067008,
+      "x": -10.469265153799936,
+      "y": 71,
+      "z": 0.3
+    },
+    {
+      "time_ms": 2072270,
+      "x": -10.43915966944553,
+      "y": 71,
+      "z": 0.3089477692171154
+    },
+    {
+      "time_ms": 2077525,
+      "x": -10.43915966944553,
+      "y": 71,
+      "z": 0.3089477692171154
+    },
+    {
+      "time_ms": 2082777,
+      "x": -10.409877286959038,
+      "y": 71,
+      "z": 0.32359163308005395
+    },
+    {
+      "time_ms": 2088072,
+      "x": -10.409877286959038,
+      "y": 71,
+      "z": 0.32359163308005395
+    },
+    {
+      "time_ms": 2093445,
+      "x": -10.41546373847962,
+      "y": 71,
+      "z": 0.3
+    },
+    {
+      "time_ms": 2098716,
+      "x": -10.396790501706112,
+      "y": 71,
+      "z": 0.3183722157263802
+    },
+    {
+      "time_ms": 2103987,
+      "x": -10.396790501706112,
+      "y": 71,
+      "z": 0.3183722157263802
+    },
+    {
+      "time_ms": 2109237,
+      "x": -10.3841144736969,
+      "y": 71,
+      "z": 0.3133358445464449
+    },
+    {
+      "time_ms": 2114520,
+      "x": -10.3841144736969,
+      "y": 71,
+      "z": 0.3133358445464449
+    },
+    {
+      "time_ms": 2119842,
+      "x": -10.3841144736969,
+      "y": 71,
+      "z": 0.3133358445464449
+    },
+    {
+      "time_ms": 2125150,
+      "x": -10.3841144736969,
+      "y": 71,
+      "z": 0.3133358445464449
+    },
+    {
+      "time_ms": 2130399,
+      "x": -10.3841144736969,
+      "y": 71,
+      "z": 0.3133358445464449
+    },
+    {
+      "time_ms": 2135645,
+      "x": -10.360025764781815,
+      "y": 71,
+      "z": 0.30374646671310346
+    },
+    {
+      "time_ms": 2140900,
+      "x": -10.34515942500589,
+      "y": 71,
+      "z": 0.3244400005260313
+    },
+    {
+      "time_ms": 2146298,
+      "x": -10.33882418691401,
+      "y": 71,
+      "z": 0.3
+    },
+    {
+      "time_ms": 2151667,
+      "x": -10.33882418691401,
+      "y": 71,
+      "z": 0.3
+    },
+    {
+      "time_ms": 2157067,
+      "x": -10.33882418691401,
+      "y": 71,
+      "z": 0.3
+    },
+    {
+      "time_ms": 2162327,
+      "x": -10.328586463232904,
+      "y": 71,
+      "z": 0.3
+    },
+    {
+      "time_ms": 2167619,
+      "x": -10.31280181242811,
+      "y": 71,
+      "z": 0.31133798583246225
+    },
+    {
+      "time_ms": 2172901,
+      "x": -10.302739379369559,
+      "y": 71,
+      "z": 0.3072635784644953
+    },
+    {
+      "time_ms": 2178161,
+      "x": -10.293039716661106,
+      "y": 71,
+      "z": 0.30333606173462685
+    },
+    {
+      "time_ms": 2183485,
+      "x": -10.299244291937631,
+      "y": 71,
+      "z": 0.3
+    },
+    {
+      "time_ms": 2188892,
+      "x": -10.311095030715796,
+      "y": 71,
+      "z": 0.3
+    },
+    {
+      "time_ms": 2194141,
+      "x": -10.293039716661106,
+      "y": 71,
+      "z": 0.30333606173462685
+    },
+    {
+      "time_ms": 2199380,
+      "x": -10.278941649036614,
+      "y": 71,
+      "z": 0.3245604554657858
+    },
+    {
+      "time_ms": 2204633,
+      "x": -10.285533631586636,
+      "y": 71,
+      "z": 0.3
+    },
+    {
+      "time_ms": 2209883,
+      "x": -10.278941649036614,
+      "y": 71,
+      "z": 0.3245604554657858
+    },
+    {
+      "time_ms": 2215179,
+      "x": -10.278941649036614,
+      "y": 71,
+      "z": 0.3245604554657858
+    },
+    {
+      "time_ms": 2220570,
+      "x": -10.29812431825718,
+      "y": 71,
+      "z": 0.3
+    },
+    {
+      "time_ms": 2225905,
+      "x": -10.278941649036614,
+      "y": 71,
+      "z": 0.3245604554657858
+    },
+    {
+      "time_ms": 2231146,
+      "x": -10.484302521825352,
+      "y": 71,
+      "z": 0.31851316734988155
+    },
+    {
+      "time_ms": 2236401,
+      "x": -10.469075960777415,
+      "y": 71,
+      "z": 0.31264729369952443
+    },
+    {
+      "time_ms": 2241649,
+      "x": -10.469075960777415,
+      "y": 71,
+      "z": 0.31264729369952443
+    },
+    {
+      "time_ms": 2247118,
+      "x": -10.48289862702018,
+      "y": 71.41999998688698,
+      "z": 0.3
+    },
+    {
+      "time_ms": 2252387,
+      "x": -10.469075960777415,
+      "y": 71,
+      "z": 0.31264729369952443
+    },
+    {
+      "time_ms": 2257772,
+      "x": -10.469075960777415,
+      "y": 71,
+      "z": 0.31264729369952443
+    },
+    {
+      "time_ms": 2263055,
+      "x": -10.454336914628573,
+      "y": 71,
+      "z": 0.30692487141183206
+    },
+    {
+      "time_ms": 2268304,
+      "x": -10.440071593387497,
+      "y": 71,
+      "z": 0.30138637111016464
+    },
+    {
+      "time_ms": 2273665,
+      "x": -10.424351736524823,
+      "y": 71,
+      "z": 0.3214392138068261
+    },
+    {
+      "time_ms": 2279014,
+      "x": -10.335983792459286,
+      "y": 71,
+      "z": 0.3085588734998863
+    },
+    {
+      "time_ms": 2284564,
+      "x": -10.31475069826688,
+      "y": 71,
+      "z": 0.30002596429614586
+    },
+    {
+      "time_ms": 2290261,
+      "x": -10.453886664299592,
+      "y": 71.7531999805212,
+      "z": 0.3
+    },
+    {
+      "time_ms": 2295582,
+      "x": -10.25053358701081,
+      "y": 71,
+      "z": 0.3
+    },
+    {
+      "time_ms": 2300983,
+      "x": -10.227897877285988,
+      "y": 71,
+      "z": 0.31465822351379885
+    },
+    {
+      "time_ms": 2306286,
+      "x": -10.213410639896205,
+      "y": 71,
+      "z": 0.3086592976672343
+    },
+    {
+      "time_ms": 2311672,
+      "x": -10.20653260017706,
+      "y": 71,
+      "z": 0.3058112160357054
+    },
+    {
+      "time_ms": 2317051,
+      "x": -10.199898537824168,
+      "y": 71,
+      "z": 0.3030641613658849
+    },
+    {
+      "time_ms": 2322708,
+      "x": -10.418326636866853,
+      "y": 71.7531999805212,
+      "z": 0.3
+    },
+    {
+      "time_ms": 2328302,
+      "x": -10.193219627118511,
+      "y": 71.41999998688698,
+      "z": 0.3
+    },
+    {
+      "time_ms": 2333629,
+      "x": -10.151069771875074,
+      "y": 71,
+      "z": 0.3071624840198177
+    },
+    {
+      "time_ms": 2338954,
+      "x": -10.141609111223232,
+      "y": 71,
+      "z": 0.30320405021336183
+    },
+    {
+      "time_ms": 2344267,
+      "x": -10.137062484984389,
+      "y": 71,
+      "z": 0.3013016975547675
+    },
+    {
+      "time_ms": 2349666,
+      "x": -10.123802668246997,
+      "y": 71,
+      "z": 0.3231583629088234
+    },
+    {
+      "time_ms": 2355234,
+      "x": -10.302325967773925,
+      "y": 71.41999998688698,
+      "z": 0.3
+    },
+    {
+      "time_ms": 2360697,
+      "x": -10.118681731052856,
+      "y": 71,
+      "z": 0.3209007096535653
+    },
+    {
+      "time_ms": 2366039,
+      "x": -10.114879023317558,
+      "y": 71,
+      "z": 0.319286169566346
+    },
+    {
+      "time_ms": 2371523,
+      "x": -10.500048870852073,
+      "y": 71,
+      "z": 0.3
+    },
+    {
+      "time_ms": 2376837,
+      "x": -10.605665723679657,
+      "y": 71,
+      "z": 0.30157930034380226
+    },
+    {
+      "time_ms": 2382109,
+      "x": -10.527698249223443,
+      "y": 71.41999998688698,
+      "z": 0.3
+    },
+    {
+      "time_ms": 2387396,
+      "x": -10.53552324606615,
+      "y": 71,
+      "z": 0.30064701233792523
+    },
+    {
+      "time_ms": 2392850,
+      "x": -10.533344224143711,
+      "y": 71,
+      "z": 0.3
+    },
+    {
+      "time_ms": 2398408,
+      "x": -10.511078241226448,
+      "y": 71.7531999805212,
+      "z": 0.3
+    },
+    {
+      "time_ms": 2403709,
+      "x": -10.518891157875013,
+      "y": 71,
+      "z": 0.3199499665782026
+    },
+    {
+      "time_ms": 2409058,
+      "x": -10.502614206919356,
+      "y": 71,
+      "z": 0.3
+    },
+    {
+      "time_ms": 2414368,
+      "x": -10.467705091618843,
+      "y": 71.41999998688698,
+      "z": 0.3
+    },
+    {
+      "time_ms": 2419753,
+      "x": -10.455736449812685,
+      "y": 71,
+      "z": 0.32174509141633045
+    },
+    {
+      "time_ms": 2425220,
+      "x": -10.441311049015942,
+      "y": 71,
+      "z": 0.31609203543013026
+    },
+    {
+      "time_ms": 2430522,
+      "x": -10.429602353618586,
+      "y": 71,
+      "z": 0.3
+    }
+  ],
+  "distance_traveled": 370.2677273670716,
+  "deaths": 0,
+  "low_health_events": 91,
+  "times_returned_home": 1,
+  "total_llm_calls": 150,
+  "total_llm_time_ms": 317419,
+  "avg_llm_response_ms": 2116,
+  "unique_item_count": 7,
+  "survival_time_minutes": 41,
+  "action_success_rate": 35
+}

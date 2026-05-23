@@ -1,0 +1,6824 @@
+{
+  "session_id": 2,
+  "model": "claude-haiku",
+  "start_time": 1779564631237,
+  "end_time": 1779567730915,
+  "survival_time_ms": 3099678,
+  "unique_items": [
+    "iron_axe",
+    "iron_pickaxe",
+    "cooked_beef",
+    "cobblestone",
+    "crafting_table",
+    "dirt",
+    "coal"
+  ],
+  "total_items_collected": 16,
+  "items_timeline": [
+    {
+      "time_ms": 10162,
+      "item": "iron_axe",
+      "unique_count": 1
+    },
+    {
+      "time_ms": 10162,
+      "item": "iron_pickaxe",
+      "unique_count": 2
+    },
+    {
+      "time_ms": 10162,
+      "item": "cooked_beef",
+      "unique_count": 3
+    },
+    {
+      "time_ms": 10162,
+      "item": "cobblestone",
+      "unique_count": 4
+    },
+    {
+      "time_ms": 10163,
+      "item": "crafting_table",
+      "unique_count": 5
+    },
+    {
+      "time_ms": 10164,
+      "item": "dirt",
+      "unique_count": 6
+    },
+    {
+      "time_ms": 10166,
+      "item": "coal",
+      "unique_count": 7
+    }
+  ],
+  "total_actions": 289,
+  "successful_actions": 0,
+  "action_counts": {
+    "craft": 154,
+    "wait": 31,
+    "gather": 104
+  },
+  "action_log": [
+    {
+      "time_ms": 10167,
+      "action": "craft",
+      "target": "furnace",
+      "reason": "need a furnace to smelt and cook food.",
+      "success": false,
+      "health": 20,
+      "hunger": 20,
+      "danger": "safe",
+      "llm_ms": 2594
+    },
+    {
+      "time_ms": 13736,
+      "action": "craft",
+      "target": "furnace",
+      "reason": "need a furnace to smelt and cook food",
+      "success": false,
+      "health": 20,
+      "hunger": 20,
+      "danger": "safe",
+      "llm_ms": 3560
+    },
+    {
+      "time_ms": 15329,
+      "action": "craft",
+      "target": "furnace",
+      "reason": "need a furnace to smelt and cook food.",
+      "success": false,
+      "health": 20,
+      "hunger": 20,
+      "danger": "safe",
+      "llm_ms": 1590
+    },
+    {
+      "time_ms": 17720,
+      "action": "wait",
+      "target": null,
+      "reason": "It is night and I am already home, waiting for daytime.",
+      "success": false,
+      "health": 20,
+      "hunger": 20,
+      "danger": "safe",
+      "llm_ms": 2390
+    },
+    {
+      "time_ms": 19401,
+      "action": "craft",
+      "target": "furnace",
+      "reason": "need a furnace to smelt and cook food.",
+      "success": false,
+      "health": 20,
+      "hunger": 20,
+      "danger": "safe",
+      "llm_ms": 1678
+    },
+    {
+      "time_ms": 21035,
+      "action": "craft",
+      "target": "furnace",
+      "reason": "need a furnace to smelt and cook food.",
+      "success": false,
+      "health": 20,
+      "hunger": 20,
+      "danger": "safe",
+      "llm_ms": 1631
+    },
+    {
+      "time_ms": 22573,
+      "action": "craft",
+      "target": "furnace",
+      "reason": "need a furnace to smelt and cook food",
+      "success": false,
+      "health": 20,
+      "hunger": 20,
+      "danger": "safe",
+      "llm_ms": 1535
+    },
+    {
+      "time_ms": 49167,
+      "action": "gather",
+      "target": "oak_log",
+      "reason": "gather wood for crafting while waiting for daytime",
+      "success": false,
+      "health": 20,
+      "hunger": 20,
+      "danger": "safe",
+      "llm_ms": 1568
+    },
+    {
+      "time_ms": 51016,
+      "action": "craft",
+      "target": "furnace",
+      "reason": "need a furnace to smelt and cook food.",
+      "success": false,
+      "health": 20,
+      "hunger": 20,
+      "danger": "safe",
+      "llm_ms": 1846
+    },
+    {
+      "time_ms": 52866,
+      "action": "wait",
+      "target": null,
+      "reason": "It's night and I am home, so I will wait until daytime.",
+      "success": false,
+      "health": 20,
+      "hunger": 20,
+      "danger": "safe",
+      "llm_ms": 1848
+    },
+    {
+      "time_ms": 54525,
+      "action": "craft",
+      "target": "furnace",
+      "reason": "have materials and need a furnace to smelt and cook food.",
+      "success": false,
+      "health": 20,
+      "hunger": 20,
+      "danger": "safe",
+      "llm_ms": 1657
+    },
+    {
+      "time_ms": 56497,
+      "action": "craft",
+      "target": "furnace",
+      "reason": "need a furnace to smelt and cook food",
+      "success": false,
+      "health": 20,
+      "hunger": 20,
+      "danger": "safe",
+      "llm_ms": 1970
+    },
+    {
+      "time_ms": 58179,
+      "action": "craft",
+      "target": "furnace",
+      "reason": "have materials and need a furnace to smelt and cook food.",
+      "success": false,
+      "health": 20,
+      "hunger": 20,
+      "danger": "safe",
+      "llm_ms": 1678
+    },
+    {
+      "time_ms": 59804,
+      "action": "wait",
+      "target": null,
+      "reason": "It's night and I am home, so I will wait until daytime.",
+      "success": false,
+      "health": 20,
+      "hunger": 20,
+      "danger": "safe",
+      "llm_ms": 1622
+    },
+    {
+      "time_ms": 61548,
+      "action": "craft",
+      "target": "furnace",
+      "reason": "have materials and need a furnace to smelt and cook food.",
+      "success": false,
+      "health": 20,
+      "hunger": 20,
+      "danger": "safe",
+      "llm_ms": 1741
+    },
+    {
+      "time_ms": 65553,
+      "action": "craft",
+      "target": "furnace",
+      "reason": "have materials to craft a furnace for smelting and cooking food.",
+      "success": false,
+      "health": 20,
+      "hunger": 20,
+      "danger": "safe",
+      "llm_ms": 1723
+    },
+    {
+      "time_ms": 68933,
+      "action": "craft",
+      "target": "furnace",
+      "reason": "need a furnace to smelt and cook food.",
+      "success": false,
+      "health": 20,
+      "hunger": 20,
+      "danger": "safe",
+      "llm_ms": 3377
+    },
+    {
+      "time_ms": 71744,
+      "action": "wait",
+      "target": null,
+      "reason": "It's night and I am home; there are no immediate actions to take.",
+      "success": false,
+      "health": 20,
+      "hunger": 20,
+      "danger": "safe",
+      "llm_ms": 2810
+    },
+    {
+      "time_ms": 73535,
+      "action": "craft",
+      "target": "furnace",
+      "reason": "have materials to craft a furnace for smelting and cooking food.",
+      "success": false,
+      "health": 20,
+      "hunger": 20,
+      "danger": "safe",
+      "llm_ms": 1788
+    },
+    {
+      "time_ms": 75316,
+      "action": "craft",
+      "target": "furnace",
+      "reason": "have materials to craft a furnace for smelting and cooking food.",
+      "success": false,
+      "health": 20,
+      "hunger": 20,
+      "danger": "safe",
+      "llm_ms": 1778
+    },
+    {
+      "time_ms": 77075,
+      "action": "craft",
+      "target": "furnace",
+      "reason": "have materials to craft a furnace for smelting and cooking food.",
+      "success": false,
+      "health": 20,
+      "hunger": 20,
+      "danger": "safe",
+      "llm_ms": 1757
+    },
+    {
+      "time_ms": 78585,
+      "action": "wait",
+      "target": null,
+      "reason": "It's night and I am home; there are no immediate actions to take.",
+      "success": false,
+      "health": 20,
+      "hunger": 20,
+      "danger": "safe",
+      "llm_ms": 1508
+    },
+    {
+      "time_ms": 80105,
+      "action": "craft",
+      "target": "furnace",
+      "reason": "have materials to craft a furnace for smelting and cooking food.",
+      "success": false,
+      "health": 20,
+      "hunger": 20,
+      "danger": "safe",
+      "llm_ms": 1517
+    },
+    {
+      "time_ms": 82117,
+      "action": "craft",
+      "target": "furnace",
+      "reason": "have materials to craft a furnace for smelting and cooking food.",
+      "success": false,
+      "health": 20,
+      "hunger": 20,
+      "danger": "safe",
+      "llm_ms": 2010
+    },
+    {
+      "time_ms": 83857,
+      "action": "craft",
+      "target": "furnace",
+      "reason": "have materials to craft a furnace for smelting and cooking food.",
+      "success": false,
+      "health": 20,
+      "hunger": 20,
+      "danger": "safe",
+      "llm_ms": 1737
+    },
+    {
+      "time_ms": 110797,
+      "action": "gather",
+      "target": "birch_log",
+      "reason": "gathering resources to use for crafting or building later.",
+      "success": false,
+      "health": 20,
+      "hunger": 20,
+      "danger": "safe",
+      "llm_ms": 1919
+    },
+    {
+      "time_ms": 113471,
+      "action": "craft",
+      "target": "furnace",
+      "reason": "have materials to craft a furnace for smelting and cooking food.",
+      "success": false,
+      "health": 20,
+      "hunger": 20,
+      "danger": "safe",
+      "llm_ms": 2670
+    },
+    {
+      "time_ms": 115974,
+      "action": "craft",
+      "target": "furnace",
+      "reason": "need a furnace for smelting and cooking food",
+      "success": false,
+      "health": 20,
+      "hunger": 20,
+      "danger": "safe",
+      "llm_ms": 2469
+    },
+    {
+      "time_ms": 118207,
+      "action": "craft",
+      "target": "furnace",
+      "reason": "have materials to craft a furnace for smelting and cooking food.",
+      "success": false,
+      "health": 20,
+      "hunger": 20,
+      "danger": "safe",
+      "llm_ms": 2229
+    },
+    {
+      "time_ms": 120074,
+      "action": "wait",
+      "target": null,
+      "reason": "It's night and I am already home, no immediate actions are needed.",
+      "success": false,
+      "health": 20,
+      "hunger": 20,
+      "danger": "safe",
+      "llm_ms": 1864
+    },
+    {
+      "time_ms": 121791,
+      "action": "craft",
+      "target": "furnace",
+      "reason": "have materials to craft a furnace for smelting and cooking food.",
+      "success": false,
+      "health": 20,
+      "hunger": 20,
+      "danger": "safe",
+      "llm_ms": 1714
+    },
+    {
+      "time_ms": 123669,
+      "action": "craft",
+      "target": "furnace",
+      "reason": "have materials to craft a furnace for smelting and cooking food.",
+      "success": false,
+      "health": 20,
+      "hunger": 20,
+      "danger": "safe",
+      "llm_ms": 1863
+    },
+    {
+      "time_ms": 125542,
+      "action": "craft",
+      "target": "furnace",
+      "reason": "have materials to craft a furnace for smelting and cooking food.",
+      "success": false,
+      "health": 20,
+      "hunger": 20,
+      "danger": "safe",
+      "llm_ms": 1868
+    },
+    {
+      "time_ms": 152091,
+      "action": "gather",
+      "target": "birch_log",
+      "reason": "gathering resources for crafting while waiting at home",
+      "success": false,
+      "health": 20,
+      "hunger": 20,
+      "danger": "safe",
+      "llm_ms": 1511
+    },
+    {
+      "time_ms": 153681,
+      "action": "craft",
+      "target": "furnace",
+      "reason": "have materials to craft a furnace for smelting and cooking food.",
+      "success": false,
+      "health": 20,
+      "hunger": 20,
+      "danger": "safe",
+      "llm_ms": 1587
+    },
+    {
+      "time_ms": 155299,
+      "action": "craft",
+      "target": "furnace",
+      "reason": "have materials to craft a furnace for smelting and cooking food.",
+      "success": false,
+      "health": 20,
+      "hunger": 20,
+      "danger": "safe",
+      "llm_ms": 1615
+    },
+    {
+      "time_ms": 156806,
+      "action": "craft",
+      "target": "furnace",
+      "reason": "have materials to craft a furnace for smelting and cooking food.",
+      "success": false,
+      "health": 20,
+      "hunger": 20,
+      "danger": "safe",
+      "llm_ms": 1504
+    },
+    {
+      "time_ms": 183481,
+      "action": "gather",
+      "target": "oak_log",
+      "reason": "need wood for crafting while waiting at home",
+      "success": false,
+      "health": 20,
+      "hunger": 20,
+      "danger": "safe",
+      "llm_ms": 1635
+    },
+    {
+      "time_ms": 185117,
+      "action": "craft",
+      "target": "furnace",
+      "reason": "have materials to craft a furnace for smelting and cooking food.",
+      "success": false,
+      "health": 20,
+      "hunger": 20,
+      "danger": "safe",
+      "llm_ms": 1634
+    },
+    {
+      "time_ms": 211556,
+      "action": "gather",
+      "target": "birch_log",
+      "reason": "need wood for crafting while waiting at home",
+      "success": false,
+      "health": 20,
+      "hunger": 20,
+      "danger": "safe",
+      "llm_ms": 1407
+    },
+    {
+      "time_ms": 213609,
+      "action": "craft",
+      "target": "furnace",
+      "reason": "have materials to craft a furnace for smelting and cooking food.",
+      "success": false,
+      "health": 20,
+      "hunger": 20,
+      "danger": "safe",
+      "llm_ms": 2050
+    },
+    {
+      "time_ms": 215771,
+      "action": "craft",
+      "target": "furnace",
+      "reason": "have materials to craft a furnace for smelting and cooking food.",
+      "success": false,
+      "health": 20,
+      "hunger": 20,
+      "danger": "safe",
+      "llm_ms": 2160
+    },
+    {
+      "time_ms": 217364,
+      "action": "craft",
+      "target": "furnace",
+      "reason": "have materials to craft a furnace for smelting and cooking food.",
+      "success": false,
+      "health": 20,
+      "hunger": 20,
+      "danger": "safe",
+      "llm_ms": 1591
+    },
+    {
+      "time_ms": 243791,
+      "action": "gather",
+      "target": "oak_log",
+      "reason": "need wood for crafting while waiting at home",
+      "success": false,
+      "health": 20,
+      "hunger": 20,
+      "danger": "safe",
+      "llm_ms": 1408
+    },
+    {
+      "time_ms": 245327,
+      "action": "craft",
+      "target": "furnace",
+      "reason": "have materials to craft a furnace for smelting and cooking food.",
+      "success": false,
+      "health": 20,
+      "hunger": 20,
+      "danger": "safe",
+      "llm_ms": 1527
+    },
+    {
+      "time_ms": 271764,
+      "action": "gather",
+      "target": "oak_log",
+      "reason": "need wood for crafting while at home and it's nearby",
+      "success": false,
+      "health": 20,
+      "hunger": 20,
+      "danger": "safe",
+      "llm_ms": 1417
+    },
+    {
+      "time_ms": 298435,
+      "action": "gather",
+      "target": "birch_log",
+      "reason": "need wood for crafting while at home and it's nearby",
+      "success": false,
+      "health": 20,
+      "hunger": 20,
+      "danger": "safe",
+      "llm_ms": 1648
+    },
+    {
+      "time_ms": 325724,
+      "action": "gather",
+      "target": "oak_log",
+      "reason": "need wood for crafting",
+      "success": false,
+      "health": 20,
+      "hunger": 20,
+      "danger": "safe",
+      "llm_ms": 2269
+    },
+    {
+      "time_ms": 327270,
+      "action": "craft",
+      "target": "furnace",
+      "reason": "have materials to craft a furnace for smelting and cooking food.",
+      "success": false,
+      "health": 20,
+      "hunger": 20,
+      "danger": "safe",
+      "llm_ms": 1543
+    },
+    {
+      "time_ms": 353662,
+      "action": "gather",
+      "target": "oak_log",
+      "reason": "need wood for crafting",
+      "success": false,
+      "health": 20,
+      "hunger": 20,
+      "danger": "safe",
+      "llm_ms": 1374
+    },
+    {
+      "time_ms": 355393,
+      "action": "craft",
+      "target": "furnace",
+      "reason": "have materials to craft a furnace for smelting and cooking food.",
+      "success": false,
+      "health": 20,
+      "hunger": 20,
+      "danger": "safe",
+      "llm_ms": 1728
+    },
+    {
+      "time_ms": 382317,
+      "action": "gather",
+      "target": "birch_log",
+      "reason": "need wood for crafting and it's nearby",
+      "success": false,
+      "health": 20,
+      "hunger": 20,
+      "danger": "safe",
+      "llm_ms": 1521
+    },
+    {
+      "time_ms": 408844,
+      "action": "gather",
+      "target": "oak_log",
+      "reason": "need wood for crafting",
+      "success": false,
+      "health": 20,
+      "hunger": 20,
+      "danger": "safe",
+      "llm_ms": 1506
+    },
+    {
+      "time_ms": 435619,
+      "action": "gather",
+      "target": "birch_log",
+      "reason": "need wood for crafting and it's nearby",
+      "success": false,
+      "health": 20,
+      "hunger": 20,
+      "danger": "safe",
+      "llm_ms": 1645
+    },
+    {
+      "time_ms": 437631,
+      "action": "craft",
+      "target": "furnace",
+      "reason": "have materials to craft a furnace for smelting and cooking food.",
+      "success": false,
+      "health": 20,
+      "hunger": 20,
+      "danger": "safe",
+      "llm_ms": 1968
+    },
+    {
+      "time_ms": 464548,
+      "action": "gather",
+      "target": "birch_log",
+      "reason": "need wood for crafting and it's nearby",
+      "success": false,
+      "health": 20,
+      "hunger": 20,
+      "danger": "safe",
+      "llm_ms": 1866
+    },
+    {
+      "time_ms": 491129,
+      "action": "gather",
+      "target": "oak_log",
+      "reason": "need wood for crafting",
+      "success": false,
+      "health": 20,
+      "hunger": 20,
+      "danger": "safe",
+      "llm_ms": 1557
+    },
+    {
+      "time_ms": 517562,
+      "action": "gather",
+      "target": "oak_log",
+      "reason": "need wood for crafting",
+      "success": false,
+      "health": 20,
+      "hunger": 20,
+      "danger": "safe",
+      "llm_ms": 1398
+    },
+    {
+      "time_ms": 519107,
+      "action": "craft",
+      "target": "furnace",
+      "reason": "have materials to craft a furnace for smelting and cooking food.",
+      "success": false,
+      "health": 20,
+      "hunger": 20,
+      "danger": "safe",
+      "llm_ms": 1530
+    },
+    {
+      "time_ms": 546417,
+      "action": "gather",
+      "target": "birch_log",
+      "reason": "need wood for crafting and it's nearby",
+      "success": false,
+      "health": 20,
+      "hunger": 20,
+      "danger": "safe",
+      "llm_ms": 2291
+    },
+    {
+      "time_ms": 547976,
+      "action": "craft",
+      "target": "furnace",
+      "reason": "have cobblestone to craft a furnace for smelting and cooking food.",
+      "success": false,
+      "health": 20,
+      "hunger": 20,
+      "danger": "safe",
+      "llm_ms": 1558
+    },
+    {
+      "time_ms": 574351,
+      "action": "gather",
+      "target": "oak_log",
+      "reason": "need wood for crafting",
+      "success": false,
+      "health": 20,
+      "hunger": 20,
+      "danger": "safe",
+      "llm_ms": 1360
+    },
+    {
+      "time_ms": 600942,
+      "action": "gather",
+      "target": "oak_log",
+      "reason": "need wood for crafting",
+      "success": false,
+      "health": 20,
+      "hunger": 20,
+      "danger": "safe",
+      "llm_ms": 1533
+    },
+    {
+      "time_ms": 627500,
+      "action": "gather",
+      "target": "birch_log",
+      "reason": "need wood for crafting and nearby birch log available",
+      "success": false,
+      "health": 20,
+      "hunger": 20,
+      "danger": "safe",
+      "llm_ms": 1543
+    },
+    {
+      "time_ms": 629077,
+      "action": "craft",
+      "target": "furnace",
+      "reason": "need a furnace for smelting ore and cooking food.",
+      "success": false,
+      "health": 20,
+      "hunger": 20,
+      "danger": "safe",
+      "llm_ms": 1572
+    },
+    {
+      "time_ms": 655466,
+      "action": "gather",
+      "target": "oak_log",
+      "reason": "need wood for crafting",
+      "success": false,
+      "health": 20,
+      "hunger": 20,
+      "danger": "safe",
+      "llm_ms": 1373
+    },
+    {
+      "time_ms": 682027,
+      "action": "gather",
+      "target": "oak_log",
+      "reason": "need wood for crafting",
+      "success": false,
+      "health": 20,
+      "hunger": 20,
+      "danger": "safe",
+      "llm_ms": 1541
+    },
+    {
+      "time_ms": 708680,
+      "action": "gather",
+      "target": "oak_log",
+      "reason": "need wood for crafting",
+      "success": false,
+      "health": 20,
+      "hunger": 20,
+      "danger": "safe",
+      "llm_ms": 1634
+    },
+    {
+      "time_ms": 710396,
+      "action": "craft",
+      "target": "furnace",
+      "reason": "need a furnace for smelting ore and cooking food.",
+      "success": false,
+      "health": 20,
+      "hunger": 20,
+      "danger": "safe",
+      "llm_ms": 1714
+    },
+    {
+      "time_ms": 736836,
+      "action": "gather",
+      "target": "oak_log",
+      "reason": "need wood for crafting",
+      "success": false,
+      "health": 20,
+      "hunger": 20,
+      "danger": "safe",
+      "llm_ms": 1420
+    },
+    {
+      "time_ms": 763410,
+      "action": "gather",
+      "target": "birch_log",
+      "reason": "need wood for crafting",
+      "success": false,
+      "health": 20,
+      "hunger": 20,
+      "danger": "safe",
+      "llm_ms": 1547
+    },
+    {
+      "time_ms": 789666,
+      "action": "gather",
+      "target": "oak_log",
+      "reason": "need wood for crafting",
+      "success": false,
+      "health": 20,
+      "hunger": 20,
+      "danger": "safe",
+      "llm_ms": 1239
+    },
+    {
+      "time_ms": 791200,
+      "action": "craft",
+      "target": "furnace",
+      "reason": "need a furnace for smelting ore and cooking food.",
+      "success": false,
+      "health": 20,
+      "hunger": 20,
+      "danger": "safe",
+      "llm_ms": 1532
+    },
+    {
+      "time_ms": 818016,
+      "action": "gather",
+      "target": "oak_log",
+      "reason": "need wood for crafting since I failed to gather it previously",
+      "success": false,
+      "health": 20,
+      "hunger": 20,
+      "danger": "safe",
+      "llm_ms": 1797
+    },
+    {
+      "time_ms": 844499,
+      "action": "gather",
+      "target": "oak_log",
+      "reason": "need wood for crafting",
+      "success": false,
+      "health": 20,
+      "hunger": 20,
+      "danger": "safe",
+      "llm_ms": 1465
+    },
+    {
+      "time_ms": 846112,
+      "action": "craft",
+      "target": "furnace",
+      "reason": "need a furnace for smelting ore and cooking food.",
+      "success": false,
+      "health": 20,
+      "hunger": 20,
+      "danger": "safe",
+      "llm_ms": 1611
+    },
+    {
+      "time_ms": 872900,
+      "action": "gather",
+      "target": "birch_log",
+      "reason": "need wood for crafting",
+      "success": false,
+      "health": 20,
+      "hunger": 20,
+      "danger": "safe",
+      "llm_ms": 1769
+    },
+    {
+      "time_ms": 899718,
+      "action": "gather",
+      "target": "oak_log",
+      "reason": "need wood for crafting after previous failures to gather",
+      "success": false,
+      "health": 20,
+      "hunger": 20,
+      "danger": "safe",
+      "llm_ms": 1799
+    },
+    {
+      "time_ms": 926229,
+      "action": "gather",
+      "target": "oak_log",
+      "reason": "need wood for crafting after previous failures to gather",
+      "success": false,
+      "health": 20,
+      "hunger": 20,
+      "danger": "safe",
+      "llm_ms": 1497
+    },
+    {
+      "time_ms": 927813,
+      "action": "craft",
+      "target": "furnace",
+      "reason": "need a furnace for smelting ore and cooking food.",
+      "success": false,
+      "health": 20,
+      "hunger": 20,
+      "danger": "safe",
+      "llm_ms": 1583
+    },
+    {
+      "time_ms": 929351,
+      "action": "craft",
+      "target": "furnace",
+      "reason": "need a furnace for smelting ore and cooking food.",
+      "success": false,
+      "health": 20,
+      "hunger": 20,
+      "danger": "safe",
+      "llm_ms": 1535
+    },
+    {
+      "time_ms": 930844,
+      "action": "craft",
+      "target": "furnace",
+      "reason": "need a furnace for smelting ore and cooking food.",
+      "success": false,
+      "health": 20,
+      "hunger": 20,
+      "danger": "safe",
+      "llm_ms": 1491
+    },
+    {
+      "time_ms": 932506,
+      "action": "wait",
+      "target": null,
+      "reason": "It is night time and I am at home, so I will wait instead of crafting.",
+      "success": false,
+      "health": 20,
+      "hunger": 20,
+      "danger": "safe",
+      "llm_ms": 1660
+    },
+    {
+      "time_ms": 934444,
+      "action": "craft",
+      "target": "furnace",
+      "reason": "need a furnace for smelting ore and cooking food.",
+      "success": false,
+      "health": 20,
+      "hunger": 20,
+      "danger": "safe",
+      "llm_ms": 1935
+    },
+    {
+      "time_ms": 940772,
+      "action": "craft",
+      "target": "furnace",
+      "reason": "need furnace for smelting ore and cooking food.",
+      "success": false,
+      "health": 20,
+      "hunger": 20,
+      "danger": "safe",
+      "llm_ms": 6325
+    },
+    {
+      "time_ms": 942496,
+      "action": "wait",
+      "target": null,
+      "reason": "It is night time and I am at home, so I will wait instead of crafting.",
+      "success": false,
+      "health": 20,
+      "hunger": 20,
+      "danger": "safe",
+      "llm_ms": 1721
+    },
+    {
+      "time_ms": 969351,
+      "action": "gather",
+      "target": "birch_log",
+      "reason": "need wood for crafting and it's nearby",
+      "success": false,
+      "health": 20,
+      "hunger": 20,
+      "danger": "safe",
+      "llm_ms": 1822
+    },
+    {
+      "time_ms": 970780,
+      "action": "craft",
+      "target": "furnace",
+      "reason": "need a furnace for smelting ore and cooking food.",
+      "success": false,
+      "health": 20,
+      "hunger": 20,
+      "danger": "safe",
+      "llm_ms": 1426
+    },
+    {
+      "time_ms": 972116,
+      "action": "wait",
+      "target": null,
+      "reason": "It is night at home, so I will wait.",
+      "success": false,
+      "health": 20,
+      "hunger": 20,
+      "danger": "safe",
+      "llm_ms": 1334
+    },
+    {
+      "time_ms": 973848,
+      "action": "wait",
+      "target": null,
+      "reason": "It is night at home, staying safe and waiting.",
+      "success": false,
+      "health": 20,
+      "hunger": 20,
+      "danger": "safe",
+      "llm_ms": 1729
+    },
+    {
+      "time_ms": 975574,
+      "action": "craft",
+      "target": "furnace",
+      "reason": "need a furnace for smelting ore and cooking food.",
+      "success": false,
+      "health": 20,
+      "hunger": 20,
+      "danger": "safe",
+      "llm_ms": 1724
+    },
+    {
+      "time_ms": 977311,
+      "action": "craft",
+      "target": "furnace",
+      "reason": "need a furnace for smelting ore and cooking food.",
+      "success": false,
+      "health": 20,
+      "hunger": 20,
+      "danger": "safe",
+      "llm_ms": 1736
+    },
+    {
+      "time_ms": 979120,
+      "action": "craft",
+      "target": "furnace",
+      "reason": "need a furnace for smelting ore and cooking food.",
+      "success": false,
+      "health": 20,
+      "hunger": 20,
+      "danger": "safe",
+      "llm_ms": 1807
+    },
+    {
+      "time_ms": 1009469,
+      "action": "gather",
+      "target": "birch_log",
+      "reason": "gathering wood for crafting and future use.",
+      "success": false,
+      "health": 20,
+      "hunger": 20,
+      "danger": "safe",
+      "llm_ms": 5331
+    },
+    {
+      "time_ms": 1011373,
+      "action": "craft",
+      "target": "furnace",
+      "reason": "need a furnace for smelting ore and cooking food.",
+      "success": false,
+      "health": 20,
+      "hunger": 20,
+      "danger": "safe",
+      "llm_ms": 1901
+    },
+    {
+      "time_ms": 1012730,
+      "action": "craft",
+      "target": "furnace",
+      "reason": "need a furnace for smelting ore and cooking food.",
+      "success": false,
+      "health": 20,
+      "hunger": 20,
+      "danger": "safe",
+      "llm_ms": 1354
+    },
+    {
+      "time_ms": 1014171,
+      "action": "craft",
+      "target": "furnace",
+      "reason": "need a furnace for smelting ore and cooking food.",
+      "success": false,
+      "health": 20,
+      "hunger": 20,
+      "danger": "safe",
+      "llm_ms": 1439
+    },
+    {
+      "time_ms": 1040778,
+      "action": "gather",
+      "target": "birch_log",
+      "reason": "gathering wood for future crafting needs since I cannot craft again immediately.",
+      "success": false,
+      "health": 20,
+      "hunger": 20,
+      "danger": "safe",
+      "llm_ms": 1588
+    },
+    {
+      "time_ms": 1067073,
+      "action": "gather",
+      "target": "oak_log",
+      "reason": "need wood for future crafting needs",
+      "success": false,
+      "health": 20,
+      "hunger": 20,
+      "danger": "safe",
+      "llm_ms": 1278
+    },
+    {
+      "time_ms": 1093849,
+      "action": "gather",
+      "target": "oak_log",
+      "reason": "gathering wood for future crafting needs since I cannot craft again immediately.",
+      "success": false,
+      "health": 20,
+      "hunger": 20,
+      "danger": "safe",
+      "llm_ms": 1757
+    },
+    {
+      "time_ms": 1095339,
+      "action": "craft",
+      "target": "furnace",
+      "reason": "need a furnace for smelting ore and cooking food.",
+      "success": false,
+      "health": 20,
+      "hunger": 20,
+      "danger": "safe",
+      "llm_ms": 1486
+    },
+    {
+      "time_ms": 1096839,
+      "action": "craft",
+      "target": "furnace",
+      "reason": "need a furnace for smelting ore and cooking food.",
+      "success": false,
+      "health": 20,
+      "hunger": 20,
+      "danger": "safe",
+      "llm_ms": 1496
+    },
+    {
+      "time_ms": 1098592,
+      "action": "craft",
+      "target": "furnace",
+      "reason": "need a furnace for smelting ore and cooking food.",
+      "success": false,
+      "health": 20,
+      "hunger": 20,
+      "danger": "safe",
+      "llm_ms": 1751
+    },
+    {
+      "time_ms": 1124979,
+      "action": "gather",
+      "target": "birch_log",
+      "reason": "need wood for future crafting needs",
+      "success": false,
+      "health": 20,
+      "hunger": 20,
+      "danger": "safe",
+      "llm_ms": 1356
+    },
+    {
+      "time_ms": 1126641,
+      "action": "craft",
+      "target": "furnace",
+      "reason": "need a furnace for smelting ore and cooking food.",
+      "success": false,
+      "health": 20,
+      "hunger": 20,
+      "danger": "safe",
+      "llm_ms": 1660
+    },
+    {
+      "time_ms": 1128053,
+      "action": "craft",
+      "target": "furnace",
+      "reason": "need a furnace for smelting ore and cooking food.",
+      "success": false,
+      "health": 20,
+      "hunger": 20,
+      "danger": "safe",
+      "llm_ms": 1410
+    },
+    {
+      "time_ms": 1154630,
+      "action": "gather",
+      "target": "oak_log",
+      "reason": "need wood for future crafting needs",
+      "success": false,
+      "health": 20,
+      "hunger": 20,
+      "danger": "safe",
+      "llm_ms": 1472
+    },
+    {
+      "time_ms": 1180986,
+      "action": "gather",
+      "target": "oak_log",
+      "reason": "need wood for future crafting needs",
+      "success": false,
+      "health": 20,
+      "hunger": 20,
+      "danger": "safe",
+      "llm_ms": 1337
+    },
+    {
+      "time_ms": 1182683,
+      "action": "craft",
+      "target": "furnace",
+      "reason": "need furnace for smelting ore and cooking food.",
+      "success": false,
+      "health": 20,
+      "hunger": 20,
+      "danger": "safe",
+      "llm_ms": 1694
+    },
+    {
+      "time_ms": 1209017,
+      "action": "gather",
+      "target": "birch_log",
+      "reason": "need wood for future crafting needs",
+      "success": false,
+      "health": 20,
+      "hunger": 20,
+      "danger": "safe",
+      "llm_ms": 1312
+    },
+    {
+      "time_ms": 1235642,
+      "action": "gather",
+      "target": "oak_log",
+      "reason": "need wood for future crafting needs",
+      "success": false,
+      "health": 20,
+      "hunger": 20,
+      "danger": "safe",
+      "llm_ms": 1610
+    },
+    {
+      "time_ms": 1237361,
+      "action": "craft",
+      "target": "furnace",
+      "reason": "need furnace for smelting ore and cooking food",
+      "success": false,
+      "health": 20,
+      "hunger": 20,
+      "danger": "safe",
+      "llm_ms": 1717
+    },
+    {
+      "time_ms": 1263764,
+      "action": "gather",
+      "target": "oak_log",
+      "reason": "need wood for future crafting needs",
+      "success": false,
+      "health": 20,
+      "hunger": 20,
+      "danger": "safe",
+      "llm_ms": 1386
+    },
+    {
+      "time_ms": 1265194,
+      "action": "craft",
+      "target": "furnace",
+      "reason": "need furnace for smelting ore and cooking food.",
+      "success": false,
+      "health": 20,
+      "hunger": 20,
+      "danger": "safe",
+      "llm_ms": 1425
+    },
+    {
+      "time_ms": 1266567,
+      "action": "craft",
+      "target": "furnace",
+      "reason": "need furnace for smelting ore and cooking food",
+      "success": false,
+      "health": 20,
+      "hunger": 20,
+      "danger": "safe",
+      "llm_ms": 1370
+    },
+    {
+      "time_ms": 1292990,
+      "action": "gather",
+      "target": "birch_log",
+      "reason": "need wood for future crafting needs",
+      "success": false,
+      "health": 20,
+      "hunger": 20,
+      "danger": "safe",
+      "llm_ms": 1405
+    },
+    {
+      "time_ms": 1319315,
+      "action": "gather",
+      "target": "oak_log",
+      "reason": "need wood for future crafting needs",
+      "success": false,
+      "health": 20,
+      "hunger": 20,
+      "danger": "safe",
+      "llm_ms": 1305
+    },
+    {
+      "time_ms": 1320819,
+      "action": "craft",
+      "target": "furnace",
+      "reason": "need furnace for smelting ore and cooking food.",
+      "success": false,
+      "health": 20,
+      "hunger": 20,
+      "danger": "safe",
+      "llm_ms": 1501
+    },
+    {
+      "time_ms": 1322302,
+      "action": "craft",
+      "target": "furnace",
+      "reason": "need furnace for smelting ore and cooking food.",
+      "success": false,
+      "health": 20,
+      "hunger": 20,
+      "danger": "safe",
+      "llm_ms": 1480
+    },
+    {
+      "time_ms": 1324426,
+      "action": "craft",
+      "target": "stone_pickaxe",
+      "reason": "have cobblestone and stick available, need better tools for mining",
+      "success": false,
+      "health": 20,
+      "hunger": 20,
+      "danger": "safe",
+      "llm_ms": 2121
+    },
+    {
+      "time_ms": 1325756,
+      "action": "wait",
+      "target": null,
+      "reason": "It's night and I'm already at home, so I will wait.",
+      "success": false,
+      "health": 20,
+      "hunger": 20,
+      "danger": "safe",
+      "llm_ms": 1328
+    },
+    {
+      "time_ms": 1352391,
+      "action": "gather",
+      "target": "birch_log",
+      "reason": "need wood for future crafting needs during night at home",
+      "success": false,
+      "health": 20,
+      "hunger": 20,
+      "danger": "safe",
+      "llm_ms": 1616
+    },
+    {
+      "time_ms": 1353977,
+      "action": "wait",
+      "target": null,
+      "reason": "It's night and I'm at home, so I will wait.",
+      "success": false,
+      "health": 20,
+      "hunger": 20,
+      "danger": "safe",
+      "llm_ms": 1573
+    },
+    {
+      "time_ms": 1355586,
+      "action": "craft",
+      "target": "furnace",
+      "reason": "need a furnace for smelting ore and cooking food.",
+      "success": false,
+      "health": 20,
+      "hunger": 20,
+      "danger": "safe",
+      "llm_ms": 1606
+    },
+    {
+      "time_ms": 1357070,
+      "action": "craft",
+      "target": "furnace",
+      "reason": "need furnace for smelting ore and cooking food",
+      "success": false,
+      "health": 20,
+      "hunger": 20,
+      "danger": "safe",
+      "llm_ms": 1482
+    },
+    {
+      "time_ms": 1358728,
+      "action": "craft",
+      "target": "furnace",
+      "reason": "need a furnace for smelting ore and cooking food.",
+      "success": false,
+      "health": 20,
+      "hunger": 20,
+      "danger": "safe",
+      "llm_ms": 1655
+    },
+    {
+      "time_ms": 1360305,
+      "action": "wait",
+      "target": null,
+      "reason": "It's night and I'm at home, waiting for day time to explore.",
+      "success": false,
+      "health": 20,
+      "hunger": 20,
+      "danger": "safe",
+      "llm_ms": 1576
+    },
+    {
+      "time_ms": 1361959,
+      "action": "craft",
+      "target": "furnace",
+      "reason": "need a furnace for smelting ore and cooking food.",
+      "success": false,
+      "health": 20,
+      "hunger": 20,
+      "danger": "safe",
+      "llm_ms": 1652
+    },
+    {
+      "time_ms": 1363388,
+      "action": "craft",
+      "target": "furnace",
+      "reason": "need a furnace for smelting ore and cooking food.",
+      "success": false,
+      "health": 20,
+      "hunger": 20,
+      "danger": "safe",
+      "llm_ms": 1426
+    },
+    {
+      "time_ms": 1364920,
+      "action": "craft",
+      "target": "furnace",
+      "reason": "need furnace for smelting ore and cooking food",
+      "success": false,
+      "health": 20,
+      "hunger": 20,
+      "danger": "safe",
+      "llm_ms": 1529
+    },
+    {
+      "time_ms": 1391397,
+      "action": "gather",
+      "target": "oak_log",
+      "reason": "need wood for crafting and resources",
+      "success": false,
+      "health": 20,
+      "hunger": 20,
+      "danger": "safe",
+      "llm_ms": 1457
+    },
+    {
+      "time_ms": 1392904,
+      "action": "craft",
+      "target": "furnace",
+      "reason": "need furnace for smelting ore and cooking food",
+      "success": false,
+      "health": 20,
+      "hunger": 20,
+      "danger": "safe",
+      "llm_ms": 1505
+    },
+    {
+      "time_ms": 1419341,
+      "action": "gather",
+      "target": "oak_log",
+      "reason": "need wood for crafting and resources",
+      "success": false,
+      "health": 20,
+      "hunger": 20,
+      "danger": "safe",
+      "llm_ms": 1259
+    },
+    {
+      "time_ms": 1445877,
+      "action": "gather",
+      "target": "oak_log",
+      "reason": "need wood for crafting and resources",
+      "success": false,
+      "health": 20,
+      "hunger": 20,
+      "danger": "safe",
+      "llm_ms": 1519
+    },
+    {
+      "time_ms": 1472707,
+      "action": "gather",
+      "target": "birch_log",
+      "reason": "need wood for crafting and resources",
+      "success": false,
+      "health": 20,
+      "hunger": 20,
+      "danger": "safe",
+      "llm_ms": 1813
+    },
+    {
+      "time_ms": 1474229,
+      "action": "craft",
+      "target": "furnace",
+      "reason": "need furnace for smelting ore and cooking food",
+      "success": false,
+      "health": 20,
+      "hunger": 20,
+      "danger": "safe",
+      "llm_ms": 1519
+    },
+    {
+      "time_ms": 1500892,
+      "action": "gather",
+      "target": "oak_log",
+      "reason": "need wood for crafting and resources",
+      "success": false,
+      "health": 20,
+      "hunger": 20,
+      "danger": "safe",
+      "llm_ms": 1645
+    },
+    {
+      "time_ms": 1527215,
+      "action": "gather",
+      "target": "birch_log",
+      "reason": "need wood for crafting and resources",
+      "success": false,
+      "health": 20,
+      "hunger": 20,
+      "danger": "safe",
+      "llm_ms": 1301
+    },
+    {
+      "time_ms": 1554301,
+      "action": "gather",
+      "target": "oak_log",
+      "reason": "need wood for crafting materials",
+      "success": false,
+      "health": 20,
+      "hunger": 20,
+      "danger": "safe",
+      "llm_ms": 2067
+    },
+    {
+      "time_ms": 1556007,
+      "action": "craft",
+      "target": "furnace",
+      "reason": "need furnace for smelting ore and cooking food",
+      "success": false,
+      "health": 20,
+      "hunger": 20,
+      "danger": "safe",
+      "llm_ms": 1702
+    },
+    {
+      "time_ms": 1582724,
+      "action": "gather",
+      "target": "oak_log",
+      "reason": "need wood for crafting materials",
+      "success": false,
+      "health": 20,
+      "hunger": 20,
+      "danger": "safe",
+      "llm_ms": 1701
+    },
+    {
+      "time_ms": 1609157,
+      "action": "gather",
+      "target": "oak_log",
+      "reason": "need wood for crafting materials",
+      "success": false,
+      "health": 20,
+      "hunger": 20,
+      "danger": "safe",
+      "llm_ms": 1415
+    },
+    {
+      "time_ms": 1635576,
+      "action": "gather",
+      "target": "oak_log",
+      "reason": "need wood for crafting materials",
+      "success": false,
+      "health": 20,
+      "hunger": 20,
+      "danger": "safe",
+      "llm_ms": 1403
+    },
+    {
+      "time_ms": 1637273,
+      "action": "craft",
+      "target": "oak_planks",
+      "reason": "need wood for crafting as previous gather actions failed and I need materials for crafting.",
+      "success": false,
+      "health": 20,
+      "hunger": 20,
+      "danger": "safe",
+      "llm_ms": 1695
+    },
+    {
+      "time_ms": 1664093,
+      "action": "gather",
+      "target": "birch_log",
+      "reason": "need wood for crafting materials and birch_log is nearby",
+      "success": false,
+      "health": 20,
+      "hunger": 20,
+      "danger": "safe",
+      "llm_ms": 1638
+    },
+    {
+      "time_ms": 1690597,
+      "action": "gather",
+      "target": "oak_log",
+      "reason": "need wood for crafting materials.",
+      "success": false,
+      "health": 20,
+      "hunger": 20,
+      "danger": "safe",
+      "llm_ms": 1480
+    },
+    {
+      "time_ms": 1717173,
+      "action": "gather",
+      "target": "birch_log",
+      "reason": "need wood for crafting materials",
+      "success": false,
+      "health": 20,
+      "hunger": 20,
+      "danger": "safe",
+      "llm_ms": 1557
+    },
+    {
+      "time_ms": 1719034,
+      "action": "craft",
+      "target": "furnace",
+      "reason": "need a furnace to cook food and smelt ores",
+      "success": false,
+      "health": 20,
+      "hunger": 20,
+      "danger": "safe",
+      "llm_ms": 1859
+    },
+    {
+      "time_ms": 1745719,
+      "action": "gather",
+      "target": "oak_log",
+      "reason": "need wood for crafting as previous gather actions failed and I want to craft items.",
+      "success": false,
+      "health": 20,
+      "hunger": 20,
+      "danger": "safe",
+      "llm_ms": 1666
+    },
+    {
+      "time_ms": 1772393,
+      "action": "gather",
+      "target": "oak_log",
+      "reason": "need wood for crafting materials",
+      "success": false,
+      "health": 20,
+      "hunger": 20,
+      "danger": "safe",
+      "llm_ms": 1658
+    },
+    {
+      "time_ms": 1799474,
+      "action": "gather",
+      "target": "oak_log",
+      "reason": "need wood for crafting materials",
+      "success": false,
+      "health": 20,
+      "hunger": 20,
+      "danger": "safe",
+      "llm_ms": 2057
+    },
+    {
+      "time_ms": 1801120,
+      "action": "craft",
+      "target": "furnace",
+      "reason": "need a furnace to cook food and smelt ores",
+      "success": false,
+      "health": 20,
+      "hunger": 20,
+      "danger": "safe",
+      "llm_ms": 1644
+    },
+    {
+      "time_ms": 1827474,
+      "action": "gather",
+      "target": "birch_log",
+      "reason": "need wood for crafting items and I found birch log nearby.",
+      "success": false,
+      "health": 20,
+      "hunger": 20,
+      "danger": "safe",
+      "llm_ms": 1328
+    },
+    {
+      "time_ms": 1854316,
+      "action": "gather",
+      "target": "oak_log",
+      "reason": "need wood for crafting items",
+      "success": false,
+      "health": 20,
+      "hunger": 20,
+      "danger": "safe",
+      "llm_ms": 1812
+    },
+    {
+      "time_ms": 1881140,
+      "action": "gather",
+      "target": "birch_log",
+      "reason": "need wood for crafting items and birch log is nearby.",
+      "success": false,
+      "health": 20,
+      "hunger": 20,
+      "danger": "safe",
+      "llm_ms": 1806
+    },
+    {
+      "time_ms": 1882984,
+      "action": "craft",
+      "target": "furnace",
+      "reason": "need a furnace to cook food and smelt ores",
+      "success": false,
+      "health": 20,
+      "hunger": 20,
+      "danger": "safe",
+      "llm_ms": 1843
+    },
+    {
+      "time_ms": 1909912,
+      "action": "gather",
+      "target": "oak_log",
+      "reason": "need wood for crafting items and oak logs are nearby.",
+      "success": false,
+      "health": 20,
+      "hunger": 20,
+      "danger": "safe",
+      "llm_ms": 1911
+    },
+    {
+      "time_ms": 1936730,
+      "action": "gather",
+      "target": "oak_log",
+      "reason": "need wood for crafting items",
+      "success": false,
+      "health": 20,
+      "hunger": 20,
+      "danger": "safe",
+      "llm_ms": 1801
+    },
+    {
+      "time_ms": 1963360,
+      "action": "gather",
+      "target": "oak_log",
+      "reason": "need wood for crafting items",
+      "success": false,
+      "health": 20,
+      "hunger": 20,
+      "danger": "safe",
+      "llm_ms": 1604
+    },
+    {
+      "time_ms": 1964931,
+      "action": "craft",
+      "target": "furnace",
+      "reason": "need furnace to cook food and smelt ores",
+      "success": false,
+      "health": 20,
+      "hunger": 20,
+      "danger": "safe",
+      "llm_ms": 1569
+    },
+    {
+      "time_ms": 1991709,
+      "action": "gather",
+      "target": "birch_log",
+      "reason": "need wood for crafting items and birch logs are nearby.",
+      "success": false,
+      "health": 20,
+      "hunger": 20,
+      "danger": "safe",
+      "llm_ms": 1557
+    },
+    {
+      "time_ms": 2018483,
+      "action": "gather",
+      "target": "oak_log",
+      "reason": "need wood for crafting items",
+      "success": false,
+      "health": 20,
+      "hunger": 20,
+      "danger": "safe",
+      "llm_ms": 1756
+    },
+    {
+      "time_ms": 2020190,
+      "action": "craft",
+      "target": "furnace",
+      "reason": "need a furnace to cook food and smelt ores",
+      "success": false,
+      "health": 20,
+      "hunger": 20,
+      "danger": "safe",
+      "llm_ms": 1704
+    },
+    {
+      "time_ms": 2021898,
+      "action": "craft",
+      "target": "furnace",
+      "reason": "need a furnace to cook food and smelt ores",
+      "success": false,
+      "health": 20,
+      "hunger": 20,
+      "danger": "safe",
+      "llm_ms": 1678
+    },
+    {
+      "time_ms": 2023364,
+      "action": "craft",
+      "target": "furnace",
+      "reason": "need a furnace to cook food and smelt ores",
+      "success": false,
+      "health": 20,
+      "hunger": 20,
+      "danger": "safe",
+      "llm_ms": 1460
+    },
+    {
+      "time_ms": 2025034,
+      "action": "wait",
+      "target": null,
+      "reason": "It is night and I am home, so I will stay safe and not take any unnecessary risks.",
+      "success": false,
+      "health": 20,
+      "hunger": 20,
+      "danger": "safe",
+      "llm_ms": 1669
+    },
+    {
+      "time_ms": 2026468,
+      "action": "craft",
+      "target": "furnace",
+      "reason": "need a furnace to cook food and smelt ores",
+      "success": false,
+      "health": 20,
+      "hunger": 20,
+      "danger": "safe",
+      "llm_ms": 1432
+    },
+    {
+      "time_ms": 2027938,
+      "action": "craft",
+      "target": "furnace",
+      "reason": "need a furnace to cook food and smelt ores",
+      "success": false,
+      "health": 20,
+      "hunger": 20,
+      "danger": "safe",
+      "llm_ms": 1468
+    },
+    {
+      "time_ms": 2029534,
+      "action": "craft",
+      "target": "furnace",
+      "reason": "need a furnace to cook food and smelt ores",
+      "success": false,
+      "health": 20,
+      "hunger": 20,
+      "danger": "safe",
+      "llm_ms": 1593
+    },
+    {
+      "time_ms": 2031366,
+      "action": "wait",
+      "target": null,
+      "reason": "It is night and I am at home, so I will stay safe and not take any unnecessary risks.",
+      "success": false,
+      "health": 20,
+      "hunger": 20,
+      "danger": "safe",
+      "llm_ms": 1830
+    },
+    {
+      "time_ms": 2032919,
+      "action": "craft",
+      "target": "furnace",
+      "reason": "need a furnace to cook food and smelt ores",
+      "success": false,
+      "health": 20,
+      "hunger": 20,
+      "danger": "safe",
+      "llm_ms": 1551
+    },
+    {
+      "time_ms": 2034326,
+      "action": "craft",
+      "target": "furnace",
+      "reason": "need a furnace to cook food and smelt ores",
+      "success": false,
+      "health": 20,
+      "hunger": 20,
+      "danger": "safe",
+      "llm_ms": 1405
+    },
+    {
+      "time_ms": 2036008,
+      "action": "craft",
+      "target": "furnace",
+      "reason": "need a furnace to cook food and smelt ores",
+      "success": false,
+      "health": 20,
+      "hunger": 20,
+      "danger": "safe",
+      "llm_ms": 1679
+    },
+    {
+      "time_ms": 2062431,
+      "action": "gather",
+      "target": "oak_log",
+      "reason": "gathering wood for crafting while it is safe at home",
+      "success": false,
+      "health": 20,
+      "hunger": 20,
+      "danger": "safe",
+      "llm_ms": 1404
+    },
+    {
+      "time_ms": 2063862,
+      "action": "craft",
+      "target": "furnace",
+      "reason": "need a furnace to cook food and smelt ores",
+      "success": false,
+      "health": 20,
+      "hunger": 20,
+      "danger": "safe",
+      "llm_ms": 1423
+    },
+    {
+      "time_ms": 2065684,
+      "action": "craft",
+      "target": "furnace",
+      "reason": "need a furnace to cook food and smelt ores",
+      "success": false,
+      "health": 20,
+      "hunger": 20,
+      "danger": "safe",
+      "llm_ms": 1820
+    },
+    {
+      "time_ms": 2067092,
+      "action": "craft",
+      "target": "furnace",
+      "reason": "need a furnace to cook food and smelt ores",
+      "success": false,
+      "health": 20,
+      "hunger": 20,
+      "danger": "safe",
+      "llm_ms": 1406
+    },
+    {
+      "time_ms": 2068533,
+      "action": "wait",
+      "target": null,
+      "reason": "it is night and I am already home, waiting is the best action",
+      "success": false,
+      "health": 20,
+      "hunger": 20,
+      "danger": "safe",
+      "llm_ms": 1440
+    },
+    {
+      "time_ms": 2070253,
+      "action": "craft",
+      "target": "furnace",
+      "reason": "need a furnace to cook food and smelt ores",
+      "success": false,
+      "health": 20,
+      "hunger": 20,
+      "danger": "safe",
+      "llm_ms": 1717
+    },
+    {
+      "time_ms": 2072007,
+      "action": "craft",
+      "target": "furnace",
+      "reason": "need a furnace to cook food and smelt ores",
+      "success": false,
+      "health": 20,
+      "hunger": 20,
+      "danger": "safe",
+      "llm_ms": 1752
+    },
+    {
+      "time_ms": 2073446,
+      "action": "craft",
+      "target": "furnace",
+      "reason": "need a furnace to cook food and smelt ores",
+      "success": false,
+      "health": 20,
+      "hunger": 20,
+      "danger": "safe",
+      "llm_ms": 1438
+    },
+    {
+      "time_ms": 2099903,
+      "action": "gather",
+      "target": "oak_log",
+      "reason": "need wood for crafting",
+      "success": false,
+      "health": 20,
+      "hunger": 20,
+      "danger": "safe",
+      "llm_ms": 1443
+    },
+    {
+      "time_ms": 2101509,
+      "action": "craft",
+      "target": "furnace",
+      "reason": "need a furnace to cook food and smelt ores",
+      "success": false,
+      "health": 20,
+      "hunger": 20,
+      "danger": "safe",
+      "llm_ms": 1603
+    },
+    {
+      "time_ms": 2128658,
+      "action": "gather",
+      "target": "oak_log",
+      "reason": "need wood for crafting",
+      "success": false,
+      "health": 20,
+      "hunger": 20,
+      "danger": "safe",
+      "llm_ms": 2130
+    },
+    {
+      "time_ms": 2130076,
+      "action": "craft",
+      "target": "furnace",
+      "reason": "need a furnace to cook food and smelt ores",
+      "success": false,
+      "health": 20,
+      "hunger": 20,
+      "danger": "safe",
+      "llm_ms": 1417
+    },
+    {
+      "time_ms": 2131685,
+      "action": "craft",
+      "target": "furnace",
+      "reason": "need a furnace to cook food and smelt ores",
+      "success": false,
+      "health": 20,
+      "hunger": 20,
+      "danger": "safe",
+      "llm_ms": 1605
+    },
+    {
+      "time_ms": 2133299,
+      "action": "craft",
+      "target": "furnace",
+      "reason": "have cobblestone needed to craft furnace for cooking food and smelting ores",
+      "success": false,
+      "health": 20,
+      "hunger": 20,
+      "danger": "safe",
+      "llm_ms": 1611
+    },
+    {
+      "time_ms": 2159722,
+      "action": "gather",
+      "target": "birch_log",
+      "reason": "need wood for crafting and gathering resources",
+      "success": false,
+      "health": 20,
+      "hunger": 20,
+      "danger": "safe",
+      "llm_ms": 1406
+    },
+    {
+      "time_ms": 2161272,
+      "action": "craft",
+      "target": "furnace",
+      "reason": "need a furnace to cook food and smelt ores",
+      "success": false,
+      "health": 20,
+      "hunger": 20,
+      "danger": "safe",
+      "llm_ms": 1547
+    },
+    {
+      "time_ms": 2162930,
+      "action": "craft",
+      "target": "furnace",
+      "reason": "need a furnace to cook food and smelt ores",
+      "success": false,
+      "health": 20,
+      "hunger": 20,
+      "danger": "safe",
+      "llm_ms": 1656
+    },
+    {
+      "time_ms": 2164506,
+      "action": "craft",
+      "target": "furnace",
+      "reason": "need furnace to cook food and smelt ores",
+      "success": false,
+      "health": 20,
+      "hunger": 20,
+      "danger": "safe",
+      "llm_ms": 1574
+    },
+    {
+      "time_ms": 2191179,
+      "action": "gather",
+      "target": "birch_log",
+      "reason": "need wood for crafting and resources",
+      "success": false,
+      "health": 20,
+      "hunger": 20,
+      "danger": "safe",
+      "llm_ms": 1648
+    },
+    {
+      "time_ms": 2217869,
+      "action": "gather",
+      "target": "oak_log",
+      "reason": "need wood for crafting",
+      "success": false,
+      "health": 20,
+      "hunger": 20,
+      "danger": "safe",
+      "llm_ms": 1669
+    },
+    {
+      "time_ms": 2219416,
+      "action": "craft",
+      "target": "furnace",
+      "reason": "need a furnace to cook food and smelt ores",
+      "success": false,
+      "health": 20,
+      "hunger": 20,
+      "danger": "safe",
+      "llm_ms": 1544
+    },
+    {
+      "time_ms": 2221131,
+      "action": "craft",
+      "target": "furnace",
+      "reason": "need a furnace to cook food and smelt ores",
+      "success": false,
+      "health": 20,
+      "hunger": 20,
+      "danger": "safe",
+      "llm_ms": 1713
+    },
+    {
+      "time_ms": 2247735,
+      "action": "gather",
+      "target": "oak_log",
+      "reason": "gathering wood for crafting, as I need more resources",
+      "success": false,
+      "health": 20,
+      "hunger": 20,
+      "danger": "safe",
+      "llm_ms": 1586
+    },
+    {
+      "time_ms": 2274121,
+      "action": "gather",
+      "target": "oak_log",
+      "reason": "gathering wood to increase resource stock for future crafting",
+      "success": false,
+      "health": 20,
+      "hunger": 20,
+      "danger": "safe",
+      "llm_ms": 1373
+    },
+    {
+      "time_ms": 2300837,
+      "action": "gather",
+      "target": "birch_log",
+      "reason": "gathering wood to increase resource stock for future crafting",
+      "success": false,
+      "health": 20,
+      "hunger": 20,
+      "danger": "safe",
+      "llm_ms": 1682
+    },
+    {
+      "time_ms": 2302542,
+      "action": "craft",
+      "target": "furnace",
+      "reason": "I have enough cobblestone to craft a furnace, which will allow me to cook food and smelt ores.",
+      "success": false,
+      "health": 20,
+      "hunger": 20,
+      "danger": "safe",
+      "llm_ms": 1702
+    },
+    {
+      "time_ms": 2304518,
+      "action": "craft",
+      "target": "furnace",
+      "reason": "I have enough cobblestone to craft a furnace, which will allow me to cook food and smelt ores.",
+      "success": false,
+      "health": 20,
+      "hunger": 20,
+      "danger": "safe",
+      "llm_ms": 1974
+    },
+    {
+      "time_ms": 2306412,
+      "action": "craft",
+      "target": "furnace",
+      "reason": "I have enough cobblestone to craft a furnace, which will allow me to cook food and smelt ores.",
+      "success": false,
+      "health": 20,
+      "hunger": 20,
+      "danger": "safe",
+      "llm_ms": 1892
+    },
+    {
+      "time_ms": 2308169,
+      "action": "wait",
+      "target": null,
+      "reason": "It is night and I am already at home, so I will stay put.",
+      "success": false,
+      "health": 20,
+      "hunger": 20,
+      "danger": "safe",
+      "llm_ms": 1754
+    },
+    {
+      "time_ms": 2309702,
+      "action": "craft",
+      "target": "furnace",
+      "reason": "I have enough cobblestone to craft a furnace, which will allow me to cook food and smelt ores.",
+      "success": false,
+      "health": 20,
+      "hunger": 20,
+      "danger": "safe",
+      "llm_ms": 1530
+    },
+    {
+      "time_ms": 2311797,
+      "action": "craft",
+      "target": "furnace",
+      "reason": "I have enough cobblestone to craft a furnace, which will allow me to cook food and smelt ores.",
+      "success": false,
+      "health": 20,
+      "hunger": 20,
+      "danger": "safe",
+      "llm_ms": 2093
+    },
+    {
+      "time_ms": 2313476,
+      "action": "craft",
+      "target": "furnace",
+      "reason": "I have enough cobblestone to craft a furnace, which will allow me to cook food and smelt ores.",
+      "success": false,
+      "health": 20,
+      "hunger": 20,
+      "danger": "safe",
+      "llm_ms": 1678
+    },
+    {
+      "time_ms": 2339913,
+      "action": "gather",
+      "target": "oak_log",
+      "reason": "need wood for crafting and resources, and it's nearby",
+      "success": false,
+      "health": 20,
+      "hunger": 20,
+      "danger": "safe",
+      "llm_ms": 1420
+    },
+    {
+      "time_ms": 2341850,
+      "action": "craft",
+      "target": "furnace",
+      "reason": "I have enough cobblestone to craft a furnace, which will allow me to cook food and smelt ores.",
+      "success": false,
+      "health": 20,
+      "hunger": 20,
+      "danger": "safe",
+      "llm_ms": 1934
+    },
+    {
+      "time_ms": 2343609,
+      "action": "craft",
+      "target": "furnace",
+      "reason": "I have enough cobblestone to craft a furnace, which will allow me to cook food and smelt ores.",
+      "success": false,
+      "health": 20,
+      "hunger": 20,
+      "danger": "safe",
+      "llm_ms": 1756
+    },
+    {
+      "time_ms": 2345556,
+      "action": "craft",
+      "target": "furnace",
+      "reason": "I have enough cobblestone to craft a furnace, which will allow me to cook food and smelt ores.",
+      "success": false,
+      "health": 20,
+      "hunger": 20,
+      "danger": "safe",
+      "llm_ms": 1945
+    },
+    {
+      "time_ms": 2372048,
+      "action": "gather",
+      "target": "birch_log",
+      "reason": "need wood for crafting and resources nearby",
+      "success": false,
+      "health": 20,
+      "hunger": 20,
+      "danger": "safe",
+      "llm_ms": 1302
+    },
+    {
+      "time_ms": 2373651,
+      "action": "craft",
+      "target": "furnace",
+      "reason": "have enough cobblestone to craft a furnace, which will allow cooking food and smelting ores.",
+      "success": false,
+      "health": 20,
+      "hunger": 20,
+      "danger": "safe",
+      "llm_ms": 1600
+    },
+    {
+      "time_ms": 2375320,
+      "action": "craft",
+      "target": "furnace",
+      "reason": "have enough cobblestone to craft a furnace, allowing cooking food and smelting ores.",
+      "success": false,
+      "health": 20,
+      "hunger": 20,
+      "danger": "safe",
+      "llm_ms": 1668
+    },
+    {
+      "time_ms": 2376895,
+      "action": "craft",
+      "target": "furnace",
+      "reason": "have enough cobblestone to craft a furnace, which will allow cooking food and smelting ores.",
+      "success": false,
+      "health": 20,
+      "hunger": 20,
+      "danger": "safe",
+      "llm_ms": 1572
+    },
+    {
+      "time_ms": 2378289,
+      "action": "wait",
+      "target": null,
+      "reason": "It's night and I'm at home, there's no immediate action needed.",
+      "success": false,
+      "health": 20,
+      "hunger": 20,
+      "danger": "safe",
+      "llm_ms": 1392
+    },
+    {
+      "time_ms": 2379694,
+      "action": "craft",
+      "target": "furnace",
+      "reason": "need a furnace for cooking food and smelting ores.",
+      "success": false,
+      "health": 20,
+      "hunger": 20,
+      "danger": "safe",
+      "llm_ms": 1402
+    },
+    {
+      "time_ms": 2381402,
+      "action": "craft",
+      "target": "furnace",
+      "reason": "have enough cobblestone to craft a furnace, which will allow cooking food and smelting ores.",
+      "success": false,
+      "health": 20,
+      "hunger": 20,
+      "danger": "safe",
+      "llm_ms": 1705
+    },
+    {
+      "time_ms": 2382852,
+      "action": "craft",
+      "target": "furnace",
+      "reason": "need a furnace for cooking food and smelting ores.",
+      "success": false,
+      "health": 20,
+      "hunger": 20,
+      "danger": "safe",
+      "llm_ms": 1447
+    },
+    {
+      "time_ms": 2384224,
+      "action": "wait",
+      "target": null,
+      "reason": "It's night and I'm at home, staying safe and waiting for morning.",
+      "success": false,
+      "health": 20,
+      "hunger": 20,
+      "danger": "safe",
+      "llm_ms": 1369
+    },
+    {
+      "time_ms": 2385527,
+      "action": "craft",
+      "target": "furnace",
+      "reason": "need a furnace for cooking food and smelting ores.",
+      "success": false,
+      "health": 20,
+      "hunger": 20,
+      "danger": "safe",
+      "llm_ms": 1301
+    },
+    {
+      "time_ms": 2387127,
+      "action": "craft",
+      "target": "furnace",
+      "reason": "have enough cobblestone to craft a furnace for cooking food and smelting ores.",
+      "success": false,
+      "health": 20,
+      "hunger": 20,
+      "danger": "safe",
+      "llm_ms": 1599
+    },
+    {
+      "time_ms": 2388469,
+      "action": "craft",
+      "target": "furnace",
+      "reason": "need a furnace for cooking food and smelting ores.",
+      "success": false,
+      "health": 20,
+      "hunger": 20,
+      "danger": "safe",
+      "llm_ms": 1341
+    },
+    {
+      "time_ms": 2415673,
+      "action": "gather",
+      "target": "birch_log",
+      "reason": "need wood for crafting",
+      "success": false,
+      "health": 20,
+      "hunger": 20,
+      "danger": "safe",
+      "llm_ms": 1823
+    },
+    {
+      "time_ms": 2417082,
+      "action": "craft",
+      "target": "furnace",
+      "reason": "need a furnace for cooking food and smelting ores.",
+      "success": false,
+      "health": 20,
+      "hunger": 20,
+      "danger": "safe",
+      "llm_ms": 1405
+    },
+    {
+      "time_ms": 2443504,
+      "action": "gather",
+      "target": "oak_log",
+      "reason": "need wood for crafting",
+      "success": false,
+      "health": 20,
+      "hunger": 20,
+      "danger": "safe",
+      "llm_ms": 1402
+    },
+    {
+      "time_ms": 2470009,
+      "action": "gather",
+      "target": "oak_log",
+      "reason": "need wood for crafting",
+      "success": false,
+      "health": 20,
+      "hunger": 20,
+      "danger": "safe",
+      "llm_ms": 1487
+    },
+    {
+      "time_ms": 2471460,
+      "action": "craft",
+      "target": "furnace",
+      "reason": "need a furnace for cooking food and smelting ores.",
+      "success": false,
+      "health": 20,
+      "hunger": 20,
+      "danger": "safe",
+      "llm_ms": 1448
+    },
+    {
+      "time_ms": 2473201,
+      "action": "craft",
+      "target": "furnace",
+      "reason": "need a furnace for cooking food and smelting ores.",
+      "success": false,
+      "health": 20,
+      "hunger": 20,
+      "danger": "safe",
+      "llm_ms": 1739
+    },
+    {
+      "time_ms": 2474890,
+      "action": "craft",
+      "target": "furnace",
+      "reason": "need a furnace for cooking food and smelting ores.",
+      "success": false,
+      "health": 20,
+      "hunger": 20,
+      "danger": "safe",
+      "llm_ms": 1475
+    },
+    {
+      "time_ms": 2476340,
+      "action": "wait",
+      "target": null,
+      "reason": "It is night and I am at home, no actions are needed.",
+      "success": false,
+      "health": 20,
+      "hunger": 20,
+      "danger": "safe",
+      "llm_ms": 1448
+    },
+    {
+      "time_ms": 2477886,
+      "action": "wait",
+      "target": null,
+      "reason": "It is night and I am at home, no actions are needed.",
+      "success": false,
+      "health": 20,
+      "hunger": 20,
+      "danger": "safe",
+      "llm_ms": 1535
+    },
+    {
+      "time_ms": 2479759,
+      "action": "craft",
+      "target": "furnace",
+      "reason": "need a furnace for cooking food and smelting ores.",
+      "success": false,
+      "health": 20,
+      "hunger": 20,
+      "danger": "safe",
+      "llm_ms": 1870
+    },
+    {
+      "time_ms": 2481466,
+      "action": "craft",
+      "target": "furnace",
+      "reason": "need a furnace for cooking food and smelting ores.",
+      "success": false,
+      "health": 20,
+      "hunger": 20,
+      "danger": "safe",
+      "llm_ms": 1704
+    },
+    {
+      "time_ms": 2482890,
+      "action": "craft",
+      "target": "furnace",
+      "reason": "need a furnace for cooking food and smelting ores.",
+      "success": false,
+      "health": 20,
+      "hunger": 20,
+      "danger": "safe",
+      "llm_ms": 1421
+    },
+    {
+      "time_ms": 2485129,
+      "action": "wait",
+      "target": null,
+      "reason": "It is night and I am already at home, no actions are needed.",
+      "success": false,
+      "health": 20,
+      "hunger": 20,
+      "danger": "safe",
+      "llm_ms": 2235
+    },
+    {
+      "time_ms": 2486658,
+      "action": "craft",
+      "target": "furnace",
+      "reason": "need a furnace for cooking food and smelting ores.",
+      "success": false,
+      "health": 20,
+      "hunger": 20,
+      "danger": "safe",
+      "llm_ms": 1528
+    },
+    {
+      "time_ms": 2488228,
+      "action": "craft",
+      "target": "furnace",
+      "reason": "need a furnace for cooking food and smelting ores.",
+      "success": false,
+      "health": 20,
+      "hunger": 20,
+      "danger": "safe",
+      "llm_ms": 1568
+    },
+    {
+      "time_ms": 2489711,
+      "action": "craft",
+      "target": "furnace",
+      "reason": "need a furnace for cooking food and smelting ores.",
+      "success": false,
+      "health": 20,
+      "hunger": 20,
+      "danger": "safe",
+      "llm_ms": 1480
+    },
+    {
+      "time_ms": 2491214,
+      "action": "wait",
+      "target": null,
+      "reason": "It's night and I am already at home, no actions are needed.",
+      "success": false,
+      "health": 20,
+      "hunger": 20,
+      "danger": "safe",
+      "llm_ms": 1443
+    },
+    {
+      "time_ms": 2517811,
+      "action": "gather",
+      "target": "birch_log",
+      "reason": "collect wood for crafting while staying safe at home",
+      "success": false,
+      "health": 20,
+      "hunger": 20,
+      "danger": "safe",
+      "llm_ms": 1565
+    },
+    {
+      "time_ms": 2520472,
+      "action": "craft",
+      "target": "furnace",
+      "reason": "need a furnace for cooking food and smelting ores.",
+      "success": false,
+      "health": 20,
+      "hunger": 20,
+      "danger": "safe",
+      "llm_ms": 2658
+    },
+    {
+      "time_ms": 2521745,
+      "action": "wait",
+      "target": null,
+      "reason": "It's night and I am at home, no actions are needed.",
+      "success": false,
+      "health": 20,
+      "hunger": 20,
+      "danger": "safe",
+      "llm_ms": 1270
+    },
+    {
+      "time_ms": 2523200,
+      "action": "craft",
+      "target": "furnace",
+      "reason": "need a furnace for cooking food and smelting ores.",
+      "success": false,
+      "health": 20,
+      "hunger": 20,
+      "danger": "safe",
+      "llm_ms": 1454
+    },
+    {
+      "time_ms": 2524619,
+      "action": "craft",
+      "target": "furnace",
+      "reason": "need a furnace for cooking food and smelting ores.",
+      "success": false,
+      "health": 20,
+      "hunger": 20,
+      "danger": "safe",
+      "llm_ms": 1416
+    },
+    {
+      "time_ms": 2526030,
+      "action": "craft",
+      "target": "furnace",
+      "reason": "need a furnace for cooking food and smelting ores.",
+      "success": false,
+      "health": 20,
+      "hunger": 20,
+      "danger": "safe",
+      "llm_ms": 1409
+    },
+    {
+      "time_ms": 2527402,
+      "action": "wait",
+      "target": null,
+      "reason": "It's night and I am safe at home, no actions are needed.",
+      "success": false,
+      "health": 20,
+      "hunger": 20,
+      "danger": "safe",
+      "llm_ms": 1371
+    },
+    {
+      "time_ms": 2528893,
+      "action": "craft",
+      "target": "furnace",
+      "reason": "need a furnace for cooking food and smelting ores.",
+      "success": false,
+      "health": 20,
+      "hunger": 20,
+      "danger": "safe",
+      "llm_ms": 1489
+    },
+    {
+      "time_ms": 2530324,
+      "action": "craft",
+      "target": "furnace",
+      "reason": "need a furnace for cooking food and smelting ores.",
+      "success": false,
+      "health": 20,
+      "hunger": 20,
+      "danger": "safe",
+      "llm_ms": 1429
+    },
+    {
+      "time_ms": 2531995,
+      "action": "craft",
+      "target": "furnace",
+      "reason": "need a furnace for cooking food and smelting ores.",
+      "success": false,
+      "health": 20,
+      "hunger": 20,
+      "danger": "safe",
+      "llm_ms": 1669
+    },
+    {
+      "time_ms": 2533710,
+      "action": "wait",
+      "target": null,
+      "reason": "It's night and I am safe at home, no actions are needed.",
+      "success": false,
+      "health": 20,
+      "hunger": 20,
+      "danger": "safe",
+      "llm_ms": 1391
+    },
+    {
+      "time_ms": 2535042,
+      "action": "craft",
+      "target": "furnace",
+      "reason": "need a furnace for cooking food and smelting ores.",
+      "success": false,
+      "health": 20,
+      "hunger": 20,
+      "danger": "safe",
+      "llm_ms": 1330
+    },
+    {
+      "time_ms": 2536411,
+      "action": "craft",
+      "target": "furnace",
+      "reason": "need a furnace for cooking food and smelting ores.",
+      "success": false,
+      "health": 20,
+      "hunger": 20,
+      "danger": "safe",
+      "llm_ms": 1366
+    },
+    {
+      "time_ms": 2537836,
+      "action": "craft",
+      "target": "furnace",
+      "reason": "need a furnace for cooking food and smelting ores.",
+      "success": false,
+      "health": 20,
+      "hunger": 20,
+      "danger": "safe",
+      "llm_ms": 1423
+    },
+    {
+      "time_ms": 2539288,
+      "action": "wait",
+      "target": null,
+      "reason": "It's night and I am safe at home, no actions are needed.",
+      "success": false,
+      "health": 20,
+      "hunger": 20,
+      "danger": "safe",
+      "llm_ms": 1451
+    },
+    {
+      "time_ms": 2540673,
+      "action": "craft",
+      "target": "furnace",
+      "reason": "need a furnace for cooking food and smelting ores.",
+      "success": false,
+      "health": 20,
+      "hunger": 20,
+      "danger": "safe",
+      "llm_ms": 1382
+    },
+    {
+      "time_ms": 2541969,
+      "action": "craft",
+      "target": "furnace",
+      "reason": "need a furnace for cooking food and smelting ores.",
+      "success": false,
+      "health": 20,
+      "hunger": 20,
+      "danger": "safe",
+      "llm_ms": 1293
+    },
+    {
+      "time_ms": 2543451,
+      "action": "craft",
+      "target": "furnace",
+      "reason": "need a furnace for cooking food and smelting ores.",
+      "success": false,
+      "health": 20,
+      "hunger": 20,
+      "danger": "safe",
+      "llm_ms": 1480
+    },
+    {
+      "time_ms": 2544824,
+      "action": "wait",
+      "target": null,
+      "reason": "It is night and I am safe at home, no actions are needed.",
+      "success": false,
+      "health": 20,
+      "hunger": 20,
+      "danger": "safe",
+      "llm_ms": 1372
+    },
+    {
+      "time_ms": 2546355,
+      "action": "craft",
+      "target": "furnace",
+      "reason": "need a furnace for cooking food and smelting ores.",
+      "success": false,
+      "health": 20,
+      "hunger": 20,
+      "danger": "safe",
+      "llm_ms": 1529
+    },
+    {
+      "time_ms": 2547880,
+      "action": "craft",
+      "target": "furnace",
+      "reason": "need a furnace for cooking food and smelting ores.",
+      "success": false,
+      "health": 20,
+      "hunger": 20,
+      "danger": "safe",
+      "llm_ms": 1523
+    },
+    {
+      "time_ms": 2549715,
+      "action": "craft",
+      "target": "furnace",
+      "reason": "need a furnace for cooking food and smelting ores.",
+      "success": false,
+      "health": 20,
+      "hunger": 20,
+      "danger": "safe",
+      "llm_ms": 1832
+    },
+    {
+      "time_ms": 2577410,
+      "action": "gather",
+      "target": "oak_log",
+      "reason": "need wood for crafting and there are nearby oak logs available",
+      "success": false,
+      "health": 20,
+      "hunger": 20,
+      "danger": "safe",
+      "llm_ms": 2676
+    },
+    {
+      "time_ms": 2604067,
+      "action": "gather",
+      "target": "birch_log",
+      "reason": "need wood for crafting and there are nearby birch logs available",
+      "success": false,
+      "health": 20,
+      "hunger": 20,
+      "danger": "safe",
+      "llm_ms": 1622
+    },
+    {
+      "time_ms": 2605572,
+      "action": "wait",
+      "target": null,
+      "reason": "It is night and I am already at home with no immediate crafting needs.",
+      "success": false,
+      "health": 20,
+      "hunger": 20,
+      "danger": "safe",
+      "llm_ms": 1503
+    },
+    {
+      "time_ms": 2607738,
+      "action": "wait",
+      "target": null,
+      "reason": "It is night and I am already at home, and there are no immediate crafting needs.",
+      "success": false,
+      "health": 20,
+      "hunger": 20,
+      "danger": "safe",
+      "llm_ms": 2164
+    },
+    {
+      "time_ms": 2609138,
+      "action": "wait",
+      "target": null,
+      "reason": "It is night, I am at home, and I have no immediate crafting needs.",
+      "success": false,
+      "health": 20,
+      "hunger": 20,
+      "danger": "safe",
+      "llm_ms": 1398
+    },
+    {
+      "time_ms": 2635729,
+      "action": "gather",
+      "target": "oak_log",
+      "reason": "need wood for crafting while staying safe at home",
+      "success": false,
+      "health": 20,
+      "hunger": 20,
+      "danger": "safe",
+      "llm_ms": 1554
+    },
+    {
+      "time_ms": 2662067,
+      "action": "gather",
+      "target": "oak_log",
+      "reason": "need wood for crafting",
+      "success": false,
+      "health": 20,
+      "hunger": 20,
+      "danger": "safe",
+      "llm_ms": 1316
+    },
+    {
+      "time_ms": 2688523,
+      "action": "gather",
+      "target": "birch_log",
+      "reason": "need wood for crafting while staying safe at home",
+      "success": false,
+      "health": 20,
+      "hunger": 20,
+      "danger": "safe",
+      "llm_ms": 1420
+    },
+    {
+      "time_ms": 2690144,
+      "action": "craft",
+      "target": "furnace",
+      "reason": "need a furnace for cooking and smelting resources",
+      "success": false,
+      "health": 20,
+      "hunger": 20,
+      "danger": "safe",
+      "llm_ms": 1618
+    },
+    {
+      "time_ms": 2716801,
+      "action": "gather",
+      "target": "oak_log",
+      "reason": "need wood for crafting and it is safe to gather nearby resources.",
+      "success": false,
+      "health": 20,
+      "hunger": 20,
+      "danger": "safe",
+      "llm_ms": 1639
+    },
+    {
+      "time_ms": 2743333,
+      "action": "gather",
+      "target": "birch_log",
+      "reason": "need wood for crafting and it's safe to gather nearby resources.",
+      "success": false,
+      "health": 20,
+      "hunger": 20,
+      "danger": "safe",
+      "llm_ms": 1509
+    },
+    {
+      "time_ms": 2769967,
+      "action": "gather",
+      "target": "birch_log",
+      "reason": "need wood for crafting and it's safe to gather nearby resources.",
+      "success": false,
+      "health": 20,
+      "hunger": 20,
+      "danger": "safe",
+      "llm_ms": 1604
+    },
+    {
+      "time_ms": 2771910,
+      "action": "craft",
+      "target": "furnace",
+      "reason": "need a furnace for cooking and smelting resources.",
+      "success": false,
+      "health": 20,
+      "hunger": 20,
+      "danger": "safe",
+      "llm_ms": 1942
+    },
+    {
+      "time_ms": 2798379,
+      "action": "gather",
+      "target": "oak_log",
+      "reason": "need wood for crafting",
+      "success": false,
+      "health": 20,
+      "hunger": 20,
+      "danger": "safe",
+      "llm_ms": 1397
+    },
+    {
+      "time_ms": 2824710,
+      "action": "gather",
+      "target": "oak_log",
+      "reason": "need wood for crafting",
+      "success": false,
+      "health": 20,
+      "hunger": 20,
+      "danger": "safe",
+      "llm_ms": 1315
+    },
+    {
+      "time_ms": 2851311,
+      "action": "gather",
+      "target": "oak_log",
+      "reason": "need wood for crafting",
+      "success": false,
+      "health": 20,
+      "hunger": 20,
+      "danger": "safe",
+      "llm_ms": 1584
+    },
+    {
+      "time_ms": 2853012,
+      "action": "craft",
+      "target": "furnace",
+      "reason": "need a furnace for cooking and smelting resources.",
+      "success": false,
+      "health": 20,
+      "hunger": 20,
+      "danger": "safe",
+      "llm_ms": 1698
+    },
+    {
+      "time_ms": 2879615,
+      "action": "gather",
+      "target": "birch_log",
+      "reason": "need wood for crafting",
+      "success": false,
+      "health": 20,
+      "hunger": 20,
+      "danger": "safe",
+      "llm_ms": 1586
+    },
+    {
+      "time_ms": 2906126,
+      "action": "gather",
+      "target": "birch_log",
+      "reason": "need wood for crafting",
+      "success": false,
+      "health": 20,
+      "hunger": 20,
+      "danger": "safe",
+      "llm_ms": 1494
+    },
+    {
+      "time_ms": 2932586,
+      "action": "gather",
+      "target": "birch_log",
+      "reason": "need wood for crafting",
+      "success": false,
+      "health": 20,
+      "hunger": 20,
+      "danger": "safe",
+      "llm_ms": 1440
+    },
+    {
+      "time_ms": 2934053,
+      "action": "craft",
+      "target": "furnace",
+      "reason": "need to cook food and smelt resources.",
+      "success": false,
+      "health": 20,
+      "hunger": 20,
+      "danger": "safe",
+      "llm_ms": 1465
+    },
+    {
+      "time_ms": 2960613,
+      "action": "gather",
+      "target": "birch_log",
+      "reason": "need wood for crafting, nearby birch logs available.",
+      "success": false,
+      "health": 20,
+      "hunger": 20,
+      "danger": "safe",
+      "llm_ms": 1545
+    },
+    {
+      "time_ms": 2987105,
+      "action": "gather",
+      "target": "oak_log",
+      "reason": "need wood for crafting",
+      "success": false,
+      "health": 20,
+      "hunger": 20,
+      "danger": "safe",
+      "llm_ms": 1474
+    },
+    {
+      "time_ms": 3013528,
+      "action": "gather",
+      "target": "oak_log",
+      "reason": "need wood for crafting to expand my resources",
+      "success": false,
+      "health": 20,
+      "hunger": 20,
+      "danger": "safe",
+      "llm_ms": 1387
+    },
+    {
+      "time_ms": 3014870,
+      "action": "craft",
+      "target": "furnace",
+      "reason": "need to cook food and smelt resources.",
+      "success": false,
+      "health": 20,
+      "hunger": 20,
+      "danger": "safe",
+      "llm_ms": 1339
+    },
+    {
+      "time_ms": 3041545,
+      "action": "gather",
+      "target": "oak_log",
+      "reason": "need wood for crafting to expand resources",
+      "success": false,
+      "health": 20,
+      "hunger": 20,
+      "danger": "safe",
+      "llm_ms": 1653
+    },
+    {
+      "time_ms": 3068030,
+      "action": "gather",
+      "target": "oak_log",
+      "reason": "need wood for crafting to expand resources",
+      "success": false,
+      "health": 20,
+      "hunger": 20,
+      "danger": "safe",
+      "llm_ms": 1384
+    },
+    {
+      "time_ms": 3094510,
+      "action": "gather",
+      "target": "birch_log",
+      "reason": "need wood for crafting to expand my resources",
+      "success": false,
+      "health": 20,
+      "hunger": 20,
+      "danger": "safe",
+      "llm_ms": 1332
+    },
+    {
+      "time_ms": 3096035,
+      "action": "craft",
+      "target": "furnace",
+      "reason": "need to cook food and smelt resources.",
+      "success": false,
+      "health": 20,
+      "hunger": 20,
+      "danger": "safe",
+      "llm_ms": 1523
+    }
+  ],
+  "positions": [
+    {
+      "time_ms": 7496,
+      "x": -30.64455290169724,
+      "y": 71,
+      "z": 10.300807364341612
+    },
+    {
+      "time_ms": 13002,
+      "x": -30.64455290169724,
+      "y": 71,
+      "z": 10.300807364341612
+    },
+    {
+      "time_ms": 18244,
+      "x": -30.64455290169724,
+      "y": 71,
+      "z": 10.300807364341612
+    },
+    {
+      "time_ms": 23406,
+      "x": -30.64455290169724,
+      "y": 71,
+      "z": 10.300807364341612
+    },
+    {
+      "time_ms": 28609,
+      "x": -30.64455290169724,
+      "y": 71,
+      "z": 10.300807364341612
+    },
+    {
+      "time_ms": 33757,
+      "x": -30.64455290169724,
+      "y": 71,
+      "z": 10.300807364341612
+    },
+    {
+      "time_ms": 39062,
+      "x": -30.64455290169724,
+      "y": 71,
+      "z": 10.300807364341612
+    },
+    {
+      "time_ms": 44215,
+      "x": -30.64455290169724,
+      "y": 71,
+      "z": 10.300807364341612
+    },
+    {
+      "time_ms": 49379,
+      "x": -30.64455290169724,
+      "y": 71,
+      "z": 10.300807364341612
+    },
+    {
+      "time_ms": 54523,
+      "x": -30.64455290169724,
+      "y": 71,
+      "z": 10.300807364341612
+    },
+    {
+      "time_ms": 59768,
+      "x": -30.64455290169724,
+      "y": 71,
+      "z": 10.300807364341612
+    },
+    {
+      "time_ms": 64915,
+      "x": -30.64455290169724,
+      "y": 71,
+      "z": 10.300807364341612
+    },
+    {
+      "time_ms": 70084,
+      "x": -30.64455290169724,
+      "y": 71,
+      "z": 10.300807364341612
+    },
+    {
+      "time_ms": 75273,
+      "x": -30.623800966492293,
+      "y": 71,
+      "z": 10.3
+    },
+    {
+      "time_ms": 80436,
+      "x": -30.64455290169724,
+      "y": 71,
+      "z": 10.300807364341612
+    },
+    {
+      "time_ms": 85601,
+      "x": -30.64455290169724,
+      "y": 71,
+      "z": 10.300807364341612
+    },
+    {
+      "time_ms": 90753,
+      "x": -30.64455290169724,
+      "y": 71,
+      "z": 10.300807364341612
+    },
+    {
+      "time_ms": 95920,
+      "x": -30.64455290169724,
+      "y": 71,
+      "z": 10.300807364341612
+    },
+    {
+      "time_ms": 101135,
+      "x": -30.64455290169724,
+      "y": 71,
+      "z": 10.300807364341612
+    },
+    {
+      "time_ms": 106334,
+      "x": -30.64455290169724,
+      "y": 71,
+      "z": 10.300807364341612
+    },
+    {
+      "time_ms": 111973,
+      "x": -30.64455290169724,
+      "y": 71,
+      "z": 10.300807364341612
+    },
+    {
+      "time_ms": 117317,
+      "x": -30.64455290169724,
+      "y": 71,
+      "z": 10.300807364341612
+    },
+    {
+      "time_ms": 122551,
+      "x": -30.64455290169724,
+      "y": 71,
+      "z": 10.300807364341612
+    },
+    {
+      "time_ms": 127744,
+      "x": -30.64455290169724,
+      "y": 71,
+      "z": 10.300807364341612
+    },
+    {
+      "time_ms": 132903,
+      "x": -30.64455290169724,
+      "y": 71,
+      "z": 10.300807364341612
+    },
+    {
+      "time_ms": 138074,
+      "x": -30.64455290169724,
+      "y": 71,
+      "z": 10.300807364341612
+    },
+    {
+      "time_ms": 143236,
+      "x": -30.64455290169724,
+      "y": 71,
+      "z": 10.300807364341612
+    },
+    {
+      "time_ms": 148420,
+      "x": -30.64455290169724,
+      "y": 71,
+      "z": 10.300807364341612
+    },
+    {
+      "time_ms": 153580,
+      "x": -30.64455290169724,
+      "y": 71,
+      "z": 10.300807364341612
+    },
+    {
+      "time_ms": 158739,
+      "x": -30.64455290169724,
+      "y": 71,
+      "z": 10.300807364341612
+    },
+    {
+      "time_ms": 163915,
+      "x": -30.64455290169724,
+      "y": 71,
+      "z": 10.300807364341612
+    },
+    {
+      "time_ms": 169096,
+      "x": -30.64455290169724,
+      "y": 71,
+      "z": 10.300807364341612
+    },
+    {
+      "time_ms": 174262,
+      "x": -30.6238009310557,
+      "y": 71,
+      "z": 10.3
+    },
+    {
+      "time_ms": 179423,
+      "x": -30.64455290169724,
+      "y": 71,
+      "z": 10.300807364341612
+    },
+    {
+      "time_ms": 184586,
+      "x": -30.64455290169724,
+      "y": 71,
+      "z": 10.300807364341612
+    },
+    {
+      "time_ms": 189749,
+      "x": -30.64455290169724,
+      "y": 71,
+      "z": 10.300807364341612
+    },
+    {
+      "time_ms": 194923,
+      "x": -30.64455290169724,
+      "y": 71,
+      "z": 10.300807364341612
+    },
+    {
+      "time_ms": 200108,
+      "x": -30.64455290169724,
+      "y": 71,
+      "z": 10.300807364341612
+    },
+    {
+      "time_ms": 205373,
+      "x": -30.64455290169724,
+      "y": 71,
+      "z": 10.300807364341612
+    },
+    {
+      "time_ms": 210571,
+      "x": -30.64455290169724,
+      "y": 71,
+      "z": 10.300807364341612
+    },
+    {
+      "time_ms": 215769,
+      "x": -30.64455290169724,
+      "y": 71,
+      "z": 10.300807364341612
+    },
+    {
+      "time_ms": 220969,
+      "x": -30.64455290169724,
+      "y": 71,
+      "z": 10.300807364341612
+    },
+    {
+      "time_ms": 226181,
+      "x": -30.64455290169724,
+      "y": 71,
+      "z": 10.300807364341612
+    },
+    {
+      "time_ms": 231375,
+      "x": -30.64455290169724,
+      "y": 71,
+      "z": 10.300807364341612
+    },
+    {
+      "time_ms": 236580,
+      "x": -30.64455290169724,
+      "y": 71,
+      "z": 10.300807364341612
+    },
+    {
+      "time_ms": 241791,
+      "x": -30.64455290169724,
+      "y": 71,
+      "z": 10.300807364341612
+    },
+    {
+      "time_ms": 246990,
+      "x": -30.64455290169724,
+      "y": 71,
+      "z": 10.300807364341612
+    },
+    {
+      "time_ms": 252186,
+      "x": -30.64455290169724,
+      "y": 71,
+      "z": 10.300807364341612
+    },
+    {
+      "time_ms": 257396,
+      "x": -30.64455290169724,
+      "y": 71,
+      "z": 10.300807364341612
+    },
+    {
+      "time_ms": 262618,
+      "x": -30.64455290169724,
+      "y": 71,
+      "z": 10.300807364341612
+    },
+    {
+      "time_ms": 267824,
+      "x": -30.64455290169724,
+      "y": 71,
+      "z": 10.300807364341612
+    },
+    {
+      "time_ms": 273047,
+      "x": -30.64455290169724,
+      "y": 71,
+      "z": 10.300807364341612
+    },
+    {
+      "time_ms": 278252,
+      "x": -30.64455290169724,
+      "y": 71,
+      "z": 10.300807364341612
+    },
+    {
+      "time_ms": 283468,
+      "x": -30.64455290169724,
+      "y": 71,
+      "z": 10.300807364341612
+    },
+    {
+      "time_ms": 288676,
+      "x": -30.64455290169724,
+      "y": 71,
+      "z": 10.300807364341612
+    },
+    {
+      "time_ms": 293901,
+      "x": -30.64455290169724,
+      "y": 71,
+      "z": 10.300807364341612
+    },
+    {
+      "time_ms": 299114,
+      "x": -30.64455290169724,
+      "y": 71,
+      "z": 10.300807364341612
+    },
+    {
+      "time_ms": 304315,
+      "x": -30.64455290169724,
+      "y": 71,
+      "z": 10.300807364341612
+    },
+    {
+      "time_ms": 309507,
+      "x": -30.64455290169724,
+      "y": 71,
+      "z": 10.300807364341612
+    },
+    {
+      "time_ms": 314702,
+      "x": -30.623800899556606,
+      "y": 71,
+      "z": 10.3
+    },
+    {
+      "time_ms": 319897,
+      "x": -30.64455290169724,
+      "y": 71,
+      "z": 10.300807364341612
+    },
+    {
+      "time_ms": 325103,
+      "x": -30.64455290169724,
+      "y": 71,
+      "z": 10.300807364341612
+    },
+    {
+      "time_ms": 330303,
+      "x": -30.64455290169724,
+      "y": 71,
+      "z": 10.300807364341612
+    },
+    {
+      "time_ms": 335503,
+      "x": -30.64455290169724,
+      "y": 71,
+      "z": 10.300807364341612
+    },
+    {
+      "time_ms": 340785,
+      "x": -30.64455290169724,
+      "y": 71,
+      "z": 10.300807364341612
+    },
+    {
+      "time_ms": 345983,
+      "x": -30.64455290169724,
+      "y": 71,
+      "z": 10.300807364341612
+    },
+    {
+      "time_ms": 351193,
+      "x": -30.64455290169724,
+      "y": 71,
+      "z": 10.300807364341612
+    },
+    {
+      "time_ms": 356387,
+      "x": -30.64455290169724,
+      "y": 71,
+      "z": 10.300807364341612
+    },
+    {
+      "time_ms": 361590,
+      "x": -30.64455290169724,
+      "y": 71,
+      "z": 10.300807364341612
+    },
+    {
+      "time_ms": 366781,
+      "x": -30.640167551902543,
+      "y": 71,
+      "z": 10.3
+    },
+    {
+      "time_ms": 372310,
+      "x": -30.535849039773417,
+      "y": 71.7531999805212,
+      "z": 10.3
+    },
+    {
+      "time_ms": 377523,
+      "x": -30.64455290169724,
+      "y": 71,
+      "z": 10.300807364341612
+    },
+    {
+      "time_ms": 382750,
+      "x": -30.64455290169724,
+      "y": 71,
+      "z": 10.300807364341612
+    },
+    {
+      "time_ms": 387981,
+      "x": -30.64455290169724,
+      "y": 71,
+      "z": 10.300807364341612
+    },
+    {
+      "time_ms": 393220,
+      "x": -30.64455290169724,
+      "y": 71,
+      "z": 10.300807364341612
+    },
+    {
+      "time_ms": 398421,
+      "x": -30.64455290169724,
+      "y": 71,
+      "z": 10.300807364341612
+    },
+    {
+      "time_ms": 404297,
+      "x": -30.623800883807096,
+      "y": 71,
+      "z": 10.3
+    },
+    {
+      "time_ms": 409519,
+      "x": -30.64455290169724,
+      "y": 71,
+      "z": 10.300807364341612
+    },
+    {
+      "time_ms": 414723,
+      "x": -30.64455290169724,
+      "y": 71,
+      "z": 10.300807364341612
+    },
+    {
+      "time_ms": 420308,
+      "x": -30.64455290169724,
+      "y": 71,
+      "z": 10.300807364341612
+    },
+    {
+      "time_ms": 425551,
+      "x": -30.64455290169724,
+      "y": 71,
+      "z": 10.300807364341612
+    },
+    {
+      "time_ms": 430767,
+      "x": -30.64455290169724,
+      "y": 71,
+      "z": 10.300807364341612
+    },
+    {
+      "time_ms": 436042,
+      "x": -30.662975816598287,
+      "y": 71,
+      "z": 10.3
+    },
+    {
+      "time_ms": 441369,
+      "x": -30.64455290169724,
+      "y": 71,
+      "z": 10.300807364341612
+    },
+    {
+      "time_ms": 446688,
+      "x": -30.631791358728282,
+      "y": 71,
+      "z": 10.3
+    },
+    {
+      "time_ms": 451930,
+      "x": -30.64455290169724,
+      "y": 71,
+      "z": 10.300807364341612
+    },
+    {
+      "time_ms": 457166,
+      "x": -30.64455290169724,
+      "y": 71,
+      "z": 10.300807364341612
+    },
+    {
+      "time_ms": 462504,
+      "x": -31.094659846767218,
+      "y": 71.7531999805212,
+      "z": 10.3
+    },
+    {
+      "time_ms": 467719,
+      "x": -30.64455290169724,
+      "y": 71,
+      "z": 10.300807364341612
+    },
+    {
+      "time_ms": 472916,
+      "x": -30.64455290169724,
+      "y": 71,
+      "z": 10.300807364341612
+    },
+    {
+      "time_ms": 478124,
+      "x": -30.64455290169724,
+      "y": 71,
+      "z": 10.300807364341612
+    },
+    {
+      "time_ms": 483320,
+      "x": -30.64455290169724,
+      "y": 71,
+      "z": 10.300807364341612
+    },
+    {
+      "time_ms": 488528,
+      "x": -30.64455290169724,
+      "y": 71,
+      "z": 10.300807364341612
+    },
+    {
+      "time_ms": 493739,
+      "x": -30.64455290169724,
+      "y": 71,
+      "z": 10.300807364341612
+    },
+    {
+      "time_ms": 498943,
+      "x": -30.64455290169724,
+      "y": 71,
+      "z": 10.300807364341612
+    },
+    {
+      "time_ms": 504159,
+      "x": -30.64455290169724,
+      "y": 71,
+      "z": 10.300807364341612
+    },
+    {
+      "time_ms": 509370,
+      "x": -30.64455290169724,
+      "y": 71,
+      "z": 10.300807364341612
+    },
+    {
+      "time_ms": 514576,
+      "x": -30.64455290169724,
+      "y": 71,
+      "z": 10.300807364341612
+    },
+    {
+      "time_ms": 519787,
+      "x": -30.64455290169724,
+      "y": 71,
+      "z": 10.300807364341612
+    },
+    {
+      "time_ms": 524986,
+      "x": -30.64455290169724,
+      "y": 71,
+      "z": 10.300807364341612
+    },
+    {
+      "time_ms": 530185,
+      "x": -30.64455290169724,
+      "y": 71,
+      "z": 10.300807364341612
+    },
+    {
+      "time_ms": 535392,
+      "x": -30.64455290169724,
+      "y": 71,
+      "z": 10.300807364341612
+    },
+    {
+      "time_ms": 540590,
+      "x": -30.64455290169724,
+      "y": 71,
+      "z": 10.300807364341612
+    },
+    {
+      "time_ms": 545786,
+      "x": -30.64455290169724,
+      "y": 71,
+      "z": 10.300807364341612
+    },
+    {
+      "time_ms": 551006,
+      "x": -30.64455290169724,
+      "y": 71,
+      "z": 10.300807364341612
+    },
+    {
+      "time_ms": 556216,
+      "x": -30.64455290169724,
+      "y": 71,
+      "z": 10.300807364341612
+    },
+    {
+      "time_ms": 561413,
+      "x": -30.64455290169724,
+      "y": 71,
+      "z": 10.300807364341612
+    },
+    {
+      "time_ms": 566631,
+      "x": -30.64455290169724,
+      "y": 71,
+      "z": 10.300807364341612
+    },
+    {
+      "time_ms": 571829,
+      "x": -30.64455290169724,
+      "y": 71,
+      "z": 10.300807364341612
+    },
+    {
+      "time_ms": 577031,
+      "x": -30.64455290169724,
+      "y": 71,
+      "z": 10.300807364341612
+    },
+    {
+      "time_ms": 582229,
+      "x": -30.64455290169724,
+      "y": 71,
+      "z": 10.300807364341612
+    },
+    {
+      "time_ms": 587437,
+      "x": -30.64455290169724,
+      "y": 71,
+      "z": 10.300807364341612
+    },
+    {
+      "time_ms": 592638,
+      "x": -30.64455290169724,
+      "y": 71,
+      "z": 10.300807364341612
+    },
+    {
+      "time_ms": 597843,
+      "x": -30.64455290169724,
+      "y": 71,
+      "z": 10.300807364341612
+    },
+    {
+      "time_ms": 603043,
+      "x": -30.64455290169724,
+      "y": 71,
+      "z": 10.300807364341612
+    },
+    {
+      "time_ms": 608231,
+      "x": -30.64455290169724,
+      "y": 71,
+      "z": 10.300807364341612
+    },
+    {
+      "time_ms": 613480,
+      "x": -30.64455290169724,
+      "y": 71,
+      "z": 10.300807364341612
+    },
+    {
+      "time_ms": 618674,
+      "x": -30.64455290169724,
+      "y": 71,
+      "z": 10.300807364341612
+    },
+    {
+      "time_ms": 623873,
+      "x": -30.662975760346185,
+      "y": 71,
+      "z": 10.3
+    },
+    {
+      "time_ms": 629076,
+      "x": -30.64455290169724,
+      "y": 71,
+      "z": 10.300807364341612
+    },
+    {
+      "time_ms": 634275,
+      "x": -30.64455290169724,
+      "y": 71,
+      "z": 10.300807364341612
+    },
+    {
+      "time_ms": 639483,
+      "x": -30.623800816871935,
+      "y": 71,
+      "z": 10.3
+    },
+    {
+      "time_ms": 644701,
+      "x": -30.64455290169724,
+      "y": 71,
+      "z": 10.300807364341612
+    },
+    {
+      "time_ms": 649899,
+      "x": -30.64455290169724,
+      "y": 71,
+      "z": 10.300807364341612
+    },
+    {
+      "time_ms": 655099,
+      "x": -30.64455290169724,
+      "y": 71,
+      "z": 10.300807364341612
+    },
+    {
+      "time_ms": 660299,
+      "x": -30.64455290169724,
+      "y": 71,
+      "z": 10.300807364341612
+    },
+    {
+      "time_ms": 665526,
+      "x": -30.64455290169724,
+      "y": 71,
+      "z": 10.300807364341612
+    },
+    {
+      "time_ms": 670729,
+      "x": -30.64455290169724,
+      "y": 71,
+      "z": 10.300807364341612
+    },
+    {
+      "time_ms": 676001,
+      "x": -30.64455290169724,
+      "y": 71,
+      "z": 10.300807364341612
+    },
+    {
+      "time_ms": 681204,
+      "x": -30.64455290169724,
+      "y": 71,
+      "z": 10.300807364341612
+    },
+    {
+      "time_ms": 686395,
+      "x": -30.64455290169724,
+      "y": 71,
+      "z": 10.300807364341612
+    },
+    {
+      "time_ms": 691599,
+      "x": -30.64455290169724,
+      "y": 71,
+      "z": 10.300807364341612
+    },
+    {
+      "time_ms": 696789,
+      "x": -30.64455290169724,
+      "y": 71,
+      "z": 10.300807364341612
+    },
+    {
+      "time_ms": 701995,
+      "x": -30.64455290169724,
+      "y": 71,
+      "z": 10.300807364341612
+    },
+    {
+      "time_ms": 707194,
+      "x": -30.64455290169724,
+      "y": 71,
+      "z": 10.300807364341612
+    },
+    {
+      "time_ms": 712390,
+      "x": -30.64455290169724,
+      "y": 71,
+      "z": 10.300807364341612
+    },
+    {
+      "time_ms": 717602,
+      "x": -30.64455290169724,
+      "y": 71,
+      "z": 10.300807364341612
+    },
+    {
+      "time_ms": 722800,
+      "x": -30.64455290169724,
+      "y": 71,
+      "z": 10.300807364341612
+    },
+    {
+      "time_ms": 727992,
+      "x": -30.64455290169724,
+      "y": 71,
+      "z": 10.300807364341612
+    },
+    {
+      "time_ms": 733197,
+      "x": -30.64455290169724,
+      "y": 71,
+      "z": 10.300807364341612
+    },
+    {
+      "time_ms": 738383,
+      "x": -30.64455290169724,
+      "y": 71,
+      "z": 10.300807364341612
+    },
+    {
+      "time_ms": 743571,
+      "x": -30.64455290169724,
+      "y": 71,
+      "z": 10.300807364341612
+    },
+    {
+      "time_ms": 748755,
+      "x": -30.640167411528605,
+      "y": 71,
+      "z": 10.3
+    },
+    {
+      "time_ms": 753942,
+      "x": -30.64455290169724,
+      "y": 71,
+      "z": 10.300807364341612
+    },
+    {
+      "time_ms": 759132,
+      "x": -30.64455290169724,
+      "y": 71,
+      "z": 10.300807364341612
+    },
+    {
+      "time_ms": 764340,
+      "x": -30.64455290169724,
+      "y": 71,
+      "z": 10.300807364341612
+    },
+    {
+      "time_ms": 769524,
+      "x": -30.64455290169724,
+      "y": 71,
+      "z": 10.300807364341612
+    },
+    {
+      "time_ms": 774790,
+      "x": -30.64455290169724,
+      "y": 71,
+      "z": 10.300807364341612
+    },
+    {
+      "time_ms": 779999,
+      "x": -30.64455290169724,
+      "y": 71,
+      "z": 10.300807364341612
+    },
+    {
+      "time_ms": 785194,
+      "x": -30.64455290169724,
+      "y": 71,
+      "z": 10.300807364341612
+    },
+    {
+      "time_ms": 790374,
+      "x": -30.64455290169724,
+      "y": 71,
+      "z": 10.300807364341612
+    },
+    {
+      "time_ms": 795606,
+      "x": -30.64455290169724,
+      "y": 71,
+      "z": 10.300807364341612
+    },
+    {
+      "time_ms": 800810,
+      "x": -30.64455290169724,
+      "y": 71,
+      "z": 10.300807364341612
+    },
+    {
+      "time_ms": 805987,
+      "x": -30.64455290169724,
+      "y": 71,
+      "z": 10.300807364341612
+    },
+    {
+      "time_ms": 811182,
+      "x": -30.64455290169724,
+      "y": 71,
+      "z": 10.300807364341612
+    },
+    {
+      "time_ms": 816383,
+      "x": -30.64455290169724,
+      "y": 71,
+      "z": 10.300807364341612
+    },
+    {
+      "time_ms": 821634,
+      "x": -30.64455290169724,
+      "y": 71,
+      "z": 10.300807364341612
+    },
+    {
+      "time_ms": 826831,
+      "x": -30.64455290169724,
+      "y": 71,
+      "z": 10.300807364341612
+    },
+    {
+      "time_ms": 832023,
+      "x": -30.64455290169724,
+      "y": 71,
+      "z": 10.300807364341612
+    },
+    {
+      "time_ms": 837227,
+      "x": -30.64455290169724,
+      "y": 71,
+      "z": 10.300807364341612
+    },
+    {
+      "time_ms": 842437,
+      "x": -30.64455290169724,
+      "y": 71,
+      "z": 10.300807364341612
+    },
+    {
+      "time_ms": 847623,
+      "x": -30.64455290169724,
+      "y": 71,
+      "z": 10.300807364341612
+    },
+    {
+      "time_ms": 852809,
+      "x": -30.64455290169724,
+      "y": 71,
+      "z": 10.300807364341612
+    },
+    {
+      "time_ms": 858017,
+      "x": -30.64455290169724,
+      "y": 71,
+      "z": 10.300807364341612
+    },
+    {
+      "time_ms": 863210,
+      "x": -30.64455290169724,
+      "y": 71,
+      "z": 10.300807364341612
+    },
+    {
+      "time_ms": 868391,
+      "x": -30.64455290169724,
+      "y": 71,
+      "z": 10.300807364341612
+    },
+    {
+      "time_ms": 873634,
+      "x": -30.662975722844678,
+      "y": 71,
+      "z": 10.3
+    },
+    {
+      "time_ms": 878815,
+      "x": -30.64455290169724,
+      "y": 71,
+      "z": 10.300807364341612
+    },
+    {
+      "time_ms": 883994,
+      "x": -30.64455290169724,
+      "y": 71,
+      "z": 10.300807364341612
+    },
+    {
+      "time_ms": 889226,
+      "x": -30.64455290169724,
+      "y": 71,
+      "z": 10.300807364341612
+    },
+    {
+      "time_ms": 894436,
+      "x": -30.64455290169724,
+      "y": 71,
+      "z": 10.300807364341612
+    },
+    {
+      "time_ms": 899624,
+      "x": -30.64455290169724,
+      "y": 71,
+      "z": 10.300807364341612
+    },
+    {
+      "time_ms": 904824,
+      "x": -30.64455290169724,
+      "y": 71,
+      "z": 10.300807364341612
+    },
+    {
+      "time_ms": 910023,
+      "x": -30.64455290169724,
+      "y": 71,
+      "z": 10.300807364341612
+    },
+    {
+      "time_ms": 915199,
+      "x": -30.64455290169724,
+      "y": 71,
+      "z": 10.300807364341612
+    },
+    {
+      "time_ms": 920387,
+      "x": -30.64455290169724,
+      "y": 71,
+      "z": 10.300807364341612
+    },
+    {
+      "time_ms": 925576,
+      "x": -30.64455290169724,
+      "y": 71,
+      "z": 10.300807364341612
+    },
+    {
+      "time_ms": 930760,
+      "x": -30.64455290169724,
+      "y": 71,
+      "z": 10.300807364341612
+    },
+    {
+      "time_ms": 935945,
+      "x": -30.64455290169724,
+      "y": 71,
+      "z": 10.300807364341612
+    },
+    {
+      "time_ms": 941136,
+      "x": -30.64455290169724,
+      "y": 71,
+      "z": 10.300807364341612
+    },
+    {
+      "time_ms": 946371,
+      "x": -30.64455290169724,
+      "y": 71,
+      "z": 10.300807364341612
+    },
+    {
+      "time_ms": 951632,
+      "x": -30.64016737142179,
+      "y": 71,
+      "z": 10.3
+    },
+    {
+      "time_ms": 956833,
+      "x": -30.64455290169724,
+      "y": 71,
+      "z": 10.300807364341612
+    },
+    {
+      "time_ms": 962026,
+      "x": -30.662975718156986,
+      "y": 71,
+      "z": 10.3
+    },
+    {
+      "time_ms": 967221,
+      "x": -30.64455290169724,
+      "y": 71,
+      "z": 10.300807364341612
+    },
+    {
+      "time_ms": 972413,
+      "x": -30.64455290169724,
+      "y": 71,
+      "z": 10.300807364341612
+    },
+    {
+      "time_ms": 977607,
+      "x": -30.660138421342236,
+      "y": 71,
+      "z": 10.3
+    },
+    {
+      "time_ms": 982795,
+      "x": -30.64455290169724,
+      "y": 71,
+      "z": 10.300807364341612
+    },
+    {
+      "time_ms": 987979,
+      "x": -30.64455290169724,
+      "y": 71,
+      "z": 10.300807364341612
+    },
+    {
+      "time_ms": 993187,
+      "x": -30.64455290169724,
+      "y": 71,
+      "z": 10.300807364341612
+    },
+    {
+      "time_ms": 998383,
+      "x": -30.640167317946055,
+      "y": 71,
+      "z": 10.3
+    },
+    {
+      "time_ms": 1003585,
+      "x": -30.64455290169724,
+      "y": 71,
+      "z": 10.300807364341612
+    },
+    {
+      "time_ms": 1008782,
+      "x": -30.64455290169724,
+      "y": 71,
+      "z": 10.300807364341612
+    },
+    {
+      "time_ms": 1013987,
+      "x": -30.66297566659226,
+      "y": 71,
+      "z": 10.3
+    },
+    {
+      "time_ms": 1019179,
+      "x": -30.64455290169724,
+      "y": 71,
+      "z": 10.300807364341612
+    },
+    {
+      "time_ms": 1024380,
+      "x": -30.64455290169724,
+      "y": 71,
+      "z": 10.300807364341612
+    },
+    {
+      "time_ms": 1029562,
+      "x": -30.64455290169724,
+      "y": 71,
+      "z": 10.300807364341612
+    },
+    {
+      "time_ms": 1034764,
+      "x": -30.662975647841414,
+      "y": 71,
+      "z": 10.3
+    },
+    {
+      "time_ms": 1039960,
+      "x": -30.64455290169724,
+      "y": 71,
+      "z": 10.300807364341612
+    },
+    {
+      "time_ms": 1045164,
+      "x": -30.64455290169724,
+      "y": 71,
+      "z": 10.300807364341612
+    },
+    {
+      "time_ms": 1050352,
+      "x": -30.64455290169724,
+      "y": 71,
+      "z": 10.300807364341612
+    },
+    {
+      "time_ms": 1055561,
+      "x": -30.64455290169724,
+      "y": 71,
+      "z": 10.300807364341612
+    },
+    {
+      "time_ms": 1060757,
+      "x": -30.64455290169724,
+      "y": 71,
+      "z": 10.300807364341612
+    },
+    {
+      "time_ms": 1065939,
+      "x": -30.64455290169724,
+      "y": 71,
+      "z": 10.300807364341612
+    },
+    {
+      "time_ms": 1071131,
+      "x": -30.64455290169724,
+      "y": 71,
+      "z": 10.300807364341612
+    },
+    {
+      "time_ms": 1076327,
+      "x": -30.64455290169724,
+      "y": 71,
+      "z": 10.300807364341612
+    },
+    {
+      "time_ms": 1081525,
+      "x": -30.64455290169724,
+      "y": 71,
+      "z": 10.300807364341612
+    },
+    {
+      "time_ms": 1086714,
+      "x": -30.64455290169724,
+      "y": 71,
+      "z": 10.300807364341612
+    },
+    {
+      "time_ms": 1091917,
+      "x": -30.64455290169724,
+      "y": 71,
+      "z": 10.300807364341612
+    },
+    {
+      "time_ms": 1097103,
+      "x": -30.64455290169724,
+      "y": 71,
+      "z": 10.300807364341612
+    },
+    {
+      "time_ms": 1102286,
+      "x": -30.64455290169724,
+      "y": 71,
+      "z": 10.300807364341612
+    },
+    {
+      "time_ms": 1107486,
+      "x": -30.64455290169724,
+      "y": 71,
+      "z": 10.300807364341612
+    },
+    {
+      "time_ms": 1112676,
+      "x": -30.640167251101413,
+      "y": 71,
+      "z": 10.3
+    },
+    {
+      "time_ms": 1117867,
+      "x": -30.64455290169724,
+      "y": 71,
+      "z": 10.300807364341612
+    },
+    {
+      "time_ms": 1123060,
+      "x": -30.64455290169724,
+      "y": 71,
+      "z": 10.300807364341612
+    },
+    {
+      "time_ms": 1128325,
+      "x": -30.64455290169724,
+      "y": 71,
+      "z": 10.300807364341612
+    },
+    {
+      "time_ms": 1133514,
+      "x": -30.64455290169724,
+      "y": 71,
+      "z": 10.300807364341612
+    },
+    {
+      "time_ms": 1138706,
+      "x": -30.64455290169724,
+      "y": 71,
+      "z": 10.300807364341612
+    },
+    {
+      "time_ms": 1143889,
+      "x": -30.623800710564023,
+      "y": 71,
+      "z": 10.3
+    },
+    {
+      "time_ms": 1149091,
+      "x": -30.64455290169724,
+      "y": 71,
+      "z": 10.300807364341612
+    },
+    {
+      "time_ms": 1154270,
+      "x": -30.64455290169724,
+      "y": 71,
+      "z": 10.300807364341612
+    },
+    {
+      "time_ms": 1159458,
+      "x": -30.64455290169724,
+      "y": 71,
+      "z": 10.300807364341612
+    },
+    {
+      "time_ms": 1164660,
+      "x": -30.64455290169724,
+      "y": 71,
+      "z": 10.300807364341612
+    },
+    {
+      "time_ms": 1169914,
+      "x": -30.64455290169724,
+      "y": 71,
+      "z": 10.300807364341612
+    },
+    {
+      "time_ms": 1175108,
+      "x": -30.64455290169724,
+      "y": 71,
+      "z": 10.300807364341612
+    },
+    {
+      "time_ms": 1180297,
+      "x": -30.64455290169724,
+      "y": 71,
+      "z": 10.300807364341612
+    },
+    {
+      "time_ms": 1185489,
+      "x": -30.64455290169724,
+      "y": 71,
+      "z": 10.300807364341612
+    },
+    {
+      "time_ms": 1190674,
+      "x": -30.64016723104803,
+      "y": 71,
+      "z": 10.3
+    },
+    {
+      "time_ms": 1195866,
+      "x": -30.64016723104803,
+      "y": 71,
+      "z": 10.3
+    },
+    {
+      "time_ms": 1201063,
+      "x": -30.662975619715105,
+      "y": 71,
+      "z": 10.3
+    },
+    {
+      "time_ms": 1206538,
+      "x": -30.588647746202508,
+      "y": 71.7531999805212,
+      "z": 10.3
+    },
+    {
+      "time_ms": 1211733,
+      "x": -30.64455290169724,
+      "y": 71,
+      "z": 10.300807364341612
+    },
+    {
+      "time_ms": 1216924,
+      "x": -30.64455290169724,
+      "y": 71,
+      "z": 10.300807364341612
+    },
+    {
+      "time_ms": 1222114,
+      "x": -30.64455290169724,
+      "y": 71,
+      "z": 10.300807364341612
+    },
+    {
+      "time_ms": 1227302,
+      "x": -30.64455290169724,
+      "y": 71,
+      "z": 10.300807364341612
+    },
+    {
+      "time_ms": 1232481,
+      "x": -30.64455290169724,
+      "y": 71,
+      "z": 10.300807364341612
+    },
+    {
+      "time_ms": 1237664,
+      "x": -30.64455290169724,
+      "y": 71,
+      "z": 10.300807364341612
+    },
+    {
+      "time_ms": 1242837,
+      "x": -30.64455290169724,
+      "y": 71,
+      "z": 10.300807364341612
+    },
+    {
+      "time_ms": 1248013,
+      "x": -30.64455290169724,
+      "y": 71,
+      "z": 10.300807364341612
+    },
+    {
+      "time_ms": 1253201,
+      "x": -30.64455290169724,
+      "y": 71,
+      "z": 10.300807364341612
+    },
+    {
+      "time_ms": 1258379,
+      "x": -30.64455290169724,
+      "y": 71,
+      "z": 10.300807364341612
+    },
+    {
+      "time_ms": 1263560,
+      "x": -30.64455290169724,
+      "y": 71,
+      "z": 10.300807364341612
+    },
+    {
+      "time_ms": 1268738,
+      "x": -30.640167210994644,
+      "y": 71,
+      "z": 10.3
+    },
+    {
+      "time_ms": 1273928,
+      "x": -30.64455290169724,
+      "y": 71,
+      "z": 10.300807364341612
+    },
+    {
+      "time_ms": 1279124,
+      "x": -30.64455290169724,
+      "y": 71,
+      "z": 10.300807364341612
+    },
+    {
+      "time_ms": 1284303,
+      "x": -30.66297560565193,
+      "y": 71,
+      "z": 10.3
+    },
+    {
+      "time_ms": 1289487,
+      "x": -30.64455290169724,
+      "y": 71,
+      "z": 10.300807364341612
+    },
+    {
+      "time_ms": 1294669,
+      "x": -30.64455290169724,
+      "y": 71,
+      "z": 10.300807364341612
+    },
+    {
+      "time_ms": 1299855,
+      "x": -30.64455290169724,
+      "y": 71,
+      "z": 10.300807364341612
+    },
+    {
+      "time_ms": 1305027,
+      "x": -30.64455290169724,
+      "y": 71,
+      "z": 10.300807364341612
+    },
+    {
+      "time_ms": 1310208,
+      "x": -30.64455290169724,
+      "y": 71,
+      "z": 10.300807364341612
+    },
+    {
+      "time_ms": 1315391,
+      "x": -30.64455290169724,
+      "y": 71,
+      "z": 10.300807364341612
+    },
+    {
+      "time_ms": 1320575,
+      "x": -30.64455290169724,
+      "y": 71,
+      "z": 10.300807364341612
+    },
+    {
+      "time_ms": 1325755,
+      "x": -30.64455290169724,
+      "y": 71,
+      "z": 10.300807364341612
+    },
+    {
+      "time_ms": 1330944,
+      "x": -30.64455290169724,
+      "y": 71,
+      "z": 10.300807364341612
+    },
+    {
+      "time_ms": 1336123,
+      "x": -30.64455290169724,
+      "y": 71,
+      "z": 10.300807364341612
+    },
+    {
+      "time_ms": 1341311,
+      "x": -30.64455290169724,
+      "y": 71,
+      "z": 10.300807364341612
+    },
+    {
+      "time_ms": 1346491,
+      "x": -30.64455290169724,
+      "y": 71,
+      "z": 10.300807364341612
+    },
+    {
+      "time_ms": 1351785,
+      "x": -30.64455290169724,
+      "y": 71,
+      "z": 10.300807364341612
+    },
+    {
+      "time_ms": 1357001,
+      "x": -30.64455290169724,
+      "y": 71,
+      "z": 10.300807364341612
+    },
+    {
+      "time_ms": 1362211,
+      "x": -30.64455290169724,
+      "y": 71,
+      "z": 10.300807364341612
+    },
+    {
+      "time_ms": 1367407,
+      "x": -30.64455290169724,
+      "y": 71,
+      "z": 10.300807364341612
+    },
+    {
+      "time_ms": 1372603,
+      "x": -30.64455290169724,
+      "y": 71,
+      "z": 10.300807364341612
+    },
+    {
+      "time_ms": 1377793,
+      "x": -30.64455290169724,
+      "y": 71,
+      "z": 10.300807364341612
+    },
+    {
+      "time_ms": 1382980,
+      "x": -30.64455290169724,
+      "y": 71,
+      "z": 10.300807364341612
+    },
+    {
+      "time_ms": 1388183,
+      "x": -30.623789215961136,
+      "y": 71,
+      "z": 10.3
+    },
+    {
+      "time_ms": 1393370,
+      "x": -30.64455290169724,
+      "y": 71,
+      "z": 10.300807364341612
+    },
+    {
+      "time_ms": 1398559,
+      "x": -30.64455290169724,
+      "y": 71,
+      "z": 10.300807364341612
+    },
+    {
+      "time_ms": 1403764,
+      "x": -30.64455290169724,
+      "y": 71,
+      "z": 10.300807364341612
+    },
+    {
+      "time_ms": 1408955,
+      "x": -30.64455290169724,
+      "y": 71,
+      "z": 10.300807364341612
+    },
+    {
+      "time_ms": 1414148,
+      "x": -30.64455290169724,
+      "y": 71,
+      "z": 10.300807364341612
+    },
+    {
+      "time_ms": 1419338,
+      "x": -30.64455290169724,
+      "y": 71,
+      "z": 10.300807364341612
+    },
+    {
+      "time_ms": 1424531,
+      "x": -30.64455290169724,
+      "y": 71,
+      "z": 10.300807364341612
+    },
+    {
+      "time_ms": 1429723,
+      "x": -30.64455290169724,
+      "y": 71,
+      "z": 10.300807364341612
+    },
+    {
+      "time_ms": 1434909,
+      "x": -30.64455290169724,
+      "y": 71,
+      "z": 10.300807364341612
+    },
+    {
+      "time_ms": 1440105,
+      "x": -30.64455290169724,
+      "y": 71,
+      "z": 10.300807364341612
+    },
+    {
+      "time_ms": 1445296,
+      "x": -30.64455290169724,
+      "y": 71,
+      "z": 10.300807364341612
+    },
+    {
+      "time_ms": 1450500,
+      "x": -30.64014770706459,
+      "y": 71,
+      "z": 10.3
+    },
+    {
+      "time_ms": 1455698,
+      "x": -30.64455290169724,
+      "y": 71,
+      "z": 10.300807364341612
+    },
+    {
+      "time_ms": 1460884,
+      "x": -30.64014770706459,
+      "y": 71,
+      "z": 10.3
+    },
+    {
+      "time_ms": 1466151,
+      "x": -30.69812316240952,
+      "y": 71,
+      "z": 10.3
+    },
+    {
+      "time_ms": 1471354,
+      "x": -30.64455290169724,
+      "y": 71,
+      "z": 10.300807364341612
+    },
+    {
+      "time_ms": 1476552,
+      "x": -30.64455290169724,
+      "y": 71,
+      "z": 10.300807364341612
+    },
+    {
+      "time_ms": 1481743,
+      "x": -30.64455290169724,
+      "y": 71,
+      "z": 10.300807364341612
+    },
+    {
+      "time_ms": 1486931,
+      "x": -30.64455290169724,
+      "y": 71,
+      "z": 10.300807364341612
+    },
+    {
+      "time_ms": 1492132,
+      "x": -30.64455290169724,
+      "y": 71,
+      "z": 10.300807364341612
+    },
+    {
+      "time_ms": 1497322,
+      "x": -30.64455290169724,
+      "y": 71,
+      "z": 10.300807364341612
+    },
+    {
+      "time_ms": 1502517,
+      "x": -30.64455290169724,
+      "y": 71,
+      "z": 10.300807364341612
+    },
+    {
+      "time_ms": 1507715,
+      "x": -30.64455290169724,
+      "y": 71,
+      "z": 10.300807364341612
+    },
+    {
+      "time_ms": 1512908,
+      "x": -30.64455290169724,
+      "y": 71,
+      "z": 10.300807364341612
+    },
+    {
+      "time_ms": 1518116,
+      "x": -30.64455290169724,
+      "y": 71,
+      "z": 10.300807364341612
+    },
+    {
+      "time_ms": 1523315,
+      "x": -30.64455290169724,
+      "y": 71,
+      "z": 10.300807364341612
+    },
+    {
+      "time_ms": 1528517,
+      "x": -30.64455290169724,
+      "y": 71,
+      "z": 10.300807364341612
+    },
+    {
+      "time_ms": 1533711,
+      "x": -30.64455290169724,
+      "y": 71,
+      "z": 10.300807364341612
+    },
+    {
+      "time_ms": 1538909,
+      "x": -30.64455290169724,
+      "y": 71,
+      "z": 10.300807364341612
+    },
+    {
+      "time_ms": 1544120,
+      "x": -30.64455290169724,
+      "y": 71,
+      "z": 10.300807364341612
+    },
+    {
+      "time_ms": 1549324,
+      "x": -30.64455290169724,
+      "y": 71,
+      "z": 10.300807364341612
+    },
+    {
+      "time_ms": 1554596,
+      "x": -30.64455290169724,
+      "y": 71,
+      "z": 10.300807364341612
+    },
+    {
+      "time_ms": 1559787,
+      "x": -30.64455290169724,
+      "y": 71,
+      "z": 10.300807364341612
+    },
+    {
+      "time_ms": 1564976,
+      "x": -30.64455290169724,
+      "y": 71,
+      "z": 10.300807364341612
+    },
+    {
+      "time_ms": 1570169,
+      "x": -30.64455290169724,
+      "y": 71,
+      "z": 10.300807364341612
+    },
+    {
+      "time_ms": 1575369,
+      "x": -30.64455290169724,
+      "y": 71,
+      "z": 10.300807364341612
+    },
+    {
+      "time_ms": 1580567,
+      "x": -30.64455290169724,
+      "y": 71,
+      "z": 10.300807364341612
+    },
+    {
+      "time_ms": 1585768,
+      "x": -30.64455290169724,
+      "y": 71,
+      "z": 10.300807364341612
+    },
+    {
+      "time_ms": 1590976,
+      "x": -30.64455290169724,
+      "y": 71,
+      "z": 10.300807364341612
+    },
+    {
+      "time_ms": 1596211,
+      "x": -30.64455290169724,
+      "y": 71,
+      "z": 10.300807364341612
+    },
+    {
+      "time_ms": 1601398,
+      "x": -30.623789196296105,
+      "y": 71,
+      "z": 10.3
+    },
+    {
+      "time_ms": 1606606,
+      "x": -30.64455290169724,
+      "y": 71,
+      "z": 10.300807364341612
+    },
+    {
+      "time_ms": 1611810,
+      "x": -30.64455290169724,
+      "y": 71,
+      "z": 10.300807364341612
+    },
+    {
+      "time_ms": 1617081,
+      "x": -30.64455290169724,
+      "y": 71,
+      "z": 10.300807364341612
+    },
+    {
+      "time_ms": 1622279,
+      "x": -30.64455290169724,
+      "y": 71,
+      "z": 10.300807364341612
+    },
+    {
+      "time_ms": 1627496,
+      "x": -30.64455290169724,
+      "y": 71,
+      "z": 10.300807364341612
+    },
+    {
+      "time_ms": 1632715,
+      "x": -30.64455290169724,
+      "y": 71,
+      "z": 10.300807364341612
+    },
+    {
+      "time_ms": 1637963,
+      "x": -30.64455290169724,
+      "y": 71,
+      "z": 10.300807364341612
+    },
+    {
+      "time_ms": 1643225,
+      "x": -30.64455290169724,
+      "y": 71,
+      "z": 10.300807364341612
+    },
+    {
+      "time_ms": 1648444,
+      "x": -30.64455290169724,
+      "y": 71,
+      "z": 10.300807364341612
+    },
+    {
+      "time_ms": 1653641,
+      "x": -30.640147673646837,
+      "y": 71,
+      "z": 10.3
+    },
+    {
+      "time_ms": 1658844,
+      "x": -30.64455290169724,
+      "y": 71,
+      "z": 10.300807364341612
+    },
+    {
+      "time_ms": 1664070,
+      "x": -30.64455290169724,
+      "y": 71,
+      "z": 10.300807364341612
+    },
+    {
+      "time_ms": 1669291,
+      "x": -30.64455290169724,
+      "y": 71,
+      "z": 10.300807364341612
+    },
+    {
+      "time_ms": 1674492,
+      "x": -30.64455290169724,
+      "y": 71,
+      "z": 10.300807364341612
+    },
+    {
+      "time_ms": 1679699,
+      "x": -30.64455290169724,
+      "y": 71,
+      "z": 10.300807364341612
+    },
+    {
+      "time_ms": 1684915,
+      "x": -30.64455290169724,
+      "y": 71,
+      "z": 10.300807364341612
+    },
+    {
+      "time_ms": 1690132,
+      "x": -30.64455290169724,
+      "y": 71,
+      "z": 10.300807364341612
+    },
+    {
+      "time_ms": 1695336,
+      "x": -30.64014766027974,
+      "y": 71,
+      "z": 10.3
+    },
+    {
+      "time_ms": 1700536,
+      "x": -30.64014766027974,
+      "y": 71,
+      "z": 10.3
+    },
+    {
+      "time_ms": 1705738,
+      "x": -30.64014766027974,
+      "y": 71,
+      "z": 10.3
+    },
+    {
+      "time_ms": 1710962,
+      "x": -30.64455290169724,
+      "y": 71,
+      "z": 10.300807364341612
+    },
+    {
+      "time_ms": 1716173,
+      "x": -30.64455290169724,
+      "y": 71,
+      "z": 10.300807364341612
+    },
+    {
+      "time_ms": 1721377,
+      "x": -30.64455290169724,
+      "y": 71,
+      "z": 10.300807364341612
+    },
+    {
+      "time_ms": 1726585,
+      "x": -30.64455290169724,
+      "y": 71,
+      "z": 10.300807364341612
+    },
+    {
+      "time_ms": 1731790,
+      "x": -30.64455290169724,
+      "y": 71,
+      "z": 10.300807364341612
+    },
+    {
+      "time_ms": 1736990,
+      "x": -30.64455290169724,
+      "y": 71,
+      "z": 10.300807364341612
+    },
+    {
+      "time_ms": 1742182,
+      "x": -30.64455290169724,
+      "y": 71,
+      "z": 10.300807364341612
+    },
+    {
+      "time_ms": 1747378,
+      "x": -30.64455290169724,
+      "y": 71,
+      "z": 10.300807364341612
+    },
+    {
+      "time_ms": 1752596,
+      "x": -30.64455290169724,
+      "y": 71,
+      "z": 10.300807364341612
+    },
+    {
+      "time_ms": 1757811,
+      "x": -30.64455290169724,
+      "y": 71,
+      "z": 10.300807364341612
+    },
+    {
+      "time_ms": 1763007,
+      "x": -30.64455290169724,
+      "y": 71,
+      "z": 10.300807364341612
+    },
+    {
+      "time_ms": 1768208,
+      "x": -30.64455290169724,
+      "y": 71,
+      "z": 10.300807364341612
+    },
+    {
+      "time_ms": 1773413,
+      "x": -30.64455290169724,
+      "y": 71,
+      "z": 10.300807364341612
+    },
+    {
+      "time_ms": 1778617,
+      "x": -30.64455290169724,
+      "y": 71,
+      "z": 10.300807364341612
+    },
+    {
+      "time_ms": 1783815,
+      "x": -30.64455290169724,
+      "y": 71,
+      "z": 10.300807364341612
+    },
+    {
+      "time_ms": 1789025,
+      "x": -30.64455290169724,
+      "y": 71,
+      "z": 10.300807364341612
+    },
+    {
+      "time_ms": 1794230,
+      "x": -30.64455290169724,
+      "y": 71,
+      "z": 10.300807364341612
+    },
+    {
+      "time_ms": 1799438,
+      "x": -30.64455290169724,
+      "y": 71,
+      "z": 10.300807364341612
+    },
+    {
+      "time_ms": 1804638,
+      "x": -30.64455290169724,
+      "y": 71,
+      "z": 10.300807364341612
+    },
+    {
+      "time_ms": 1809832,
+      "x": -30.64455290169724,
+      "y": 71,
+      "z": 10.300807364341612
+    },
+    {
+      "time_ms": 1815032,
+      "x": -30.640147640229095,
+      "y": 71,
+      "z": 10.3
+    },
+    {
+      "time_ms": 1820230,
+      "x": -30.64455290169724,
+      "y": 71,
+      "z": 10.300807364341612
+    },
+    {
+      "time_ms": 1825436,
+      "x": -30.64455290169724,
+      "y": 71,
+      "z": 10.300807364341612
+    },
+    {
+      "time_ms": 1830641,
+      "x": -30.64455290169724,
+      "y": 71,
+      "z": 10.300807364341612
+    },
+    {
+      "time_ms": 1835827,
+      "x": -30.64455290169724,
+      "y": 71,
+      "z": 10.300807364341612
+    },
+    {
+      "time_ms": 1841028,
+      "x": -30.64455290169724,
+      "y": 71,
+      "z": 10.300807364341612
+    },
+    {
+      "time_ms": 1846223,
+      "x": -30.64455290169724,
+      "y": 71,
+      "z": 10.300807364341612
+    },
+    {
+      "time_ms": 1851433,
+      "x": -30.64455290169724,
+      "y": 71,
+      "z": 10.300807364341612
+    },
+    {
+      "time_ms": 1856618,
+      "x": -30.64455290169724,
+      "y": 71,
+      "z": 10.300807364341612
+    },
+    {
+      "time_ms": 1861820,
+      "x": -30.64455290169724,
+      "y": 71,
+      "z": 10.300807364341612
+    },
+    {
+      "time_ms": 1867028,
+      "x": -30.640147620178453,
+      "y": 71,
+      "z": 10.3
+    },
+    {
+      "time_ms": 1872235,
+      "x": -30.64455290169724,
+      "y": 71,
+      "z": 10.300807364341612
+    },
+    {
+      "time_ms": 1877439,
+      "x": -30.64455290169724,
+      "y": 71,
+      "z": 10.300807364341612
+    },
+    {
+      "time_ms": 1882672,
+      "x": -30.662961855623802,
+      "y": 71,
+      "z": 10.3
+    },
+    {
+      "time_ms": 1887881,
+      "x": -30.64455290169724,
+      "y": 71,
+      "z": 10.300807364341612
+    },
+    {
+      "time_ms": 1893103,
+      "x": -30.64455290169724,
+      "y": 71,
+      "z": 10.300807364341612
+    },
+    {
+      "time_ms": 1898311,
+      "x": -30.64455290169724,
+      "y": 71,
+      "z": 10.300807364341612
+    },
+    {
+      "time_ms": 1903537,
+      "x": -30.64455290169724,
+      "y": 71,
+      "z": 10.300807364341612
+    },
+    {
+      "time_ms": 1908757,
+      "x": -30.64455290169724,
+      "y": 71,
+      "z": 10.300807364341612
+    },
+    {
+      "time_ms": 1913952,
+      "x": -30.64455290169724,
+      "y": 71,
+      "z": 10.300807364341612
+    },
+    {
+      "time_ms": 1919166,
+      "x": -30.64455290169724,
+      "y": 71,
+      "z": 10.300807364341612
+    },
+    {
+      "time_ms": 1924369,
+      "x": -30.64455290169724,
+      "y": 71,
+      "z": 10.300807364341612
+    },
+    {
+      "time_ms": 1929568,
+      "x": -30.64455290169724,
+      "y": 71,
+      "z": 10.300807364341612
+    },
+    {
+      "time_ms": 1934780,
+      "x": -30.623789156966158,
+      "y": 71,
+      "z": 10.3
+    },
+    {
+      "time_ms": 1940021,
+      "x": -30.64455290169724,
+      "y": 71,
+      "z": 10.300807364341612
+    },
+    {
+      "time_ms": 1945217,
+      "x": -30.64455290169724,
+      "y": 71,
+      "z": 10.300807364341612
+    },
+    {
+      "time_ms": 1950429,
+      "x": -30.64455290169724,
+      "y": 71,
+      "z": 10.300807364341612
+    },
+    {
+      "time_ms": 1955633,
+      "x": -30.64455290169724,
+      "y": 71,
+      "z": 10.300807364341612
+    },
+    {
+      "time_ms": 1960828,
+      "x": -30.64455290169724,
+      "y": 71,
+      "z": 10.300807364341612
+    },
+    {
+      "time_ms": 1966043,
+      "x": -30.623789156966158,
+      "y": 71,
+      "z": 10.3
+    },
+    {
+      "time_ms": 1971273,
+      "x": -30.64455290169724,
+      "y": 71,
+      "z": 10.300807364341612
+    },
+    {
+      "time_ms": 1976473,
+      "x": -30.64455290169724,
+      "y": 71,
+      "z": 10.300807364341612
+    },
+    {
+      "time_ms": 1981700,
+      "x": -30.631733493579336,
+      "y": 71,
+      "z": 10.3
+    },
+    {
+      "time_ms": 1986898,
+      "x": -30.64455290169724,
+      "y": 71,
+      "z": 10.300807364341612
+    },
+    {
+      "time_ms": 1992130,
+      "x": -30.64455290169724,
+      "y": 71,
+      "z": 10.300807364341612
+    },
+    {
+      "time_ms": 1997330,
+      "x": -30.64455290169724,
+      "y": 71,
+      "z": 10.300807364341612
+    },
+    {
+      "time_ms": 2002558,
+      "x": -30.64455290169724,
+      "y": 71,
+      "z": 10.300807364341612
+    },
+    {
+      "time_ms": 2007744,
+      "x": -30.64455290169724,
+      "y": 71,
+      "z": 10.300807364341612
+    },
+    {
+      "time_ms": 2012954,
+      "x": -30.64455290169724,
+      "y": 71,
+      "z": 10.300807364341612
+    },
+    {
+      "time_ms": 2018151,
+      "x": -30.64455290169724,
+      "y": 71,
+      "z": 10.300807364341612
+    },
+    {
+      "time_ms": 2023361,
+      "x": -30.64455290169724,
+      "y": 71,
+      "z": 10.300807364341612
+    },
+    {
+      "time_ms": 2028602,
+      "x": -30.64455290169724,
+      "y": 71,
+      "z": 10.300807364341612
+    },
+    {
+      "time_ms": 2033801,
+      "x": -30.64455290169724,
+      "y": 71,
+      "z": 10.300807364341612
+    },
+    {
+      "time_ms": 2038994,
+      "x": -30.64455290169724,
+      "y": 71,
+      "z": 10.300807364341612
+    },
+    {
+      "time_ms": 2044188,
+      "x": -30.64455290169724,
+      "y": 71,
+      "z": 10.300807364341612
+    },
+    {
+      "time_ms": 2049377,
+      "x": -30.6237891451672,
+      "y": 71,
+      "z": 10.3
+    },
+    {
+      "time_ms": 2054570,
+      "x": -30.64455290169724,
+      "y": 71,
+      "z": 10.300807364341612
+    },
+    {
+      "time_ms": 2059757,
+      "x": -30.64455290169724,
+      "y": 71,
+      "z": 10.300807364341612
+    },
+    {
+      "time_ms": 2064983,
+      "x": -30.64455290169724,
+      "y": 71,
+      "z": 10.300807364341612
+    },
+    {
+      "time_ms": 2070183,
+      "x": -30.64455290169724,
+      "y": 71,
+      "z": 10.300807364341612
+    },
+    {
+      "time_ms": 2075382,
+      "x": -30.64455290169724,
+      "y": 71,
+      "z": 10.300807364341612
+    },
+    {
+      "time_ms": 2080597,
+      "x": -30.6237891451672,
+      "y": 71,
+      "z": 10.3
+    },
+    {
+      "time_ms": 2085785,
+      "x": -30.6237891451672,
+      "y": 71,
+      "z": 10.3
+    },
+    {
+      "time_ms": 2090982,
+      "x": -30.64455290169724,
+      "y": 71,
+      "z": 10.300807364341612
+    },
+    {
+      "time_ms": 2096258,
+      "x": -30.64455290169724,
+      "y": 71,
+      "z": 10.300807364341612
+    },
+    {
+      "time_ms": 2101507,
+      "x": -30.64455290169724,
+      "y": 71,
+      "z": 10.300807364341612
+    },
+    {
+      "time_ms": 2106702,
+      "x": -30.6237891451672,
+      "y": 71,
+      "z": 10.3
+    },
+    {
+      "time_ms": 2111983,
+      "x": -30.64455290169724,
+      "y": 71,
+      "z": 10.300807364341612
+    },
+    {
+      "time_ms": 2117188,
+      "x": -30.6237891451672,
+      "y": 71,
+      "z": 10.3
+    },
+    {
+      "time_ms": 2122391,
+      "x": -30.64455290169724,
+      "y": 71,
+      "z": 10.300807364341612
+    },
+    {
+      "time_ms": 2127597,
+      "x": -30.64455290169724,
+      "y": 71,
+      "z": 10.300807364341612
+    },
+    {
+      "time_ms": 2132785,
+      "x": -30.6237891451672,
+      "y": 71,
+      "z": 10.3
+    },
+    {
+      "time_ms": 2137994,
+      "x": -30.64455290169724,
+      "y": 71,
+      "z": 10.300807364341612
+    },
+    {
+      "time_ms": 2143191,
+      "x": -30.64455290169724,
+      "y": 71,
+      "z": 10.300807364341612
+    },
+    {
+      "time_ms": 2148390,
+      "x": -30.640147586760722,
+      "y": 71,
+      "z": 10.3
+    },
+    {
+      "time_ms": 2153584,
+      "x": -30.64455290169724,
+      "y": 71,
+      "z": 10.300807364341612
+    },
+    {
+      "time_ms": 2158781,
+      "x": -30.64455290169724,
+      "y": 71,
+      "z": 10.300807364341612
+    },
+    {
+      "time_ms": 2163980,
+      "x": -30.662961827474444,
+      "y": 71,
+      "z": 10.3
+    },
+    {
+      "time_ms": 2169185,
+      "x": -30.64455290169724,
+      "y": 71,
+      "z": 10.300807364341612
+    },
+    {
+      "time_ms": 2174374,
+      "x": -30.64455290169724,
+      "y": 71,
+      "z": 10.300807364341612
+    },
+    {
+      "time_ms": 2179575,
+      "x": -30.64455290169724,
+      "y": 71,
+      "z": 10.300807364341612
+    },
+    {
+      "time_ms": 2184770,
+      "x": -30.64455290169724,
+      "y": 71,
+      "z": 10.300807364341612
+    },
+    {
+      "time_ms": 2189955,
+      "x": -30.64455290169724,
+      "y": 71,
+      "z": 10.300807364341612
+    },
+    {
+      "time_ms": 2195159,
+      "x": -30.64455290169724,
+      "y": 71,
+      "z": 10.300807364341612
+    },
+    {
+      "time_ms": 2200359,
+      "x": -30.64455290169724,
+      "y": 71,
+      "z": 10.300807364341612
+    },
+    {
+      "time_ms": 2205554,
+      "x": -30.64455290169724,
+      "y": 71,
+      "z": 10.300807364341612
+    },
+    {
+      "time_ms": 2210750,
+      "x": -30.64455290169724,
+      "y": 71,
+      "z": 10.300807364341612
+    },
+    {
+      "time_ms": 2215939,
+      "x": -30.623789121569327,
+      "y": 71,
+      "z": 10.3
+    },
+    {
+      "time_ms": 2221130,
+      "x": -30.64455290169724,
+      "y": 71,
+      "z": 10.300807364341612
+    },
+    {
+      "time_ms": 2226319,
+      "x": -30.64455290169724,
+      "y": 71,
+      "z": 10.300807364341612
+    },
+    {
+      "time_ms": 2231510,
+      "x": -30.64455290169724,
+      "y": 71,
+      "z": 10.300807364341612
+    },
+    {
+      "time_ms": 2236703,
+      "x": -30.64455290169724,
+      "y": 71,
+      "z": 10.300807364341612
+    },
+    {
+      "time_ms": 2241903,
+      "x": -30.64455290169724,
+      "y": 71,
+      "z": 10.300807364341612
+    },
+    {
+      "time_ms": 2247095,
+      "x": -30.64455290169724,
+      "y": 71,
+      "z": 10.300807364341612
+    },
+    {
+      "time_ms": 2252287,
+      "x": -30.64455290169724,
+      "y": 71,
+      "z": 10.300807364341612
+    },
+    {
+      "time_ms": 2257470,
+      "x": -30.64455290169724,
+      "y": 71,
+      "z": 10.300807364341612
+    },
+    {
+      "time_ms": 2262656,
+      "x": -30.64455290169724,
+      "y": 71,
+      "z": 10.300807364341612
+    },
+    {
+      "time_ms": 2267837,
+      "x": -30.64455290169724,
+      "y": 71,
+      "z": 10.300807364341612
+    },
+    {
+      "time_ms": 2273333,
+      "x": -30.64455290169724,
+      "y": 71,
+      "z": 10.300807364341612
+    },
+    {
+      "time_ms": 2278555,
+      "x": -30.64455290169724,
+      "y": 71,
+      "z": 10.300807364341612
+    },
+    {
+      "time_ms": 2283744,
+      "x": -30.640147546659456,
+      "y": 71,
+      "z": 10.3
+    },
+    {
+      "time_ms": 2288951,
+      "x": -30.640147546659456,
+      "y": 71,
+      "z": 10.3
+    },
+    {
+      "time_ms": 2294131,
+      "x": -30.64455290169724,
+      "y": 71,
+      "z": 10.300807364341612
+    },
+    {
+      "time_ms": 2299328,
+      "x": -30.64455290169724,
+      "y": 71,
+      "z": 10.300807364341612
+    },
+    {
+      "time_ms": 2304517,
+      "x": -30.64455290169724,
+      "y": 71,
+      "z": 10.300807364341612
+    },
+    {
+      "time_ms": 2309700,
+      "x": -30.64455290169724,
+      "y": 71,
+      "z": 10.300807364341612
+    },
+    {
+      "time_ms": 2314897,
+      "x": -30.64455290169724,
+      "y": 71,
+      "z": 10.300807364341612
+    },
+    {
+      "time_ms": 2320087,
+      "x": -30.64455290169724,
+      "y": 71,
+      "z": 10.300807364341612
+    },
+    {
+      "time_ms": 2325279,
+      "x": -30.64455290169724,
+      "y": 71,
+      "z": 10.300807364341612
+    },
+    {
+      "time_ms": 2330534,
+      "x": -30.64455290169724,
+      "y": 71,
+      "z": 10.300807364341612
+    },
+    {
+      "time_ms": 2335718,
+      "x": -30.64455290169724,
+      "y": 71,
+      "z": 10.300807364341612
+    },
+    {
+      "time_ms": 2340895,
+      "x": -30.64455290169724,
+      "y": 71,
+      "z": 10.300807364341612
+    },
+    {
+      "time_ms": 2346093,
+      "x": -30.64455290169724,
+      "y": 71,
+      "z": 10.300807364341612
+    },
+    {
+      "time_ms": 2351275,
+      "x": -30.64455290169724,
+      "y": 71,
+      "z": 10.300807364341612
+    },
+    {
+      "time_ms": 2356460,
+      "x": -30.64455290169724,
+      "y": 71,
+      "z": 10.300807364341612
+    },
+    {
+      "time_ms": 2361642,
+      "x": -30.64455290169724,
+      "y": 71,
+      "z": 10.300807364341612
+    },
+    {
+      "time_ms": 2366829,
+      "x": -30.64455290169724,
+      "y": 71,
+      "z": 10.300807364341612
+    },
+    {
+      "time_ms": 2372025,
+      "x": -30.64455290169724,
+      "y": 71,
+      "z": 10.300807364341612
+    },
+    {
+      "time_ms": 2377222,
+      "x": -30.64455290169724,
+      "y": 71,
+      "z": 10.300807364341612
+    },
+    {
+      "time_ms": 2382408,
+      "x": -30.64455290169724,
+      "y": 71,
+      "z": 10.300807364341612
+    },
+    {
+      "time_ms": 2387600,
+      "x": -30.662961771175585,
+      "y": 71,
+      "z": 10.3
+    },
+    {
+      "time_ms": 2392782,
+      "x": -30.64455290169724,
+      "y": 71,
+      "z": 10.300807364341612
+    },
+    {
+      "time_ms": 2397967,
+      "x": -30.64455290169724,
+      "y": 71,
+      "z": 10.300807364341612
+    },
+    {
+      "time_ms": 2403178,
+      "x": -30.64455290169724,
+      "y": 71,
+      "z": 10.300807364341612
+    },
+    {
+      "time_ms": 2408357,
+      "x": -30.64455290169724,
+      "y": 71,
+      "z": 10.300807364341612
+    },
+    {
+      "time_ms": 2413546,
+      "x": -30.64455290169724,
+      "y": 71,
+      "z": 10.300807364341612
+    },
+    {
+      "time_ms": 2418734,
+      "x": -30.64455290169724,
+      "y": 71,
+      "z": 10.300807364341612
+    },
+    {
+      "time_ms": 2423916,
+      "x": -30.64455290169724,
+      "y": 71,
+      "z": 10.300807364341612
+    },
+    {
+      "time_ms": 2429124,
+      "x": -30.64455290169724,
+      "y": 71,
+      "z": 10.300807364341612
+    },
+    {
+      "time_ms": 2434303,
+      "x": -30.64455290169724,
+      "y": 71,
+      "z": 10.300807364341612
+    },
+    {
+      "time_ms": 2439485,
+      "x": -30.64455290169724,
+      "y": 71,
+      "z": 10.300807364341612
+    },
+    {
+      "time_ms": 2444744,
+      "x": -30.64455290169724,
+      "y": 71,
+      "z": 10.300807364341612
+    },
+    {
+      "time_ms": 2449956,
+      "x": -30.64455290169724,
+      "y": 71,
+      "z": 10.300807364341612
+    },
+    {
+      "time_ms": 2455233,
+      "x": -30.623789078306697,
+      "y": 71,
+      "z": 10.3
+    },
+    {
+      "time_ms": 2460479,
+      "x": -30.64455290169724,
+      "y": 71,
+      "z": 10.300807364341612
+    },
+    {
+      "time_ms": 2465787,
+      "x": -30.64455290169724,
+      "y": 71,
+      "z": 10.300807364341612
+    },
+    {
+      "time_ms": 2470983,
+      "x": -30.64455290169724,
+      "y": 71,
+      "z": 10.300807364341612
+    },
+    {
+      "time_ms": 2476206,
+      "x": -30.64455290169724,
+      "y": 71,
+      "z": 10.300807364341612
+    },
+    {
+      "time_ms": 2481463,
+      "x": -30.64455290169724,
+      "y": 71,
+      "z": 10.300807364341612
+    },
+    {
+      "time_ms": 2486657,
+      "x": -30.64455290169724,
+      "y": 71,
+      "z": 10.300807364341612
+    },
+    {
+      "time_ms": 2491848,
+      "x": -30.64455290169724,
+      "y": 71,
+      "z": 10.300807364341612
+    },
+    {
+      "time_ms": 2497035,
+      "x": -30.64455290169724,
+      "y": 71,
+      "z": 10.300807364341612
+    },
+    {
+      "time_ms": 2502222,
+      "x": -30.64455290169724,
+      "y": 71,
+      "z": 10.300807364341612
+    },
+    {
+      "time_ms": 2507410,
+      "x": -30.640147473140495,
+      "y": 71,
+      "z": 10.3
+    },
+    {
+      "time_ms": 2512604,
+      "x": -30.662961761792424,
+      "y": 71,
+      "z": 10.3
+    },
+    {
+      "time_ms": 2517790,
+      "x": -30.64455290169724,
+      "y": 71,
+      "z": 10.300807364341612
+    },
+    {
+      "time_ms": 2522986,
+      "x": -30.662961752409256,
+      "y": 71,
+      "z": 10.3
+    },
+    {
+      "time_ms": 2528176,
+      "x": -30.64455290169724,
+      "y": 71,
+      "z": 10.300807364341612
+    },
+    {
+      "time_ms": 2533360,
+      "x": -30.64455290169724,
+      "y": 71,
+      "z": 10.300807364341612
+    },
+    {
+      "time_ms": 2538547,
+      "x": -30.662961743026084,
+      "y": 71,
+      "z": 10.3
+    },
+    {
+      "time_ms": 2543736,
+      "x": -30.64455290169724,
+      "y": 71,
+      "z": 10.300807364341612
+    },
+    {
+      "time_ms": 2548931,
+      "x": -30.64455290169724,
+      "y": 71,
+      "z": 10.300807364341612
+    },
+    {
+      "time_ms": 2554121,
+      "x": -30.64455290169724,
+      "y": 71,
+      "z": 10.300807364341612
+    },
+    {
+      "time_ms": 2559298,
+      "x": -30.64455290169724,
+      "y": 71,
+      "z": 10.300807364341612
+    },
+    {
+      "time_ms": 2564488,
+      "x": -30.64455290169724,
+      "y": 71,
+      "z": 10.300807364341612
+    },
+    {
+      "time_ms": 2569670,
+      "x": -30.64455290169724,
+      "y": 71,
+      "z": 10.300807364341612
+    },
+    {
+      "time_ms": 2574865,
+      "x": -30.64455290169724,
+      "y": 71,
+      "z": 10.300807364341612
+    },
+    {
+      "time_ms": 2580057,
+      "x": -30.64455290169724,
+      "y": 71,
+      "z": 10.300807364341612
+    },
+    {
+      "time_ms": 2585247,
+      "x": -30.64455290169724,
+      "y": 71,
+      "z": 10.300807364341612
+    },
+    {
+      "time_ms": 2590452,
+      "x": -30.64455290169724,
+      "y": 71,
+      "z": 10.300807364341612
+    },
+    {
+      "time_ms": 2595631,
+      "x": -30.64455290169724,
+      "y": 71,
+      "z": 10.300807364341612
+    },
+    {
+      "time_ms": 2600815,
+      "x": -30.64455290169724,
+      "y": 71,
+      "z": 10.300807364341612
+    },
+    {
+      "time_ms": 2606008,
+      "x": -30.662961714876538,
+      "y": 71,
+      "z": 10.3
+    },
+    {
+      "time_ms": 2611251,
+      "x": -30.64455290169724,
+      "y": 71,
+      "z": 10.300807364341612
+    },
+    {
+      "time_ms": 2616494,
+      "x": -30.64455290169724,
+      "y": 71,
+      "z": 10.300807364341612
+    },
+    {
+      "time_ms": 2621686,
+      "x": -30.62378903897719,
+      "y": 71,
+      "z": 10.3
+    },
+    {
+      "time_ms": 2626890,
+      "x": -30.64455290169724,
+      "y": 71,
+      "z": 10.300807364341612
+    },
+    {
+      "time_ms": 2632081,
+      "x": -30.62378903897719,
+      "y": 71,
+      "z": 10.3
+    },
+    {
+      "time_ms": 2637459,
+      "x": -30.64455290169724,
+      "y": 71,
+      "z": 10.300807364341612
+    },
+    {
+      "time_ms": 2642648,
+      "x": -30.64455290169724,
+      "y": 71,
+      "z": 10.300807364341612
+    },
+    {
+      "time_ms": 2647831,
+      "x": -30.64455290169724,
+      "y": 71,
+      "z": 10.300807364341612
+    },
+    {
+      "time_ms": 2653018,
+      "x": -30.64455290169724,
+      "y": 71,
+      "z": 10.300807364341612
+    },
+    {
+      "time_ms": 2658207,
+      "x": -30.62378903897719,
+      "y": 71,
+      "z": 10.3
+    },
+    {
+      "time_ms": 2663391,
+      "x": -30.64455290169724,
+      "y": 71,
+      "z": 10.300807364341612
+    },
+    {
+      "time_ms": 2668570,
+      "x": -30.64455290169724,
+      "y": 71,
+      "z": 10.300807364341612
+    },
+    {
+      "time_ms": 2673760,
+      "x": -30.64014740630511,
+      "y": 71,
+      "z": 10.3
+    },
+    {
+      "time_ms": 2678945,
+      "x": -30.64455290169724,
+      "y": 71,
+      "z": 10.300807364341612
+    },
+    {
+      "time_ms": 2684121,
+      "x": -30.64455290169724,
+      "y": 71,
+      "z": 10.300807364341612
+    },
+    {
+      "time_ms": 2689312,
+      "x": -30.662961710184945,
+      "y": 71,
+      "z": 10.3
+    },
+    {
+      "time_ms": 2694519,
+      "x": -30.64455290169724,
+      "y": 71,
+      "z": 10.300807364341612
+    },
+    {
+      "time_ms": 2699713,
+      "x": -30.64455290169724,
+      "y": 71,
+      "z": 10.300807364341612
+    },
+    {
+      "time_ms": 2704898,
+      "x": -30.64455290169724,
+      "y": 71,
+      "z": 10.300807364341612
+    },
+    {
+      "time_ms": 2710136,
+      "x": -30.64455290169724,
+      "y": 71,
+      "z": 10.300807364341612
+    },
+    {
+      "time_ms": 2715325,
+      "x": -30.64455290169724,
+      "y": 71,
+      "z": 10.300807364341612
+    },
+    {
+      "time_ms": 2720509,
+      "x": -30.640147399621572,
+      "y": 71,
+      "z": 10.3
+    },
+    {
+      "time_ms": 2725696,
+      "x": -30.64455290169724,
+      "y": 71,
+      "z": 10.300807364341612
+    },
+    {
+      "time_ms": 2730881,
+      "x": -30.64455290169724,
+      "y": 71,
+      "z": 10.300807364341612
+    },
+    {
+      "time_ms": 2736073,
+      "x": -30.64455290169724,
+      "y": 71,
+      "z": 10.300807364341612
+    },
+    {
+      "time_ms": 2741255,
+      "x": -30.64455290169724,
+      "y": 71,
+      "z": 10.300807364341612
+    },
+    {
+      "time_ms": 2746436,
+      "x": -30.64455290169724,
+      "y": 71,
+      "z": 10.300807364341612
+    },
+    {
+      "time_ms": 2751625,
+      "x": -30.640147379570966,
+      "y": 71,
+      "z": 10.3
+    },
+    {
+      "time_ms": 2756802,
+      "x": -30.64455290169724,
+      "y": 71,
+      "z": 10.300807364341612
+    },
+    {
+      "time_ms": 2762060,
+      "x": -30.64455290169724,
+      "y": 71,
+      "z": 10.300807364341612
+    },
+    {
+      "time_ms": 2767245,
+      "x": -30.66296169141855,
+      "y": 71,
+      "z": 10.3
+    },
+    {
+      "time_ms": 2772435,
+      "x": -30.64455290169724,
+      "y": 71,
+      "z": 10.300807364341612
+    },
+    {
+      "time_ms": 2777618,
+      "x": -30.64455290169724,
+      "y": 71,
+      "z": 10.300807364341612
+    },
+    {
+      "time_ms": 2782805,
+      "x": -30.64455290169724,
+      "y": 71,
+      "z": 10.300807364341612
+    },
+    {
+      "time_ms": 2787991,
+      "x": -30.64455290169724,
+      "y": 71,
+      "z": 10.300807364341612
+    },
+    {
+      "time_ms": 2793182,
+      "x": -30.64455290169724,
+      "y": 71,
+      "z": 10.300807364341612
+    },
+    {
+      "time_ms": 2798372,
+      "x": -30.64455290169724,
+      "y": 71,
+      "z": 10.300807364341612
+    },
+    {
+      "time_ms": 2803565,
+      "x": -30.64455290169724,
+      "y": 71,
+      "z": 10.300807364341612
+    },
+    {
+      "time_ms": 2808813,
+      "x": -30.64455290169724,
+      "y": 71,
+      "z": 10.300807364341612
+    },
+    {
+      "time_ms": 2813994,
+      "x": -30.64455290169724,
+      "y": 71,
+      "z": 10.300807364341612
+    },
+    {
+      "time_ms": 2819191,
+      "x": -30.64455290169724,
+      "y": 71,
+      "z": 10.300807364341612
+    },
+    {
+      "time_ms": 2824380,
+      "x": -30.64455290169724,
+      "y": 71,
+      "z": 10.300807364341612
+    },
+    {
+      "time_ms": 2829566,
+      "x": -30.64455290169724,
+      "y": 71,
+      "z": 10.300807364341612
+    },
+    {
+      "time_ms": 2834749,
+      "x": -30.64455290169724,
+      "y": 71,
+      "z": 10.300807364341612
+    },
+    {
+      "time_ms": 2839934,
+      "x": -30.64455290169724,
+      "y": 71,
+      "z": 10.300807364341612
+    },
+    {
+      "time_ms": 2845117,
+      "x": -30.64455290169724,
+      "y": 71,
+      "z": 10.300807364341612
+    },
+    {
+      "time_ms": 2850303,
+      "x": -30.64455290169724,
+      "y": 71,
+      "z": 10.300807364341612
+    },
+    {
+      "time_ms": 2855495,
+      "x": -30.64455290169724,
+      "y": 71,
+      "z": 10.300807364341612
+    },
+    {
+      "time_ms": 2860683,
+      "x": -30.64455290169724,
+      "y": 71,
+      "z": 10.300807364341612
+    },
+    {
+      "time_ms": 2865864,
+      "x": -30.64455290169724,
+      "y": 71,
+      "z": 10.300807364341612
+    },
+    {
+      "time_ms": 2871048,
+      "x": -30.66296169141855,
+      "y": 71,
+      "z": 10.3
+    },
+    {
+      "time_ms": 2876231,
+      "x": -30.66296169141855,
+      "y": 71,
+      "z": 10.3
+    },
+    {
+      "time_ms": 2881495,
+      "x": -30.64455290169724,
+      "y": 71,
+      "z": 10.300807364341612
+    },
+    {
+      "time_ms": 2886672,
+      "x": -30.64455290169724,
+      "y": 71,
+      "z": 10.300807364341612
+    },
+    {
+      "time_ms": 2891857,
+      "x": -30.64455290169724,
+      "y": 71,
+      "z": 10.300807364341612
+    },
+    {
+      "time_ms": 2897042,
+      "x": -30.64455290169724,
+      "y": 71,
+      "z": 10.300807364341612
+    },
+    {
+      "time_ms": 2902246,
+      "x": -30.64455290169724,
+      "y": 71,
+      "z": 10.300807364341612
+    },
+    {
+      "time_ms": 2907430,
+      "x": -30.64455290169724,
+      "y": 71,
+      "z": 10.300807364341612
+    },
+    {
+      "time_ms": 2912616,
+      "x": -30.640147339469756,
+      "y": 71,
+      "z": 10.3
+    },
+    {
+      "time_ms": 2917811,
+      "x": -30.640147339469756,
+      "y": 71,
+      "z": 10.3
+    },
+    {
+      "time_ms": 2923001,
+      "x": -30.64455290169724,
+      "y": 71,
+      "z": 10.300807364341612
+    },
+    {
+      "time_ms": 2928185,
+      "x": -30.64455290169724,
+      "y": 71,
+      "z": 10.300807364341612
+    },
+    {
+      "time_ms": 2933373,
+      "x": -30.662961667960523,
+      "y": 71,
+      "z": 10.3
+    },
+    {
+      "time_ms": 2938554,
+      "x": -30.64455290169724,
+      "y": 71,
+      "z": 10.300807364341612
+    },
+    {
+      "time_ms": 2943732,
+      "x": -30.64455290169724,
+      "y": 71,
+      "z": 10.300807364341612
+    },
+    {
+      "time_ms": 2948920,
+      "x": -30.64014733278622,
+      "y": 71,
+      "z": 10.3
+    },
+    {
+      "time_ms": 2954111,
+      "x": -30.662961663268916,
+      "y": 71,
+      "z": 10.3
+    },
+    {
+      "time_ms": 2959293,
+      "x": -30.64455290169724,
+      "y": 71,
+      "z": 10.300807364341612
+    },
+    {
+      "time_ms": 2964478,
+      "x": -30.64455290169724,
+      "y": 71,
+      "z": 10.300807364341612
+    },
+    {
+      "time_ms": 2969666,
+      "x": -30.64455290169724,
+      "y": 71,
+      "z": 10.300807364341612
+    },
+    {
+      "time_ms": 2974857,
+      "x": -30.64455290169724,
+      "y": 71,
+      "z": 10.300807364341612
+    },
+    {
+      "time_ms": 2980059,
+      "x": -30.64455290169724,
+      "y": 71,
+      "z": 10.300807364341612
+    },
+    {
+      "time_ms": 2985247,
+      "x": -30.64455290169724,
+      "y": 71,
+      "z": 10.300807364341612
+    },
+    {
+      "time_ms": 2990431,
+      "x": -30.623788987849046,
+      "y": 71,
+      "z": 10.3
+    },
+    {
+      "time_ms": 2995616,
+      "x": -30.64455290169724,
+      "y": 71,
+      "z": 10.300807364341612
+    },
+    {
+      "time_ms": 3000918,
+      "x": -30.64455290169724,
+      "y": 71,
+      "z": 10.300807364341612
+    },
+    {
+      "time_ms": 3006105,
+      "x": -30.64455290169724,
+      "y": 71,
+      "z": 10.300807364341612
+    },
+    {
+      "time_ms": 3011283,
+      "x": -30.64455290169724,
+      "y": 71,
+      "z": 10.300807364341612
+    },
+    {
+      "time_ms": 3016523,
+      "x": -30.64455290169724,
+      "y": 71,
+      "z": 10.300807364341612
+    },
+    {
+      "time_ms": 3021718,
+      "x": -30.64455290169724,
+      "y": 71,
+      "z": 10.300807364341612
+    },
+    {
+      "time_ms": 3026908,
+      "x": -30.64455290169724,
+      "y": 71,
+      "z": 10.300807364341612
+    },
+    {
+      "time_ms": 3032096,
+      "x": -30.64455290169724,
+      "y": 71,
+      "z": 10.300807364341612
+    },
+    {
+      "time_ms": 3037279,
+      "x": -30.64455290169724,
+      "y": 71,
+      "z": 10.300807364341612
+    },
+    {
+      "time_ms": 3042468,
+      "x": -30.64455290169724,
+      "y": 71,
+      "z": 10.300807364341612
+    },
+    {
+      "time_ms": 3047652,
+      "x": -30.64455290169724,
+      "y": 71,
+      "z": 10.300807364341612
+    },
+    {
+      "time_ms": 3052844,
+      "x": -30.64455290169724,
+      "y": 71,
+      "z": 10.300807364341612
+    },
+    {
+      "time_ms": 3058022,
+      "x": -30.64455290169724,
+      "y": 71,
+      "z": 10.300807364341612
+    },
+    {
+      "time_ms": 3063300,
+      "x": -30.64455290169724,
+      "y": 71,
+      "z": 10.300807364341612
+    },
+    {
+      "time_ms": 3068503,
+      "x": -30.64455290169724,
+      "y": 71,
+      "z": 10.300807364341612
+    },
+    {
+      "time_ms": 3073718,
+      "x": -30.640147319419157,
+      "y": 71,
+      "z": 10.3
+    },
+    {
+      "time_ms": 3078927,
+      "x": -30.640147319419157,
+      "y": 71,
+      "z": 10.3
+    },
+    {
+      "time_ms": 3084107,
+      "x": -30.64455290169724,
+      "y": 71,
+      "z": 10.300807364341612
+    },
+    {
+      "time_ms": 3089299,
+      "x": -30.66296164919408,
+      "y": 71,
+      "z": 10.3
+    },
+    {
+      "time_ms": 3094492,
+      "x": -30.64455290169724,
+      "y": 71,
+      "z": 10.300807364341612
+    },
+    {
+      "time_ms": 3099676,
+      "x": -30.64455290169724,
+      "y": 71,
+      "z": 10.300807364341612
+    }
+  ],
+  "distance_traveled": 3.2533829976140995,
+  "deaths": 0,
+  "low_health_events": 0,
+  "times_returned_home": 0,
+  "total_llm_calls": 289,
+  "total_llm_time_ms": 480809,
+  "avg_llm_response_ms": 1664,
+  "unique_item_count": 7,
+  "survival_time_minutes": 52,
+  "action_success_rate": 0
+}

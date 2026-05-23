@@ -1,0 +1,4780 @@
+{
+  "session_id": 1,
+  "model": "gpt-4o-mini",
+  "start_time": 1779557810501,
+  "end_time": 1779559662391,
+  "survival_time_ms": 1851890,
+  "unique_items": [
+    "iron_axe",
+    "iron_pickaxe",
+    "cooked_beef",
+    "cobblestone",
+    "oak_sapling",
+    "birch_log",
+    "leaf_litter",
+    "dirt"
+  ],
+  "total_items_collected": 22,
+  "items_timeline": [
+    {
+      "time_ms": 39332,
+      "item": "iron_axe",
+      "unique_count": 1
+    },
+    {
+      "time_ms": 39333,
+      "item": "iron_pickaxe",
+      "unique_count": 2
+    },
+    {
+      "time_ms": 39333,
+      "item": "cooked_beef",
+      "unique_count": 3
+    },
+    {
+      "time_ms": 67295,
+      "item": "cobblestone",
+      "unique_count": 4
+    },
+    {
+      "time_ms": 140308,
+      "item": "oak_sapling",
+      "unique_count": 5
+    },
+    {
+      "time_ms": 140308,
+      "item": "birch_log",
+      "unique_count": 6
+    },
+    {
+      "time_ms": 1228389,
+      "item": "leaf_litter",
+      "unique_count": 7
+    },
+    {
+      "time_ms": 1228390,
+      "item": "dirt",
+      "unique_count": 8
+    }
+  ],
+  "total_actions": 234,
+  "successful_actions": 90,
+  "action_counts": {
+    "gather": 56,
+    "craft": 108,
+    "return_home": 49,
+    "wait": 21
+  },
+  "action_log": [
+    {
+      "time_ms": 39334,
+      "action": "gather",
+      "target": "oak_log",
+      "reason": "need wood for crafting",
+      "success": false,
+      "health": 20,
+      "hunger": 20,
+      "danger": "safe",
+      "llm_ms": 28203
+    },
+    {
+      "time_ms": 67295,
+      "action": "gather",
+      "target": "oak_log",
+      "reason": "need wood for crafting",
+      "success": false,
+      "health": 20,
+      "hunger": 20,
+      "danger": "safe",
+      "llm_ms": 2932
+    },
+    {
+      "time_ms": 93992,
+      "action": "gather",
+      "target": "birch_log",
+      "reason": "need wood for crafting and birch logs are nearby",
+      "success": true,
+      "health": 20,
+      "hunger": 20,
+      "danger": "safe",
+      "llm_ms": 1469
+    },
+    {
+      "time_ms": 96117,
+      "action": "craft",
+      "target": "crafting_table",
+      "reason": "need a portable crafting table to use when exploring",
+      "success": false,
+      "health": 20,
+      "hunger": 20,
+      "danger": "safe",
+      "llm_ms": 2016
+    },
+    {
+      "time_ms": 123119,
+      "action": "gather",
+      "target": "oak_log",
+      "reason": "need wood for crafting",
+      "success": false,
+      "health": 20,
+      "hunger": 20,
+      "danger": "safe",
+      "llm_ms": 1968
+    },
+    {
+      "time_ms": 126607,
+      "action": "return_home",
+      "target": null,
+      "reason": "distance to home is 6 and I need to craft using the crafting table.",
+      "success": true,
+      "health": 20,
+      "hunger": 20,
+      "danger": "safe",
+      "llm_ms": 2706
+    },
+    {
+      "time_ms": 128399,
+      "action": "return_home",
+      "target": null,
+      "reason": "distance to home is 6 and I need to craft using the crafting table.",
+      "success": true,
+      "health": 20,
+      "hunger": 20,
+      "danger": "safe",
+      "llm_ms": 1789
+    },
+    {
+      "time_ms": 135770,
+      "action": "gather",
+      "target": "birch_log",
+      "reason": "need wood for crafting and birch logs are nearby",
+      "success": false,
+      "health": 20,
+      "hunger": 20,
+      "danger": "safe",
+      "llm_ms": 1667
+    },
+    {
+      "time_ms": 140308,
+      "action": "gather",
+      "target": "birch_log",
+      "reason": "need wood for crafting",
+      "success": true,
+      "health": 20,
+      "hunger": 20,
+      "danger": "safe",
+      "llm_ms": 1616
+    },
+    {
+      "time_ms": 162006,
+      "action": "gather",
+      "target": "birch_log",
+      "reason": "need wood for crafting",
+      "success": true,
+      "health": 20,
+      "hunger": 20,
+      "danger": "safe",
+      "llm_ms": 19297
+    },
+    {
+      "time_ms": 164779,
+      "action": "return_home",
+      "target": null,
+      "reason": "distance to home is 8 and I need to craft using the crafting table.",
+      "success": true,
+      "health": 20,
+      "hunger": 20,
+      "danger": "safe",
+      "llm_ms": 1777
+    },
+    {
+      "time_ms": 166283,
+      "action": "return_home",
+      "target": null,
+      "reason": "distance to home is 8 and I need to craft using the crafting table.",
+      "success": true,
+      "health": 20,
+      "hunger": 20,
+      "danger": "safe",
+      "llm_ms": 1501
+    },
+    {
+      "time_ms": 167710,
+      "action": "return_home",
+      "target": null,
+      "reason": "distance to home is 8 and I need to craft using the crafting table.",
+      "success": true,
+      "health": 20,
+      "hunger": 20,
+      "danger": "safe",
+      "llm_ms": 1423
+    },
+    {
+      "time_ms": 183935,
+      "action": "gather",
+      "target": "oak_log",
+      "reason": "need more wood for crafting and gathering resources",
+      "success": false,
+      "health": 20,
+      "hunger": 20,
+      "danger": "safe",
+      "llm_ms": 1839
+    },
+    {
+      "time_ms": 185364,
+      "action": "craft",
+      "target": "crafting_table",
+      "reason": "I have enough birch_logs to craft a crafting table for carrying.",
+      "success": false,
+      "health": 20,
+      "hunger": 20,
+      "danger": "safe",
+      "llm_ms": 1424
+    },
+    {
+      "time_ms": 215046,
+      "action": "gather",
+      "target": "oak_log",
+      "reason": "need wood for crafting",
+      "success": false,
+      "health": 20,
+      "hunger": 20,
+      "danger": "safe",
+      "llm_ms": 1814
+    },
+    {
+      "time_ms": 217718,
+      "action": "return_home",
+      "target": null,
+      "reason": "distance to home is 6 and I need to craft using the crafting table.",
+      "success": true,
+      "health": 20,
+      "hunger": 20,
+      "danger": "safe",
+      "llm_ms": 1848
+    },
+    {
+      "time_ms": 219691,
+      "action": "return_home",
+      "target": null,
+      "reason": "distance to home is 6 and it is morning, I need to craft.",
+      "success": true,
+      "health": 20,
+      "hunger": 20,
+      "danger": "safe",
+      "llm_ms": 1970
+    },
+    {
+      "time_ms": 221199,
+      "action": "craft",
+      "target": "crafting_table",
+      "reason": "need a crafting table to carry for future crafting",
+      "success": false,
+      "health": 20,
+      "hunger": 20,
+      "danger": "safe",
+      "llm_ms": 1504
+    },
+    {
+      "time_ms": 227395,
+      "action": "gather",
+      "target": "birch_log",
+      "reason": "need wood for crafting and I have birch_log in inventory to process further",
+      "success": true,
+      "health": 20,
+      "hunger": 20,
+      "danger": "safe",
+      "llm_ms": 2067
+    },
+    {
+      "time_ms": 231804,
+      "action": "return_home",
+      "target": null,
+      "reason": "distance to home is 7 and it is morning, I need to craft.",
+      "success": true,
+      "health": 20,
+      "hunger": 20,
+      "danger": "safe",
+      "llm_ms": 1644
+    },
+    {
+      "time_ms": 233254,
+      "action": "return_home",
+      "target": null,
+      "reason": "distance to home is 13 and it is morning, I need to craft.",
+      "success": true,
+      "health": 20,
+      "hunger": 20,
+      "danger": "safe",
+      "llm_ms": 1447
+    },
+    {
+      "time_ms": 234625,
+      "action": "return_home",
+      "target": null,
+      "reason": "distance to home is 13 and it is morning, I need to craft.",
+      "success": true,
+      "health": 20,
+      "hunger": 20,
+      "danger": "safe",
+      "llm_ms": 1368
+    },
+    {
+      "time_ms": 262040,
+      "action": "gather",
+      "target": "coal_ore",
+      "reason": "need resources for crafting and coal for smelting.",
+      "success": false,
+      "health": 20,
+      "hunger": 20,
+      "danger": "safe",
+      "llm_ms": 1911
+    },
+    {
+      "time_ms": 265721,
+      "action": "return_home",
+      "target": null,
+      "reason": "distance to home is 6 and it is daytime, need to craft.",
+      "success": true,
+      "health": 20,
+      "hunger": 20,
+      "danger": "safe",
+      "llm_ms": 2697
+    },
+    {
+      "time_ms": 268313,
+      "action": "return_home",
+      "target": null,
+      "reason": "distance to home is 6 and it is daytime, need to craft.",
+      "success": true,
+      "health": 20,
+      "hunger": 20,
+      "danger": "safe",
+      "llm_ms": 2580
+    },
+    {
+      "time_ms": 295668,
+      "action": "gather",
+      "target": "birch_log",
+      "reason": "need wood for crafting and I can gather nearby birch logs.",
+      "success": true,
+      "health": 20,
+      "hunger": 20,
+      "danger": "safe",
+      "llm_ms": 2066
+    },
+    {
+      "time_ms": 299182,
+      "action": "return_home",
+      "target": null,
+      "reason": "distance to home is 9 and it is daytime; I need to craft.",
+      "success": true,
+      "health": 20,
+      "hunger": 20,
+      "danger": "safe",
+      "llm_ms": 2014
+    },
+    {
+      "time_ms": 325774,
+      "action": "gather",
+      "target": "oak_log",
+      "reason": "need wood for crafting and there are nearby oak logs available",
+      "success": false,
+      "health": 20,
+      "hunger": 20,
+      "danger": "safe",
+      "llm_ms": 1576
+    },
+    {
+      "time_ms": 328635,
+      "action": "return_home",
+      "target": null,
+      "reason": "distance to home is 6 and it is daytime; I need to craft.",
+      "success": true,
+      "health": 20,
+      "hunger": 20,
+      "danger": "safe",
+      "llm_ms": 1904
+    },
+    {
+      "time_ms": 330358,
+      "action": "return_home",
+      "target": null,
+      "reason": "distance to home is 6 and it is daytime; need to craft.",
+      "success": true,
+      "health": 20,
+      "hunger": 20,
+      "danger": "safe",
+      "llm_ms": 1720
+    },
+    {
+      "time_ms": 331689,
+      "action": "return_home",
+      "target": null,
+      "reason": "distance to home is 6 and it is daytime; I need to craft.",
+      "success": true,
+      "health": 20,
+      "hunger": 20,
+      "danger": "safe",
+      "llm_ms": 1330
+    },
+    {
+      "time_ms": 358143,
+      "action": "gather",
+      "target": "birch_log",
+      "reason": "need wood for crafting and nearby birch logs are available",
+      "success": true,
+      "health": 20,
+      "hunger": 20,
+      "danger": "safe",
+      "llm_ms": 1430
+    },
+    {
+      "time_ms": 361010,
+      "action": "return_home",
+      "target": null,
+      "reason": "distance to home is 9 and it is daytime; need to craft.",
+      "success": true,
+      "health": 20,
+      "hunger": 20,
+      "danger": "safe",
+      "llm_ms": 1442
+    },
+    {
+      "time_ms": 362441,
+      "action": "return_home",
+      "target": null,
+      "reason": "distance to home is 9 and it is daytime; need to craft.",
+      "success": true,
+      "health": 20,
+      "hunger": 20,
+      "danger": "safe",
+      "llm_ms": 1429
+    },
+    {
+      "time_ms": 388911,
+      "action": "gather",
+      "target": "oak_log",
+      "reason": "need more wood for crafting and there are nearby oak logs available",
+      "success": false,
+      "health": 20,
+      "hunger": 20,
+      "danger": "safe",
+      "llm_ms": 1445
+    },
+    {
+      "time_ms": 391234,
+      "action": "return_home",
+      "target": null,
+      "reason": "distance to home is 6 and it is daytime; I need to craft.",
+      "success": true,
+      "health": 20,
+      "hunger": 20,
+      "danger": "safe",
+      "llm_ms": 1409
+    },
+    {
+      "time_ms": 392682,
+      "action": "return_home",
+      "target": null,
+      "reason": "distance to home is 6 and it is daytime; need to craft.",
+      "success": true,
+      "health": 20,
+      "hunger": 20,
+      "danger": "safe",
+      "llm_ms": 1445
+    },
+    {
+      "time_ms": 419101,
+      "action": "gather",
+      "target": "birch_log",
+      "reason": "need wood for crafting, have birch logs available nearby",
+      "success": true,
+      "health": 20,
+      "hunger": 20,
+      "danger": "safe",
+      "llm_ms": 1393
+    },
+    {
+      "time_ms": 421916,
+      "action": "return_home",
+      "target": null,
+      "reason": "distance to home is 9 and it is daytime; need to craft.",
+      "success": true,
+      "health": 20,
+      "hunger": 20,
+      "danger": "safe",
+      "llm_ms": 1363
+    },
+    {
+      "time_ms": 448567,
+      "action": "gather",
+      "target": "oak_log",
+      "reason": "need wood for crafting and there are nearby oak logs available",
+      "success": false,
+      "health": 20,
+      "hunger": 20,
+      "danger": "safe",
+      "llm_ms": 1630
+    },
+    {
+      "time_ms": 450928,
+      "action": "return_home",
+      "target": null,
+      "reason": "distance to home is 6, need to craft.",
+      "success": true,
+      "health": 20,
+      "hunger": 20,
+      "danger": "safe",
+      "llm_ms": 1442
+    },
+    {
+      "time_ms": 452478,
+      "action": "return_home",
+      "target": null,
+      "reason": "distance to home is 6 and it is daytime; need to craft.",
+      "success": true,
+      "health": 20,
+      "hunger": 20,
+      "danger": "safe",
+      "llm_ms": 1548
+    },
+    {
+      "time_ms": 454178,
+      "action": "return_home",
+      "target": null,
+      "reason": "distance to home is 6 and it's daytime; need to craft.",
+      "success": true,
+      "health": 20,
+      "hunger": 20,
+      "danger": "safe",
+      "llm_ms": 1698
+    },
+    {
+      "time_ms": 480637,
+      "action": "gather",
+      "target": "birch_log",
+      "reason": "need wood for crafting and birch logs are nearby.",
+      "success": true,
+      "health": 20,
+      "hunger": 20,
+      "danger": "safe",
+      "llm_ms": 1441
+    },
+    {
+      "time_ms": 507105,
+      "action": "gather",
+      "target": "oak_log",
+      "reason": "need wood for crafting and there are nearby oak logs available",
+      "success": true,
+      "health": 20,
+      "hunger": 20,
+      "danger": "safe",
+      "llm_ms": 1454
+    },
+    {
+      "time_ms": 510347,
+      "action": "return_home",
+      "target": null,
+      "reason": "distance to home is 9 and I need to craft.",
+      "success": true,
+      "health": 20,
+      "hunger": 20,
+      "danger": "safe",
+      "llm_ms": 1771
+    },
+    {
+      "time_ms": 536763,
+      "action": "gather",
+      "target": "oak_log",
+      "reason": "need wood for crafting and there are nearby oak logs available",
+      "success": true,
+      "health": 20,
+      "hunger": 20,
+      "danger": "safe",
+      "llm_ms": 1399
+    },
+    {
+      "time_ms": 565124,
+      "action": "return_home",
+      "target": null,
+      "reason": "distance to home is 7 and it's daytime; need to craft.",
+      "success": true,
+      "health": 20,
+      "hunger": 20,
+      "danger": "safe",
+      "llm_ms": 1849
+    },
+    {
+      "time_ms": 566540,
+      "action": "return_home",
+      "target": null,
+      "reason": "it's evening and I'm 6 blocks from home, need to return before it gets dark.",
+      "success": true,
+      "health": 20,
+      "hunger": 20,
+      "danger": "safe",
+      "llm_ms": 1413
+    },
+    {
+      "time_ms": 568008,
+      "action": "return_home",
+      "target": null,
+      "reason": "it's evening and I'm 6 blocks from home, need to return before it gets dark.",
+      "success": true,
+      "health": 20,
+      "hunger": 20,
+      "danger": "safe",
+      "llm_ms": 1466
+    },
+    {
+      "time_ms": 570429,
+      "action": "gather",
+      "target": "birch_log",
+      "reason": "need wood for crafting and there are nearby birch logs available",
+      "success": true,
+      "health": 20,
+      "hunger": 20,
+      "danger": "safe",
+      "llm_ms": 1496
+    },
+    {
+      "time_ms": 571958,
+      "action": "craft",
+      "target": "crafting_table",
+      "reason": "need a crafting table to create other useful tools",
+      "success": false,
+      "health": 20,
+      "hunger": 20,
+      "danger": "safe",
+      "llm_ms": 1526
+    },
+    {
+      "time_ms": 573574,
+      "action": "craft",
+      "target": "crafting_table",
+      "reason": "need a crafting table to carry with me for future crafting",
+      "success": false,
+      "health": 20,
+      "hunger": 20,
+      "danger": "safe",
+      "llm_ms": 1611
+    },
+    {
+      "time_ms": 574973,
+      "action": "craft",
+      "target": "crafting_table",
+      "reason": "need a crafting table to carry with me for future crafting",
+      "success": false,
+      "health": 20,
+      "hunger": 20,
+      "danger": "safe",
+      "llm_ms": 1397
+    },
+    {
+      "time_ms": 601416,
+      "action": "gather",
+      "target": "oak_log",
+      "reason": "need more wood for crafting and there is an oak log nearby",
+      "success": false,
+      "health": 20,
+      "hunger": 20,
+      "danger": "safe",
+      "llm_ms": 1427
+    },
+    {
+      "time_ms": 603551,
+      "action": "craft",
+      "target": "crafting_table",
+      "reason": "I have enough birch logs to craft a crafting table at home.",
+      "success": false,
+      "health": 20,
+      "hunger": 20,
+      "danger": "safe",
+      "llm_ms": 2132
+    },
+    {
+      "time_ms": 604848,
+      "action": "craft",
+      "target": "crafting_table",
+      "reason": "need a crafting table to carry for future crafting",
+      "success": false,
+      "health": 20,
+      "hunger": 20,
+      "danger": "safe",
+      "llm_ms": 1294
+    },
+    {
+      "time_ms": 606077,
+      "action": "craft",
+      "target": "crafting_table",
+      "reason": "need to create a crafting_table for future crafting",
+      "success": false,
+      "health": 20,
+      "hunger": 20,
+      "danger": "safe",
+      "llm_ms": 1226
+    },
+    {
+      "time_ms": 632597,
+      "action": "gather",
+      "target": "birch_log",
+      "reason": "need more wood for crafting and there is a birch log nearby",
+      "success": true,
+      "health": 20,
+      "hunger": 20,
+      "danger": "safe",
+      "llm_ms": 1505
+    },
+    {
+      "time_ms": 634097,
+      "action": "craft",
+      "target": "crafting_table",
+      "reason": "I have enough birch logs to craft a crafting table at home.",
+      "success": false,
+      "health": 20,
+      "hunger": 20,
+      "danger": "safe",
+      "llm_ms": 1498
+    },
+    {
+      "time_ms": 635638,
+      "action": "craft",
+      "target": "crafting_table",
+      "reason": "have enough birch logs to craft a crafting table for future crafting needs",
+      "success": false,
+      "health": 20,
+      "hunger": 20,
+      "danger": "safe",
+      "llm_ms": 1539
+    },
+    {
+      "time_ms": 637083,
+      "action": "craft",
+      "target": "crafting_table",
+      "reason": "I have enough birch logs to craft a crafting table for future crafting needs.",
+      "success": false,
+      "health": 20,
+      "hunger": 20,
+      "danger": "safe",
+      "llm_ms": 1442
+    },
+    {
+      "time_ms": 663405,
+      "action": "gather",
+      "target": "birch_log",
+      "reason": "collecting resources for future crafting needs",
+      "success": true,
+      "health": 20,
+      "hunger": 20,
+      "danger": "safe",
+      "llm_ms": 1305
+    },
+    {
+      "time_ms": 665023,
+      "action": "craft",
+      "target": "oak_planks",
+      "reason": "I have enough birch logs to craft more oak planks for future crafting needs.",
+      "success": false,
+      "health": 20,
+      "hunger": 20,
+      "danger": "safe",
+      "llm_ms": 1616
+    },
+    {
+      "time_ms": 666361,
+      "action": "craft",
+      "target": "oak_planks",
+      "reason": "crafting oak planks from birch logs to use in future crafting needs",
+      "success": false,
+      "health": 20,
+      "hunger": 20,
+      "danger": "safe",
+      "llm_ms": 1337
+    },
+    {
+      "time_ms": 668050,
+      "action": "craft",
+      "target": "crafting_table",
+      "reason": "crafting a crafting table to carry for future crafting needs",
+      "success": false,
+      "health": 20,
+      "hunger": 20,
+      "danger": "safe",
+      "llm_ms": 1686
+    },
+    {
+      "time_ms": 670093,
+      "action": "wait",
+      "target": null,
+      "reason": "it's night and I am at home, need to stay safe and wait until it's daytime",
+      "success": false,
+      "health": 20,
+      "hunger": 20,
+      "danger": "safe",
+      "llm_ms": 2042
+    },
+    {
+      "time_ms": 671489,
+      "action": "wait",
+      "target": null,
+      "reason": "it's night and I am at home, need to stay safe until daytime",
+      "success": false,
+      "health": 20,
+      "hunger": 20,
+      "danger": "safe",
+      "llm_ms": 1395
+    },
+    {
+      "time_ms": 673213,
+      "action": "wait",
+      "target": null,
+      "reason": "It's night and I am at home, need to stay safe until daytime.",
+      "success": false,
+      "health": 20,
+      "hunger": 20,
+      "danger": "safe",
+      "llm_ms": 1723
+    },
+    {
+      "time_ms": 674761,
+      "action": "craft",
+      "target": "oak_planks",
+      "reason": "crafting oak planks from birch logs for future crafting needs",
+      "success": false,
+      "health": 20,
+      "hunger": 20,
+      "danger": "safe",
+      "llm_ms": 1545
+    },
+    {
+      "time_ms": 676490,
+      "action": "craft",
+      "target": "oak_planks",
+      "reason": "crafting oak planks from birch logs for future crafting needs",
+      "success": false,
+      "health": 20,
+      "hunger": 20,
+      "danger": "safe",
+      "llm_ms": 1726
+    },
+    {
+      "time_ms": 677963,
+      "action": "craft",
+      "target": "oak_planks",
+      "reason": "crafting planks from birch logs for future crafting needs",
+      "success": false,
+      "health": 20,
+      "hunger": 20,
+      "danger": "safe",
+      "llm_ms": 1471
+    },
+    {
+      "time_ms": 679917,
+      "action": "wait",
+      "target": null,
+      "reason": "It's night and I am at home, need to stay safe until daytime.",
+      "success": false,
+      "health": 20,
+      "hunger": 20,
+      "danger": "safe",
+      "llm_ms": 1753
+    },
+    {
+      "time_ms": 682613,
+      "action": "craft",
+      "target": "oak_planks",
+      "reason": "crafting oak planks from birch logs for future crafting needs",
+      "success": false,
+      "health": 20,
+      "hunger": 20,
+      "danger": "safe",
+      "llm_ms": 2694
+    },
+    {
+      "time_ms": 684112,
+      "action": "craft",
+      "target": "oak_planks",
+      "reason": "crafting oak planks from birch logs for future crafting needs",
+      "success": false,
+      "health": 20,
+      "hunger": 20,
+      "danger": "safe",
+      "llm_ms": 1497
+    },
+    {
+      "time_ms": 685739,
+      "action": "craft",
+      "target": "oak_planks",
+      "reason": "crafting oak planks from birch logs for future crafting needs.",
+      "success": false,
+      "health": 20,
+      "hunger": 20,
+      "danger": "safe",
+      "llm_ms": 1625
+    },
+    {
+      "time_ms": 687173,
+      "action": "wait",
+      "target": null,
+      "reason": "It's night and I am home, staying safe until daytime.",
+      "success": false,
+      "health": 20,
+      "hunger": 20,
+      "danger": "safe",
+      "llm_ms": 1433
+    },
+    {
+      "time_ms": 688604,
+      "action": "craft",
+      "target": "oak_planks",
+      "reason": "crafting oak planks from birch logs for future crafting needs",
+      "success": false,
+      "health": 20,
+      "hunger": 20,
+      "danger": "safe",
+      "llm_ms": 1429
+    },
+    {
+      "time_ms": 690028,
+      "action": "craft",
+      "target": "oak_planks",
+      "reason": "crafting oak planks from birch logs for future crafting needs.",
+      "success": false,
+      "health": 20,
+      "hunger": 20,
+      "danger": "safe",
+      "llm_ms": 1421
+    },
+    {
+      "time_ms": 691394,
+      "action": "craft",
+      "target": "oak_planks",
+      "reason": "crafting oak planks from birch logs for future crafting needs",
+      "success": false,
+      "health": 20,
+      "hunger": 20,
+      "danger": "safe",
+      "llm_ms": 1364
+    },
+    {
+      "time_ms": 692823,
+      "action": "wait",
+      "target": null,
+      "reason": "It's night and I'm already home, staying safe until daytime.",
+      "success": false,
+      "health": 20,
+      "hunger": 20,
+      "danger": "safe",
+      "llm_ms": 1427
+    },
+    {
+      "time_ms": 697064,
+      "action": "craft",
+      "target": "oak_planks",
+      "reason": "crafting oak planks from birch logs for future crafting needs",
+      "success": false,
+      "health": 20,
+      "hunger": 20,
+      "danger": "safe",
+      "llm_ms": 4238
+    },
+    {
+      "time_ms": 698487,
+      "action": "craft",
+      "target": "oak_planks",
+      "reason": "crafting oak planks from birch logs for future crafting needs",
+      "success": false,
+      "health": 20,
+      "hunger": 20,
+      "danger": "safe",
+      "llm_ms": 1421
+    },
+    {
+      "time_ms": 700037,
+      "action": "craft",
+      "target": "oak_planks",
+      "reason": "crafting oak planks from birch logs for future crafting needs",
+      "success": false,
+      "health": 20,
+      "hunger": 20,
+      "danger": "safe",
+      "llm_ms": 1547
+    },
+    {
+      "time_ms": 702531,
+      "action": "wait",
+      "target": null,
+      "reason": "It's night and I'm already home, staying safe until daytime.",
+      "success": false,
+      "health": 20,
+      "hunger": 20,
+      "danger": "safe",
+      "llm_ms": 2492
+    },
+    {
+      "time_ms": 703847,
+      "action": "craft",
+      "target": "oak_planks",
+      "reason": "crafting oak planks from birch logs for future crafting needs",
+      "success": false,
+      "health": 20,
+      "hunger": 20,
+      "danger": "safe",
+      "llm_ms": 1313
+    },
+    {
+      "time_ms": 705381,
+      "action": "craft",
+      "target": "oak_planks",
+      "reason": "crafting oak planks from birch logs for future crafting needs",
+      "success": false,
+      "health": 20,
+      "hunger": 20,
+      "danger": "safe",
+      "llm_ms": 1531
+    },
+    {
+      "time_ms": 706796,
+      "action": "craft",
+      "target": "oak_planks",
+      "reason": "crafting oak planks from birch logs for future crafting needs",
+      "success": false,
+      "health": 20,
+      "hunger": 20,
+      "danger": "safe",
+      "llm_ms": 1413
+    },
+    {
+      "time_ms": 709030,
+      "action": "wait",
+      "target": null,
+      "reason": "It is night and I am already home, staying safe until daytime.",
+      "success": false,
+      "health": 20,
+      "hunger": 20,
+      "danger": "safe",
+      "llm_ms": 2231
+    },
+    {
+      "time_ms": 711183,
+      "action": "craft",
+      "target": "oak_planks",
+      "reason": "crafting oak planks from birch logs for future crafting needs",
+      "success": false,
+      "health": 20,
+      "hunger": 20,
+      "danger": "safe",
+      "llm_ms": 2152
+    },
+    {
+      "time_ms": 712648,
+      "action": "craft",
+      "target": "oak_planks",
+      "reason": "need wood for crafting after previous failures to craft from birch logs",
+      "success": false,
+      "health": 20,
+      "hunger": 20,
+      "danger": "safe",
+      "llm_ms": 1462
+    },
+    {
+      "time_ms": 739227,
+      "action": "gather",
+      "target": "birch_log",
+      "reason": "need wood for crafting after previous failures to craft from birch logs",
+      "success": true,
+      "health": 20,
+      "hunger": 20,
+      "danger": "safe",
+      "llm_ms": 1564
+    },
+    {
+      "time_ms": 740566,
+      "action": "craft",
+      "target": "oak_planks",
+      "reason": "crafting oak planks from birch logs for future crafting needs",
+      "success": false,
+      "health": 20,
+      "hunger": 20,
+      "danger": "safe",
+      "llm_ms": 1335
+    },
+    {
+      "time_ms": 742071,
+      "action": "craft",
+      "target": "oak_planks",
+      "reason": "crafting oak planks from birch logs for future crafting needs",
+      "success": false,
+      "health": 20,
+      "hunger": 20,
+      "danger": "safe",
+      "llm_ms": 1502
+    },
+    {
+      "time_ms": 744341,
+      "action": "craft",
+      "target": "oak_planks",
+      "reason": "crafting oak planks from birch logs for future crafting needs.",
+      "success": false,
+      "health": 20,
+      "hunger": 20,
+      "danger": "safe",
+      "llm_ms": 2267
+    },
+    {
+      "time_ms": 771386,
+      "action": "gather",
+      "target": "birch_log",
+      "reason": "need wood for crafting after previous failures, and it's night so I need to stay in the vicinity.",
+      "success": true,
+      "health": 20,
+      "hunger": 20,
+      "danger": "safe",
+      "llm_ms": 2024
+    },
+    {
+      "time_ms": 773028,
+      "action": "craft",
+      "target": "oak_planks",
+      "reason": "crafting oak planks from birch logs to increase crafting materials availability",
+      "success": false,
+      "health": 20,
+      "hunger": 20,
+      "danger": "safe",
+      "llm_ms": 1640
+    },
+    {
+      "time_ms": 774654,
+      "action": "craft",
+      "target": "oak_planks",
+      "reason": "crafting oak planks from birch logs for future crafting needs",
+      "success": false,
+      "health": 20,
+      "hunger": 20,
+      "danger": "safe",
+      "llm_ms": 1625
+    },
+    {
+      "time_ms": 776156,
+      "action": "craft",
+      "target": "oak_planks",
+      "reason": "crafting oak planks from birch logs for future crafting needs",
+      "success": false,
+      "health": 20,
+      "hunger": 20,
+      "danger": "safe",
+      "llm_ms": 1499
+    },
+    {
+      "time_ms": 802539,
+      "action": "gather",
+      "target": "birch_log",
+      "reason": "need more wood for crafting and gathering resources",
+      "success": true,
+      "health": 20,
+      "hunger": 20,
+      "danger": "safe",
+      "llm_ms": 1247
+    },
+    {
+      "time_ms": 804215,
+      "action": "craft",
+      "target": "oak_planks",
+      "reason": "crafting oak planks from birch logs to increase crafting materials availability and prepare for future crafting needs.",
+      "success": false,
+      "health": 20,
+      "hunger": 20,
+      "danger": "safe",
+      "llm_ms": 1674
+    },
+    {
+      "time_ms": 805587,
+      "action": "craft",
+      "target": "oak_planks",
+      "reason": "crafting oak planks from birch logs to increase crafting materials availability",
+      "success": false,
+      "health": 20,
+      "hunger": 20,
+      "danger": "safe",
+      "llm_ms": 1370
+    },
+    {
+      "time_ms": 806982,
+      "action": "craft",
+      "target": "oak_planks",
+      "reason": "crafting oak planks from birch logs for future crafting needs",
+      "success": false,
+      "health": 20,
+      "hunger": 20,
+      "danger": "safe",
+      "llm_ms": 1392
+    },
+    {
+      "time_ms": 833361,
+      "action": "gather",
+      "target": "birch_log",
+      "reason": "need more wood for future crafting and gathering resources",
+      "success": true,
+      "health": 20,
+      "hunger": 20,
+      "danger": "safe",
+      "llm_ms": 1348
+    },
+    {
+      "time_ms": 859923,
+      "action": "gather",
+      "target": "birch_log",
+      "reason": "need more wood for crafting and gathering resources",
+      "success": true,
+      "health": 20,
+      "hunger": 20,
+      "danger": "safe",
+      "llm_ms": 1525
+    },
+    {
+      "time_ms": 861748,
+      "action": "craft",
+      "target": "oak_planks",
+      "reason": "crafting oak planks from birch logs to increase crafting materials availability for future needs.",
+      "success": false,
+      "health": 20,
+      "hunger": 20,
+      "danger": "safe",
+      "llm_ms": 1823
+    },
+    {
+      "time_ms": 888257,
+      "action": "gather",
+      "target": "birch_log",
+      "reason": "need more wood for crafting and gathering resources",
+      "success": true,
+      "health": 20,
+      "hunger": 20,
+      "danger": "safe",
+      "llm_ms": 1491
+    },
+    {
+      "time_ms": 889785,
+      "action": "craft",
+      "target": "oak_planks",
+      "reason": "crafting oak planks from birch logs to increase crafting materials availability for future needs.",
+      "success": false,
+      "health": 20,
+      "hunger": 20,
+      "danger": "safe",
+      "llm_ms": 1526
+    },
+    {
+      "time_ms": 891460,
+      "action": "craft",
+      "target": "oak_planks",
+      "reason": "need wood for crafting, I have birch logs in inventory.",
+      "success": false,
+      "health": 20,
+      "hunger": 20,
+      "danger": "safe",
+      "llm_ms": 1673
+    },
+    {
+      "time_ms": 892935,
+      "action": "craft",
+      "target": "oak_planks",
+      "reason": "need wood for crafting, I have birch logs in inventory.",
+      "success": false,
+      "health": 20,
+      "hunger": 20,
+      "danger": "safe",
+      "llm_ms": 1472
+    },
+    {
+      "time_ms": 894352,
+      "action": "wait",
+      "target": null,
+      "reason": "It is night and I am at home, staying safe until day.",
+      "success": false,
+      "health": 20,
+      "hunger": 20,
+      "danger": "safe",
+      "llm_ms": 1415
+    },
+    {
+      "time_ms": 895764,
+      "action": "craft",
+      "target": "oak_planks",
+      "reason": "need wood for crafting and to increase materials availability for future needs.",
+      "success": false,
+      "health": 20,
+      "hunger": 20,
+      "danger": "safe",
+      "llm_ms": 1410
+    },
+    {
+      "time_ms": 897184,
+      "action": "craft",
+      "target": "oak_planks",
+      "reason": "crafting oak planks from birch logs to increase crafting materials availability for future needs.",
+      "success": false,
+      "health": 20,
+      "hunger": 20,
+      "danger": "safe",
+      "llm_ms": 1418
+    },
+    {
+      "time_ms": 898914,
+      "action": "craft",
+      "target": "oak_planks",
+      "reason": "crafting oak planks from birch logs to increase crafting materials availability for future needs.",
+      "success": false,
+      "health": 20,
+      "hunger": 20,
+      "danger": "safe",
+      "llm_ms": 1728
+    },
+    {
+      "time_ms": 900507,
+      "action": "wait",
+      "target": null,
+      "reason": "it is night and I am already at home, staying safe until day.",
+      "success": false,
+      "health": 20,
+      "hunger": 20,
+      "danger": "safe",
+      "llm_ms": 1592
+    },
+    {
+      "time_ms": 902481,
+      "action": "craft",
+      "target": "oak_planks",
+      "reason": "crafting oak planks from birch logs to increase crafting materials availability for future needs.",
+      "success": false,
+      "health": 20,
+      "hunger": 20,
+      "danger": "safe",
+      "llm_ms": 1603
+    },
+    {
+      "time_ms": 903929,
+      "action": "craft",
+      "target": "oak_planks",
+      "reason": "crafting oak planks from birch logs to increase crafting materials availability for future needs.",
+      "success": false,
+      "health": 20,
+      "hunger": 20,
+      "danger": "safe",
+      "llm_ms": 1445
+    },
+    {
+      "time_ms": 905456,
+      "action": "craft",
+      "target": "oak_planks",
+      "reason": "crafting oak planks from birch logs to increase crafting materials availability for future needs.",
+      "success": false,
+      "health": 20,
+      "hunger": 20,
+      "danger": "safe",
+      "llm_ms": 1524
+    },
+    {
+      "time_ms": 910530,
+      "action": "wait",
+      "target": null,
+      "reason": "It is night and I am already at home, staying safe until day.",
+      "success": false,
+      "health": 20,
+      "hunger": 20,
+      "danger": "safe",
+      "llm_ms": 5073
+    },
+    {
+      "time_ms": 911985,
+      "action": "craft",
+      "target": "oak_planks",
+      "reason": "crafting oak planks from birch logs to increase crafting materials availability for future needs.",
+      "success": false,
+      "health": 20,
+      "hunger": 20,
+      "danger": "safe",
+      "llm_ms": 1453
+    },
+    {
+      "time_ms": 913695,
+      "action": "craft",
+      "target": "oak_planks",
+      "reason": "crafting oak planks from birch logs to increase crafting materials availability for future needs.",
+      "success": false,
+      "health": 20,
+      "hunger": 20,
+      "danger": "safe",
+      "llm_ms": 1708
+    },
+    {
+      "time_ms": 916343,
+      "action": "craft",
+      "target": "oak_planks",
+      "reason": "crafting oak planks from birch logs to increase crafting material availability for future needs.",
+      "success": false,
+      "health": 20,
+      "hunger": 20,
+      "danger": "safe",
+      "llm_ms": 2645
+    },
+    {
+      "time_ms": 918436,
+      "action": "wait",
+      "target": null,
+      "reason": "It is night, I am already at home, and it's safe to wait until day.",
+      "success": false,
+      "health": 20,
+      "hunger": 20,
+      "danger": "safe",
+      "llm_ms": 1808
+    },
+    {
+      "time_ms": 919941,
+      "action": "craft",
+      "target": "oak_planks",
+      "reason": "crafting oak planks from birch logs to increase crafting materials availability for future needs.",
+      "success": false,
+      "health": 20,
+      "hunger": 20,
+      "danger": "safe",
+      "llm_ms": 1503
+    },
+    {
+      "time_ms": 921794,
+      "action": "craft",
+      "target": "oak_planks",
+      "reason": "crafting oak planks from birch logs to increase crafting materials availability for future needs.",
+      "success": false,
+      "health": 20,
+      "hunger": 20,
+      "danger": "safe",
+      "llm_ms": 1850
+    },
+    {
+      "time_ms": 923328,
+      "action": "craft",
+      "target": "oak_planks",
+      "reason": "crafting oak planks from birch logs to increase crafting material availability for future needs.",
+      "success": false,
+      "health": 20,
+      "hunger": 20,
+      "danger": "safe",
+      "llm_ms": 1532
+    },
+    {
+      "time_ms": 924973,
+      "action": "wait",
+      "target": null,
+      "reason": "It is night, I am at home, and it is safe to wait until day.",
+      "success": false,
+      "health": 20,
+      "hunger": 20,
+      "danger": "safe",
+      "llm_ms": 1642
+    },
+    {
+      "time_ms": 926627,
+      "action": "craft",
+      "target": "oak_planks",
+      "reason": "crafting oak planks from birch logs to increase crafting materials availability for future needs.",
+      "success": false,
+      "health": 20,
+      "hunger": 20,
+      "danger": "safe",
+      "llm_ms": 1652
+    },
+    {
+      "time_ms": 928303,
+      "action": "craft",
+      "target": "oak_planks",
+      "reason": "crafting oak planks from birch logs to increase crafting materials availability for future needs.",
+      "success": false,
+      "health": 20,
+      "hunger": 20,
+      "danger": "safe",
+      "llm_ms": 1674
+    },
+    {
+      "time_ms": 929763,
+      "action": "craft",
+      "target": "oak_planks",
+      "reason": "crafting oak planks from birch logs to increase crafting materials availability for future needs.",
+      "success": false,
+      "health": 20,
+      "hunger": 20,
+      "danger": "safe",
+      "llm_ms": 1458
+    },
+    {
+      "time_ms": 931152,
+      "action": "wait",
+      "target": null,
+      "reason": "It is night, I am at home, and it is safe to wait until day.",
+      "success": false,
+      "health": 20,
+      "hunger": 20,
+      "danger": "safe",
+      "llm_ms": 1388
+    },
+    {
+      "time_ms": 934098,
+      "action": "craft",
+      "target": "oak_planks",
+      "reason": "crafting oak planks from birch logs to increase crafting materials availability for future needs.",
+      "success": false,
+      "health": 20,
+      "hunger": 20,
+      "danger": "safe",
+      "llm_ms": 2944
+    },
+    {
+      "time_ms": 935551,
+      "action": "craft",
+      "target": "oak_planks",
+      "reason": "crafting oak planks from birch logs to increase crafting materials availability for future needs.",
+      "success": false,
+      "health": 20,
+      "hunger": 20,
+      "danger": "safe",
+      "llm_ms": 1451
+    },
+    {
+      "time_ms": 936877,
+      "action": "craft",
+      "target": "oak_planks",
+      "reason": "crafting oak planks from birch logs to increase crafting materials availability for future needs.",
+      "success": false,
+      "health": 20,
+      "hunger": 20,
+      "danger": "safe",
+      "llm_ms": 1324
+    },
+    {
+      "time_ms": 938280,
+      "action": "wait",
+      "target": null,
+      "reason": "It is night and I am at home; it's safe to wait until day.",
+      "success": false,
+      "health": 20,
+      "hunger": 20,
+      "danger": "safe",
+      "llm_ms": 1402
+    },
+    {
+      "time_ms": 939941,
+      "action": "craft",
+      "target": "oak_planks",
+      "reason": "crafting oak planks from birch logs to increase crafting materials availability for future needs.",
+      "success": false,
+      "health": 20,
+      "hunger": 20,
+      "danger": "safe",
+      "llm_ms": 1659
+    },
+    {
+      "time_ms": 941450,
+      "action": "craft",
+      "target": "oak_planks",
+      "reason": "crafting oak planks from birch logs to increase crafting materials availability for future needs.",
+      "success": false,
+      "health": 20,
+      "hunger": 20,
+      "danger": "safe",
+      "llm_ms": 1507
+    },
+    {
+      "time_ms": 942998,
+      "action": "craft",
+      "target": "oak_planks",
+      "reason": "crafting oak planks from birch logs to increase crafting materials availability for future needs.",
+      "success": false,
+      "health": 20,
+      "hunger": 20,
+      "danger": "safe",
+      "llm_ms": 1546
+    },
+    {
+      "time_ms": 944610,
+      "action": "wait",
+      "target": null,
+      "reason": "It is night and I am at home; it's safe to wait until day.",
+      "success": false,
+      "health": 20,
+      "hunger": 20,
+      "danger": "safe",
+      "llm_ms": 1610
+    },
+    {
+      "time_ms": 946377,
+      "action": "craft",
+      "target": "oak_planks",
+      "reason": "crafting oak planks from birch logs to increase crafting materials availability for future needs.",
+      "success": false,
+      "health": 20,
+      "hunger": 20,
+      "danger": "safe",
+      "llm_ms": 1765
+    },
+    {
+      "time_ms": 947720,
+      "action": "craft",
+      "target": "oak_planks",
+      "reason": "crafting oak planks from birch logs to increase crafting materials availability for future needs.",
+      "success": false,
+      "health": 20,
+      "hunger": 20,
+      "danger": "safe",
+      "llm_ms": 1341
+    },
+    {
+      "time_ms": 949148,
+      "action": "craft",
+      "target": "oak_planks",
+      "reason": "crafting oak planks from birch logs to increase crafting materials availability for future needs.",
+      "success": false,
+      "health": 20,
+      "hunger": 20,
+      "danger": "safe",
+      "llm_ms": 1426
+    },
+    {
+      "time_ms": 950512,
+      "action": "wait",
+      "target": null,
+      "reason": "It is night, and I am safe at home, so I will wait until daytime.",
+      "success": false,
+      "health": 20,
+      "hunger": 20,
+      "danger": "safe",
+      "llm_ms": 1363
+    },
+    {
+      "time_ms": 952642,
+      "action": "craft",
+      "target": "oak_planks",
+      "reason": "crafting oak planks from birch logs to increase crafting materials availability for future needs.",
+      "success": false,
+      "health": 20,
+      "hunger": 20,
+      "danger": "safe",
+      "llm_ms": 1794
+    },
+    {
+      "time_ms": 954460,
+      "action": "craft",
+      "target": "oak_planks",
+      "reason": "crafting oak planks from birch logs to increase crafting materials availability for future needs.",
+      "success": false,
+      "health": 20,
+      "hunger": 20,
+      "danger": "safe",
+      "llm_ms": 1817
+    },
+    {
+      "time_ms": 956202,
+      "action": "craft",
+      "target": "oak_planks",
+      "reason": "crafting oak planks from birch logs to increase crafting materials availability for future needs.",
+      "success": false,
+      "health": 20,
+      "hunger": 20,
+      "danger": "safe",
+      "llm_ms": 1739
+    },
+    {
+      "time_ms": 957398,
+      "action": "wait",
+      "target": null,
+      "reason": "It is night and I am safe at home.",
+      "success": false,
+      "health": 20,
+      "hunger": 20,
+      "danger": "safe",
+      "llm_ms": 1194
+    },
+    {
+      "time_ms": 958846,
+      "action": "craft",
+      "target": "oak_planks",
+      "reason": "crafting oak planks from birch logs to increase crafting materials availability for future needs.",
+      "success": false,
+      "health": 20,
+      "hunger": 20,
+      "danger": "safe",
+      "llm_ms": 1372
+    },
+    {
+      "time_ms": 960259,
+      "action": "craft",
+      "target": "oak_planks",
+      "reason": "crafting oak planks from birch logs to increase crafting materials availability for future needs.",
+      "success": false,
+      "health": 20,
+      "hunger": 20,
+      "danger": "safe",
+      "llm_ms": 1410
+    },
+    {
+      "time_ms": 961822,
+      "action": "craft",
+      "target": "oak_planks",
+      "reason": "crafting oak planks from birch logs to increase crafting materials availability for future needs.",
+      "success": false,
+      "health": 20,
+      "hunger": 20,
+      "danger": "safe",
+      "llm_ms": 1561
+    },
+    {
+      "time_ms": 963367,
+      "action": "wait",
+      "target": null,
+      "reason": "It is night and I am safe at home, waiting for day to explore.",
+      "success": false,
+      "health": 20,
+      "hunger": 20,
+      "danger": "safe",
+      "llm_ms": 1543
+    },
+    {
+      "time_ms": 964779,
+      "action": "craft",
+      "target": "oak_planks",
+      "reason": "crafting oak planks from birch logs to increase crafting materials availability for future needs.",
+      "success": false,
+      "health": 20,
+      "hunger": 20,
+      "danger": "safe",
+      "llm_ms": 1411
+    },
+    {
+      "time_ms": 966839,
+      "action": "craft",
+      "target": "oak_planks",
+      "reason": "crafting oak planks from birch logs to increase crafting materials availability for future needs.",
+      "success": false,
+      "health": 20,
+      "hunger": 20,
+      "danger": "safe",
+      "llm_ms": 2057
+    },
+    {
+      "time_ms": 968551,
+      "action": "craft",
+      "target": "oak_planks",
+      "reason": "crafting oak planks from birch logs to increase crafting materials availability for future needs.",
+      "success": false,
+      "health": 20,
+      "hunger": 20,
+      "danger": "safe",
+      "llm_ms": 1710
+    },
+    {
+      "time_ms": 969883,
+      "action": "wait",
+      "target": null,
+      "reason": "It is night and I am safe at home, waiting for day to explore.",
+      "success": false,
+      "health": 20,
+      "hunger": 20,
+      "danger": "safe",
+      "llm_ms": 1331
+    },
+    {
+      "time_ms": 972038,
+      "action": "craft",
+      "target": "oak_planks",
+      "reason": "crafting oak planks from birch logs to increase crafting materials availability for future needs.",
+      "success": false,
+      "health": 20,
+      "hunger": 20,
+      "danger": "safe",
+      "llm_ms": 2154
+    },
+    {
+      "time_ms": 973746,
+      "action": "craft",
+      "target": "oak_planks",
+      "reason": "crafting oak planks from birch logs to increase crafting materials availability for future needs.",
+      "success": false,
+      "health": 20,
+      "hunger": 20,
+      "danger": "safe",
+      "llm_ms": 1706
+    },
+    {
+      "time_ms": 975276,
+      "action": "craft",
+      "target": "oak_planks",
+      "reason": "crafting oak planks from birch logs to increase crafting materials availability for future needs.",
+      "success": false,
+      "health": 20,
+      "hunger": 20,
+      "danger": "safe",
+      "llm_ms": 1445
+    },
+    {
+      "time_ms": 976773,
+      "action": "wait",
+      "target": null,
+      "reason": "It is night and I am safe at home, waiting for day to explore.",
+      "success": false,
+      "health": 20,
+      "hunger": 20,
+      "danger": "safe",
+      "llm_ms": 1495
+    },
+    {
+      "time_ms": 978365,
+      "action": "craft",
+      "target": "oak_planks",
+      "reason": "crafting oak planks from birch logs to increase crafting materials availability for future needs.",
+      "success": false,
+      "health": 20,
+      "hunger": 20,
+      "danger": "safe",
+      "llm_ms": 1589
+    },
+    {
+      "time_ms": 980012,
+      "action": "craft",
+      "target": "oak_planks",
+      "reason": "crafting oak planks from birch logs to increase crafting materials availability for future needs.",
+      "success": false,
+      "health": 20,
+      "hunger": 20,
+      "danger": "safe",
+      "llm_ms": 1645
+    },
+    {
+      "time_ms": 981425,
+      "action": "craft",
+      "target": "oak_planks",
+      "reason": "crafting oak planks from birch logs to increase crafting materials availability for future needs.",
+      "success": false,
+      "health": 20,
+      "hunger": 20,
+      "danger": "safe",
+      "llm_ms": 1411
+    },
+    {
+      "time_ms": 1007943,
+      "action": "gather",
+      "target": "birch_log",
+      "reason": "need wood for crafting and currently have none in inventory",
+      "success": true,
+      "health": 20,
+      "hunger": 20,
+      "danger": "safe",
+      "llm_ms": 1500
+    },
+    {
+      "time_ms": 1009350,
+      "action": "craft",
+      "target": "oak_planks",
+      "reason": "crafting oak planks from birch logs to increase crafting materials availability for future needs.",
+      "success": false,
+      "health": 20,
+      "hunger": 20,
+      "danger": "safe",
+      "llm_ms": 1406
+    },
+    {
+      "time_ms": 1010941,
+      "action": "craft",
+      "target": "oak_planks",
+      "reason": "crafting oak planks from birch logs to increase crafting materials availability for future needs.",
+      "success": false,
+      "health": 20,
+      "hunger": 20,
+      "danger": "safe",
+      "llm_ms": 1588
+    },
+    {
+      "time_ms": 1012380,
+      "action": "craft",
+      "target": "oak_planks",
+      "reason": "crafting oak planks from birch logs to increase crafting materials availability for future needs.",
+      "success": false,
+      "health": 20,
+      "hunger": 20,
+      "danger": "safe",
+      "llm_ms": 1437
+    },
+    {
+      "time_ms": 1039050,
+      "action": "gather",
+      "target": "birch_log",
+      "reason": "need wood for crafting and increase crafting materials availability",
+      "success": true,
+      "health": 20,
+      "hunger": 20,
+      "danger": "safe",
+      "llm_ms": 1650
+    },
+    {
+      "time_ms": 1040576,
+      "action": "craft",
+      "target": "oak_planks",
+      "reason": "crafting oak planks from birch logs to increase crafting materials availability for future needs.",
+      "success": false,
+      "health": 20,
+      "hunger": 20,
+      "danger": "safe",
+      "llm_ms": 1524
+    },
+    {
+      "time_ms": 1042098,
+      "action": "craft",
+      "target": "oak_planks",
+      "reason": "need more crafting materials from birch logs to increase availability for future crafting needs.",
+      "success": false,
+      "health": 20,
+      "hunger": 20,
+      "danger": "safe",
+      "llm_ms": 1521
+    },
+    {
+      "time_ms": 1043717,
+      "action": "craft",
+      "target": "oak_planks",
+      "reason": "crafting materials from birch logs to increase crafting materials availability for future needs.",
+      "success": false,
+      "health": 20,
+      "hunger": 20,
+      "danger": "safe",
+      "llm_ms": 1565
+    },
+    {
+      "time_ms": 1070298,
+      "action": "gather",
+      "target": "birch_log",
+      "reason": "need more wood for crafting and can gather safely at night",
+      "success": true,
+      "health": 20,
+      "hunger": 20,
+      "danger": "safe",
+      "llm_ms": 1558
+    },
+    {
+      "time_ms": 1072254,
+      "action": "craft",
+      "target": "oak_planks",
+      "reason": "craft oak planks from birch logs to increase crafting materials availability for future needs",
+      "success": false,
+      "health": 20,
+      "hunger": 20,
+      "danger": "safe",
+      "llm_ms": 1955
+    },
+    {
+      "time_ms": 1073742,
+      "action": "craft",
+      "target": "oak_planks",
+      "reason": "crafting oak planks from birch logs to increase crafting materials availability for future needs.",
+      "success": false,
+      "health": 20,
+      "hunger": 20,
+      "danger": "safe",
+      "llm_ms": 1485
+    },
+    {
+      "time_ms": 1075071,
+      "action": "craft",
+      "target": "oak_planks",
+      "reason": "need to increase crafting materials availability for future needs using birch logs",
+      "success": false,
+      "health": 20,
+      "hunger": 20,
+      "danger": "safe",
+      "llm_ms": 1327
+    },
+    {
+      "time_ms": 1101493,
+      "action": "gather",
+      "target": "birch_log",
+      "reason": "need more wood for future crafting materials since it's night and safe to gather nearby resources.",
+      "success": true,
+      "health": 20,
+      "hunger": 20,
+      "danger": "safe",
+      "llm_ms": 1407
+    },
+    {
+      "time_ms": 1103283,
+      "action": "craft",
+      "target": "oak_planks",
+      "reason": "craft oak planks from birch logs to increase crafting materials availability for future needs",
+      "success": false,
+      "health": 20,
+      "hunger": 20,
+      "danger": "safe",
+      "llm_ms": 1787
+    },
+    {
+      "time_ms": 1104736,
+      "action": "craft",
+      "target": "oak_planks",
+      "reason": "crafting oak planks from birch logs to increase crafting materials availability for future needs.",
+      "success": false,
+      "health": 20,
+      "hunger": 20,
+      "danger": "safe",
+      "llm_ms": 1450
+    },
+    {
+      "time_ms": 1108614,
+      "action": "craft",
+      "target": "oak_planks",
+      "reason": "crafting oak planks from birch logs to increase crafting materials availability for future needs.",
+      "success": false,
+      "health": 20,
+      "hunger": 20,
+      "danger": "safe",
+      "llm_ms": 3876
+    },
+    {
+      "time_ms": 1135242,
+      "action": "gather",
+      "target": "birch_log",
+      "reason": "need more wood for crafting materials since I'm already home and it's night.",
+      "success": true,
+      "health": 20,
+      "hunger": 20,
+      "danger": "safe",
+      "llm_ms": 1609
+    },
+    {
+      "time_ms": 1136877,
+      "action": "craft",
+      "target": "oak_planks",
+      "reason": "craft oak planks from birch logs to increase crafting materials availability for future needs.",
+      "success": false,
+      "health": 20,
+      "hunger": 20,
+      "danger": "safe",
+      "llm_ms": 1633
+    },
+    {
+      "time_ms": 1138408,
+      "action": "craft",
+      "target": "oak_planks",
+      "reason": "craft oak planks from birch logs to increase crafting materials availability for future needs.",
+      "success": false,
+      "health": 20,
+      "hunger": 20,
+      "danger": "safe",
+      "llm_ms": 1528
+    },
+    {
+      "time_ms": 1140890,
+      "action": "craft",
+      "target": "oak_planks",
+      "reason": "crafting oak planks from birch logs for future crafting materials availability.",
+      "success": false,
+      "health": 20,
+      "hunger": 20,
+      "danger": "safe",
+      "llm_ms": 2479
+    },
+    {
+      "time_ms": 1167202,
+      "action": "gather",
+      "target": "birch_log",
+      "reason": "need more wood for crafting materials since it's night and I'm still home.",
+      "success": true,
+      "health": 20,
+      "hunger": 20,
+      "danger": "safe",
+      "llm_ms": 1293
+    },
+    {
+      "time_ms": 1194015,
+      "action": "gather",
+      "target": "oak_log",
+      "reason": "gathering oak logs for additional crafting materials since it's morning and I'm at home.",
+      "success": false,
+      "health": 20,
+      "hunger": 20,
+      "danger": "safe",
+      "llm_ms": 1796
+    },
+    {
+      "time_ms": 1196188,
+      "action": "return_home",
+      "target": null,
+      "reason": "it is morning, I am 6 blocks away from home, returning home to get safe and craft.",
+      "success": true,
+      "health": 20,
+      "hunger": 20,
+      "danger": "safe",
+      "llm_ms": 1403
+    },
+    {
+      "time_ms": 1197823,
+      "action": "return_home",
+      "target": null,
+      "reason": "I am 6 blocks away from home and it is morning, returning home to be safe.",
+      "success": true,
+      "health": 20,
+      "hunger": 20,
+      "danger": "safe",
+      "llm_ms": 1633
+    },
+    {
+      "time_ms": 1224353,
+      "action": "gather",
+      "target": "oak_log",
+      "reason": "need more wood for crafting materials since it's morning and I'm at home.",
+      "success": true,
+      "health": 20,
+      "hunger": 20,
+      "danger": "safe",
+      "llm_ms": 1513
+    },
+    {
+      "time_ms": 1228390,
+      "action": "gather",
+      "target": "coal_ore",
+      "reason": "need coal for crafting torches and furnace, and it's nearby.",
+      "success": true,
+      "health": 20,
+      "hunger": 20,
+      "danger": "safe",
+      "llm_ms": 1529
+    },
+    {
+      "time_ms": 1232339,
+      "action": "return_home",
+      "target": null,
+      "reason": "it is morning, and I am 13 blocks away from home, returning home to be safe and craft.",
+      "success": true,
+      "health": 20,
+      "hunger": 20,
+      "danger": "safe",
+      "llm_ms": 1515
+    },
+    {
+      "time_ms": 1233687,
+      "action": "return_home",
+      "target": null,
+      "reason": "it is morning and I am 12 blocks away from home, returning home to be safe and craft.",
+      "success": true,
+      "health": 20,
+      "hunger": 20,
+      "danger": "safe",
+      "llm_ms": 1346
+    },
+    {
+      "time_ms": 1235352,
+      "action": "return_home",
+      "target": null,
+      "reason": "I am 12 blocks away from home in the morning, returning home to be safe and craft.",
+      "success": true,
+      "health": 20,
+      "hunger": 20,
+      "danger": "safe",
+      "llm_ms": 1662
+    },
+    {
+      "time_ms": 1261833,
+      "action": "gather",
+      "target": "birch_log",
+      "reason": "need more wood for crafting materials and it's nearby.",
+      "success": true,
+      "health": 20,
+      "hunger": 20,
+      "danger": "safe",
+      "llm_ms": 1459
+    },
+    {
+      "time_ms": 1263347,
+      "action": "craft",
+      "target": "crafting_table",
+      "reason": "I have enough materials to craft a crafting table to carry with me.",
+      "success": false,
+      "health": 20,
+      "hunger": 20,
+      "danger": "safe",
+      "llm_ms": 1511
+    },
+    {
+      "time_ms": 1289858,
+      "action": "gather",
+      "target": "birch_log",
+      "reason": "need more wood for crafting materials and there's nearby birch log available.",
+      "success": true,
+      "health": 20,
+      "hunger": 20,
+      "danger": "safe",
+      "llm_ms": 1495
+    },
+    {
+      "time_ms": 1316326,
+      "action": "gather",
+      "target": "oak_log",
+      "reason": "need more wood for crafting materials and it's nearby.",
+      "success": false,
+      "health": 20,
+      "hunger": 20,
+      "danger": "safe",
+      "llm_ms": 1454
+    },
+    {
+      "time_ms": 1318466,
+      "action": "return_home",
+      "target": null,
+      "reason": "I am 6 blocks away from home in the morning, returning home to be safe and craft.",
+      "success": true,
+      "health": 20,
+      "hunger": 20,
+      "danger": "safe",
+      "llm_ms": 1408
+    },
+    {
+      "time_ms": 1320070,
+      "action": "return_home",
+      "target": null,
+      "reason": "I am 6 blocks away from home in the morning, returning home to be safe and craft.",
+      "success": true,
+      "health": 20,
+      "hunger": 20,
+      "danger": "safe",
+      "llm_ms": 1601
+    },
+    {
+      "time_ms": 1321375,
+      "action": "return_home",
+      "target": null,
+      "reason": "I am 6 blocks away from home in the morning, returning home to be safe and craft.",
+      "success": true,
+      "health": 20,
+      "hunger": 20,
+      "danger": "safe",
+      "llm_ms": 1302
+    },
+    {
+      "time_ms": 1347935,
+      "action": "gather",
+      "target": "birch_log",
+      "reason": "need more wood for crafting materials and there's nearby birch log available.",
+      "success": true,
+      "health": 20,
+      "hunger": 20,
+      "danger": "safe",
+      "llm_ms": 1462
+    },
+    {
+      "time_ms": 1349453,
+      "action": "craft",
+      "target": "crafting_table",
+      "reason": "need to craft a portable crafting table for future use",
+      "success": false,
+      "health": 20,
+      "hunger": 20,
+      "danger": "safe",
+      "llm_ms": 1516
+    },
+    {
+      "time_ms": 1351604,
+      "action": "craft",
+      "target": "crafting_table",
+      "reason": "need to craft a portable crafting table for future use",
+      "success": false,
+      "health": 20,
+      "hunger": 20,
+      "danger": "safe",
+      "llm_ms": 2148
+    },
+    {
+      "time_ms": 1353122,
+      "action": "craft",
+      "target": "crafting_table",
+      "reason": "need a portable crafting table for future use",
+      "success": false,
+      "health": 20,
+      "hunger": 20,
+      "danger": "safe",
+      "llm_ms": 1516
+    },
+    {
+      "time_ms": 1379503,
+      "action": "gather",
+      "target": "oak_log",
+      "reason": "need more wood for crafting materials and there's oak log nearby.",
+      "success": false,
+      "health": 20,
+      "hunger": 20,
+      "danger": "safe",
+      "llm_ms": 1366
+    },
+    {
+      "time_ms": 1381610,
+      "action": "return_home",
+      "target": null,
+      "reason": "it's morning, I am 6 blocks away from home and it's safe to return.",
+      "success": true,
+      "health": 20,
+      "hunger": 20,
+      "danger": "safe",
+      "llm_ms": 1334
+    },
+    {
+      "time_ms": 1383093,
+      "action": "return_home",
+      "target": null,
+      "reason": "I am 6 blocks away from home and it's morning, so it's safe to return.",
+      "success": true,
+      "health": 20,
+      "hunger": 20,
+      "danger": "safe",
+      "llm_ms": 1481
+    },
+    {
+      "time_ms": 1384631,
+      "action": "return_home",
+      "target": null,
+      "reason": "I am 6 blocks away from home and it's morning, so it's safe to return.",
+      "success": true,
+      "health": 20,
+      "hunger": 20,
+      "danger": "safe",
+      "llm_ms": 1536
+    },
+    {
+      "time_ms": 1411043,
+      "action": "gather",
+      "target": "birch_log",
+      "reason": "need wood for crafting materials and there's birch log nearby.",
+      "success": true,
+      "health": 20,
+      "hunger": 20,
+      "danger": "safe",
+      "llm_ms": 1396
+    },
+    {
+      "time_ms": 1437447,
+      "action": "gather",
+      "target": "birch_log",
+      "reason": "need more wood for crafting materials and there's birch log nearby.",
+      "success": true,
+      "health": 20,
+      "hunger": 20,
+      "danger": "safe",
+      "llm_ms": 1389
+    },
+    {
+      "time_ms": 1438852,
+      "action": "craft",
+      "target": "crafting_table",
+      "reason": "I have enough birch logs to craft a crafting table for future use.",
+      "success": false,
+      "health": 20,
+      "hunger": 20,
+      "danger": "safe",
+      "llm_ms": 1402
+    },
+    {
+      "time_ms": 1465681,
+      "action": "gather",
+      "target": "birch_log",
+      "reason": "need more wood for crafting materials and there's birch log nearby.",
+      "success": true,
+      "health": 20,
+      "hunger": 20,
+      "danger": "safe",
+      "llm_ms": 1815
+    },
+    {
+      "time_ms": 1467230,
+      "action": "craft",
+      "target": "crafting_table",
+      "reason": "I have enough birch logs to craft a crafting table for future use.",
+      "success": false,
+      "health": 20,
+      "hunger": 20,
+      "danger": "safe",
+      "llm_ms": 1546
+    },
+    {
+      "time_ms": 1494129,
+      "action": "gather",
+      "target": "birch_log",
+      "reason": "need more wood for crafting materials and there's birch log nearby.",
+      "success": true,
+      "health": 20,
+      "hunger": 20,
+      "danger": "safe",
+      "llm_ms": 1685
+    },
+    {
+      "time_ms": 1495815,
+      "action": "craft",
+      "target": "crafting_table",
+      "reason": "I have enough birch logs to craft a crafting table for future use.",
+      "success": false,
+      "health": 20,
+      "hunger": 20,
+      "danger": "safe",
+      "llm_ms": 1684
+    },
+    {
+      "time_ms": 1522562,
+      "action": "gather",
+      "target": "birch_log",
+      "reason": "need more wood for crafting materials and there's birch log nearby.",
+      "success": true,
+      "health": 20,
+      "hunger": 20,
+      "danger": "safe",
+      "llm_ms": 1725
+    },
+    {
+      "time_ms": 1549018,
+      "action": "gather",
+      "target": "birch_log",
+      "reason": "need more wood for crafting materials and there's birch log nearby.",
+      "success": true,
+      "health": 20,
+      "hunger": 20,
+      "danger": "safe",
+      "llm_ms": 1435
+    },
+    {
+      "time_ms": 1575793,
+      "action": "gather",
+      "target": "oak_log",
+      "reason": "need more wood for crafting materials and there's oak log nearby.",
+      "success": false,
+      "health": 20,
+      "hunger": 20,
+      "danger": "safe",
+      "llm_ms": 1748
+    },
+    {
+      "time_ms": 1578111,
+      "action": "return_home",
+      "target": null,
+      "reason": "distance_to_home is 6 and I'm not at home, need to return before evening",
+      "success": true,
+      "health": 20,
+      "hunger": 20,
+      "danger": "safe",
+      "llm_ms": 1507
+    },
+    {
+      "time_ms": 1579489,
+      "action": "return_home",
+      "target": null,
+      "reason": "distance_to_home is 6 and it's day time, need to return home before evening.",
+      "success": true,
+      "health": 20,
+      "hunger": 20,
+      "danger": "safe",
+      "llm_ms": 1376
+    },
+    {
+      "time_ms": 1581032,
+      "action": "return_home",
+      "target": null,
+      "reason": "distance_to_home is 6 and it's daytime, need to return home before evening.",
+      "success": true,
+      "health": 20,
+      "hunger": 20,
+      "danger": "safe",
+      "llm_ms": 1541
+    },
+    {
+      "time_ms": 1607493,
+      "action": "gather",
+      "target": "oak_log",
+      "reason": "need more wood for crafting materials and there's oak log nearby.",
+      "success": true,
+      "health": 20,
+      "hunger": 20,
+      "danger": "safe",
+      "llm_ms": 1444
+    },
+    {
+      "time_ms": 1610916,
+      "action": "return_home",
+      "target": null,
+      "reason": "distance_to_home is 13 and it's daytime, need to return home before evening.",
+      "success": true,
+      "health": 20,
+      "hunger": 20,
+      "danger": "safe",
+      "llm_ms": 1644
+    },
+    {
+      "time_ms": 1637448,
+      "action": "gather",
+      "target": "oak_log",
+      "reason": "need more wood for crafting materials and there's oak log nearby.",
+      "success": true,
+      "health": 20,
+      "hunger": 20,
+      "danger": "safe",
+      "llm_ms": 1509
+    },
+    {
+      "time_ms": 1640859,
+      "action": "return_home",
+      "target": null,
+      "reason": "distance_to_home is 13 and it's daytime, need to return home before evening.",
+      "success": true,
+      "health": 20,
+      "hunger": 20,
+      "danger": "safe",
+      "llm_ms": 1561
+    },
+    {
+      "time_ms": 1642755,
+      "action": "return_home",
+      "target": null,
+      "reason": "distance_to_home is 13 and it's daytime, need to return home before evening.",
+      "success": true,
+      "health": 20,
+      "hunger": 20,
+      "danger": "safe",
+      "llm_ms": 1772
+    },
+    {
+      "time_ms": 1735292,
+      "action": "gather",
+      "target": "coal_ore",
+      "reason": "need coal for crafting torches and smelting materials, and coal ore is nearby.",
+      "success": true,
+      "health": 20,
+      "hunger": 20,
+      "danger": "safe",
+      "llm_ms": 1451
+    },
+    {
+      "time_ms": 1813969,
+      "action": "gather",
+      "target": "coal_ore",
+      "reason": "need coal for crafting torches and smelting materials, and coal ore is nearby.",
+      "success": true,
+      "health": 20,
+      "hunger": 20,
+      "danger": "safe",
+      "llm_ms": 1702
+    },
+    {
+      "time_ms": 1817917,
+      "action": "return_home",
+      "target": null,
+      "reason": "it is evening and I am 13 blocks from home, need to return home before it gets dark.",
+      "success": true,
+      "health": 20,
+      "hunger": 20,
+      "danger": "safe",
+      "llm_ms": 1490
+    },
+    {
+      "time_ms": 1819251,
+      "action": "return_home",
+      "target": null,
+      "reason": "it is evening and I am 13 blocks from home, need to return home before it gets dark.",
+      "success": true,
+      "health": 20,
+      "hunger": 20,
+      "danger": "safe",
+      "llm_ms": 1332
+    },
+    {
+      "time_ms": 1820704,
+      "action": "return_home",
+      "target": null,
+      "reason": "it is evening and I am 13 blocks from home, need to return home before it gets dark.",
+      "success": true,
+      "health": 20,
+      "hunger": 20,
+      "danger": "safe",
+      "llm_ms": 1451
+    },
+    {
+      "time_ms": 1822154,
+      "action": "return_home",
+      "target": null,
+      "reason": "it is evening and I am 13 blocks from home, need to return home before it gets dark.",
+      "success": true,
+      "health": 20,
+      "hunger": 20,
+      "danger": "safe",
+      "llm_ms": 1448
+    },
+    {
+      "time_ms": 1848515,
+      "action": "gather",
+      "target": "birch_log",
+      "reason": "need wood for crafting and birch logs are nearby",
+      "success": true,
+      "health": 20,
+      "hunger": 20,
+      "danger": "safe",
+      "llm_ms": 1340
+    },
+    {
+      "time_ms": 1850201,
+      "action": "craft",
+      "target": "crafting_table",
+      "reason": "I have enough materials to craft a crafting table to carry with me.",
+      "success": false,
+      "health": 20,
+      "hunger": 20,
+      "danger": "safe",
+      "llm_ms": 1683
+    },
+    {
+      "time_ms": 1851628,
+      "action": "craft",
+      "target": "crafting_table",
+      "reason": "I have enough birch logs to craft a crafting table for future use.",
+      "success": false,
+      "health": 20,
+      "hunger": 20,
+      "danger": "safe",
+      "llm_ms": 1424
+    }
+  ],
+  "positions": [
+    {
+      "time_ms": 10190,
+      "x": -31.5,
+      "y": 71,
+      "z": 14.5
+    },
+    {
+      "time_ms": 15404,
+      "x": -31.5,
+      "y": 71,
+      "z": 14.5
+    },
+    {
+      "time_ms": 20672,
+      "x": -31.5,
+      "y": 71,
+      "z": 14.5
+    },
+    {
+      "time_ms": 26276,
+      "x": -31.5,
+      "y": 71,
+      "z": 14.5
+    },
+    {
+      "time_ms": 31528,
+      "x": -31.5,
+      "y": 71,
+      "z": 14.5
+    },
+    {
+      "time_ms": 36914,
+      "x": -31.5,
+      "y": 71,
+      "z": 14.5
+    },
+    {
+      "time_ms": 42127,
+      "x": -31.5,
+      "y": 71,
+      "z": 14.5
+    },
+    {
+      "time_ms": 47308,
+      "x": -31.303458625776752,
+      "y": 71,
+      "z": 13.4520964436954
+    },
+    {
+      "time_ms": 52496,
+      "x": -31.303458625776752,
+      "y": 71,
+      "z": 13.4520964436954
+    },
+    {
+      "time_ms": 57661,
+      "x": -31.303458625776752,
+      "y": 71,
+      "z": 13.4520964436954
+    },
+    {
+      "time_ms": 62866,
+      "x": -31.303458625776752,
+      "y": 71,
+      "z": 13.4520964436954
+    },
+    {
+      "time_ms": 68053,
+      "x": -31.303458625776752,
+      "y": 71,
+      "z": 13.4520964436954
+    },
+    {
+      "time_ms": 73220,
+      "x": -31.504243480250462,
+      "y": 71,
+      "z": 10.31411549534238
+    },
+    {
+      "time_ms": 78387,
+      "x": -31.504243480250462,
+      "y": 71,
+      "z": 10.31411549534238
+    },
+    {
+      "time_ms": 83554,
+      "x": -31.504243480250462,
+      "y": 71,
+      "z": 10.31411549534238
+    },
+    {
+      "time_ms": 88770,
+      "x": -31.504085651862,
+      "y": 71,
+      "z": 10.3
+    },
+    {
+      "time_ms": 93973,
+      "x": -31.504243480250462,
+      "y": 71,
+      "z": 10.31411549534238
+    },
+    {
+      "time_ms": 99172,
+      "x": -28.310590771063847,
+      "y": 71,
+      "z": 9.362752053932638
+    },
+    {
+      "time_ms": 104363,
+      "x": -28.260965556189813,
+      "y": 71,
+      "z": 9.304658123178514
+    },
+    {
+      "time_ms": 109595,
+      "x": -28.260965556189813,
+      "y": 71,
+      "z": 9.304658123178514
+    },
+    {
+      "time_ms": 114899,
+      "x": -28.5,
+      "y": 71,
+      "z": 9.304658123178514
+    },
+    {
+      "time_ms": 120091,
+      "x": -28.5,
+      "y": 71,
+      "z": 9.304658123178514
+    },
+    {
+      "time_ms": 125293,
+      "x": -28.5,
+      "y": 71,
+      "z": 9.304658123178514
+    },
+    {
+      "time_ms": 130526,
+      "x": -28.703079941199,
+      "y": 71,
+      "z": 12.128966682813987
+    },
+    {
+      "time_ms": 135760,
+      "x": -29.69141458820256,
+      "y": 71,
+      "z": 10.136072375315782
+    },
+    {
+      "time_ms": 140999,
+      "x": -30.5456496175068,
+      "y": 72,
+      "z": 7.5
+    },
+    {
+      "time_ms": 146219,
+      "x": -30.5456496175068,
+      "y": 72,
+      "z": 7.5
+    },
+    {
+      "time_ms": 151444,
+      "x": -30.5456496175068,
+      "y": 72,
+      "z": 7.5
+    },
+    {
+      "time_ms": 156664,
+      "x": -30.5456496175068,
+      "y": 72,
+      "z": 7.5
+    },
+    {
+      "time_ms": 161904,
+      "x": -31.5,
+      "y": 72,
+      "z": 6.44928643818697
+    },
+    {
+      "time_ms": 167198,
+      "x": -31.50004676777094,
+      "y": 71,
+      "z": 11.5
+    },
+    {
+      "time_ms": 172424,
+      "x": -30.25894494573967,
+      "y": 71,
+      "z": 10.311827505637684
+    },
+    {
+      "time_ms": 177709,
+      "x": -30.25894494573967,
+      "y": 71,
+      "z": 10.311827505637684
+    },
+    {
+      "time_ms": 182977,
+      "x": -30.25894494573967,
+      "y": 71,
+      "z": 10.311827505637684
+    },
+    {
+      "time_ms": 188180,
+      "x": -32.69860914101542,
+      "y": 71,
+      "z": 12.692483012977288
+    },
+    {
+      "time_ms": 193399,
+      "x": -37.732717907121454,
+      "y": 71.41999998688698,
+      "z": 12.317713419992472
+    },
+    {
+      "time_ms": 198577,
+      "x": -37.732717907121454,
+      "y": 71.41999998688698,
+      "z": 12.317713419992472
+    },
+    {
+      "time_ms": 203754,
+      "x": -37.75016497389008,
+      "y": 71.41999998688698,
+      "z": 12.3
+    },
+    {
+      "time_ms": 208953,
+      "x": -36.666154576168125,
+      "y": 71,
+      "z": 11.323718014785543
+    },
+    {
+      "time_ms": 214171,
+      "x": -37.008635434983994,
+      "y": 71,
+      "z": 11.309389677051382
+    },
+    {
+      "time_ms": 219353,
+      "x": -33.5,
+      "y": 71,
+      "z": 13.57513926344992
+    },
+    {
+      "time_ms": 224568,
+      "x": -38.77162091860475,
+      "y": 71,
+      "z": 13.499472498223286
+    },
+    {
+      "time_ms": 229785,
+      "x": -45.123346204853675,
+      "y": 71,
+      "z": 12.731393253628932
+    },
+    {
+      "time_ms": 234998,
+      "x": -33.5,
+      "y": 71,
+      "z": 13.500512920672604
+    },
+    {
+      "time_ms": 240177,
+      "x": -36.73477559894405,
+      "y": 71,
+      "z": 11.3089705713305
+    },
+    {
+      "time_ms": 245543,
+      "x": -37.7,
+      "y": 71.1863679808445,
+      "z": 11.45779033284177
+    },
+    {
+      "time_ms": 251178,
+      "x": -37.7,
+      "y": 71,
+      "z": 11.45779033284177
+    },
+    {
+      "time_ms": 256641,
+      "x": -37.7,
+      "y": 71.3415999853611,
+      "z": 11.456398568698173
+    },
+    {
+      "time_ms": 261913,
+      "x": -37.67807947593426,
+      "y": 71.41999998688698,
+      "z": 11.453481836304523
+    },
+    {
+      "time_ms": 268292,
+      "x": -33.5,
+      "y": 71,
+      "z": 13.581894858831534
+    },
+    {
+      "time_ms": 273492,
+      "x": -40.73828199682789,
+      "y": 71.41999998688698,
+      "z": 12.315142333732448
+    },
+    {
+      "time_ms": 278731,
+      "x": -40.73828199682789,
+      "y": 71.41999998688698,
+      "z": 12.315142333732448
+    },
+    {
+      "time_ms": 283975,
+      "x": -40.73828199682789,
+      "y": 71.41999998688698,
+      "z": 12.315142333732448
+    },
+    {
+      "time_ms": 289180,
+      "x": -40.5,
+      "y": 71.41999998688698,
+      "z": 12.315142333732448
+    },
+    {
+      "time_ms": 294373,
+      "x": -40.5197543412041,
+      "y": 71.41999998688698,
+      "z": 12.3
+    },
+    {
+      "time_ms": 299566,
+      "x": -33.5,
+      "y": 71,
+      "z": 13.499353047395976
+    },
+    {
+      "time_ms": 304775,
+      "x": -37.44950091971004,
+      "y": 71,
+      "z": 10.987679140245081
+    },
+    {
+      "time_ms": 310001,
+      "x": -36.614885253472806,
+      "y": 71,
+      "z": 11.31019010151424
+    },
+    {
+      "time_ms": 315189,
+      "x": -36.614885253472806,
+      "y": 71,
+      "z": 11.31019010151424
+    },
+    {
+      "time_ms": 320359,
+      "x": -36.966133184770676,
+      "y": 71,
+      "z": 11.309808641979773
+    },
+    {
+      "time_ms": 325540,
+      "x": -37.09256561996262,
+      "y": 71,
+      "z": 11.303512103838633
+    },
+    {
+      "time_ms": 330698,
+      "x": -33.5,
+      "y": 71,
+      "z": 13.576628095002865
+    },
+    {
+      "time_ms": 335851,
+      "x": -40.73863138217367,
+      "y": 71.41999998688698,
+      "z": 12.31524505960035
+    },
+    {
+      "time_ms": 341001,
+      "x": -40.75596794933555,
+      "y": 71.41999998688698,
+      "z": 12.3
+    },
+    {
+      "time_ms": 346164,
+      "x": -40.75596794933555,
+      "y": 71.41999998688698,
+      "z": 12.3
+    },
+    {
+      "time_ms": 351315,
+      "x": -40.5,
+      "y": 71.41999998688698,
+      "z": 12.31524505960035
+    },
+    {
+      "time_ms": 356461,
+      "x": -40.5,
+      "y": 71.41999998688698,
+      "z": 12.31524505960035
+    },
+    {
+      "time_ms": 361615,
+      "x": -33.5,
+      "y": 71,
+      "z": 13.499011966451338
+    },
+    {
+      "time_ms": 366758,
+      "x": -36.614989096030335,
+      "y": 71,
+      "z": 11.31018883972371
+    },
+    {
+      "time_ms": 371918,
+      "x": -36.614989096030335,
+      "y": 71,
+      "z": 11.31018883972371
+    },
+    {
+      "time_ms": 377067,
+      "x": -36.614989096030335,
+      "y": 71,
+      "z": 11.31018883972371
+    },
+    {
+      "time_ms": 382219,
+      "x": -36.949872700952156,
+      "y": 71,
+      "z": 11.3
+    },
+    {
+      "time_ms": 387368,
+      "x": -37.08939033126933,
+      "y": 71,
+      "z": 11.304356939882597
+    },
+    {
+      "time_ms": 392511,
+      "x": -33.5,
+      "y": 71,
+      "z": 13.576880681410675
+    },
+    {
+      "time_ms": 397671,
+      "x": -40.75584158513448,
+      "y": 71.41999998688698,
+      "z": 12.3
+    },
+    {
+      "time_ms": 402820,
+      "x": -40.738472680588835,
+      "y": 71.41999998688698,
+      "z": 12.315095880068261
+    },
+    {
+      "time_ms": 407965,
+      "x": -40.75584158513448,
+      "y": 71.41999998688698,
+      "z": 12.3
+    },
+    {
+      "time_ms": 413123,
+      "x": -40.51973831493169,
+      "y": 71.41999998688698,
+      "z": 12.3
+    },
+    {
+      "time_ms": 418281,
+      "x": -40.51973831493169,
+      "y": 71.41999998688698,
+      "z": 12.3
+    },
+    {
+      "time_ms": 423474,
+      "x": -33.5,
+      "y": 71,
+      "z": 13.499979561967333
+    },
+    {
+      "time_ms": 428668,
+      "x": -36.692689932913595,
+      "y": 71,
+      "z": 11.306273878498695
+    },
+    {
+      "time_ms": 433846,
+      "x": -36.692689932913595,
+      "y": 71,
+      "z": 11.306273878498695
+    },
+    {
+      "time_ms": 439001,
+      "x": -37.088169263356164,
+      "y": 71,
+      "z": 11.380881999491118
+    },
+    {
+      "time_ms": 444159,
+      "x": -37.09381898933959,
+      "y": 71,
+      "z": 11.308249338631658
+    },
+    {
+      "time_ms": 449324,
+      "x": -37.09381898933959,
+      "y": 71,
+      "z": 11.308249338631658
+    },
+    {
+      "time_ms": 454483,
+      "x": -33.5,
+      "y": 71,
+      "z": 13.57727109129722
+    },
+    {
+      "time_ms": 459638,
+      "x": -40.738563209350936,
+      "y": 71.41999998688698,
+      "z": 12.31527643660321
+    },
+    {
+      "time_ms": 464791,
+      "x": -40.738563209350936,
+      "y": 71.41999998688698,
+      "z": 12.31527643660321
+    },
+    {
+      "time_ms": 469952,
+      "x": -40.75589979143142,
+      "y": 71.41999998688698,
+      "z": 12.3
+    },
+    {
+      "time_ms": 475114,
+      "x": -40.5,
+      "y": 71.41999998688698,
+      "z": 12.31527643660321
+    },
+    {
+      "time_ms": 480267,
+      "x": -40.5,
+      "y": 71.41999998688698,
+      "z": 12.31527643660321
+    },
+    {
+      "time_ms": 485419,
+      "x": -40.48026478794,
+      "y": 71.41999998688698,
+      "z": 12.3
+    },
+    {
+      "time_ms": 490576,
+      "x": -40.48026478794,
+      "y": 71.41999998688698,
+      "z": 12.3
+    },
+    {
+      "time_ms": 495731,
+      "x": -40.48026478794,
+      "y": 71.41999998688698,
+      "z": 12.3
+    },
+    {
+      "time_ms": 500893,
+      "x": -40.5,
+      "y": 71.41999998688698,
+      "z": 12.31527643660321
+    },
+    {
+      "time_ms": 506052,
+      "x": -40.5,
+      "y": 71.41999998688698,
+      "z": 12.31527643660321
+    },
+    {
+      "time_ms": 511200,
+      "x": -33.5,
+      "y": 71,
+      "z": 13.500016707569424
+    },
+    {
+      "time_ms": 516355,
+      "x": -36.69299537098737,
+      "y": 71,
+      "z": 11.306436821747432
+    },
+    {
+      "time_ms": 521501,
+      "x": -36.71089791185523,
+      "y": 71,
+      "z": 11.3
+    },
+    {
+      "time_ms": 526649,
+      "x": -36.69299537098737,
+      "y": 71,
+      "z": 11.306436821747432
+    },
+    {
+      "time_ms": 531814,
+      "x": -37.3129657898433,
+      "y": 71.76636799395752,
+      "z": 10.303295178393027
+    },
+    {
+      "time_ms": 536979,
+      "x": -37.30332769805392,
+      "y": 71.30220861900207,
+      "z": 10.257999153785773
+    },
+    {
+      "time_ms": 542126,
+      "x": -37.301718499256175,
+      "y": 71,
+      "z": 10.242193243712618
+    },
+    {
+      "time_ms": 547284,
+      "x": -37.301718499256175,
+      "y": 71,
+      "z": 10.242193243712618
+    },
+    {
+      "time_ms": 552448,
+      "x": -37.301718499256175,
+      "y": 71,
+      "z": 10.242193243712618
+    },
+    {
+      "time_ms": 557610,
+      "x": -37.301718499256175,
+      "y": 71,
+      "z": 10.242193243712618
+    },
+    {
+      "time_ms": 562770,
+      "x": -37.301718499256175,
+      "y": 71,
+      "z": 10.242193243712618
+    },
+    {
+      "time_ms": 567962,
+      "x": -31.5,
+      "y": 71,
+      "z": 14.5
+    },
+    {
+      "time_ms": 573184,
+      "x": -31.5,
+      "y": 71,
+      "z": 14.5
+    },
+    {
+      "time_ms": 578389,
+      "x": -31.31436229163909,
+      "y": 71,
+      "z": 13.337643454489797
+    },
+    {
+      "time_ms": 583655,
+      "x": -31.31436229163909,
+      "y": 71,
+      "z": 13.337643454489797
+    },
+    {
+      "time_ms": 588854,
+      "x": -31.31436229163909,
+      "y": 71,
+      "z": 13.337643454489797
+    },
+    {
+      "time_ms": 594050,
+      "x": -31.31436229163909,
+      "y": 71,
+      "z": 13.337643454489797
+    },
+    {
+      "time_ms": 599254,
+      "x": -31.31436229163909,
+      "y": 71,
+      "z": 13.337643454489797
+    },
+    {
+      "time_ms": 604486,
+      "x": -31.31436229163909,
+      "y": 71,
+      "z": 13.337643454489797
+    },
+    {
+      "time_ms": 609689,
+      "x": -31.507074817566902,
+      "y": 71.41999998688698,
+      "z": 10.30812562743221
+    },
+    {
+      "time_ms": 614871,
+      "x": -31.507074817566902,
+      "y": 71.41999998688698,
+      "z": 10.30812562743221
+    },
+    {
+      "time_ms": 620067,
+      "x": -31.507074817566902,
+      "y": 71.41999998688698,
+      "z": 10.30812562743221
+    },
+    {
+      "time_ms": 625258,
+      "x": -31.507074817566902,
+      "y": 71.41999998688698,
+      "z": 10.30812562743221
+    },
+    {
+      "time_ms": 630446,
+      "x": -31.507074817566902,
+      "y": 71.41999998688698,
+      "z": 10.30812562743221
+    },
+    {
+      "time_ms": 635636,
+      "x": -31.526738664693447,
+      "y": 71.41999998688698,
+      "z": 10.3
+    },
+    {
+      "time_ms": 640827,
+      "x": -31.507074817566902,
+      "y": 71.41999998688698,
+      "z": 10.30812562743221
+    },
+    {
+      "time_ms": 646030,
+      "x": -31.507074817566902,
+      "y": 71.41999998688698,
+      "z": 10.30812562743221
+    },
+    {
+      "time_ms": 651243,
+      "x": -31.507074817566902,
+      "y": 71.41999998688698,
+      "z": 10.30812562743221
+    },
+    {
+      "time_ms": 656449,
+      "x": -31.507074817566902,
+      "y": 71.41999998688698,
+      "z": 10.30812562743221
+    },
+    {
+      "time_ms": 661661,
+      "x": -31.526738656062772,
+      "y": 71.41999998688698,
+      "z": 10.3
+    },
+    {
+      "time_ms": 666908,
+      "x": -31.526738656062772,
+      "y": 71.41999998688698,
+      "z": 10.3
+    },
+    {
+      "time_ms": 672135,
+      "x": -31.526738656062772,
+      "y": 71.41999998688698,
+      "z": 10.3
+    },
+    {
+      "time_ms": 677382,
+      "x": -31.507074817566902,
+      "y": 71.41999998688698,
+      "z": 10.30812562743221
+    },
+    {
+      "time_ms": 682574,
+      "x": -31.507074817566902,
+      "y": 71.41999998688698,
+      "z": 10.30812562743221
+    },
+    {
+      "time_ms": 687817,
+      "x": -31.507074817566902,
+      "y": 71.41999998688698,
+      "z": 10.30812562743221
+    },
+    {
+      "time_ms": 693049,
+      "x": -31.507074817566902,
+      "y": 71.41999998688698,
+      "z": 10.30812562743221
+    },
+    {
+      "time_ms": 698262,
+      "x": -31.507074817566902,
+      "y": 71.41999998688698,
+      "z": 10.30812562743221
+    },
+    {
+      "time_ms": 703464,
+      "x": -31.507074817566902,
+      "y": 71.41999998688698,
+      "z": 10.30812562743221
+    },
+    {
+      "time_ms": 708664,
+      "x": -31.507074817566902,
+      "y": 71.41999998688698,
+      "z": 10.30812562743221
+    },
+    {
+      "time_ms": 713860,
+      "x": -31.526738625855366,
+      "y": 71.41999998688698,
+      "z": 10.3
+    },
+    {
+      "time_ms": 719053,
+      "x": -31.507074817566902,
+      "y": 71.41999998688698,
+      "z": 10.30812562743221
+    },
+    {
+      "time_ms": 724253,
+      "x": -31.50682495725732,
+      "y": 71.41999998688698,
+      "z": 10.3
+    },
+    {
+      "time_ms": 729488,
+      "x": -31.507074817566902,
+      "y": 71.41999998688698,
+      "z": 10.30812562743221
+    },
+    {
+      "time_ms": 734709,
+      "x": -31.507074817566902,
+      "y": 71.41999998688698,
+      "z": 10.30812562743221
+    },
+    {
+      "time_ms": 739956,
+      "x": -31.526738621540016,
+      "y": 71.41999998688698,
+      "z": 10.3
+    },
+    {
+      "time_ms": 745228,
+      "x": -31.507074817566902,
+      "y": 71.41999998688698,
+      "z": 10.30812562743221
+    },
+    {
+      "time_ms": 750432,
+      "x": -31.507074817566902,
+      "y": 71.41999998688698,
+      "z": 10.30812562743221
+    },
+    {
+      "time_ms": 755638,
+      "x": -31.507074817566902,
+      "y": 71.41999998688698,
+      "z": 10.30812562743221
+    },
+    {
+      "time_ms": 760864,
+      "x": -31.507074817566902,
+      "y": 71.41999998688698,
+      "z": 10.30812562743221
+    },
+    {
+      "time_ms": 766063,
+      "x": -31.507074817566902,
+      "y": 71.41999998688698,
+      "z": 10.30812562743221
+    },
+    {
+      "time_ms": 771260,
+      "x": -31.526738612909313,
+      "y": 71.41999998688698,
+      "z": 10.3
+    },
+    {
+      "time_ms": 776487,
+      "x": -31.507074817566902,
+      "y": 71.41999998688698,
+      "z": 10.30812562743221
+    },
+    {
+      "time_ms": 781673,
+      "x": -31.507074817566902,
+      "y": 71.41999998688698,
+      "z": 10.30812562743221
+    },
+    {
+      "time_ms": 786874,
+      "x": -31.507074817566902,
+      "y": 71.41999998688698,
+      "z": 10.30812562743221
+    },
+    {
+      "time_ms": 792086,
+      "x": -31.507074817566902,
+      "y": 71.41999998688698,
+      "z": 10.30812562743221
+    },
+    {
+      "time_ms": 797290,
+      "x": -31.507074817566902,
+      "y": 71.41999998688698,
+      "z": 10.30812562743221
+    },
+    {
+      "time_ms": 802501,
+      "x": -31.507074817566902,
+      "y": 71.41999998688698,
+      "z": 10.30812562743221
+    },
+    {
+      "time_ms": 807715,
+      "x": -31.507074817566902,
+      "y": 71.41999998688698,
+      "z": 10.30812562743221
+    },
+    {
+      "time_ms": 812924,
+      "x": -31.507074817566902,
+      "y": 71.41999998688698,
+      "z": 10.30812562743221
+    },
+    {
+      "time_ms": 818133,
+      "x": -31.507074817566902,
+      "y": 71.41999998688698,
+      "z": 10.30812562743221
+    },
+    {
+      "time_ms": 823321,
+      "x": -31.507074817566902,
+      "y": 71.41999998688698,
+      "z": 10.30812562743221
+    },
+    {
+      "time_ms": 828533,
+      "x": -31.507074817566902,
+      "y": 71.41999998688698,
+      "z": 10.30812562743221
+    },
+    {
+      "time_ms": 833777,
+      "x": -31.52673859133253,
+      "y": 71.41999998688698,
+      "z": 10.3
+    },
+    {
+      "time_ms": 838973,
+      "x": -31.506824896188647,
+      "y": 71.41999998688698,
+      "z": 10.3
+    },
+    {
+      "time_ms": 844161,
+      "x": -31.506824896188647,
+      "y": 71.41999998688698,
+      "z": 10.3
+    },
+    {
+      "time_ms": 849356,
+      "x": -31.507074817566902,
+      "y": 71.41999998688698,
+      "z": 10.30812562743221
+    },
+    {
+      "time_ms": 854565,
+      "x": -31.52673858701717,
+      "y": 71.41999998688698,
+      "z": 10.3
+    },
+    {
+      "time_ms": 859843,
+      "x": -31.507074817566902,
+      "y": 71.41999998688698,
+      "z": 10.30812562743221
+    },
+    {
+      "time_ms": 865042,
+      "x": -31.507074817566902,
+      "y": 71.41999998688698,
+      "z": 10.30812562743221
+    },
+    {
+      "time_ms": 870255,
+      "x": -31.506824896188647,
+      "y": 71.41999998688698,
+      "z": 10.3
+    },
+    {
+      "time_ms": 875455,
+      "x": -31.506824896188647,
+      "y": 71.41999998688698,
+      "z": 10.3
+    },
+    {
+      "time_ms": 880673,
+      "x": -31.507074817566902,
+      "y": 71.41999998688698,
+      "z": 10.30812562743221
+    },
+    {
+      "time_ms": 885970,
+      "x": -31.507074817566902,
+      "y": 71.41999998688698,
+      "z": 10.30812562743221
+    },
+    {
+      "time_ms": 891155,
+      "x": -31.507074817566902,
+      "y": 71.41999998688698,
+      "z": 10.30812562743221
+    },
+    {
+      "time_ms": 896392,
+      "x": -31.507074817566902,
+      "y": 71.41999998688698,
+      "z": 10.30812562743221
+    },
+    {
+      "time_ms": 901593,
+      "x": -31.507074817566902,
+      "y": 71.41999998688698,
+      "z": 10.30812562743221
+    },
+    {
+      "time_ms": 906783,
+      "x": -31.507074817566902,
+      "y": 71.41999998688698,
+      "z": 10.30812562743221
+    },
+    {
+      "time_ms": 911983,
+      "x": -31.507074817566902,
+      "y": 71.41999998688698,
+      "z": 10.30812562743221
+    },
+    {
+      "time_ms": 917190,
+      "x": -31.507074817566902,
+      "y": 71.41999998688698,
+      "z": 10.30812562743221
+    },
+    {
+      "time_ms": 922440,
+      "x": -31.507074817566902,
+      "y": 71.41999998688698,
+      "z": 10.30812562743221
+    },
+    {
+      "time_ms": 927643,
+      "x": -31.507074817566902,
+      "y": 71.41999998688698,
+      "z": 10.30812562743221
+    },
+    {
+      "time_ms": 932833,
+      "x": -31.507074817566902,
+      "y": 71.41999998688698,
+      "z": 10.30812562743221
+    },
+    {
+      "time_ms": 938015,
+      "x": -31.507074817566902,
+      "y": 71.41999998688698,
+      "z": 10.30812562743221
+    },
+    {
+      "time_ms": 943256,
+      "x": -31.507074817566902,
+      "y": 71.41999998688698,
+      "z": 10.30812562743221
+    },
+    {
+      "time_ms": 948467,
+      "x": -31.526738565440347,
+      "y": 71.41999998688698,
+      "z": 10.3
+    },
+    {
+      "time_ms": 953656,
+      "x": -31.507074817566902,
+      "y": 71.41999998688698,
+      "z": 10.30812562743221
+    },
+    {
+      "time_ms": 958844,
+      "x": -31.507074817566902,
+      "y": 71.41999998688698,
+      "z": 10.30812562743221
+    },
+    {
+      "time_ms": 964047,
+      "x": -31.507074817566902,
+      "y": 71.41999998688698,
+      "z": 10.30812562743221
+    },
+    {
+      "time_ms": 969248,
+      "x": -31.526738556809608,
+      "y": 71.41999998688698,
+      "z": 10.3
+    },
+    {
+      "time_ms": 974463,
+      "x": -31.507074817566902,
+      "y": 71.41999998688698,
+      "z": 10.30812562743221
+    },
+    {
+      "time_ms": 979663,
+      "x": -31.507074817566902,
+      "y": 71.41999998688698,
+      "z": 10.30812562743221
+    },
+    {
+      "time_ms": 984877,
+      "x": -31.50682482833457,
+      "y": 71.41999998688698,
+      "z": 10.3
+    },
+    {
+      "time_ms": 990085,
+      "x": -31.50682482833457,
+      "y": 71.41999998688698,
+      "z": 10.3
+    },
+    {
+      "time_ms": 995300,
+      "x": -31.507074817566902,
+      "y": 71.41999998688698,
+      "z": 10.30812562743221
+    },
+    {
+      "time_ms": 1000484,
+      "x": -31.526738543863488,
+      "y": 71.41999998688698,
+      "z": 10.3
+    },
+    {
+      "time_ms": 1005677,
+      "x": -31.507074817566902,
+      "y": 71.41999998688698,
+      "z": 10.30812562743221
+    },
+    {
+      "time_ms": 1010860,
+      "x": -31.526738539548113,
+      "y": 71.41999998688698,
+      "z": 10.3
+    },
+    {
+      "time_ms": 1016057,
+      "x": -31.507074817566902,
+      "y": 71.41999998688698,
+      "z": 10.30812562743221
+    },
+    {
+      "time_ms": 1021245,
+      "x": -31.507074817566902,
+      "y": 71.41999998688698,
+      "z": 10.30812562743221
+    },
+    {
+      "time_ms": 1026451,
+      "x": -31.507074817566902,
+      "y": 71.41999998688698,
+      "z": 10.30812562743221
+    },
+    {
+      "time_ms": 1031649,
+      "x": -31.507074817566902,
+      "y": 71.41999998688698,
+      "z": 10.30812562743221
+    },
+    {
+      "time_ms": 1036858,
+      "x": -31.507074817566902,
+      "y": 71.41999998688698,
+      "z": 10.30812562743221
+    },
+    {
+      "time_ms": 1042060,
+      "x": -31.507074817566902,
+      "y": 71.41999998688698,
+      "z": 10.30812562743221
+    },
+    {
+      "time_ms": 1047262,
+      "x": -31.506824807978344,
+      "y": 71.41999998688698,
+      "z": 10.3
+    },
+    {
+      "time_ms": 1052449,
+      "x": -31.507074817566902,
+      "y": 71.41999998688698,
+      "z": 10.30812562743221
+    },
+    {
+      "time_ms": 1057629,
+      "x": -31.507074817566902,
+      "y": 71.41999998688698,
+      "z": 10.30812562743221
+    },
+    {
+      "time_ms": 1062815,
+      "x": -31.507074817566902,
+      "y": 71.41999998688698,
+      "z": 10.30812562743221
+    },
+    {
+      "time_ms": 1068007,
+      "x": -31.507074817566902,
+      "y": 71.41999998688698,
+      "z": 10.30812562743221
+    },
+    {
+      "time_ms": 1073194,
+      "x": -31.526738526601978,
+      "y": 71.41999998688698,
+      "z": 10.3
+    },
+    {
+      "time_ms": 1078382,
+      "x": -31.507074817566902,
+      "y": 71.41999998688698,
+      "z": 10.30812562743221
+    },
+    {
+      "time_ms": 1083572,
+      "x": -31.506824801192938,
+      "y": 71.41999998688698,
+      "z": 10.3
+    },
+    {
+      "time_ms": 1088773,
+      "x": -31.506824801192938,
+      "y": 71.41999998688698,
+      "z": 10.3
+    },
+    {
+      "time_ms": 1093960,
+      "x": -31.526738526601978,
+      "y": 71.41999998688698,
+      "z": 10.3
+    },
+    {
+      "time_ms": 1099140,
+      "x": -31.507074817566902,
+      "y": 71.41999998688698,
+      "z": 10.30812562743221
+    },
+    {
+      "time_ms": 1104336,
+      "x": -31.507074817566902,
+      "y": 71.41999998688698,
+      "z": 10.30812562743221
+    },
+    {
+      "time_ms": 1109518,
+      "x": -31.507074817566902,
+      "y": 71.41999998688698,
+      "z": 10.30812562743221
+    },
+    {
+      "time_ms": 1114720,
+      "x": -31.507074817566902,
+      "y": 71.41999998688698,
+      "z": 10.30812562743221
+    },
+    {
+      "time_ms": 1119914,
+      "x": -31.506824787622122,
+      "y": 71.41999998688698,
+      "z": 10.3
+    },
+    {
+      "time_ms": 1125091,
+      "x": -31.507074817566902,
+      "y": 71.41999998688698,
+      "z": 10.30812562743221
+    },
+    {
+      "time_ms": 1130283,
+      "x": -31.526738517971214,
+      "y": 71.41999998688698,
+      "z": 10.3
+    },
+    {
+      "time_ms": 1135477,
+      "x": -31.526738517971214,
+      "y": 71.41999998688698,
+      "z": 10.3
+    },
+    {
+      "time_ms": 1140657,
+      "x": -31.526738517971214,
+      "y": 71.41999998688698,
+      "z": 10.3
+    },
+    {
+      "time_ms": 1145862,
+      "x": -31.506824787622122,
+      "y": 71.41999998688698,
+      "z": 10.3
+    },
+    {
+      "time_ms": 1151050,
+      "x": -31.507074817566902,
+      "y": 71.41999998688698,
+      "z": 10.30812562743221
+    },
+    {
+      "time_ms": 1156248,
+      "x": -31.507074817566902,
+      "y": 71.41999998688698,
+      "z": 10.30812562743221
+    },
+    {
+      "time_ms": 1161434,
+      "x": -31.507074817566902,
+      "y": 71.41999998688698,
+      "z": 10.30812562743221
+    },
+    {
+      "time_ms": 1166635,
+      "x": -31.507074817566902,
+      "y": 71.41999998688698,
+      "z": 10.30812562743221
+    },
+    {
+      "time_ms": 1171823,
+      "x": -28.247444334662873,
+      "y": 71,
+      "z": 9.306245033089601
+    },
+    {
+      "time_ms": 1177000,
+      "x": -28.247444334662873,
+      "y": 71,
+      "z": 9.306245033089601
+    },
+    {
+      "time_ms": 1182180,
+      "x": -28.247444334662873,
+      "y": 71,
+      "z": 9.306245033089601
+    },
+    {
+      "time_ms": 1187362,
+      "x": -28.5,
+      "y": 71,
+      "z": 9.306245033089601
+    },
+    {
+      "time_ms": 1192538,
+      "x": -28.5,
+      "y": 71,
+      "z": 9.306245033089601
+    },
+    {
+      "time_ms": 1197730,
+      "x": -30.5,
+      "y": 71,
+      "z": 12.5
+    },
+    {
+      "time_ms": 1202912,
+      "x": -22.638114045087438,
+      "y": 71,
+      "z": 5.440530154102578
+    },
+    {
+      "time_ms": 1208093,
+      "x": -22.620610424033796,
+      "y": 71,
+      "z": 5.3
+    },
+    {
+      "time_ms": 1213275,
+      "x": -22.624377359481993,
+      "y": 71,
+      "z": 5.313907416857147
+    },
+    {
+      "time_ms": 1218464,
+      "x": -22.620610424033796,
+      "y": 71,
+      "z": 5.3
+    },
+    {
+      "time_ms": 1223649,
+      "x": -22.624377359481993,
+      "y": 71,
+      "z": 5.313907416857147
+    },
+    {
+      "time_ms": 1228918,
+      "x": -21.500130177381436,
+      "y": 69,
+      "z": 7.581977756120529
+    },
+    {
+      "time_ms": 1234110,
+      "x": -31.312200038195055,
+      "y": 71,
+      "z": 14.153100639585992
+    },
+    {
+      "time_ms": 1239292,
+      "x": -31.50271138889552,
+      "y": 71,
+      "z": 10.304785389453748
+    },
+    {
+      "time_ms": 1244487,
+      "x": -31.502617298115375,
+      "y": 71,
+      "z": 10.3
+    },
+    {
+      "time_ms": 1249674,
+      "x": -31.50271138889552,
+      "y": 71,
+      "z": 10.304785389453748
+    },
+    {
+      "time_ms": 1254859,
+      "x": -31.50271138889552,
+      "y": 71,
+      "z": 10.304785389453748
+    },
+    {
+      "time_ms": 1260055,
+      "x": -31.50271138889552,
+      "y": 71,
+      "z": 10.304785389453748
+    },
+    {
+      "time_ms": 1265245,
+      "x": -31.50271138889552,
+      "y": 71,
+      "z": 10.304785389453748
+    },
+    {
+      "time_ms": 1270431,
+      "x": -31.50271138889552,
+      "y": 71,
+      "z": 10.304785389453748
+    },
+    {
+      "time_ms": 1275616,
+      "x": -31.50271138889552,
+      "y": 71,
+      "z": 10.304785389453748
+    },
+    {
+      "time_ms": 1280821,
+      "x": -31.50271138889552,
+      "y": 71,
+      "z": 10.304785389453748
+    },
+    {
+      "time_ms": 1286006,
+      "x": -31.50271138889552,
+      "y": 71,
+      "z": 10.304785389453748
+    },
+    {
+      "time_ms": 1291221,
+      "x": -31.52243171159849,
+      "y": 71,
+      "z": 10.3
+    },
+    {
+      "time_ms": 1296410,
+      "x": -28.261445380107695,
+      "y": 71,
+      "z": 9.30587959543326
+    },
+    {
+      "time_ms": 1301594,
+      "x": -28.261445380107695,
+      "y": 71,
+      "z": 9.30587959543326
+    },
+    {
+      "time_ms": 1306772,
+      "x": -28.261445380107695,
+      "y": 71,
+      "z": 9.30587959543326
+    },
+    {
+      "time_ms": 1311958,
+      "x": -28.261445380107695,
+      "y": 71,
+      "z": 9.30587959543326
+    },
+    {
+      "time_ms": 1317151,
+      "x": -28.261445380107695,
+      "y": 71,
+      "z": 9.30587959543326
+    },
+    {
+      "time_ms": 1322348,
+      "x": -30.5,
+      "y": 71,
+      "z": 12.5
+    },
+    {
+      "time_ms": 1327526,
+      "x": -31.547778831442567,
+      "y": 71,
+      "z": 10.3
+    },
+    {
+      "time_ms": 1332712,
+      "x": -31.54931702233757,
+      "y": 71,
+      "z": 10.318442350358032
+    },
+    {
+      "time_ms": 1337914,
+      "x": -31.54931702233757,
+      "y": 71,
+      "z": 10.318442350358032
+    },
+    {
+      "time_ms": 1343096,
+      "x": -31.56828362305999,
+      "y": 71,
+      "z": 10.301427696173
+    },
+    {
+      "time_ms": 1348294,
+      "x": -31.56828362305999,
+      "y": 71,
+      "z": 10.301427696173
+    },
+    {
+      "time_ms": 1353507,
+      "x": -31.56828362305999,
+      "y": 71,
+      "z": 10.301427696173
+    },
+    {
+      "time_ms": 1358696,
+      "x": -28.2428710719247,
+      "y": 71,
+      "z": 9.300718079048028
+    },
+    {
+      "time_ms": 1363882,
+      "x": -28.2428710719247,
+      "y": 71,
+      "z": 9.300718079048028
+    },
+    {
+      "time_ms": 1369064,
+      "x": -28.2428710719247,
+      "y": 71,
+      "z": 9.300718079048028
+    },
+    {
+      "time_ms": 1374256,
+      "x": -28.5,
+      "y": 71,
+      "z": 9.300718079048028
+    },
+    {
+      "time_ms": 1379443,
+      "x": -28.5,
+      "y": 71,
+      "z": 9.300718079048028
+    },
+    {
+      "time_ms": 1384630,
+      "x": -30.5,
+      "y": 71,
+      "z": 12.5
+    },
+    {
+      "time_ms": 1389841,
+      "x": -31.547432665582406,
+      "y": 71,
+      "z": 10.3
+    },
+    {
+      "time_ms": 1395023,
+      "x": -31.548928710549436,
+      "y": 71,
+      "z": 10.317789353742796
+    },
+    {
+      "time_ms": 1400213,
+      "x": -31.548928710549436,
+      "y": 71,
+      "z": 10.317789353742796
+    },
+    {
+      "time_ms": 1405406,
+      "x": -31.567923478822934,
+      "y": 71,
+      "z": 10.300806150916586
+    },
+    {
+      "time_ms": 1410592,
+      "x": -31.567923478822934,
+      "y": 71,
+      "z": 10.300806150916586
+    },
+    {
+      "time_ms": 1415778,
+      "x": -31.567923478822934,
+      "y": 71,
+      "z": 10.300806150916586
+    },
+    {
+      "time_ms": 1420972,
+      "x": -31.5658285724693,
+      "y": 71,
+      "z": 10.3
+    },
+    {
+      "time_ms": 1426156,
+      "x": -31.5658285724693,
+      "y": 71,
+      "z": 10.3
+    },
+    {
+      "time_ms": 1431380,
+      "x": -31.567923478822934,
+      "y": 71,
+      "z": 10.300806150916586
+    },
+    {
+      "time_ms": 1436562,
+      "x": -31.567923478822934,
+      "y": 71,
+      "z": 10.300806150916586
+    },
+    {
+      "time_ms": 1441750,
+      "x": -31.567923478822934,
+      "y": 71,
+      "z": 10.300806150916586
+    },
+    {
+      "time_ms": 1446930,
+      "x": -31.565828558943778,
+      "y": 71,
+      "z": 10.3
+    },
+    {
+      "time_ms": 1452117,
+      "x": -31.567923478822934,
+      "y": 71,
+      "z": 10.300806150916586
+    },
+    {
+      "time_ms": 1457323,
+      "x": -31.58709503841366,
+      "y": 71,
+      "z": 10.3
+    },
+    {
+      "time_ms": 1462512,
+      "x": -31.567923478822934,
+      "y": 71,
+      "z": 10.300806150916586
+    },
+    {
+      "time_ms": 1467718,
+      "x": -31.567923478822934,
+      "y": 71,
+      "z": 10.300806150916586
+    },
+    {
+      "time_ms": 1472914,
+      "x": -31.567923478822934,
+      "y": 71,
+      "z": 10.300806150916586
+    },
+    {
+      "time_ms": 1478104,
+      "x": -31.5658285386555,
+      "y": 71,
+      "z": 10.3
+    },
+    {
+      "time_ms": 1483289,
+      "x": -31.567923478822934,
+      "y": 71,
+      "z": 10.300806150916586
+    },
+    {
+      "time_ms": 1488466,
+      "x": -31.567923478822934,
+      "y": 71,
+      "z": 10.300806150916586
+    },
+    {
+      "time_ms": 1493672,
+      "x": -31.587095020534914,
+      "y": 71,
+      "z": 10.3
+    },
+    {
+      "time_ms": 1498867,
+      "x": -31.567923478822934,
+      "y": 71,
+      "z": 10.300806150916586
+    },
+    {
+      "time_ms": 1504051,
+      "x": -31.567923478822934,
+      "y": 71,
+      "z": 10.300806150916586
+    },
+    {
+      "time_ms": 1509238,
+      "x": -31.565828531892738,
+      "y": 71,
+      "z": 10.3
+    },
+    {
+      "time_ms": 1514425,
+      "x": -31.567923478822934,
+      "y": 71,
+      "z": 10.300806150916586
+    },
+    {
+      "time_ms": 1519624,
+      "x": -31.587095020534914,
+      "y": 71,
+      "z": 10.3
+    },
+    {
+      "time_ms": 1524804,
+      "x": -31.565828531892738,
+      "y": 71,
+      "z": 10.3
+    },
+    {
+      "time_ms": 1530002,
+      "x": -31.565828531892738,
+      "y": 71,
+      "z": 10.3
+    },
+    {
+      "time_ms": 1535197,
+      "x": -31.565828531892738,
+      "y": 71,
+      "z": 10.3
+    },
+    {
+      "time_ms": 1540383,
+      "x": -31.567923478822934,
+      "y": 71,
+      "z": 10.300806150916586
+    },
+    {
+      "time_ms": 1545573,
+      "x": -31.567923478822934,
+      "y": 71,
+      "z": 10.300806150916586
+    },
+    {
+      "time_ms": 1550766,
+      "x": -31.567923478822934,
+      "y": 71,
+      "z": 10.300806150916586
+    },
+    {
+      "time_ms": 1555952,
+      "x": -28.242398712127503,
+      "y": 71,
+      "z": 9.3008223383982
+    },
+    {
+      "time_ms": 1561136,
+      "x": -28.242398712127503,
+      "y": 71,
+      "z": 9.3008223383982
+    },
+    {
+      "time_ms": 1566322,
+      "x": -28.5,
+      "y": 71,
+      "z": 9.3008223383982
+    },
+    {
+      "time_ms": 1571502,
+      "x": -28.5,
+      "y": 71,
+      "z": 9.3008223383982
+    },
+    {
+      "time_ms": 1576689,
+      "x": -28.5,
+      "y": 71,
+      "z": 9.3008223383982
+    },
+    {
+      "time_ms": 1581879,
+      "x": -30.5,
+      "y": 71,
+      "z": 12.5
+    },
+    {
+      "time_ms": 1587064,
+      "x": -22.624567105439507,
+      "y": 71,
+      "z": 5.313902043699914
+    },
+    {
+      "time_ms": 1592250,
+      "x": -22.624567105439507,
+      "y": 71,
+      "z": 5.313902043699914
+    },
+    {
+      "time_ms": 1597441,
+      "x": -22.624567105439507,
+      "y": 71,
+      "z": 5.313902043699914
+    },
+    {
+      "time_ms": 1602628,
+      "x": -22.624567105439507,
+      "y": 71,
+      "z": 5.313902043699914
+    },
+    {
+      "time_ms": 1607836,
+      "x": -22.62077398504807,
+      "y": 71,
+      "z": 5.3
+    },
+    {
+      "time_ms": 1613030,
+      "x": -28.345974616307277,
+      "y": 71,
+      "z": 11.346427662901014
+    },
+    {
+      "time_ms": 1618224,
+      "x": -22.601425787665303,
+      "y": 71.2,
+      "z": 5.317008942860774
+    },
+    {
+      "time_ms": 1623423,
+      "x": -22.59828606896702,
+      "y": 71.2,
+      "z": 5.3
+    },
+    {
+      "time_ms": 1628613,
+      "x": -22.59828606896702,
+      "y": 71.2,
+      "z": 5.3
+    },
+    {
+      "time_ms": 1633798,
+      "x": -22.601425787665303,
+      "y": 71.2,
+      "z": 5.317008942860774
+    },
+    {
+      "time_ms": 1638988,
+      "x": -22.601425787665303,
+      "y": 71.2,
+      "z": 5.317008942860774
+    },
+    {
+      "time_ms": 1644208,
+      "x": -29.5,
+      "y": 71,
+      "z": 12.5
+    },
+    {
+      "time_ms": 1649420,
+      "x": -21.322127432992087,
+      "y": 69.92159999847412,
+      "z": 7.541431354530114
+    },
+    {
+      "time_ms": 1654645,
+      "x": -21.322127432992087,
+      "y": 69.92159999847412,
+      "z": 7.541431354530114
+    },
+    {
+      "time_ms": 1659835,
+      "x": -21.322127432992087,
+      "y": 69,
+      "z": 7.541431354530114
+    },
+    {
+      "time_ms": 1665014,
+      "x": -21.322127432992087,
+      "y": 69,
+      "z": 7.541431354530114
+    },
+    {
+      "time_ms": 1670188,
+      "x": -21.322127432992087,
+      "y": 69,
+      "z": 7.541431354530114
+    },
+    {
+      "time_ms": 1675365,
+      "x": -21.322127432992087,
+      "y": 69,
+      "z": 7.541431354530114
+    },
+    {
+      "time_ms": 1680548,
+      "x": -21.322127432992087,
+      "y": 69,
+      "z": 7.541431354530114
+    },
+    {
+      "time_ms": 1685777,
+      "x": -21.322127432992087,
+      "y": 69,
+      "z": 7.541431354530114
+    },
+    {
+      "time_ms": 1690975,
+      "x": -21.322127432992087,
+      "y": 69,
+      "z": 7.541431354530114
+    },
+    {
+      "time_ms": 1696164,
+      "x": -21.322127432992087,
+      "y": 69,
+      "z": 7.541431354530114
+    },
+    {
+      "time_ms": 1701353,
+      "x": -21.322127432992087,
+      "y": 69,
+      "z": 7.541431354530114
+    },
+    {
+      "time_ms": 1706544,
+      "x": -21.322127432992087,
+      "y": 69,
+      "z": 7.541431354530114
+    },
+    {
+      "time_ms": 1711741,
+      "x": -21.322127432992087,
+      "y": 69,
+      "z": 7.541431354530114
+    },
+    {
+      "time_ms": 1716937,
+      "x": -21.322127432992087,
+      "y": 69,
+      "z": 7.541431354530114
+    },
+    {
+      "time_ms": 1722123,
+      "x": -21.322127432992087,
+      "y": 69,
+      "z": 7.541431354530114
+    },
+    {
+      "time_ms": 1727317,
+      "x": -21.322127432992087,
+      "y": 69,
+      "z": 7.541431354530114
+    },
+    {
+      "time_ms": 1732508,
+      "x": -21.322127432992087,
+      "y": 69,
+      "z": 7.541431354530114
+    },
+    {
+      "time_ms": 1737704,
+      "x": -21.322127432992087,
+      "y": 69,
+      "z": 7.541431354530114
+    },
+    {
+      "time_ms": 1742905,
+      "x": -21.322127432992087,
+      "y": 67,
+      "z": 7.541431354530114
+    },
+    {
+      "time_ms": 1748104,
+      "x": -21.322127432992087,
+      "y": 67,
+      "z": 7.541431354530114
+    },
+    {
+      "time_ms": 1753290,
+      "x": -21.322127432992087,
+      "y": 67,
+      "z": 7.541431354530114
+    },
+    {
+      "time_ms": 1758476,
+      "x": -21.322127432992087,
+      "y": 67,
+      "z": 7.541431354530114
+    },
+    {
+      "time_ms": 1763692,
+      "x": -21.322127432992087,
+      "y": 67,
+      "z": 7.541431354530114
+    },
+    {
+      "time_ms": 1768897,
+      "x": -21.322127432992087,
+      "y": 67,
+      "z": 7.541431354530114
+    },
+    {
+      "time_ms": 1774104,
+      "x": -21.322127432992087,
+      "y": 67,
+      "z": 7.541431354530114
+    },
+    {
+      "time_ms": 1779322,
+      "x": -21.322127432992087,
+      "y": 67,
+      "z": 7.541431354530114
+    },
+    {
+      "time_ms": 1784527,
+      "x": -21.322127432992087,
+      "y": 67,
+      "z": 7.541431354530114
+    },
+    {
+      "time_ms": 1789731,
+      "x": -21.322127432992087,
+      "y": 67,
+      "z": 7.541431354530114
+    },
+    {
+      "time_ms": 1794929,
+      "x": -21.322127432992087,
+      "y": 67,
+      "z": 7.541431354530114
+    },
+    {
+      "time_ms": 1800124,
+      "x": -21.322127432992087,
+      "y": 67,
+      "z": 7.541431354530114
+    },
+    {
+      "time_ms": 1805325,
+      "x": -21.322127432992087,
+      "y": 67,
+      "z": 7.541431354530114
+    },
+    {
+      "time_ms": 1810530,
+      "x": -21.322127432992087,
+      "y": 67,
+      "z": 7.541431354530114
+    },
+    {
+      "time_ms": 1815743,
+      "x": -21.322127432992087,
+      "y": 67,
+      "z": 7.541431354530114
+    },
+    {
+      "time_ms": 1820962,
+      "x": -31.499912856795795,
+      "y": 71,
+      "z": 13.61300860776645
+    },
+    {
+      "time_ms": 1826172,
+      "x": -31.499804664552155,
+      "y": 71,
+      "z": 10.3
+    },
+    {
+      "time_ms": 1831369,
+      "x": -31.49982469603821,
+      "y": 71,
+      "z": 10.30257365815589
+    },
+    {
+      "time_ms": 1836576,
+      "x": -31.49982469603821,
+      "y": 71,
+      "z": 10.30257365815589
+    },
+    {
+      "time_ms": 1841784,
+      "x": -31.49982469603821,
+      "y": 71,
+      "z": 10.30257365815589
+    },
+    {
+      "time_ms": 1846995,
+      "x": -31.49982469603821,
+      "y": 71,
+      "z": 10.30257365815589
+    }
+  ],
+  "distance_traveled": 300.85197252897876,
+  "deaths": 0,
+  "low_health_events": 0,
+  "times_returned_home": 49,
+  "total_llm_calls": 234,
+  "total_llm_time_ms": 429240,
+  "avg_llm_response_ms": 1834,
+  "unique_item_count": 8,
+  "survival_time_minutes": 31,
+  "action_success_rate": 38
+}
